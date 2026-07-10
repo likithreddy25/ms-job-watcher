@@ -1924,6 +1924,142 @@ def run_boards_sweep(
 
 
 # -----------------------------
+# Job classification (for dashboard)
+# -----------------------------
+_GOOD_TECH = [
+    "python", "pytorch", "tensorflow", "keras", "scikit-learn", "sklearn", "xgboost", "lightgbm",
+    "mlflow", "rag", "llm", "gpt", "openai", "huggingface", "hugging face", "langchain", "faiss",
+    "chromadb", "transformers", "nlp", "computer vision", "deep learning", "machine learning",
+    "pyspark", "apache spark", "databricks", "airflow", "dbt", "kafka", "etl", "elt",
+    "aws", "gcp", "azure", "docker", "kubernetes", "k8s", "github actions",
+    "postgresql", "postgres", "mysql", "mongodb", "snowflake", "bigquery", "duckdb", "redshift",
+    "fastapi", "flask", "rest api", "streamlit", "data engineering", "data science",
+    "mlops", "model monitoring", "feature engineering", "sql", "spark sql",
+]
+
+_BAD_TECH = [
+    "java", "spring boot", "spring framework", "j2ee", "hibernate", "maven", "gradle",
+    "c++", "c/c++", "golang", " go ", "rust", "c#", ".net", "asp.net",
+    "ruby", "rails", "php", "perl", "scala",
+    "swift", "kotlin", "android", "ios", "react native",
+    "fpga", "vhdl", "verilog", "embedded", "firmware", "rtos", "microcontroller",
+    "assembly", "cobol", "fortran",
+]
+
+_CLEARANCE_KEYWORDS = [
+    "clearance", "ts/sci", "top secret", "secret clearance", "polygraph",
+    "dod", "security clearance", "classified", "nsa", "cia", "dhs",
+]
+
+_H1B_POSITIVE = [
+    "visa sponsorship", "sponsor h1b", "h1b sponsorship", "sponsorship provided",
+    "will sponsor", "open to sponsorship",
+]
+_H1B_NEGATIVE = [
+    "no sponsorship", "no visa", "not sponsor", "cannot sponsor", "won't sponsor",
+    "must be authorized", "us citizen only", "citizenship required", "clearance required",
+    "active clearance", "permanent resident only",
+]
+
+_ROLE_MAP = {
+    "ml_engineer": ["machine learning engineer", "ml engineer", "ai engineer", "applied scientist",
+                    "research engineer", "mlops", "model engineer"],
+    "data_scientist": ["data scientist", "data science", "applied researcher"],
+    "data_engineer": ["data engineer", "analytics engineer", "dataops", "data ops",
+                      "data pipeline", "data infrastructure", "data platform"],
+    "data_analyst": ["data analyst", "analytics analyst", "product analyst", "business intelligence"],
+    "swe": ["software engineer", "software developer", "backend engineer", "full stack", "sde"],
+}
+
+
+def classify_job(job: Dict[str, Any], bucket: str) -> Dict[str, Any]:
+    """Return classification metadata for a job dict."""
+    title = (job.get("title") or "").lower()
+    company = (job.get("company") or "").lower()
+    loc = (job.get("location") or "").lower()
+    text = f"{title} {company} {loc}"
+
+    # Tech tags
+    good_tech = [t for t in _GOOD_TECH if t in text]
+    bad_tech = [t for t in _BAD_TECH if t in text]
+
+    # Clearance
+    clearance = any(k in text for k in _CLEARANCE_KEYWORDS)
+
+    # H1B
+    h1b = "unknown"
+    if any(k in text for k in _H1B_POSITIVE):
+        h1b = "yes"
+    elif any(k in text for k in _H1B_NEGATIVE):
+        h1b = "no"
+
+    # Role category
+    role_category = "other"
+    for cat, phrases in _ROLE_MAP.items():
+        if any(p in title for p in phrases):
+            role_category = cat
+            break
+
+    # Experience level from title
+    exp_level = "mid"
+    if any(x in title for x in ["senior", "sr ", "staff", "principal", "lead", "director"]):
+        exp_level = "senior"
+    elif any(x in title for x in ["junior", "entry", "associate", "new grad", "intern"]):
+        exp_level = "entry"
+
+    return {
+        "bucket": bucket,
+        "role_category": role_category,
+        "exp_level": exp_level,
+        "clearance_required": clearance,
+        "h1b_status": h1b,
+        "good_tech": good_tech,
+        "bad_tech": bad_tech,
+    }
+
+
+JOBS_DB_PATH = STATE_DIR / "jobs_db.json"
+
+
+def save_to_jobs_db(yes_jobs: List[Dict], maybe_jobs: List[Dict]) -> None:
+    """Append newly emailed jobs to jobs_db.json for the dashboard."""
+    try:
+        existing: List[Dict] = []
+        if JOBS_DB_PATH.exists():
+            with open(JOBS_DB_PATH) as f:
+                existing = json.load(f)
+        existing_keys = {j.get("key") for j in existing}
+
+        now = datetime.now(timezone.utc).isoformat()
+        new_entries = []
+        for bucket, jobs in [("yes", yes_jobs), ("maybe", maybe_jobs)]:
+            for j in jobs:
+                key = j.get("key", "")
+                if key in existing_keys:
+                    continue
+                entry = {
+                    "key": key,
+                    "title": j.get("title", ""),
+                    "company": j.get("company", ""),
+                    "url": j.get("url", ""),
+                    "location": j.get("location", ""),
+                    "posted": j.get("posted", ""),
+                    "date_found": now,
+                    **classify_job(j, bucket),
+                }
+                new_entries.append(entry)
+
+        if new_entries:
+            existing.extend(new_entries)
+            # Keep latest 2000 jobs
+            existing = existing[-2000:]
+            with open(JOBS_DB_PATH, "w") as f:
+                json.dump(existing, f, indent=2)
+    except Exception as e:
+        print(f"[WARN] Could not save to jobs_db: {e}")
+
+
+# -----------------------------
 # Email
 # -----------------------------
 def send_email_digest(
@@ -2121,6 +2257,7 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
             print(f"[ALERT] no-email enabled; {len(new_yes)} yes + {len(new_maybe)} maybe new job(s) detected (not emailed).")
         else:
             send_email_digest(new_yes, new_maybe, subject_prefix="[Job Alerts]")
+            save_to_jobs_db(new_yes, new_maybe)
             print(f"[ALERT] Sent digest for {len(new_yes)} yes + {len(new_maybe)} maybe new job(s).")
             for _j in new_yes + new_maybe:
                 _src = (_j.get("key") or "").split(":")[0]
@@ -2273,6 +2410,7 @@ if __name__ == "__main__":
                     print(f"[ALERT] no-email enabled; {len(new_yes)} yes + {len(new_maybe)} maybe new job(s) detected (not emailed).")
                 else:
                     send_email_digest(new_yes, new_maybe, subject_prefix=_subject_prefix)
+                    save_to_jobs_db(new_yes, new_maybe)
                     print(f"[ALERT] Sent boards digest for {len(new_yes)} yes + {len(new_maybe)} maybe new job(s).")
                     for _j in new_yes + new_maybe:
                         _plat = (_j.get("key") or "").split(":")[0]
