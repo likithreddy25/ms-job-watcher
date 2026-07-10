@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-10T07:02:07.138006+00:00",
+  "updated_utc": "2026-07-10T07:32:15.453830+00:00",
   "dead_details": {
     "greenhouse:auth0": {
       "first_seen_utc": "2026-02-16T03:03:47.356270+00:00",
@@ -8438,6 +8438,15 @@
       "first_seen_utc": "2026-07-10T06:01:41.513224+00:00",
       "last_seen_utc": "2026-07-10T06:01:41.513224+00:00",
       "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:sprucesystems": {
+      "first_seen_utc": "2026-07-10T07:30:39.084929+00:00",
+      "last_seen_utc": "2026-07-10T07:30:39.084929+00:00",
+      "platform": "lever",
       "company": "",
       "board_url": "",
       "last_status": 404,
