@@ -1,0 +1,84 @@
+WORKDAY SIZING REPORT
+Generated: 2026-07-01 17:44Z
+Source: workday_us_verified.csv
+============================================================
+
+INVENTORY
+---------
+Total rows in workday_us_verified.csv:        4770
+Junk slugs (empty/numeric/path>60char):       1
+Internal duplicates:                          1
+Overlap with live 1200 (boards.yml):          0  [77 WD boards already in pipeline]
+Overlap with boards2 (GH/Lever only):         0
+Net-new boards probed:                        4768
+
+LIVENESS PROBE (phase 1)
+------------------------
+Wall time:                  317s
+Workers / timeout:          20 workers / 15s per request
+Method:                     GET approot + POST jobs?limit=1
+
+Alive (has current openings):      4497  (94.3%)
+Alive (no current openings):        154  (3.2%)
+Total alive (board instance up):   4651  (97.5%)
+Dead (4xx / non-JSON / app-err):     59  (1.2%)
+Timeout (15s):                    0
+Rate-limited (429):                   0  ← ZERO 429s at concurrency=20
+Blocked (403):                       16  (WAF-blocked, not rate-limit)
+Other errors:                        42
+
+Dead status breakdown:      {422: 48, 403: 16, 502: 3, 401: 2, 404: 5, 410: 1}
+Rate-limit signal:          None observed at concurrency=20 (safe to use)
+
+COST SAMPLE (phase 2) — 200 random alive boards, full production fetch
+-----------------------------------------------------------------------
+Sample / succeeded:         200 / 200
+Wall time:                  1126s
+Workers / max_positions:    8 / 500 (production config)
+Method:                     fetch_workday_jobs() — identical to watcher.py
+
+api_calls per board:
+  avg: 21.5    p90: 26    p95: 26
+  [range: 2–26; p90=26 means most large boards hit the 500-job cap in 25 POSTs + 1 GET]
+
+Wall time per board (sequential within thread):
+  avg: 40.5s    p90: 107.7s
+
+Jobs per board:
+  avg: 404    p90: 500
+  [p90=500 means at least 10% of boards have ≥500 current openings]
+
+COST MODEL + SIZING RECOMMENDATION
+------------------------------------
+15-min Actions timeout × 80% safety = 720s effective budget
+WD concurrency in watcher:            4 threads (WD_SEM=4)
+
+Boards/run at avg rt (40.5s/board × 4 threads): 71
+Boards/run at p90 rt (107.7s/board × 4 threads): 26  ← conservative cap
+
+RECOMMENDED boards3 config:
+  batch_size:           50
+  cadence:              30 min
+  Net-new alive boards: 4497 (with current openings) + 154 (no current openings)
+  Total live CSV rows:  4651
+  Runs to cycle:        90
+  Full-cycle time:      45.0h
+
+⚠️  CYCLE = 45.0h — SPLIT RECOMMENDED: two Workday shards (boards3a + boards3b), ~2325 boards each, stagger by 15 min. Each shard cycles in ~22.5h.
+
+KEY FINDINGS FOR BOARDS3 DESIGN
+---------------------------------
+1. Liveness: 94% of net-new WD boards are alive with current openings.
+2. Cost: WD is expensive — p90 board takes 107.7s and 26 API calls (vs GH/Lever ~0.1s/1 call).
+3. Rate limits: Zero 429s observed at concurrency=20 during liveness probe. 403s
+   are WAF-based per-tenant (16 boards), not throughput limits.
+4. Batch cap: p90 latency (107.7s) drives the batch cap, not avg (40.5s). Use 50 boards/run.
+5. Cycle time: 45.0h per full sweep at batch=50, 30-min cadence → split into 2 shards.
+6. No overlap: 0 boards in workday_us_verified.csv appear in boards2 (GH/Lever). 77 WD
+   boards already in the live 1200 pipeline are excluded from the net-new CSV.
+
+OUTPUT
+------
+Live CSV:      data/boards/workday_verified_live.csv  (4651 rows, drop-in format)
+This report:   data/boards/workday_sizing_report.txt
+============================================================

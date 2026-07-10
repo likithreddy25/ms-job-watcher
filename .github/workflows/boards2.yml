@@ -1,0 +1,78 @@
+name: Job Boards Sweep (Shard 2 — GH/Lever)
+
+on:
+  schedule:
+    - cron: '43 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-watcher-boards2
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run boards sweep (shard 2)
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
+          BOARDS_CSV: data/boards/greenhouse_lever_verified_live.csv
+          HTTP_TIMEOUT: '15'
+          STATE_PATH: state/seen_boards2.json
+          BOARDS_CURSOR_PATH: state/boards2_cursor.json
+          BOARDS_SEEN_PATH: state/boards2_seen.json
+          BOARDS_DEAD_PATH: state/boards2_dead.json
+          BOARDS_DEAD_DETAILS_PATH: state/boards2_dead_details.json
+          SUBJECT_PREFIX: "[Boards2 Alerts]"
+        run: |
+          python watcher.py --mode boards --boards-batch-size 2000
+
+      - name: Commit updated state
+        run: |
+          set -e
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add state/*.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update boards2 state"
+
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git merge -X ours origin/main || true
+            if git push; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push failed, retrying..."
+            sleep $((i*5))
+          done
+
+          echo "Push failed after retries"
+          exit 1

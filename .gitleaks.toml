@@ -1,0 +1,8 @@
+title = "ms-job-watcher gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Scraped job-board state is public posting data, never credentials"
+paths = ['''state/.*\.json$''']

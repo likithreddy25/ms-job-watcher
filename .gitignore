@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# --- local artifacts (do not commit) ---
+data/boards/workday_debug/
+data/boards/*probe*.csv
+data/boards/FAILED_BOARDS_*.csv
+data/boards/OK_BOARDS_*.csv
+data/boards/DEAD_BOARDS*.csv
+
+# intermediate board-processing CSVs created locally
+job_boards_ok_with_meta_phase1_clean*.csv
+job_boards_NEEDS_HUMAN.csv
+
+# local copies of production inputs (keep source-of-truth elsewhere)
+data/boards/JOB_BOARDS_OK_PRODUCTION.csv
+data/boards/JOB_BOARDS_NEEDS_HUMAN_PRODUCTION.csv
+data/boards/JOB_BOARDS_OK_PRODUCTION_MINUS_DEAD_round2.csv
+
+# local dev state
+state/local_seen_*.json
