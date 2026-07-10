@@ -1951,7 +1951,7 @@ def send_email_digest(
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-        app_pw = (EMAIL_APP_PASSWORD or "").replace(" ", "")
+        app_pw = (EMAIL_APP_PASSWORD or "").replace(" ", "").replace("\xa0", "").strip()
         server.login(EMAIL_USER, app_pw)
         server.send_message(msg)
 
