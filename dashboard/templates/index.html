@@ -9,8 +9,6 @@
   body { background: #0f1117; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; }
   .sidebar { background: #1a1d27; border-right: 1px solid #2a2d3a; min-height: 100vh; padding: 1.5rem; }
   .main { padding: 1.5rem; }
-  .stat-card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px; padding: 1rem; text-align: center; }
-  .stat-num { font-size: 2rem; font-weight: 700; }
   .job-card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem; transition: border-color 0.2s; }
   .job-card:hover { border-color: #5b7fff; }
   .job-card.yes { border-left: 4px solid #22c55e; }
@@ -37,7 +35,6 @@
 </head>
 <body>
 <div class="d-flex">
-  <!-- Sidebar -->
   <div class="sidebar" style="width: 240px; flex-shrink: 0;">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h5 class="sidebar-title mb-0">Filters</h5>
@@ -107,21 +104,16 @@
       </select>
     </div>
 
-    <!-- Stats -->
     <hr style="border-color: #2a2d3a; margin: 1.5rem 0;">
     <h5 class="sidebar-title">Overview</h5>
-    <div id="stats-area" style="font-size: 0.82rem; color: #9ca3af; line-height: 2;">
-      Loading...
-    </div>
+    <div id="stats-area" style="font-size: 0.82rem; color: #9ca3af; line-height: 2;">Loading...</div>
   </div>
 
-  <!-- Main -->
   <div class="main flex-grow-1">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h4 style="color: #f0f0f0; margin: 0;">Job Board <span style="color: #5b7fff;">Dashboard</span></h4>
       <button class="btn btn-sm" style="background:#2a2d3a; color:#9ca3af; border:none;" onclick="loadJobs()">↻ Refresh</button>
     </div>
-
     <div id="results-count" class="results-count"></div>
     <div id="loading">Loading jobs...</div>
     <div id="jobs-container"></div>
@@ -130,12 +122,9 @@
 
 <script>
 const ROLE_LABELS = {
-  ml_engineer: "ML Engineer",
-  data_scientist: "Data Scientist",
-  data_engineer: "Data Engineer",
-  data_analyst: "Data Analyst",
-  swe: "Software Engineer",
-  other: "Other"
+  ml_engineer: "ML Engineer", data_scientist: "Data Scientist",
+  data_engineer: "Data Engineer", data_analyst: "Data Analyst",
+  swe: "Software Engineer", other: "Other"
 };
 
 function getFilters() {
@@ -150,16 +139,9 @@ function getFilters() {
   };
 }
 
-function buildParams(filters) {
-  const p = new URLSearchParams();
-  for (const [k, v] of Object.entries(filters)) if (v) p.set(k, v);
-  return p.toString();
-}
-
 function formatDate(iso) {
   if (!iso) return "";
-  const d = new Date(iso);
-  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
 function renderJob(j) {
@@ -167,23 +149,12 @@ function renderJob(j) {
   const bucketBadge = j.bucket === "yes"
     ? '<span style="color:#22c55e; font-size:0.75rem;">✅ YES</span>'
     : '<span style="color:#f59e0b; font-size:0.75rem;">🤔 MAYBE</span>';
-
   const roleBadge = `<span class="badge-role">${ROLE_LABELS[j.role_category] || j.role_category}</span>`;
-
-  const h1bBadge = j.h1b_status === "yes"
-    ? '<span class="badge-h1b-yes">H1B ✓</span>'
-    : j.h1b_status === "no"
-    ? '<span class="badge-h1b-no">No Sponsorship</span>'
-    : '';
-
-  const clearanceBadge = j.clearance_required
-    ? '<span class="badge-clearance">🔒 Clearance</span>'
-    : '';
-
+  const h1bBadge = j.h1b_status === "yes" ? '<span class="badge-h1b-yes">H1B ✓</span>'
+    : j.h1b_status === "no" ? '<span class="badge-h1b-no">No Sponsorship</span>' : '';
+  const clearanceBadge = j.clearance_required ? '<span class="badge-clearance">🔒 Clearance</span>' : '';
   const goodTech = (j.good_tech || []).map(t => `<span class="badge-tech">${t}</span>`).join("");
   const badTech = (j.bad_tech || []).map(t => `<span class="badge-bad">⚠️ ${t}</span>`).join("");
-
-  const dateStr = formatDate(j.date_found);
   const postedStr = j.posted ? ` · Posted ${j.posted}` : "";
 
   return `
@@ -195,30 +166,26 @@ function renderJob(j) {
         </div>
         <div class="text-end" style="flex-shrink:0; margin-left:1rem;">
           ${bucketBadge}
-          <div style="color:#6b7280; font-size:0.75rem; margin-top:2px;">${dateStr}</div>
+          <div style="color:#6b7280; font-size:0.75rem; margin-top:2px;">${formatDate(j.date_found)}</div>
         </div>
       </div>
-      <div class="mt-2">
-        ${roleBadge} ${h1bBadge} ${clearanceBadge}
-      </div>
+      <div class="mt-2">${roleBadge} ${h1bBadge} ${clearanceBadge}</div>
       ${goodTech || badTech ? `<div class="mt-2">${goodTech}${badTech}</div>` : ""}
     </div>`;
 }
 
 async function loadJobs() {
-  const filters = getFilters();
-  const params = buildParams(filters);
+  const f = getFilters();
+  const params = new URLSearchParams(Object.entries(f).filter(([,v]) => v)).toString();
   document.getElementById("loading").style.display = "block";
   document.getElementById("jobs-container").innerHTML = "";
-
   try {
-    const res = await fetch(`/api/jobs?${params}`);
-    const data = await res.json();
+    const data = await fetch(`/api/jobs?${params}`).then(r => r.json());
     document.getElementById("loading").style.display = "none";
-    document.getElementById("results-count").textContent =
-      `Showing ${data.filtered} of ${data.total} total jobs`;
-    document.getElementById("jobs-container").innerHTML =
-      data.jobs.length ? data.jobs.map(renderJob).join("") : '<div style="color:#6b7280; text-align:center; padding:3rem;">No jobs match your filters.</div>';
+    document.getElementById("results-count").textContent = `Showing ${data.filtered} of ${data.total} total jobs`;
+    document.getElementById("jobs-container").innerHTML = data.jobs.length
+      ? data.jobs.map(renderJob).join("")
+      : '<div style="color:#6b7280; text-align:center; padding:3rem;">No jobs match your filters.</div>';
   } catch (e) {
     document.getElementById("loading").innerHTML = "Error loading jobs. Is the server running?";
   }
@@ -226,8 +193,7 @@ async function loadJobs() {
 
 async function loadStats() {
   try {
-    const res = await fetch("/api/stats");
-    const s = await res.json();
+    const s = await fetch("/api/stats").then(r => r.json());
     document.getElementById("stats-area").innerHTML = `
       <div>Total: <strong style="color:#e0e0e0;">${s.total}</strong></div>
       <div>Yes: <strong style="color:#22c55e;">${s.yes}</strong> · Maybe: <strong style="color:#f59e0b;">${s.maybe}</strong></div>
@@ -235,16 +201,12 @@ async function loadStats() {
       <div>H1B confirmed: <strong style="color:#86efac;">${s.h1b_yes}</strong></div>
       <div style="margin-top:0.5rem; color:#6b7280; font-size:0.75rem;">By role:</div>
       <div>ML Eng: ${s.roles.ml_engineer} · DS: ${s.roles.data_scientist}</div>
-      <div>DE: ${s.roles.data_engineer} · SWE: ${s.roles.swe}</div>
-    `;
-  } catch (e) {}
+      <div>DE: ${s.roles.data_engineer} · SWE: ${s.roles.swe}</div>`;
+  } catch(e) {}
 }
 
 let debounceTimer;
-function applyFilters() {
-  clearTimeout(debounceTimer);
-  debounceTimer = setTimeout(loadJobs, 300);
-}
+function applyFilters() { clearTimeout(debounceTimer); debounceTimer = setTimeout(loadJobs, 300); }
 
 function resetFilters() {
   document.getElementById("f-search").value = "";

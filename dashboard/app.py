@@ -28,13 +28,12 @@ def index():
 def api_jobs():
     jobs = load_jobs()
 
-    # Filters from query params
-    bucket = request.args.get("bucket", "")           # yes / maybe / all
-    role = request.args.get("role", "")               # ml_engineer / data_scientist / etc
-    exp = request.args.get("exp", "")                 # entry / mid / senior
-    clearance = request.args.get("clearance", "")     # exclude / include
-    h1b = request.args.get("h1b", "")                 # yes / no / unknown
-    bad_tech = request.args.get("bad_tech", "")       # exclude / include
+    bucket = request.args.get("bucket", "")
+    role = request.args.get("role", "")
+    exp = request.args.get("exp", "")
+    clearance = request.args.get("clearance", "")
+    h1b = request.args.get("h1b", "")
+    bad_tech = request.args.get("bad_tech", "")
     search = request.args.get("search", "").lower()
 
     filtered = []
