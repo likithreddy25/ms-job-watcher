@@ -1,122 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Job Dashboard</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Board</title>
 <style>
-  body { background: #0f1117; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; }
-  .sidebar { background: #1a1d27; border-right: 1px solid #2a2d3a; min-height: 100vh; padding: 1.5rem; }
-  .main { padding: 1.5rem; }
-  .job-card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem; transition: border-color 0.2s; }
-  .job-card:hover { border-color: #5b7fff; }
-  .job-card.yes { border-left: 4px solid #22c55e; }
-  .job-card.maybe { border-left: 4px solid #f59e0b; }
-  .badge-tech { background: #1e3a5f; color: #60a5fa; font-size: 0.72rem; border-radius: 4px; padding: 2px 7px; margin: 2px; display: inline-block; }
-  .badge-bad { background: #3b1f1f; color: #f87171; font-size: 0.72rem; border-radius: 4px; padding: 2px 7px; margin: 2px; display: inline-block; }
-  .badge-role { background: #1e3350; color: #93c5fd; font-size: 0.75rem; border-radius: 4px; padding: 2px 8px; }
-  .badge-h1b-yes { background: #14532d; color: #86efac; font-size: 0.72rem; border-radius: 4px; padding: 2px 7px; }
-  .badge-h1b-no { background: #450a0a; color: #fca5a5; font-size: 0.72rem; border-radius: 4px; padding: 2px 7px; }
-  .badge-clearance { background: #7c2d12; color: #fdba74; font-size: 0.72rem; border-radius: 4px; padding: 2px 7px; }
-  .filter-section { margin-bottom: 1.2rem; }
-  .filter-section label { font-size: 0.8rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; display: block; }
-  .filter-section select, .filter-section input { background: #0f1117; border: 1px solid #2a2d3a; color: #e0e0e0; border-radius: 6px; padding: 6px 10px; width: 100%; font-size: 0.85rem; }
-  .filter-section select:focus, .filter-section input:focus { outline: none; border-color: #5b7fff; }
-  .job-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; text-decoration: none; }
-  .job-title:hover { color: #60a5fa; }
-  .job-meta { color: #9ca3af; font-size: 0.82rem; margin-top: 3px; }
-  .results-count { color: #6b7280; font-size: 0.85rem; margin-bottom: 1rem; }
-  h5.sidebar-title { color: #9ca3af; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
-  .btn-reset { background: #2a2d3a; border: none; color: #9ca3af; font-size: 0.8rem; border-radius: 6px; padding: 5px 12px; cursor: pointer; }
-  .btn-reset:hover { background: #3a3d4a; color: #e0e0e0; }
-  #loading { color: #6b7280; text-align: center; padding: 3rem; }
+  :root {
+    --bg: #f6f4ed;
+    --panel: #fffdf8;
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --line: #ddd6c7;
+    --good: #166534;
+    --warn: #b45309;
+    --bad: #991b1b;
+    --accent: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink); }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+  .nav { display: flex; gap: 16px; align-items: center; margin-bottom: 24px; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+  .nav h1 { margin: 0; font-size: 1.3rem; color: var(--accent); flex: 1; }
+  .nav a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .layout { display: grid; grid-template-columns: 220px 1fr; gap: 20px; }
+  /* Sidebar */
+  .sidebar { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; height: fit-content; }
+  .sidebar h3 { margin: 0 0 16px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .filter-group { margin-bottom: 14px; }
+  .filter-group label { display: block; font-size: 0.78rem; color: var(--muted); margin-bottom: 4px; }
+  .filter-group select,
+  .filter-group input { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 0.84rem; background: #fff; color: var(--ink); }
+  .filter-group select:focus, .filter-group input:focus { outline: 1px solid var(--accent); }
+  .btn-reset { width: 100%; background: none; border: 1px solid var(--line); border-radius: 999px; padding: 7px; font: inherit; font-size: 0.82rem; color: var(--muted); cursor: pointer; margin-top: 6px; }
+  .btn-reset:hover { background: var(--bg); }
+  /* Stats */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .stat strong { display: block; font-size: 1.6rem; line-height: 1.1; }
+  .stat span { color: var(--muted); font-size: 0.85rem; }
+  /* Results */
+  .results-meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 12px; }
+  /* Job cards */
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; border-left: 4px solid var(--line); }
+  .card.yes { border-left-color: var(--good); }
+  .card.maybe { border-left-color: var(--warn); }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .card-title { font-size: 1rem; font-weight: 700; color: var(--ink); text-decoration: none; }
+  .card-title:hover { color: var(--accent); }
+  .card-company { font-size: 0.88rem; color: var(--muted); margin-top: 3px; }
+  .card-right { text-align: right; flex-shrink: 0; }
+  .bucket-yes { color: var(--good); font-size: 0.8rem; font-weight: 700; }
+  .bucket-maybe { color: var(--warn); font-size: 0.8rem; font-weight: 700; }
+  .card-date { color: var(--muted); font-size: 0.75rem; margin-top: 2px; }
+  .card-tags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; background: #fff; }
+  .pill-role { background: #ecfdf5; border-color: #6ee7b7; color: #065f46; }
+  .pill-tech { background: #eff6ff; border-color: #bfdbfe; color: #1e40af; }
+  .pill-bad { background: #fef2f2; border-color: #fecaca; color: var(--bad); }
+  .pill-h1b { background: #ecfdf5; border-color: #6ee7b7; color: #065f46; }
+  .pill-noh1b { background: #fff7ed; border-color: #fdba74; color: #9a3412; }
+  .pill-clearance { background: #fff7ed; border-color: #fdba74; color: #9a3412; }
+  .score-badge { display: inline-block; min-width: 34px; padding: 2px 7px; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-align: center; }
+  .score-high { background: #dcfce7; color: #166534; }
+  .score-mid  { background: #fef9c3; color: #854d0e; }
+  .score-low  { background: #fee2e2; color: #991b1b; }
+  .empty { color: var(--muted); text-align: center; padding: 3rem; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+  #loading { color: var(--muted); text-align: center; padding: 3rem; }
+  @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .stats { grid-template-columns: repeat(2, 1fr); } }
 </style>
 </head>
 <body>
-<div class="d-flex">
-  <div class="sidebar" style="width: 240px; flex-shrink: 0;">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <h5 class="sidebar-title mb-0">Filters</h5>
-      <button class="btn-reset" onclick="resetFilters()">Reset</button>
-    </div>
-
-    <div class="filter-section">
-      <label>Search</label>
-      <input type="text" id="f-search" placeholder="title, company..." oninput="applyFilters()">
-    </div>
-
-    <div class="filter-section">
-      <label>Bucket</label>
-      <select id="f-bucket" onchange="applyFilters()">
-        <option value="all">All</option>
-        <option value="yes">✅ Yes</option>
-        <option value="maybe">🤔 Maybe</option>
-      </select>
-    </div>
-
-    <div class="filter-section">
-      <label>Role Category</label>
-      <select id="f-role" onchange="applyFilters()">
-        <option value="">All Roles</option>
-        <option value="ml_engineer">ML Engineer / AI</option>
-        <option value="data_scientist">Data Scientist</option>
-        <option value="data_engineer">Data Engineer</option>
-        <option value="data_analyst">Data Analyst</option>
-        <option value="swe">Software Engineer</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
-
-    <div class="filter-section">
-      <label>Experience Level</label>
-      <select id="f-exp" onchange="applyFilters()">
-        <option value="">All Levels</option>
-        <option value="entry">Entry Level</option>
-        <option value="mid" selected>Mid Level</option>
-        <option value="senior">Senior</option>
-      </select>
-    </div>
-
-    <div class="filter-section">
-      <label>Security Clearance</label>
-      <select id="f-clearance" onchange="applyFilters()">
-        <option value="exclude" selected>Exclude clearance jobs</option>
-        <option value="include">Show all</option>
-      </select>
-    </div>
-
-    <div class="filter-section">
-      <label>H1B Sponsorship</label>
-      <select id="f-h1b" onchange="applyFilters()">
-        <option value="all">All</option>
-        <option value="yes">Sponsors H1B</option>
-        <option value="unknown">Unknown</option>
-        <option value="no">No sponsorship</option>
-      </select>
-    </div>
-
-    <div class="filter-section">
-      <label>Tech Stack Match</label>
-      <select id="f-bad-tech" onchange="applyFilters()">
-        <option value="exclude" selected>Exclude Java/C++/hardware</option>
-        <option value="include">Show all</option>
-      </select>
-    </div>
-
-    <hr style="border-color: #2a2d3a; margin: 1.5rem 0;">
-    <h5 class="sidebar-title">Overview</h5>
-    <div id="stats-area" style="font-size: 0.82rem; color: #9ca3af; line-height: 2;">Loading...</div>
+<div class="wrap">
+  <div class="nav">
+    <h1>Job Board</h1>
+    <button onclick="loadJobs()" style="background:var(--accent);color:#fff;border:none;border-radius:999px;padding:7px 16px;font:inherit;cursor:pointer;font-size:0.85rem;">↻ Refresh</button>
   </div>
 
-  <div class="main flex-grow-1">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <h4 style="color: #f0f0f0; margin: 0;">Job Board <span style="color: #5b7fff;">Dashboard</span></h4>
-      <button class="btn btn-sm" style="background:#2a2d3a; color:#9ca3af; border:none;" onclick="loadJobs()">↻ Refresh</button>
+  <!-- Stats -->
+  <div class="stats" id="stats-row">
+    <div class="stat"><strong>—</strong><span>Total</span></div>
+    <div class="stat"><strong style="color:var(--good)">—</strong><span>Yes</span></div>
+    <div class="stat"><strong style="color:var(--warn)">—</strong><span>Maybe</span></div>
+    <div class="stat"><strong style="color:var(--accent)">—</strong><span>H1B confirmed</span></div>
+  </div>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Filters</h3>
+
+      <div class="filter-group">
+        <label>Search</label>
+        <input type="text" id="f-search" placeholder="title, company..." oninput="applyFilters()">
+      </div>
+      <div class="filter-group">
+        <label>Bucket</label>
+        <select id="f-bucket" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="yes">✓ Yes</option>
+          <option value="maybe">~ Maybe</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Role</label>
+        <select id="f-role" onchange="applyFilters()">
+          <option value="">All Roles</option>
+          <option value="ml_engineer">ML Engineer / AI</option>
+          <option value="data_scientist">Data Scientist</option>
+          <option value="data_engineer">Data Engineer</option>
+          <option value="data_analyst">Data Analyst</option>
+          <option value="swe">Software Engineer</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Experience Level</label>
+        <select id="f-exp" onchange="applyFilters()">
+          <option value="">All Levels</option>
+          <option value="entry">Entry</option>
+          <option value="mid" selected>Mid</option>
+          <option value="senior">Senior</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Security Clearance</label>
+        <select id="f-clearance" onchange="applyFilters()">
+          <option value="exclude" selected>Exclude clearance</option>
+          <option value="include">Show all</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>H1B Sponsorship</label>
+        <select id="f-h1b" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="yes">Sponsors H1B</option>
+          <option value="unknown">Unknown</option>
+          <option value="no">No sponsorship</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Tech Stack</label>
+        <select id="f-bad-tech" onchange="applyFilters()">
+          <option value="exclude" selected>Exclude Java/C++/etc</option>
+          <option value="include">Show all</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Sort by</label>
+        <select id="f-sort" onchange="applyFilters()">
+          <option value="date">Date found (newest)</option>
+          <option value="score">Score (highest)</option>
+        </select>
+      </div>
+      <button class="btn-reset" onclick="resetFilters()">Reset filters</button>
+
+      <hr style="border:none;border-top:1px solid var(--line);margin:18px 0 14px;">
+      <h3>By Role</h3>
+      <div id="role-stats" style="font-size:0.82rem;color:var(--muted);line-height:2;">—</div>
     </div>
-    <div id="results-count" class="results-count"></div>
-    <div id="loading">Loading jobs...</div>
-    <div id="jobs-container"></div>
+
+    <!-- Main -->
+    <div>
+      <div id="results-meta" class="results-meta"></div>
+      <div id="loading">Loading jobs…</div>
+      <div id="jobs-container"></div>
+    </div>
   </div>
 </div>
 
@@ -127,8 +175,50 @@ const ROLE_LABELS = {
   swe: "Software Engineer", other: "Other"
 };
 
-function getFilters() {
-  return {
+function formatDate(iso) {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+function scoreBadge(score) {
+  const cls = score >= 70 ? "score-high" : score >= 40 ? "score-mid" : "score-low";
+  return `<span class="score-badge ${cls}">${score || 0}</span>`;
+}
+
+function renderJob(j) {
+  const cls = j.bucket === "yes" ? "yes" : "maybe";
+  const bucketHtml = j.bucket === "yes"
+    ? '<span class="bucket-yes">&#10003; YES</span>'
+    : '<span class="bucket-maybe">~ MAYBE</span>';
+
+  const rolePill = `<span class="pill pill-role">${ROLE_LABELS[j.role_category] || j.role_category}</span>`;
+  const h1bPill = j.h1b_status === "yes" ? '<span class="pill pill-h1b">H1B ✓</span>'
+    : j.h1b_status === "no" ? '<span class="pill pill-noh1b">No sponsorship</span>' : "";
+  const clearPill = j.clearance_required ? '<span class="pill pill-clearance">🔒 Clearance</span>' : "";
+  const techPills = (j.good_tech || []).slice(0, 5).map(t => `<span class="pill pill-tech">${t}</span>`).join("");
+  const badPills = (j.bad_tech || []).map(t => `<span class="pill pill-bad">⚠ ${t}</span>`).join("");
+  const postedStr = j.posted ? ` &middot; Posted ${j.posted}` : "";
+
+  return `
+    <div class="card ${cls}">
+      <div class="card-top">
+        <div>
+          <a href="${j.url}" target="_blank" class="card-title">${j.title}</a>
+          <div class="card-company">${j.company} &middot; ${j.location}${postedStr}</div>
+        </div>
+        <div class="card-right">
+          ${bucketHtml} ${scoreBadge(j.score)}
+          <div class="card-date">${formatDate(j.date_found)}</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        ${rolePill} ${h1bPill} ${clearPill} ${techPills} ${badPills}
+      </div>
+    </div>`;
+}
+
+async function loadJobs() {
+  const f = {
     bucket: document.getElementById("f-bucket").value,
     role: document.getElementById("f-role").value,
     exp: document.getElementById("f-exp").value,
@@ -137,76 +227,41 @@ function getFilters() {
     bad_tech: document.getElementById("f-bad-tech").value,
     search: document.getElementById("f-search").value,
   };
-}
-
-function formatDate(iso) {
-  if (!iso) return "";
-  return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-}
-
-function renderJob(j) {
-  const bucketClass = j.bucket === "yes" ? "yes" : "maybe";
-  const bucketBadge = j.bucket === "yes"
-    ? '<span style="color:#22c55e; font-size:0.75rem;">✅ YES</span>'
-    : '<span style="color:#f59e0b; font-size:0.75rem;">🤔 MAYBE</span>';
-  const roleBadge = `<span class="badge-role">${ROLE_LABELS[j.role_category] || j.role_category}</span>`;
-  const h1bBadge = j.h1b_status === "yes" ? '<span class="badge-h1b-yes">H1B ✓</span>'
-    : j.h1b_status === "no" ? '<span class="badge-h1b-no">No Sponsorship</span>' : '';
-  const clearanceBadge = j.clearance_required ? '<span class="badge-clearance">🔒 Clearance</span>' : '';
-  const goodTech = (j.good_tech || []).map(t => `<span class="badge-tech">${t}</span>`).join("");
-  const badTech = (j.bad_tech || []).map(t => `<span class="badge-bad">⚠️ ${t}</span>`).join("");
-  const postedStr = j.posted ? ` · Posted ${j.posted}` : "";
-
-  return `
-    <div class="job-card ${bucketClass}">
-      <div class="d-flex justify-content-between align-items-start">
-        <div>
-          <a href="${j.url}" target="_blank" class="job-title">${j.title}</a>
-          <div class="job-meta">${j.company} · ${j.location}${postedStr}</div>
-        </div>
-        <div class="text-end" style="flex-shrink:0; margin-left:1rem;">
-          ${bucketBadge}
-          <div style="color:#6b7280; font-size:0.75rem; margin-top:2px;">${formatDate(j.date_found)}</div>
-        </div>
-      </div>
-      <div class="mt-2">${roleBadge} ${h1bBadge} ${clearanceBadge}</div>
-      ${goodTech || badTech ? `<div class="mt-2">${goodTech}${badTech}</div>` : ""}
-    </div>`;
-}
-
-async function loadJobs() {
-  const f = getFilters();
+  const sortBy = document.getElementById("f-sort").value;
   const params = new URLSearchParams(Object.entries(f).filter(([,v]) => v)).toString();
   document.getElementById("loading").style.display = "block";
   document.getElementById("jobs-container").innerHTML = "";
   try {
     const data = await fetch(`/api/jobs?${params}`).then(r => r.json());
     document.getElementById("loading").style.display = "none";
-    document.getElementById("results-count").textContent = `Showing ${data.filtered} of ${data.total} total jobs`;
-    document.getElementById("jobs-container").innerHTML = data.jobs.length
-      ? data.jobs.map(renderJob).join("")
-      : '<div style="color:#6b7280; text-align:center; padding:3rem;">No jobs match your filters.</div>';
-  } catch (e) {
-    document.getElementById("loading").innerHTML = "Error loading jobs. Is the server running?";
+    let jobs = data.jobs;
+    if (sortBy === "score") {
+      jobs = [...jobs].sort((a, b) => (b.score || 0) - (a.score || 0));
+    }
+    document.getElementById("results-meta").textContent = `Showing ${data.filtered} of ${data.total} jobs`;
+    document.getElementById("jobs-container").innerHTML = jobs.length
+      ? jobs.map(renderJob).join("")
+      : '<div class="empty">No jobs match your filters.</div>';
+  } catch(e) {
+    document.getElementById("loading").textContent = "Error — is the server running?";
   }
 }
 
 async function loadStats() {
   try {
     const s = await fetch("/api/stats").then(r => r.json());
-    document.getElementById("stats-area").innerHTML = `
-      <div>Total: <strong style="color:#e0e0e0;">${s.total}</strong></div>
-      <div>Yes: <strong style="color:#22c55e;">${s.yes}</strong> · Maybe: <strong style="color:#f59e0b;">${s.maybe}</strong></div>
-      <div>Clearance jobs: <strong style="color:#f97316;">${s.clearance}</strong></div>
-      <div>H1B confirmed: <strong style="color:#86efac;">${s.h1b_yes}</strong></div>
-      <div style="margin-top:0.5rem; color:#6b7280; font-size:0.75rem;">By role:</div>
-      <div>ML Eng: ${s.roles.ml_engineer} · DS: ${s.roles.data_scientist}</div>
-      <div>DE: ${s.roles.data_engineer} · SWE: ${s.roles.swe}</div>`;
+    const row = document.getElementById("stats-row");
+    row.children[0].querySelector("strong").textContent = s.total;
+    row.children[1].querySelector("strong").textContent = s.yes;
+    row.children[2].querySelector("strong").textContent = s.maybe;
+    row.children[3].querySelector("strong").textContent = s.h1b_yes;
+    document.getElementById("role-stats").innerHTML =
+      `ML Eng: ${s.roles.ml_engineer}<br>Data Sci: ${s.roles.data_scientist}<br>Data Eng: ${s.roles.data_engineer}<br>Analyst: ${s.roles.data_analyst}<br>SWE: ${s.roles.swe}`;
   } catch(e) {}
 }
 
-let debounceTimer;
-function applyFilters() { clearTimeout(debounceTimer); debounceTimer = setTimeout(loadJobs, 300); }
+let t;
+function applyFilters() { clearTimeout(t); t = setTimeout(loadJobs, 300); }
 
 function resetFilters() {
   document.getElementById("f-search").value = "";
@@ -216,6 +271,7 @@ function resetFilters() {
   document.getElementById("f-clearance").value = "exclude";
   document.getElementById("f-h1b").value = "all";
   document.getElementById("f-bad-tech").value = "exclude";
+  document.getElementById("f-sort").value = "date";
   loadJobs();
 }
 

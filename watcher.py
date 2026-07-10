@@ -1923,92 +1923,228 @@ def run_boards_sweep(
     return matched, latest_keys, errors, new_cursor, bootstrap_keys, bootstrap_boards, per_platform
 
 
-# -----------------------------
-# Job classification (for dashboard)
-# -----------------------------
-_GOOD_TECH = [
-    "python", "pytorch", "tensorflow", "keras", "scikit-learn", "sklearn", "xgboost", "lightgbm",
-    "mlflow", "rag", "llm", "gpt", "openai", "huggingface", "hugging face", "langchain", "faiss",
-    "chromadb", "transformers", "nlp", "computer vision", "deep learning", "machine learning",
-    "pyspark", "apache spark", "databricks", "airflow", "dbt", "kafka", "etl", "elt",
-    "aws", "gcp", "azure", "docker", "kubernetes", "k8s", "github actions",
-    "postgresql", "postgres", "mysql", "mongodb", "snowflake", "bigquery", "duckdb", "redshift",
-    "fastapi", "flask", "rest api", "streamlit", "data engineering", "data science",
-    "mlops", "model monitoring", "feature engineering", "sql", "spark sql",
+# ───────────────────────────────────────────────────────────────────────────────
+# Dashboard classifier (ported from jboard_zm)
+# Classifies job titles 0-100 for data/ML/AI relevance.
+# ───────────────────────────────────────────────────────────────────────────────
+
+_DASH_STRONG = [
+    "data analyst", "data analytics", "data scientist", "data science",
+    "data engineer", "data engineering", "analytics engineer", "analytics analyst",
+    "business intelligence", "bi analyst", "bi engineer", "bi developer",
+    "intelligence analyst", "machine learning engineer", "ml engineer",
+    "applied scientist", "research scientist", "decision scientist", "ai data",
+    "quantitative analyst", "quant analyst", "statistical analyst",
+    "statistical modeler", "forecasting analyst",
+    "data platform engineer", "data infrastructure engineer",
+    "data reliability engineer", "data quality engineer", "data quality analyst",
+    "data governance", "data management analyst", "data operations analyst",
+    "data architect", "analytics architect",
+    "etl engineer", "etl developer", "elt engineer", "data warehouse engineer",
+    "data warehousing", "dwh engineer", "data modeler", "data modeling",
+    "insights analyst", "insights engineer", "reporting analyst",
+    "product analyst", "growth analyst", "marketing analyst",
+    "financial analyst", "operations analyst", "clinical data analyst",
+    "research analyst", "feature engineer", "mlops engineer",
+    "ml platform engineer", "ai engineer",
+    "llm engineer", "llm data", "prompt engineer",
+    "generative ai engineer", "gen ai engineer", "nlp engineer",
+    "natural language processing engineer", "natural language processing scientist",
+    "computer vision engineer", "computer vision scientist",
+    "multimodal", "foundation model",
+    "analytics consultant", "data consultant", "data advisor",
 ]
 
-_BAD_TECH = [
-    "java", "spring boot", "spring framework", "j2ee", "hibernate", "maven", "gradle",
-    "c++", "c/c++", "golang", " go ", "rust", "c#", ".net", "asp.net",
-    "ruby", "rails", "php", "perl", "scala",
-    "swift", "kotlin", "android", "ios", "react native",
-    "fpga", "vhdl", "verilog", "embedded", "firmware", "rtos", "microcontroller",
-    "assembly", "cobol", "fortran",
+_DASH_WEAK = [
+    "analytics", "intelligence", "insights", "tableau", "power bi",
+    "snowflake", "spark", "databricks", "warehouse", "pipeline",
+    "etl", "elt", "dbt", "airflow", "kafka", "flink", "hadoop",
+    "generative ai", "gen ai", "large language model", "llm", "nlp",
+    "ai analyst", "ai scientist", "business analyst",
+    "business intelligence analyst", "operations research",
 ]
 
-_CLEARANCE_KEYWORDS = [
-    "clearance", "ts/sci", "top secret", "secret clearance", "polygraph",
-    "dod", "security clearance", "classified", "nsa", "cia", "dhs",
+_DASH_HARD_EXCLUDES = [
+    "software engineer", "software developer", "software development engineer",
+    "frontend engineer", "front-end engineer", "front end engineer",
+    "backend engineer", "back-end engineer", "back end engineer",
+    "full stack engineer", "fullstack engineer", "full-stack engineer",
+    "mobile engineer", "ios engineer", "android engineer",
+    "embedded engineer", "embedded software", "systems engineer",
+    "site reliability", "sre", "devops", "platform engineer",
+    "cloud engineer", "infrastructure engineer", "network engineer",
+    "security engineer", "cybersecurity", "penetration tester",
+    "quality assurance", "qa engineer", "qa analyst",
+    "test engineer", "quality engineer", "validation engineer",
+    "product manager", "program manager", "project manager",
+    "engineering manager", "scrum master", "agile coach",
+    "sales", "account executive", "account manager",
+    "solutions engineer", "pre-sales", "recruiter",
+    "talent acquisition", "human resources",
+    "customer support", "technical support", "support engineer",
+    "help desk", "it support", "it administrator",
+    "systems administrator", "sysadmin", "database administrator",
+    "data entry", "data center", "accounts payable", "billing analyst",
+    "claims analyst", "procurement analyst", "inventory analyst",
+    "legal analyst", "compliance analyst",
+    "hardware engineer", "electrical engineer", "mechanical engineer",
+    "manufacturing engineer", "supply chain",
 ]
 
-_H1B_POSITIVE = [
-    "visa sponsorship", "sponsor h1b", "h1b sponsorship", "sponsorship provided",
-    "will sponsor", "open to sponsorship",
-]
-_H1B_NEGATIVE = [
-    "no sponsorship", "no visa", "not sponsor", "cannot sponsor", "won't sponsor",
-    "must be authorized", "us citizen only", "citizenship required", "clearance required",
-    "active clearance", "permanent resident only",
+_DASH_HARD_EXCLUDE_RE = [
+    r"\bintern(ship)?\b", r"\bco[- ]?op\b", r"\bcoop\b",
+    r"\bapprentice\b", r"\bpart[- ]time\b",
 ]
 
-_ROLE_MAP = {
+_DASH_CLEARANCE_PHRASES = [
+    "security clearance", "clearance required", "clearance preferred",
+    "clearance eligible", "active clearance", "active secret", "secret clearance",
+    "top secret", "ts/sci", "ts sci", "sci clearance", "dod clearance",
+    "dod secret", "public trust", "polygraph",
+    "us citizen", "u.s. citizen", "must be a citizen",
+    "citizenship required", "citizenship eligibility", "must hold clearance",
+]
+
+_DASH_CLEARANCE_RE = [
+    r"\bts[/\s\-]?sci\b", r"\btop\s+secret\b", r"\bpolygraph\b",
+    r"\bpublic\s+trust\b", r"\bclearance\b", r"\bus\s+citizen",
+    r"\bcitizenship\b", r"\bsci\b",
+]
+
+_DASH_VERY_SENIOR: frozenset = frozenset(["director", "vp", "vice president", "head of", "fellow", "distinguished"])
+_DASH_SENIORITY_TOKENS = [
+    "senior", "sr", "staff", "principal", "lead", "architect",
+    "distinguished", "fellow", "director", "manager", "head of",
+    "vp", "vice president",
+]
+
+_DASH_SAFETY_NETS: frozenset = frozenset([
+    "data security analyst", "data quality engineer", "data governance",
+    "data management", "data operations", "data steward", "data catalog",
+    "data platform engineer", "data platform", "data infrastructure",
+    "data reliability engineer", "data product manager",
+    "data program manager", "analytics program manager",
+    "generative ai", "gen ai", "llm engineer", "prompt engineer",
+    "ai data engineer",
+])
+
+_DASH_GOOD_TECH = [
+    "python", "pytorch", "tensorflow", "keras", "scikit-learn", "sklearn",
+    "xgboost", "lightgbm", "mlflow", "rag", "openai", "huggingface",
+    "langchain", "faiss", "transformers", "nlp", "computer vision",
+    "deep learning", "machine learning", "pyspark", "apache spark",
+    "databricks", "airflow", "dbt", "kafka", "etl", "elt",
+    "aws", "gcp", "azure", "docker", "kubernetes",
+    "postgresql", "postgres", "mysql", "mongodb", "snowflake",
+    "bigquery", "duckdb", "redshift", "fastapi", "flask", "sql",
+]
+_DASH_BAD_TECH = [
+    "java", "spring boot", "spring framework", "j2ee", "hibernate",
+    "c++", "c/c++", "golang", "rust", "c#", ".net",
+    "ruby", "rails", "php", "swift", "kotlin", "android",
+    "fpga", "vhdl", "verilog", "embedded", "firmware",
+]
+_DASH_H1B_POS = ["visa sponsorship", "sponsor h1b", "h1b sponsorship", "will sponsor", "open to sponsorship"]
+_DASH_H1B_NEG = ["no sponsorship", "no visa", "not sponsor", "cannot sponsor",
+                  "must be authorized", "us citizen only", "citizenship required"]
+_DASH_ROLE_MAP = {
     "ml_engineer": ["machine learning engineer", "ml engineer", "ai engineer", "applied scientist",
-                    "research engineer", "mlops", "model engineer"],
-    "data_scientist": ["data scientist", "data science", "applied researcher"],
-    "data_engineer": ["data engineer", "analytics engineer", "dataops", "data ops",
-                      "data pipeline", "data infrastructure", "data platform"],
-    "data_analyst": ["data analyst", "analytics analyst", "product analyst", "business intelligence"],
+                    "research engineer", "mlops", "model engineer", "llm engineer", "nlp engineer",
+                    "computer vision engineer", "generative ai", "gen ai"],
+    "data_scientist": ["data scientist", "data science", "applied researcher",
+                       "quantitative analyst", "statistical analyst", "decision scientist"],
+    "data_engineer": ["data engineer", "analytics engineer", "dataops", "data pipeline",
+                      "data platform", "data architect", "etl engineer", "elt engineer",
+                      "data warehouse", "data modeler"],
+    "data_analyst": ["data analyst", "analytics analyst", "product analyst", "bi analyst",
+                     "business intelligence", "insights analyst", "reporting analyst",
+                     "growth analyst", "marketing analyst", "financial analyst"],
     "swe": ["software engineer", "software developer", "backend engineer", "full stack", "sde"],
 }
 
+JOBS_DB_PATH = os.path.join("state", "jobs_db.json")
 
-def classify_job(job: Dict[str, Any], bucket: str) -> Dict[str, Any]:
-    """Return classification metadata for a job dict."""
-    title = (job.get("title") or "").lower()
-    company = (job.get("company") or "").lower()
-    loc = (job.get("location") or "").lower()
-    text = f"{title} {company} {loc}"
 
-    # Tech tags
-    good_tech = [t for t in _GOOD_TECH if t in text]
-    bad_tech = [t for t in _BAD_TECH if t in text]
+def _dash_classify_title(title: str) -> dict:
+    """Port of jboard_zm classify() — score 0-100, bucket yes/maybe/no."""
+    t = re.sub(r"\s+", " ", (title or "").strip().lower())
+    if not t:
+        return {"score": 0, "bucket": "no"}
 
-    # Clearance
-    clearance = any(k in text for k in _CLEARANCE_KEYWORDS)
+    # Absolute clearance/citizenship filter — cannot be overridden
+    for phrase in _DASH_CLEARANCE_PHRASES:
+        if phrase in t:
+            return {"score": 0, "bucket": "no"}
+    for pat in _DASH_CLEARANCE_RE:
+        if re.search(pat, t):
+            return {"score": 0, "bucket": "no"}
 
-    # H1B
+    # Safety-net overrides for data-prefixed titles that hit hard-excludes
+    is_safety_net = any(sn in t for sn in _DASH_SAFETY_NETS)
+
+    # Hard-exclude regexes (intern/co-op) — no override possible
+    for pat in _DASH_HARD_EXCLUDE_RE:
+        if re.search(pat, t):
+            return {"score": 0, "bucket": "no"}
+
+    # Hard-exclude phrases — skipped if safety-net applies
+    if not is_safety_net:
+        for phrase in _DASH_HARD_EXCLUDES:
+            if phrase in t:
+                return {"score": 0, "bucket": "no"}
+
+    strong = any(p in t for p in _DASH_STRONG)
+    weak = any(p in t for p in _DASH_WEAK)
+    if not (strong or weak):
+        return {"score": 0, "bucket": "no"}
+
+    score = 90 if strong else 55
+
+    # Seniority cap: director/vp → no (≤34); senior/staff/principal → maybe (≤65)
+    for tok in _DASH_SENIORITY_TOKENS:
+        if re.search(rf"\b{re.escape(tok)}\b", t):
+            score = min(score, 34 if tok in _DASH_VERY_SENIOR else 65)
+            break
+
+    score = max(0, min(score, 100))
+    bucket = "yes" if score >= 70 else ("maybe" if score >= 40 else "no")
+    return {"score": score, "bucket": bucket}
+
+
+def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
+    """Full classification dict for a job entry saved to jobs_db.json."""
+    title = job.get("title", "")
+    text = f"{title} {job.get('company', '')} {job.get('location', '')}".lower()
+
+    cls = _dash_classify_title(title)
+    # If classifier returns "no" but pipeline already accepted it, keep pipeline's call
+    bucket = cls["bucket"] if cls["bucket"] != "no" else bucket_hint
+
+    good_tech = [t for t in _DASH_GOOD_TECH if t in text]
+    bad_tech = [t for t in _DASH_BAD_TECH if t in text]
+
+    clearance = any(p in text for p in _DASH_CLEARANCE_PHRASES)
+
     h1b = "unknown"
-    if any(k in text for k in _H1B_POSITIVE):
+    if any(k in text for k in _DASH_H1B_POS):
         h1b = "yes"
-    elif any(k in text for k in _H1B_NEGATIVE):
+    elif any(k in text for k in _DASH_H1B_NEG):
         h1b = "no"
 
-    # Role category
     role_category = "other"
-    for cat, phrases in _ROLE_MAP.items():
-        if any(p in title for p in phrases):
+    tl = title.lower()
+    for cat, phrases in _DASH_ROLE_MAP.items():
+        if any(p in tl for p in phrases):
             role_category = cat
             break
 
-    # Experience level from title
     exp_level = "mid"
-    if any(x in title for x in ["senior", "sr ", "staff", "principal", "lead", "director"]):
-        exp_level = "senior"
-    elif any(x in title for x in ["junior", "entry", "associate", "new grad", "intern"]):
+    if any(x in tl for x in ["junior", "entry", "associate", "new grad", "recent grad"]):
         exp_level = "entry"
 
     return {
         "bucket": bucket,
+        "score": cls["score"],
         "role_category": role_category,
         "exp_level": exp_level,
         "clearance_required": clearance,
@@ -2018,45 +2154,47 @@ def classify_job(job: Dict[str, Any], bucket: str) -> Dict[str, Any]:
     }
 
 
-JOBS_DB_PATH = STATE_DIR / "jobs_db.json"
+def save_to_jobs_db(yes_jobs: list, maybe_jobs: list) -> None:
+    """Append newly found jobs (with classification) to state/jobs_db.json."""
+    existing: list = []
+    if os.path.exists(JOBS_DB_PATH):
+        try:
+            with open(JOBS_DB_PATH) as _f:
+                existing = json.load(_f)
+        except Exception:
+            existing = []
 
+    existing_keys = {j.get("key") for j in existing}
+    now = datetime.now(timezone.utc).isoformat()
+    added = 0
 
-def save_to_jobs_db(yes_jobs: List[Dict], maybe_jobs: List[Dict]) -> None:
-    """Append newly emailed jobs to jobs_db.json for the dashboard."""
-    try:
-        existing: List[Dict] = []
-        if JOBS_DB_PATH.exists():
-            with open(JOBS_DB_PATH) as f:
-                existing = json.load(f)
-        existing_keys = {j.get("key") for j in existing}
+    for job, bucket_hint in [(j, "yes") for j in yes_jobs] + [(j, "maybe") for j in maybe_jobs]:
+        key = job.get("key", "")
+        if key in existing_keys:
+            continue
+        cls = _classify_for_dashboard(job, bucket_hint)
+        entry = {
+            "key": key,
+            "title": job.get("title", ""),
+            "company": job.get("company", ""),
+            "location": job.get("location", ""),
+            "url": job.get("url", ""),
+            "posted": job.get("posted", ""),
+            "date_found": now,
+            **cls,
+        }
+        existing.append(entry)
+        existing_keys.add(key)
+        added += 1
 
-        now = datetime.now(timezone.utc).isoformat()
-        new_entries = []
-        for bucket, jobs in [("yes", yes_jobs), ("maybe", maybe_jobs)]:
-            for j in jobs:
-                key = j.get("key", "")
-                if key in existing_keys:
-                    continue
-                entry = {
-                    "key": key,
-                    "title": j.get("title", ""),
-                    "company": j.get("company", ""),
-                    "url": j.get("url", ""),
-                    "location": j.get("location", ""),
-                    "posted": j.get("posted", ""),
-                    "date_found": now,
-                    **classify_job(j, bucket),
-                }
-                new_entries.append(entry)
-
-        if new_entries:
-            existing.extend(new_entries)
-            # Keep latest 2000 jobs
-            existing = existing[-2000:]
-            with open(JOBS_DB_PATH, "w") as f:
-                json.dump(existing, f, indent=2)
-    except Exception as e:
-        print(f"[WARN] Could not save to jobs_db: {e}")
+    if added:
+        existing = existing[-2000:]
+        try:
+            os.makedirs(os.path.dirname(JOBS_DB_PATH) or ".", exist_ok=True)
+            with open(JOBS_DB_PATH, "w") as _f:
+                json.dump(existing, _f, indent=2)
+        except Exception as _e:
+            print(f"[WARN] jobs_db write failed: {_e}")
 
 
 # -----------------------------
@@ -2257,12 +2395,12 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
             print(f"[ALERT] no-email enabled; {len(new_yes)} yes + {len(new_maybe)} maybe new job(s) detected (not emailed).")
         else:
             send_email_digest(new_yes, new_maybe, subject_prefix="[Job Alerts]")
-            save_to_jobs_db(new_yes, new_maybe)
             print(f"[ALERT] Sent digest for {len(new_yes)} yes + {len(new_maybe)} maybe new job(s).")
             for _j in new_yes + new_maybe:
                 _src = (_j.get("key") or "").split(":")[0]
                 if _src in _per_source:
                     _per_source[_src]["emailed"] += 1
+        save_to_jobs_db(new_yes, new_maybe)
     else:
         print("[OK] No new jobs.")
 
@@ -2410,12 +2548,12 @@ if __name__ == "__main__":
                     print(f"[ALERT] no-email enabled; {len(new_yes)} yes + {len(new_maybe)} maybe new job(s) detected (not emailed).")
                 else:
                     send_email_digest(new_yes, new_maybe, subject_prefix=_subject_prefix)
-                    save_to_jobs_db(new_yes, new_maybe)
                     print(f"[ALERT] Sent boards digest for {len(new_yes)} yes + {len(new_maybe)} maybe new job(s).")
                     for _j in new_yes + new_maybe:
                         _plat = (_j.get("key") or "").split(":")[0]
                         if _plat in per_platform:
                             per_platform[_plat]["emailed"] = per_platform[_plat].get("emailed", 0) + 1
+                save_to_jobs_db(new_yes, new_maybe)
             else:
                 print("[OK] No new boards jobs.")
 
