@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-08T01:02:30.412603+00:00",
+  "updated_utc": "2026-07-10T05:47:47.786827+00:00",
   "dead_details": {
     "greenhouse:auth0": {
       "first_seen_utc": "2026-02-16T03:03:47.356270+00:00",
@@ -8420,6 +8420,15 @@
       "first_seen_utc": "2026-07-03T08:00:58.851714+00:00",
       "last_seen_utc": "2026-07-03T08:00:58.851714+00:00",
       "platform": "ashby",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:loop": {
+      "first_seen_utc": "2026-07-10T05:47:38.954555+00:00",
+      "last_seen_utc": "2026-07-10T05:47:38.954555+00:00",
+      "platform": "greenhouse",
       "company": "",
       "board_url": "",
       "last_status": 404,
