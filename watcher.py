@@ -233,6 +233,20 @@ HARD_EXCLUDE_PHRASES = [
     "customer support",
     "technical support",
     "support engineer",
+    # Security clearance — Likhith does not hold any clearance (added 2026-07-10)
+    "clearance",
+    "ts/sci",
+    "top secret",
+    "secret clearance",
+    "dod clearance",
+    "security clearance",
+    "polygraph",
+    # Explicit Java-primary roles — Likhith's stack is Python/JS, not Java (added 2026-07-10)
+    "java developer",
+    "java engineer",
+    "java software",
+    "j2ee",
+    "spring boot engineer",
 ]
 
 HARD_EXCLUDE_REGEXES = [
@@ -1951,7 +1965,7 @@ def send_email_digest(
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-        app_pw = (EMAIL_APP_PASSWORD or "").replace(" ", "").replace("\xa0", "").strip()
+        app_pw = (EMAIL_APP_PASSWORD or "").replace(" ", "")
         server.login(EMAIL_USER, app_pw)
         server.send_message(msg)
 
