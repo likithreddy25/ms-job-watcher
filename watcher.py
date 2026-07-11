@@ -6,6 +6,7 @@ import ssl
 import smtplib
 import csv
 import re
+import html as html_lib
 import time
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -20,6 +21,29 @@ from urllib3.util.retry import Retry
 
 # Path to this script's directory (for resolving relative files)
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def _strip_html(raw: str, max_len: int = 20000) -> str:
+    """Minimal HTML-to-text: unescape entities, strip tags, collapse whitespace.
+    Used only transiently for text-based classification (H1B/tech/clearance keyword
+    scans) — never persisted to jobs_db.json. max_len caps pathological huge payloads.
+
+    Order matters here: some sources (confirmed on Greenhouse's `content` field,
+    2026-07-10) return HTML-entity-escaped markup — e.g. "&lt;div&gt;" instead of a
+    literal "<div>". Unescaping must happen BEFORE tag-stripping, or the tag regex
+    finds nothing to strip and unescaping puts literal tags back in afterward."""
+    if not raw:
+        return ""
+    raw = raw[:max_len]
+    text = raw
+    for _ in range(3):  # some sources (Greenhouse content) are double-escaped; loop until stable
+        unescaped = html_lib.unescape(text)
+        if unescaped == text:
+            break
+        text = unescaped
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 # -----------------------------
 # Workday URL parsing helpers (CXS)
@@ -337,6 +361,12 @@ AMZ_RESULT_LIMIT = int(os.getenv("AMZ_RESULT_LIMIT", "50"))
 # Requests session pooling + retry (SPEED/ROBUSTNESS)
 # -----------------------------
 DEFAULT_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "30"))
+
+# Max stated "years of experience" a posting can require before it's excluded (2026-07-10,
+# Likhith's call — postings above this consistently auto-reject regardless of resume quality
+# per the 2026-07-07 Gmail audit). Only enforceable on sources with description text
+# (currently Greenhouse + Lever) — see _extract_min_yoe.
+MAX_YOE_ALLOWED = int(os.getenv("MAX_YOE_ALLOWED", "3"))
 
 # Concurrency knobs (boards)
 BOARDS_WORKERS = int(os.getenv("BOARDS_WORKERS", "12"))
@@ -1613,7 +1643,9 @@ def normalize_greenhouse_job(company_name: str, company_slug: str, job: Dict[str
 
     posted_str = job.get("updated_at") or job.get("created_at") or ""
     url = job.get("absolute_url") or job.get("url") or ""
-    return {"key": str(key), "company": str(company_name), "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url)}
+    # "content" is already returned by fetch_greenhouse_jobs (content=true param) — zero extra API calls.
+    description = _strip_html(job.get("content") or "")
+    return {"key": str(key), "company": str(company_name), "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
 
 
 def normalize_lever_job(company_name: str, company_slug: str, job: Dict[str, Any]) -> Dict[str, str]:
@@ -1631,7 +1663,18 @@ def normalize_lever_job(company_name: str, company_slug: str, job: Dict[str, Any
         posted_str = datetime.fromtimestamp(float(posted_str) / 1000.0, tz=timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     url = job.get("hostedUrl") or job.get("applyUrl") or ""
-    return {"key": str(key), "company": str(company_name), "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url)}
+    # Lever's list endpoint already returns full posting text — zero extra API calls.
+    # descriptionPlain is pre-stripped when present; fall back to stripping the HTML description.
+    desc_raw = job.get("descriptionPlain") or job.get("description") or ""
+    description = desc_raw if job.get("descriptionPlain") else _strip_html(desc_raw)
+    lists = job.get("lists") or []
+    if isinstance(lists, list):
+        extra = " ".join(
+            _strip_html(item.get("content") or "") for item in lists if isinstance(item, dict)
+        )
+        if extra:
+            description = f"{description} {extra}".strip()
+    return {"key": str(key), "company": str(company_name), "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
 
 
 # -----------------------------
@@ -1645,6 +1688,12 @@ ASHBY_JOBS_QUERY = (
     "  }"
     "}"
 )
+# NOTE (2026-07-10): tried adding a descriptionHtml field to this query for free H1B/description
+# classification (like the Greenhouse/Lever fix below) — confirmed WRONG via live test. The list
+# type is literally named "JobPostingBriefsWithIdsAndTeamId" (brief/summary only by design) and
+# Ashby's public API has introspection disabled, so no field list is queryable to find the right
+# name. Ashby belongs in the same "needs a per-job detail call" bucket as SmartRecruiters/Workday,
+# not the free-fields bucket — moved there, see docs/STATE.md. Reverted to the single safe query.
 
 
 def ashby_slug_from_board_url(board_url: str) -> str:
@@ -1657,20 +1706,25 @@ def ashby_key(company_slug: str, job_id: str) -> str:
     return f"ashby:{company_slug}:{job_id}"
 
 
-def fetch_ashby_jobs(company_slug: str, timeout: int = DEFAULT_TIMEOUT) -> List[Dict[str, Any]]:
-    sess = _get_session("ashby")
+def _ashby_post(sess, company_slug: str, query: str, timeout: int):
     r = sess.post(
         ASHBY_API_URL,
         headers={"content-type": "application/json"},
         json={
             "operationName": "ApiJobBoardWithTeams",
             "variables": {"organizationHostedJobsPageName": company_slug},
-            "query": ASHBY_JOBS_QUERY,
+            "query": query,
         },
         timeout=timeout,
     )
     r.raise_for_status()
-    data = r.json()
+    return r.json()
+
+
+def fetch_ashby_jobs(company_slug: str, timeout: int = DEFAULT_TIMEOUT) -> List[Dict[str, Any]]:
+    sess = _get_session("ashby")
+    data = _ashby_post(sess, company_slug, ASHBY_JOBS_QUERY, timeout)
+
     board = (data.get("data") or {}).get("jobBoard")
     if board is None:
         # Slug not found — synthesize a 404 so dead-board tracking fires the same way as Greenhouse
@@ -1691,6 +1745,8 @@ def normalize_ashby_job(company_name: str, company_slug: str, job: Dict[str, Any
         if job_id
         else f"https://jobs.ashbyhq.com/{company_slug}"
     )
+    # No description field available — Ashby's list endpoint is brief/summary-only (confirmed
+    # 2026-07-10, see docs/STATE.md). Deferred alongside SmartRecruiters/Workday/main-mode.
     return {"key": str(key), "company": str(company_name), "title": str(title), "location": str(loc), "posted": "", "url": str(url)}
 
 
@@ -2111,10 +2167,56 @@ def _dash_classify_title(title: str) -> dict:
     return {"score": score, "bucket": bucket}
 
 
+# -----------------------------
+# YOE (years of experience) extraction — description-text based
+# -----------------------------
+_YOE_RANGE_RE = re.compile(r"\b(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\+?\s*years?\b", re.IGNORECASE)
+_YOE_PLUS_RE = re.compile(r"\b(\d{1,2})\+\s*years?\b", re.IGNORECASE)
+_YOE_MIN_PHRASE_RE = re.compile(r"\b(?:minimum(?:\s+of)?|at\s+least|min\.?)\s+(\d{1,2})\+?\s*years?\b", re.IGNORECASE)
+_YOE_PLAIN_RE = re.compile(
+    r"\b(\d{1,2})\+?\s*years?\s*(?:of\s+)?(?:relevant\s+|professional\s+|prior\s+|industry\s+)?experience\b",
+    re.IGNORECASE,
+)
+
+
+def _extract_min_yoe(text: str) -> Optional[int]:
+    """Best-effort extraction of the most stringent 'years of experience' figure
+    mentioned in job description text. For a range like "3-5 years" the LOWER bound
+    is the real qualifying bar, so ranges are matched first and their matched span is
+    masked out before the other patterns run — otherwise "3-5 years of experience"
+    would double-count as both 3 (range) and 5 (plain "N years of experience").
+    Returns None if no YOE pattern is found (e.g. no description text available, or
+    the posting just doesn't state one). Heuristic, not a guarantee — used to exclude
+    postings asking for more experience than the pipeline owner currently has."""
+    if not text:
+        return None
+
+    candidates: List[int] = []
+    mask = list(text)
+
+    def _blank(m: "re.Match[str]") -> None:
+        for i in range(m.start(), m.end()):
+            mask[i] = " "
+
+    for m in _YOE_RANGE_RE.finditer(text):
+        candidates.append(int(m.group(1)))
+        _blank(m)
+
+    remaining = "".join(mask)
+    for pattern in (_YOE_PLUS_RE, _YOE_MIN_PHRASE_RE, _YOE_PLAIN_RE):
+        for m in pattern.finditer(remaining):
+            candidates.append(int(m.group(1)))
+
+    return max(candidates) if candidates else None
+
+
 def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
-    """Full classification dict for a job entry saved to jobs_db.json."""
+    """Full classification dict for a job entry saved to jobs_db.json.
+    `description` (when present — currently Greenhouse and Lever only; see docs/STATE.md
+    for why Ashby/SmartRecruiters/Workday/main-mode don't have it yet) is used here for
+    text classification only; it is never persisted to jobs_db.json."""
     title = job.get("title", "")
-    text = f"{title} {job.get('company', '')} {job.get('location', '')}".lower()
+    text = f"{title} {job.get('company', '')} {job.get('location', '')} {job.get('description', '')}".lower()
 
     cls = _dash_classify_title(title)
     # If classifier returns "no" but pipeline already accepted it, keep pipeline's call
@@ -2390,6 +2492,24 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
     new_yes = [j for j in yes_matched if j.get("key") in new_keys]
     new_maybe = [j for j in maybe_matched if j.get("key") in new_keys]
 
+    # YOE filter — see MAX_YOE_ALLOWED / _extract_min_yoe. No-op today: none of the main-mode
+    # sources (Microsoft/NVIDIA/Amazon/Goldman Sachs/IBM/Oracle) carry description text yet.
+    _yoe_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _yoe = _extract_min_yoe(_j.get("description", ""))
+            if _yoe is not None and _yoe > MAX_YOE_ALLOWED:
+                _yoe_excluded_this_run += 1
+                _src = (_j.get("key") or "").split(":")[0]
+                if _src in _per_source:
+                    _per_source[_src]["yoe_excluded"] = _per_source[_src].get("yoe_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+    if _yoe_excluded_this_run:
+        print(f"[YOE] Excluded {_yoe_excluded_this_run} job(s) requiring > {MAX_YOE_ALLOWED} years experience.")
+
     if new_yes or new_maybe:
         if no_email:
             print(f"[ALERT] no-email enabled; {len(new_yes)} yes + {len(new_maybe)} maybe new job(s) detected (not emailed).")
@@ -2542,6 +2662,26 @@ if __name__ == "__main__":
 
             new_yes = [j for j in matched if classify_title(j.get("title", "")) == "yes" and j.get("key") in new_keys]
             new_maybe = [j for j in matched if classify_title(j.get("title", "")) == "maybe" and j.get("key") in new_keys]
+
+            # YOE filter: exclude postings whose description states a minimum experience
+            # requirement above MAX_YOE_ALLOWED. Only has an effect on sources that carry
+            # description text (currently Greenhouse + Lever) — a no-op elsewhere, since
+            # _extract_min_yoe returns None with no description to scan.
+            _yoe_excluded_this_run = 0
+            for _bucket in (new_yes, new_maybe):
+                _kept = []
+                for _j in _bucket:
+                    _yoe = _extract_min_yoe(_j.get("description", ""))
+                    if _yoe is not None and _yoe > MAX_YOE_ALLOWED:
+                        _yoe_excluded_this_run += 1
+                        _plat = (_j.get("key") or "").split(":")[0]
+                        if _plat in per_platform:
+                            per_platform[_plat]["yoe_excluded"] = per_platform[_plat].get("yoe_excluded", 0) + 1
+                    else:
+                        _kept.append(_j)
+                _bucket[:] = _kept
+            if _yoe_excluded_this_run:
+                print(f"[YOE] Excluded {_yoe_excluded_this_run} job(s) requiring > {MAX_YOE_ALLOWED} years experience.")
 
             if new_yes or new_maybe:
                 if args.no_email:

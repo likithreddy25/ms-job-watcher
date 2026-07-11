@@ -66,6 +66,11 @@
   .score-low  { background: #fee2e2; color: #991b1b; }
   .empty { color: var(--muted); text-align: center; padding: 3rem; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
   #loading { color: var(--muted); text-align: center; padding: 3rem; }
+  .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 22px 0 8px; }
+  .pagination button { background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px; font: inherit; font-size: 0.85rem; cursor: pointer; color: var(--ink); }
+  .pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .pagination button:hover:not(:disabled) { background: var(--bg); }
+  .page-info { font-size: 0.85rem; color: var(--muted); }
   @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .stats { grid-template-columns: repeat(2, 1fr); } }
 </style>
 </head>
@@ -164,6 +169,7 @@
       <div id="results-meta" class="results-meta"></div>
       <div id="loading">Loading jobs…</div>
       <div id="jobs-container"></div>
+      <div id="pagination" class="pagination"></div>
     </div>
   </div>
 </div>
@@ -174,6 +180,10 @@ const ROLE_LABELS = {
   data_engineer: "Data Engineer", data_analyst: "Data Analyst",
   swe: "Software Engineer", other: "Other"
 };
+
+const PAGE_SIZE = 25; // jobs per page — change this to whatever page size you want
+let currentJobs = [];
+let currentPage = 1;
 
 function formatDate(iso) {
   if (!iso) return "";
@@ -238,13 +248,42 @@ async function loadJobs() {
     if (sortBy === "score") {
       jobs = [...jobs].sort((a, b) => (b.score || 0) - (a.score || 0));
     }
+    currentJobs = jobs;
+    currentPage = 1;
     document.getElementById("results-meta").textContent = `Showing ${data.filtered} of ${data.total} jobs`;
-    document.getElementById("jobs-container").innerHTML = jobs.length
-      ? jobs.map(renderJob).join("")
-      : '<div class="empty">No jobs match your filters.</div>';
+    renderPage();
   } catch(e) {
     document.getElementById("loading").textContent = "Error — is the server running?";
   }
+}
+
+function renderPage() {
+  const totalPages = Math.max(1, Math.ceil(currentJobs.length / PAGE_SIZE));
+  if (currentPage > totalPages) currentPage = totalPages;
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const pageJobs = currentJobs.slice(start, start + PAGE_SIZE);
+
+  document.getElementById("jobs-container").innerHTML = pageJobs.length
+    ? pageJobs.map(renderJob).join("")
+    : '<div class="empty">No jobs match your filters.</div>';
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const el = document.getElementById("pagination");
+  if (!currentJobs.length) { el.innerHTML = ""; return; }
+  el.innerHTML = `
+    <button ${currentPage === 1 ? "disabled" : ""} onclick="goToPage(${currentPage - 1})">&larr; Prev</button>
+    <span class="page-info">Page ${currentPage} of ${totalPages}</span>
+    <button ${currentPage === totalPages ? "disabled" : ""} onclick="goToPage(${currentPage + 1})">Next &rarr;</button>
+  `;
+}
+
+function goToPage(p) {
+  currentPage = p;
+  renderPage();
+  document.getElementById("jobs-container").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 async function loadStats() {
