@@ -798,5 +798,51 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:webfx:bf84f554-7859-427c-81f4-d1795a07e7f2",
+    "title": "Market Research Analyst",
+    "company": "webfx",
+    "location": "Harrisburg, PA",
+    "url": "https://jobs.lever.co/webfx/bf84f554-7859-427c-81f4-d1795a07e7f2",
+    "posted": "2020-03-11 17:48 UTC",
+    "date_found": "2026-07-11T23:00:51.098180+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:zushealth:c7f516d4-bd01-403e-bd06-40af78ff0e01",
+    "title": "Interoperability Operations Analyst",
+    "company": "zushealth",
+    "location": "Boston, MA",
+    "url": "https://jobs.lever.co/zushealth/c7f516d4-bd01-403e-bd06-40af78ff0e01",
+    "posted": "2026-06-23 21:05 UTC",
+    "date_found": "2026-07-11T23:00:51.098180+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
