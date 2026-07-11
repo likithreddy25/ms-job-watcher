@@ -1243,5 +1243,98 @@
     "h1b_status": "unknown",
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:spacex:8629130002",
+    "title": "Electrical Design Engineer (Falcon & Dragon Avionics)",
+    "company": "SpaceX",
+    "location": "Hawthorne, CA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8629130002?gh_jid=8629130002",
+    "posted": "2026-07-10T20:43:29-04:00",
+    "date_found": "2026-07-11T01:32:16.103303+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": true,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:spacex:8628971002",
+    "title": "Mechanical Engineer, Electro-Mechanical (Starlink)",
+    "company": "SpaceX",
+    "location": "Redmond, WA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8628971002?gh_jid=8628971002",
+    "posted": "2026-07-10T17:39:08-04:00",
+    "date_found": "2026-07-11T01:32:16.103303+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": true,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:spacex:8627675002",
+    "title": "Propulsion Engineer, Chamber and Nozzle (Raptor) ",
+    "company": "SpaceX",
+    "location": "Hawthorne, CA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8627675002?gh_jid=8627675002",
+    "posted": "2026-07-10T20:21:18-04:00",
+    "date_found": "2026-07-11T01:32:16.103303+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": true,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4543-1",
+    "title": "Cloud and Edge Infrastructure Engineer",
+    "company": "Rockwell Automation",
+    "location": "Milwaukee, Wisconsin, United States",
+    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4543-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-11T01:32:16.103303+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4541",
+    "title": "Cloud and Edge Infrastructure Engineer",
+    "company": "Rockwell Automation",
+    "location": "Milwaukee, Wisconsin, United States",
+    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4541",
+    "posted": "Posted Today",
+    "date_found": "2026-07-11T01:32:16.103303+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
