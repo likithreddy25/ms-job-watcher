@@ -169,7 +169,11 @@ STRONG_INCLUDE_PHRASES = [
     "software development engineer",
     "sde",
     "backend engineer",
+    "back-end engineer",
+    "back end engineer",
     "backend developer",
+    "back-end developer",
+    "back end developer",
     "platform engineer",
     "application developer",
     "applications engineer",
@@ -180,6 +184,8 @@ STRONG_INCLUDE_PHRASES = [
     "ai engineer",
     "applied scientist",
     "research engineer",
+    "research scientist",
+    "decision scientist",
     "data scientist",
     "data engineer",
     "analytics engineer",
@@ -202,14 +208,95 @@ STRONG_INCLUDE_PHRASES = [
     "quant researcher",
     "quantitative developer",
     "quantitative engineer",
+    # ---------------------------------------------------------------------
+    # Added 2026-07-10 (second pass) — ported from jboard_zm's classifier.py
+    # DATA_STRONG allow-list, built the same day per Likhith's explicit
+    # instruction ("only these job titles"). WEAK_INCLUDE_PHRASES (bare
+    # "developer"/"software"/"engineer"/"analytics") is being retired below
+    # in favor of this being a complete, strict allow-list — so anything
+    # missing from here would previously have been silently invisible
+    # (e.g. "Business Intelligence Analyst", "Insights Analyst", "Reporting
+    # Analyst" never matched STRONG *or* WEAK before) or would slip through
+    # WEAK on bare "engineer"/"developer" regardless of domain. This list
+    # trades that looseness for explicit, complete coverage instead.
+    # ---------------------------------------------------------------------
+    "business intelligence",
+    "bi analyst",
+    "bi engineer",
+    "bi developer",
+    "intelligence analyst",
+    "statistical analyst",
+    "statistical modeler",
+    "forecasting analyst",
+    "data platform engineer",
+    "data infrastructure engineer",
+    "data reliability engineer",
+    "data quality analyst",
+    "data governance",
+    "data management analyst",
+    "data operations analyst",
+    "analytics architect",
+    "etl engineer",
+    "etl developer",
+    "elt engineer",
+    "data warehouse engineer",
+    "data warehousing",
+    "dwh engineer",
+    "data modeler",
+    "data modeling",
+    "insights analyst",
+    "insights engineer",
+    "reporting analyst",
+    "growth analyst",
+    "marketing analyst",
+    "financial analyst",
+    "operations analyst",
+    "clinical data analyst",
+    "research analyst",
+    "feature engineer",
+    "mlops engineer",
+    "ml platform engineer",
+    "llm engineer",
+    "llm data",
+    "prompt engineer",
+    "generative ai engineer",
+    "gen ai engineer",
+    "nlp engineer",
+    "natural language processing engineer",
+    "natural language processing scientist",
+    "computer vision engineer",
+    "computer vision scientist",
+    "multimodal",
+    "foundation model",
+    "analytics consultant",
+    "data consultant",
+    "data advisor",
+    # Added 2026-07-10 — Python Engineer/Cloud Engineer explicitly requested by
+    # Likhith this round; Infrastructure/Systems Engineer added for parity
+    # with jboard_zm (platform engineer was already present above).
+    "python engineer",
+    "python developer",
+    "cloud engineer",
+    "cloud infrastructure engineer",
+    "infrastructure engineer",
+    # NOTE: bare "systems engineer" deliberately NOT included — real jobs_db.json data
+    # showed it matching defense/aerospace/propulsion titles ("Propulsion Systems
+    # Engineer", "Sentinel...Systems Engineer", "Systems Engineer, C2 Networking") that
+    # are explicitly unwanted (same category HARD_EXCLUDE_PHRASES' "systems engineering"
+    # gerund-form entry was already blocking — this is the noun form of the same problem).
+    # "Cloud Engineer"/"Infrastructure Engineer"/"Platform Engineer" above already cover
+    # the legitimate cloud/software-systems intent without this ambiguity.
 ]
 
-WEAK_INCLUDE_PHRASES = [
-    "developer",
-    "software",
-    "engineer",
-    "analytics",
-]
+# RETIRED 2026-07-10 — was ["developer", "software", "engineer", "analytics"], a bare
+# role-suffix/domain-word fallback that let ANY title containing "engineer" or "developer"
+# through as "maybe" regardless of domain (e.g. "Site Engineer", "Test Automation Engineer"),
+# while also being too narrow to catch legitimate variants that don't contain those exact
+# words. classify_title() no longer checks this — STRONG_INCLUDE_PHRASES above is now a
+# complete, strict allow-list on its own, mirroring the same change made in jboard_zm's
+# classifier.py today. Left defined (empty) rather than deleted in case any other code
+# still imports the name.
+WEAK_INCLUDE_PHRASES: List[str] = []
 
 # Excluded from yes/maybe (and therefore from email) when found in a title that otherwise
 # passed the strong/weak content match. Gmail audit (2026-07-07) showed every application to
@@ -254,7 +341,13 @@ HARD_EXCLUDE_PHRASES = [
     "site reliability",
     "sre",
     "reliability engineer",
-    "reporting",
+    # NARROWED 2026-07-10 — was a bare "reporting" hard-exclude, which collided with the
+    # newly added "reporting analyst" STRONG_INCLUDE_PHRASES entry (a legitimate BI/data
+    # target role — jboard_zm's DATA_STRONG list has it too). Replaced with the specific
+    # non-target phrasings this was almost certainly meant to catch (regulatory/financial
+    # reporting roles in finance/compliance, not BI reporting analysts).
+    "regulatory reporting",
+    "financial reporting",
     "product manager",
     "program manager",
     "project manager",
@@ -414,6 +507,18 @@ MAX_ORACLE_JOBS_PER_RUN = int(os.getenv("MAX_ORACLE_JOBS_PER_RUN", "200"))
 MAX_IBM_JOBS_PER_RUN = int(os.getenv("MAX_IBM_JOBS_PER_RUN", "200"))
 MAX_GS_JOBS_PER_RUN = int(os.getenv("MAX_GS_JOBS_PER_RUN", "200"))
 AMZ_RESULT_LIMIT = int(os.getenv("AMZ_RESULT_LIMIT", "50"))
+
+# New direct-company sources added 2026-07-11 (Likhith's call: "add Google/Apple/Meta/
+# Netflix/Stripe/LinkedIn" alongside the on-demand scan button). LinkedIn is capped much
+# lower than the others — its guest search API rate-limits/blocks aggressively (see
+# fetch_linkedin_positions docstring) and this source is meant to be run locally, not on
+# a GitHub Actions cloud IP.
+MAX_GOOGLE_JOBS_PER_RUN = int(os.getenv("MAX_GOOGLE_JOBS_PER_RUN", "200"))
+MAX_APPLE_JOBS_PER_RUN = int(os.getenv("MAX_APPLE_JOBS_PER_RUN", "200"))
+MAX_META_JOBS_PER_RUN = int(os.getenv("MAX_META_JOBS_PER_RUN", "200"))
+MAX_NETFLIX_JOBS_PER_RUN = int(os.getenv("MAX_NETFLIX_JOBS_PER_RUN", "150"))
+MAX_STRIPE_JOBS_PER_RUN = int(os.getenv("MAX_STRIPE_JOBS_PER_RUN", "150"))
+MAX_LINKEDIN_JOBS_PER_RUN = int(os.getenv("MAX_LINKEDIN_JOBS_PER_RUN", "60"))
 
 
 # -----------------------------
@@ -670,7 +775,90 @@ ORACLE_HEADERS_MIN = {
     "user-agent": "Mozilla/5.0",
 }
 
-SUPPORTED_SOURCES = ["microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle"]
+GOOGLE_SEARCH_URL = "https://www.google.com/about/careers/applications/jobs/results/"
+GOOGLE_HEADERS_MIN = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "referer": "https://www.google.com/about/careers/applications/jobs/results/",
+    "user-agent": "Mozilla/5.0",
+}
+GOOGLE_BASE_PARAMS = {
+    "q": "data analyst OR data scientist OR data engineer OR analytics engineer OR business intelligence OR software engineer OR machine learning",
+    "location": "United States",
+    "page": 1,
+}
+_GOOGLE_DATA_RE = re.compile(r"AF_initDataCallback\(\{key: 'ds:1'.*?data:(\[.*?\])\s*, sideChannel:", re.S)
+
+APPLE_SEARCH_URL = "https://jobs.apple.com/en-us/search"
+APPLE_HEADERS_MIN = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "referer": "https://jobs.apple.com/en-us/search",
+    "user-agent": "Mozilla/5.0",
+}
+_APPLE_HYDRATION_RE = re.compile(r'window\.__staticRouterHydrationData\s*=\s*JSON\.parse\("(.*?)"\);', re.S)
+
+META_JOBSEARCH_URL = "https://www.metacareers.com/jobsearch"
+META_ENDPOINT = "https://www.metacareers.com/api/graphql/"
+META_HEADERS_MIN = {
+    "accept": "application/json",
+    "content-type": "application/x-www-form-urlencoded",
+    "origin": "https://www.metacareers.com",
+    "referer": META_JOBSEARCH_URL,
+    "user-agent": "Mozilla/5.0",
+}
+META_DOC_ID = "26228555073499023"
+META_FRIENDLY_NAME = "CareersJobSearchInputDropdownDataQuery"
+_META_LSD_RE = re.compile(r'\["LSD",\[\],\{"token":"([^"]+)"\}', re.S)
+
+NETFLIX_SEARCH_URL = "https://explore.jobs.netflix.net/careers"
+NETFLIX_HEADERS_MIN = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "user-agent": "Mozilla/5.0",
+    "referer": NETFLIX_SEARCH_URL,
+}
+NETFLIX_QUERIES = ["data", "analytics", "machine learning", "science", "software engineer"]
+
+# Stripe's public Greenhouse job board API (no auth required)
+STRIPE_ENDPOINT = "https://boards-api.greenhouse.io/v1/boards/stripe/jobs"
+STRIPE_HEADERS_MIN = {
+    "accept": "application/json",
+    "user-agent": "Mozilla/5.0",
+    "referer": "https://stripe.com/jobs",
+}
+
+# LinkedIn public guest search API. See fetch_linkedin_positions() docstring for the
+# rate-limiting caveats — this is the most fragile of the six new sources.
+LINKEDIN_SEARCH_URL = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+LINKEDIN_HEADERS_MIN = {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "accept-language": "en-US,en;q=0.9",
+    "user-agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "referer": "https://www.linkedin.com/jobs/search/",
+}
+LINKEDIN_GEO_US = "103644278"  # LinkedIn geoId for "United States"
+LINKEDIN_QUERIES = [
+    "data analyst", "data scientist", "data engineer", "analytics engineer",
+    "business intelligence analyst", "machine learning engineer", "software engineer",
+]
+LINKEDIN_PAGE_DELAY = 3.0
+
+# The original 6 direct-company sources — these are what the scheduled main() pipeline
+# (GitHub Actions, 10-min cadence via cron-job.org) actually fetches. Kept separate from
+# SUPPORTED_SOURCES (all 12, below) so main()'s bootstrap/per-source-stats/log messages
+# don't reference the 6 new local-only sources it never touches — see the 2026-07-11
+# docs/STATE.md entry for why those 6 are dashboard/run_quick_company_scan()-only.
+MAIN_SUPPORTED_SOURCES = ["microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle"]
+
+# All 12 direct-company sources, used by run_quick_company_scan() (the dashboard's
+# "Run New Scan" button) and dashboard/app.py's role-based stats. main() intentionally
+# uses MAIN_SUPPORTED_SOURCES above instead of this list.
+SUPPORTED_SOURCES = [
+    "microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle",
+    "google", "apple", "meta", "netflix", "stripe", "linkedin",
+]
 
 
 # -----------------------------
@@ -1348,6 +1536,433 @@ def normalize_oracle_req(req: Dict[str, Any]) -> Dict[str, str]:
     if not url:
         url = "https://careers.oracle.com/jobs/#en/sites/jobsearch"
     return {"key": str(key), "company": "Oracle", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url)}
+
+
+# -----------------------------
+# Google, Apple, Meta, Netflix, Stripe, LinkedIn (direct company sources,
+# added 2026-07-11 for the "Run New Scan" dashboard feature — see docs/STATE.md).
+# Unlike Amazon/Goldman/IBM/Oracle above, these normalize_*_job() functions include a
+# "description" field when the source cheaply provides one (Google/Apple/Meta/Netflix/
+# Stripe). That text is used transiently by _extract_min_yoe() and
+# _clearance_or_no_sponsorship_reason() in main() — it is never persisted to jobs_db.json
+# (see save_to_jobs_db(), which builds its own explicit field list). LinkedIn's guest
+# search API doesn't expose description text without an extra per-job page fetch, which
+# would multiply request volume against a source that already blocks aggressively, so
+# LinkedIn postings carry an empty description (title/company/location-based filtering
+# still applies).
+# -----------------------------
+def google_key_from_job(job: Dict[str, Any]) -> str:
+    job_id = str(job.get("id") or job.get("job_id") or "")
+    if job_id:
+        return f"google:{job_id}"
+    return f"google:url:{job.get('apply_url', '')}"
+
+
+def _extract_google_jobs(html: str) -> List[Dict[str, Any]]:
+    m = _GOOGLE_DATA_RE.search(html)
+    if not m:
+        raise RuntimeError("Google jobs data block was not found in the page HTML.")
+    data = json.loads(m.group(1))
+    rows = data[0] if data and isinstance(data[0], list) else []
+    result: List[Dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, list) or len(row) < 3:
+            continue
+        posted = ""
+        posted_raw = row[12] if len(row) > 12 else None
+        if isinstance(posted_raw, list) and posted_raw and isinstance(posted_raw[0], (int, float)):
+            posted = datetime.fromtimestamp(float(posted_raw[0]), tz=timezone.utc).strftime("%Y-%m-%d")
+        result.append({
+            "id": str(row[0]),
+            "title": str(row[1]),
+            "apply_url": str(row[2]),
+            "responsibilities": row[3][1] if len(row) > 3 and isinstance(row[3], list) and len(row[3]) > 1 else "",
+            "qualifications": row[4][1] if len(row) > 4 and isinstance(row[4], list) and len(row[4]) > 1 else "",
+            "locations": [
+                {"display": str(loc[0])}
+                for loc in (row[9] if len(row) > 9 and isinstance(row[9], list) else [])
+                if isinstance(loc, list) and loc
+            ],
+            "description": row[10][1] if len(row) > 10 and isinstance(row[10], list) and len(row[10]) > 1 else "",
+            "preferred_qualifications": row[18][1] if len(row) > 18 and isinstance(row[18], list) and len(row[18]) > 1 else "",
+            "team": row[15][1] if len(row) > 15 and isinstance(row[15], list) and len(row[15]) > 1 else "",
+            "minimum_qualifications": row[19][1] if len(row) > 19 and isinstance(row[19], list) and len(row[19]) > 1 else "",
+            "date": posted,
+        })
+    return result
+
+
+def fetch_google_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_GOOGLE_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    sess = _get_session("main")
+    all_raw: List[Dict[str, Any]] = []
+    page = 1
+    while True:
+        params = dict(GOOGLE_BASE_PARAMS)
+        params["page"] = page
+        r = sess.get(GOOGLE_SEARCH_URL, params=params, headers=GOOGLE_HEADERS_MIN, timeout=DEFAULT_TIMEOUT)
+        r.raise_for_status()
+        jobs = _extract_google_jobs(r.text)
+        if not jobs:
+            break
+        all_raw.extend(jobs)
+        if len(all_raw) >= max_positions:
+            all_raw = all_raw[:max_positions]
+            break
+        if seen_keys is not None:
+            page_keys = {google_key_from_job(j) for j in jobs}
+            if page_keys and page_keys.issubset(seen_keys):
+                break
+        if len(jobs) < 20:
+            break
+        page += 1
+    return all_raw
+
+
+def normalize_google_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = google_key_from_job(job)
+    title = job.get("title") or "Unknown Title"
+    locs = job.get("locations") or []
+    if isinstance(locs, list) and locs:
+        first = locs[0] if isinstance(locs[0], dict) else {}
+        loc = first.get("display") or "United States"
+    else:
+        loc = "United States"
+    url = job.get("apply_url") or "https://careers.google.com/jobs/"
+    posted_str = job.get("date") or ""
+    description = " ".join(str(job.get(f, "") or "") for f in (
+        "description", "responsibilities", "minimum_qualifications", "preferred_qualifications", "qualifications", "team",
+    )).strip()
+    return {"key": str(key), "company": "Google", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# Apple
+# -----------------------------
+def apple_key_from_job(job: Dict[str, Any]) -> str:
+    job_id = str(job.get("positionId") or job.get("id") or "")
+    if job_id:
+        return f"apple:{job_id}"
+    return f"apple:url:{job.get('url', '')}"
+
+
+def fetch_apple_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_APPLE_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    sess = _get_session("main")
+    all_raw: List[Dict[str, Any]] = []
+    page = 1
+    while True:
+        r = sess.get(
+            APPLE_SEARCH_URL,
+            headers=APPLE_HEADERS_MIN,
+            params={"location": "united-states-USA", "sort": "newest", "page": page},
+            timeout=DEFAULT_TIMEOUT,
+        )
+        r.raise_for_status()
+        m = _APPLE_HYDRATION_RE.search(r.text)
+        if not m:
+            raise RuntimeError("Apple hydration data was not found in the search page.")
+        raw = m.group(1).encode("utf-8").decode("unicode_escape")
+        data = json.loads(raw)
+        search = ((data.get("loaderData") or {}).get("search") or {})
+        jobs = search.get("searchResults") or []
+        if not jobs:
+            break
+        all_raw.extend(jobs)
+        if len(all_raw) >= max_positions:
+            all_raw = all_raw[:max_positions]
+            break
+        total = int(search.get("totalRecords") or 0)
+        if len(all_raw) >= total:
+            break
+        page += 1
+    return all_raw
+
+
+def normalize_apple_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = apple_key_from_job(job)
+    title = job.get("postingTitle") or job.get("title") or "Unknown Title"
+    locs = job.get("locations") or []
+    if isinstance(locs, list) and locs:
+        first = locs[0] if isinstance(locs[0], dict) else {}
+        loc = first.get("name") or "United States"
+    else:
+        loc = "United States"
+    posted_str = job.get("postDateInGMT") or job.get("postDate") or ""
+    job_id = str(job.get("positionId") or "")
+    url = f"https://jobs.apple.com/en-us/details/{job_id}" if job_id else "https://jobs.apple.com/en-us/search"
+    description = " ".join(str(job.get(f, "") or "") for f in (
+        "description", "jobSummary", "roleDescription", "keyQualifications",
+        "minimumQualifications", "preferredQualifications", "educationExperience",
+    )).strip()
+    return {"key": str(key), "company": "Apple", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# Meta
+# -----------------------------
+def meta_key_from_job(job: Dict[str, Any]) -> str:
+    job_id = str(job.get("id") or "")
+    if job_id:
+        return f"meta:{job_id}"
+    return f"meta:url:{job.get('url', '')}"
+
+
+def fetch_meta_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_META_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    sess = _get_session("main")
+    landing = sess.get(META_JOBSEARCH_URL, headers={"user-agent": META_HEADERS_MIN["user-agent"]}, timeout=DEFAULT_TIMEOUT)
+    landing.raise_for_status()
+    m = _META_LSD_RE.search(landing.text)
+    if not m:
+        raise RuntimeError("Meta LSD token was not found on the job search page.")
+    lsd = m.group(1)
+
+    variables = {"search_input": {"q": "", "results_per_page": None}}
+    payload = {
+        "fb_api_caller_class": "RelayModern",
+        "fb_api_req_friendly_name": META_FRIENDLY_NAME,
+        "variables": json.dumps(variables, ensure_ascii=True),
+        "server_timestamps": "true",
+        "doc_id": META_DOC_ID,
+        "lsd": lsd,
+    }
+    headers = dict(META_HEADERS_MIN)
+    headers["x-fb-friendly-name"] = META_FRIENDLY_NAME
+    headers["x-fb-lsd"] = lsd
+
+    r = sess.post(META_ENDPOINT, headers=headers, data=payload, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    data = r.json()
+    jobs = (((data.get("data") or {}).get("job_search_with_featured_jobs") or {}).get("all_jobs") or [])
+    if max_positions and len(jobs) > max_positions:
+        jobs = jobs[:max_positions]
+    return jobs
+
+
+def normalize_meta_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = meta_key_from_job(job)
+    title = job.get("title") or "Unknown Title"
+    locations = job.get("locations") or []
+    if isinstance(locations, list) and locations:
+        loc = locations[0] if isinstance(locations[0], str) else str(locations[0])
+    else:
+        loc = "United States"
+    posted_str = job.get("post_date") or job.get("updated_time") or ""
+    job_id = str(job.get("id") or "")
+    url = f"https://www.metacareers.com/jobs/{job_id}" if job_id else "https://www.metacareers.com/jobs"
+    description = " ".join(str(job.get(f, "") or "") for f in (
+        "description", "team", "teams", "responsibilities", "minimum_qualifications", "preferred_qualifications", "summary",
+    )).strip()
+    return {"key": str(key), "company": "Meta", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# Netflix
+# -----------------------------
+def netflix_key_from_job(job: Dict[str, Any]) -> str:
+    job_id = str(job.get("id") or "")
+    if job_id:
+        return f"netflix:{job_id}"
+    return f"netflix:url:{job.get('external_link', '')}"
+
+
+def fetch_netflix_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_NETFLIX_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        raise RuntimeError("netflix source requires beautifulsoup4 (pip install beautifulsoup4)")
+
+    sess = _get_session("main")
+    all_raw: List[Dict[str, Any]] = []
+    seen_ids: Set[str] = set()
+
+    for query in NETFLIX_QUERIES:
+        r = sess.get(
+            NETFLIX_SEARCH_URL,
+            headers=NETFLIX_HEADERS_MIN,
+            params={"query": query, "location": "United States"},
+            timeout=DEFAULT_TIMEOUT,
+        )
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        code = soup.find("code", id="smartApplyData")
+        if code is None:
+            continue
+        try:
+            payload = json.loads(code.get_text())
+        except Exception:
+            continue
+        jobs = payload.get("positions") or []
+        for job in jobs:
+            jid = str(job.get("id") or "")
+            if jid and jid in seen_ids:
+                continue
+            if jid:
+                seen_ids.add(jid)
+            all_raw.append(job)
+            if len(all_raw) >= max_positions:
+                break
+        if len(all_raw) >= max_positions:
+            break
+    return all_raw
+
+
+def normalize_netflix_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = netflix_key_from_job(job)
+    title = job.get("text") or job.get("title") or job.get("name") or "Unknown Title"
+    loc_raw = job.get("location") or {}
+    if isinstance(loc_raw, dict):
+        loc = loc_raw.get("name") or "United States"
+    elif isinstance(loc_raw, list) and loc_raw:
+        first = loc_raw[0]
+        loc = first if isinstance(first, str) else (first.get("name") if isinstance(first, dict) else "United States")
+    else:
+        loc = str(loc_raw) if loc_raw else "United States"
+    posted_str = job.get("updated_at") or job.get("created_at") or ""
+    if isinstance(job.get("t_update"), (int, float)) and not posted_str:
+        posted_str = datetime.fromtimestamp(float(job["t_update"]), tz=timezone.utc).strftime("%Y-%m-%d")
+    elif isinstance(job.get("t_create"), (int, float)) and not posted_str:
+        posted_str = datetime.fromtimestamp(float(job["t_create"]), tz=timezone.utc).strftime("%Y-%m-%d")
+    job_id = str(job.get("id") or "")
+    external = job.get("external_link") or job.get("canonicalPositionUrl") or ""
+    url = external if external else (f"https://explore.jobs.netflix.net/careers/job/{job_id}" if job_id else NETFLIX_SEARCH_URL)
+    description = " ".join(str(job.get(f, "") or "") for f in (
+        "description", "job_description", "summary", "responsibilities", "qualifications",
+        "preferred_qualifications", "team", "business_unit", "department", "work_location_option",
+    )).strip()
+    return {"key": str(key), "company": "Netflix", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# Stripe (via Greenhouse board API)
+# -----------------------------
+def stripe_key_from_job(job: Dict[str, Any]) -> str:
+    job_id = str(job.get("id") or "")
+    if job_id:
+        return f"stripe:{job_id}"
+    return f"stripe:url:{job.get('absolute_url', '')}"
+
+
+def fetch_stripe_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_STRIPE_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    sess = _get_session("main")
+    r = sess.get(STRIPE_ENDPOINT, headers=STRIPE_HEADERS_MIN, params={"content": "true"}, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    data = r.json()
+    all_raw: List[Dict[str, Any]] = data.get("jobs") or []
+    if max_positions and len(all_raw) > max_positions:
+        all_raw = all_raw[:max_positions]
+    return all_raw
+
+
+def normalize_stripe_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = stripe_key_from_job(job)
+    title = job.get("title") or "Unknown Title"
+    loc_raw = job.get("location") or {}
+    loc = loc_raw.get("name") if isinstance(loc_raw, dict) else (str(loc_raw) if loc_raw else "United States")
+    if not loc:
+        loc = "United States"
+    posted_str = job.get("updated_at") or ""
+    url = job.get("absolute_url") or "https://stripe.com/jobs"
+    description = re.sub(r"<[^>]+>", " ", str(job.get("content") or job.get("description") or ""))
+    description = re.sub(r"\s+", " ", description).strip()
+    return {"key": str(key), "company": "Stripe", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# LinkedIn (public guest search API)
+# -----------------------------
+def _linkedin_parse_cards(html: str) -> List[Dict[str, Any]]:
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        raise RuntimeError("linkedin source requires beautifulsoup4 (pip install beautifulsoup4)")
+
+    soup = BeautifulSoup(html, "html.parser")
+    cards = soup.find_all("div", class_="base-card")
+    results: List[Dict[str, Any]] = []
+    for card in cards:
+        urn = card.get("data-entity-urn", "")
+        job_id = ""
+        m = re.search(r"jobPosting:(\d+)", urn)
+        if m:
+            job_id = m.group(1)
+        title_el = card.find(class_="base-search-card__title")
+        company_el = card.find(class_="base-search-card__subtitle")
+        location_el = card.find(class_="job-search-card__location")
+        date_el = card.find("time")
+        title = title_el.get_text(strip=True) if title_el else ""
+        company = company_el.get_text(strip=True) if company_el else "Unknown"
+        location = location_el.get_text(strip=True) if location_el else "United States"
+        posted = date_el.get("datetime", "") if date_el else (date_el.get_text(strip=True) if date_el else "")
+        if not title or not job_id:
+            continue
+        results.append({
+            "job_id": job_id, "title": title, "company": company, "location": location,
+            "posted": posted, "url": f"https://www.linkedin.com/jobs/view/{job_id}",
+        })
+    return results
+
+
+def fetch_linkedin_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_LINKEDIN_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    """LinkedIn's guest jobs-search API aggressively rate-limits automated requests and
+    frequently blocks cloud IPs (GitHub Actions runners) with 429/403. It works best run
+    locally — which is exactly how the dashboard's on-demand scan button invokes it. Caps
+    at MAX_LINKEDIN_JOBS_PER_RUN (default 60, much lower than the other sources) and stops
+    a query early on 429/403 rather than retrying."""
+    sess = _get_session("main")
+    all_raw: List[Dict[str, Any]] = []
+    seen_ids: Set[str] = set()
+
+    for query in LINKEDIN_QUERIES:
+        if len(all_raw) >= max_positions:
+            break
+        params = {
+            "keywords": query, "location": "United States", "geoId": LINKEDIN_GEO_US,
+            "f_TPR": "r86400", "start": 0, "count": 25,
+        }
+        try:
+            r = sess.get(LINKEDIN_SEARCH_URL, headers=LINKEDIN_HEADERS_MIN, params=params, timeout=DEFAULT_TIMEOUT)
+            if r.status_code in (429, 403, 999):
+                break
+            r.raise_for_status()
+            cards = _linkedin_parse_cards(r.text)
+            for card in cards:
+                jid = card["job_id"]
+                if jid not in seen_ids:
+                    seen_ids.add(jid)
+                    all_raw.append(card)
+        except Exception:
+            break
+        time.sleep(LINKEDIN_PAGE_DELAY)
+
+    if len(all_raw) > max_positions:
+        all_raw = all_raw[:max_positions]
+    return all_raw
+
+
+def normalize_linkedin_job(job: Dict[str, Any]) -> Dict[str, str]:
+    key = f"linkedin:{job.get('job_id', '')}"
+    return {
+        "key": key, "company": str(job.get("company", "Unknown")), "title": str(job.get("title", "Unknown Title")),
+        "location": str(job.get("location", "United States")), "posted": str(job.get("posted", "")),
+        "url": str(job.get("url", "https://www.linkedin.com/jobs/search/")), "description": "",
+    }
 
 
 # -----------------------------
@@ -2076,26 +2691,34 @@ _DASH_STRONG = [
     # originally included in this batch too, but that was an unchecked assumption — neither
     # matches Likhith's actual resumes (no mobile dev experience anywhere; and he explicitly
     # said he doesn't identify as a Full Stack Developer). Removed both groups after building
-    # a resume-grounded job-title shortlist with him. Frontend/backend engineer+developer
-    # variants stay, since backend is real (Hippocloud Node/Express) and frontend wasn't
-    # flagged for removal.
+    # a resume-grounded job-title shortlist with him.
+    # NOTE (2026-07-10, third pass): frontend engineer/developer variants also removed now —
+    # they were never added to STRONG_INCLUDE_PHRASES (the main pipeline gate), so a Frontend
+    # Engineer posting could never actually reach the dashboard in the first place; scoring it
+    # 90 here was dead code that just created a main-vs-dashboard mismatch, the same class of
+    # bug fixed repeatedly today. Also matches jboard_zm's classifier.py, which hard-excludes
+    # frontend-only titles. Backend engineer/developer variants stay — real (Hippocloud
+    # Node/Express) and explicitly allow-listed in STRONG_INCLUDE_PHRASES too.
     "software engineer", "software developer", "software development engineer",
-    "frontend engineer", "front-end engineer", "front end engineer",
     "backend engineer", "back-end engineer", "back end engineer",
     "backend developer", "back-end developer", "back end developer",
-    "frontend developer", "front-end developer", "front end developer",
-    "embedded engineer", "systems engineer",
+    "embedded engineer",
     "platform engineer", "cloud engineer", "infrastructure engineer", "network engineer",
+    # Added 2026-07-10 (second pass) — Python Engineer/Cloud Infrastructure Engineer,
+    # for parity with STRONG_INCLUDE_PHRASES and jboard_zm's classifier.py.
+    "python engineer", "python developer", "cloud infrastructure engineer",
+    # NOTE: bare "systems engineer" removed (third pass) — matched real defense/aerospace/
+    # propulsion titles in jobs_db.json (Propulsion Systems Engineer, Sentinel...Systems
+    # Engineer). See matching note in STRONG_INCLUDE_PHRASES above.
 ]
 
-_DASH_WEAK = [
-    "analytics", "intelligence", "insights", "tableau", "power bi",
-    "snowflake", "spark", "databricks", "warehouse", "pipeline",
-    "etl", "elt", "dbt", "airflow", "kafka", "flink", "hadoop",
-    "generative ai", "gen ai", "large language model", "llm", "nlp",
-    "ai analyst", "ai scientist", "business analyst",
-    "business intelligence analyst", "operations research",
-]
+# RETIRED 2026-07-10 (second pass) — was a specific-keyword loose-match fallback
+# (tech tools/buzzwords like "pipeline", "warehouse", "spark" appearing anywhere in a
+# title, regardless of role). Matches the same tightening made to WEAK_INCLUDE_PHRASES
+# above and to jboard_zm's classifier.py today: _DASH_STRONG is now a complete, strict
+# allow-list on its own. Left defined (empty) rather than deleted in case any other code
+# still imports the name.
+_DASH_WEAK: List[str] = []
 
 _DASH_HARD_EXCLUDES = [
     # SWE/cloud/infra/mobile phrases moved to _DASH_STRONG above (2026-07-10) — see comment there.
@@ -2174,6 +2797,12 @@ _DASH_BAD_TECH = [
 _DASH_H1B_POS = ["visa sponsorship", "sponsor h1b", "h1b sponsorship", "will sponsor", "open to sponsorship"]
 _DASH_H1B_NEG = ["no sponsorship", "no visa", "not sponsor", "cannot sponsor",
                   "must be authorized", "us citizen only", "citizenship required"]
+# Added 2026-07-10 — Likhith's explicit request: "look for companies/startups that are
+# looking for opt students right now." Positive-only signal, same as H1B_POS — most JDs
+# simply don't mention OPT/CPT either way, so absence is never treated as negative.
+_DASH_OPT_POS = ["opt student", "opt students", "opt welcome", "opt friendly", "opt eligible",
+                  "cpt student", "cpt students", "cpt eligible", "stem opt", "f-1 opt",
+                  "opt extension", "will consider opt"]
 _DASH_ROLE_MAP = {
     "ml_engineer": ["machine learning engineer", "ml engineer", "ai engineer", "applied scientist",
                     "research engineer", "mlops", "model engineer", "llm engineer", "nlp engineer",
@@ -2186,7 +2815,12 @@ _DASH_ROLE_MAP = {
     "data_analyst": ["data analyst", "analytics analyst", "product analyst", "bi analyst",
                      "business intelligence", "insights analyst", "reporting analyst",
                      "growth analyst", "marketing analyst", "financial analyst"],
-    "swe": ["software engineer", "software developer", "backend engineer", "sde"],
+    "swe": ["software engineer", "software developer", "backend engineer", "sde",
+            "python engineer", "python developer"],
+    # Added 2026-07-10 (second pass) — for parity with jboard_zm's role_category()
+    # "Cloud / Platform Engineer" bucket, which didn't have an equivalent here before.
+    "cloud_engineer": ["cloud engineer", "cloud infrastructure engineer", "platform engineer",
+                        "infrastructure engineer"],  # bare "systems engineer" deliberately excluded, see note above
 }
 
 JOBS_DB_PATH = os.path.join("state", "jobs_db.json")
@@ -2281,6 +2915,53 @@ def _extract_min_yoe(text: str) -> Optional[int]:
     return max(candidates) if candidates else None
 
 
+# Ported from jboard_zm's evaluation.py (2026-07-10, Likhith's explicit call: "exclude all
+# the jobs that want US security clearance and which doesn't sponser h1b visa"). Root cause
+# this closes: classify_title()'s CLEARANCE-adjacent phrases in HARD_EXCLUDE_PHRASES only ever
+# checked the TITLE, and clearance/no-sponsorship almost never appear there — they're stated in
+# the JD body. _classify_for_dashboard already computed clearance_required/h1b_status from full
+# text (title+company+location+description), but those fields were purely informational/dashboard
+# filter-only — they never stopped a job from being emailed or saved. This is a real gap, exactly
+# like the ms-job-watcher/jboard_zm dashboard-vs-pipeline classifier mismatches fixed earlier
+# today. Only has an effect where description text exists (Greenhouse + Lever today, same
+# limitation as the YOE filter above) — no-op elsewhere until those sources get description
+# support. Explicit "no sponsorship" language blocks; sponsorship being simply UNSTATED does not
+# (matches the H1B-filter-always-showing-0 lesson from earlier this session — don't over-block on
+# absence of information).
+_NO_SPONSORSHIP_RE = [
+    re.compile(r"\bno\s+(?:visa\s+)?sponsorship\b", re.IGNORECASE),
+    re.compile(r"\bunable\s+to\s+sponsor\b", re.IGNORECASE),
+    re.compile(r"\bwill\s+not\s+sponsor\b", re.IGNORECASE),
+    re.compile(r"\bcannot\s+sponsor\b", re.IGNORECASE),
+    re.compile(r"\bdoes\s+not\s+sponsor\b", re.IGNORECASE),
+    re.compile(r"\bdo\s+not\s+sponsor\b", re.IGNORECASE),
+    re.compile(r"\bwithout\s+(?:the\s+need\s+for\s+)?(?:future\s+)?(?:visa\s+)?sponsorship\b", re.IGNORECASE),
+    re.compile(r"\bnot\s+(?:provide|offer)\s+(?:visa\s+)?sponsorship\b", re.IGNORECASE),
+    re.compile(r"\bmust\s+be\s+authorized\s+to\s+work.{0,60}without\s+(?:the\s+need\s+for\s+)?(?:visa\s+)?sponsorship\b", re.IGNORECASE),
+    re.compile(r"\bno\s+h-?1b\s+sponsorship\b", re.IGNORECASE),
+]
+
+
+def _clearance_or_no_sponsorship_reason(title: str, company: str, location: str, description: str) -> str:
+    """Return a short reason string if the combined title+company+location+description
+    text shows a clearance/citizenship requirement or an EXPLICIT no-sponsorship
+    statement; empty string if neither is found. Used to hard-exclude such postings
+    from new_yes/new_maybe before they're emailed or saved — see comment above."""
+    text = f"{title} {company} {location} {description}".lower()
+    if not text.strip():
+        return ""
+    for phrase in _DASH_CLEARANCE_PHRASES:
+        if phrase in text:
+            return f"clearance/citizenship requirement ({phrase})"
+    for pat in _DASH_CLEARANCE_RE:
+        if re.search(pat, text):
+            return "clearance/citizenship requirement"
+    for pat in _NO_SPONSORSHIP_RE:
+        if pat.search(text):
+            return "explicit no-sponsorship statement"
+    return ""
+
+
 def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
     """Full classification dict for a job entry saved to jobs_db.json.
     `description` (when present — currently Greenhouse and Lever only; see docs/STATE.md
@@ -2304,6 +2985,8 @@ def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
     elif any(k in text for k in _DASH_H1B_NEG):
         h1b = "no"
 
+    opt_friendly = any(k in text for k in _DASH_OPT_POS)
+
     role_category = "other"
     tl = title.lower()
     for cat, phrases in _DASH_ROLE_MAP.items():
@@ -2322,6 +3005,7 @@ def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
         "exp_level": exp_level,
         "clearance_required": clearance,
         "h1b_status": h1b,
+        "opt_friendly": opt_friendly,
         "good_tech": good_tech,
         "bad_tech": bad_tech,
     }
@@ -2427,6 +3111,183 @@ def safe_call(label: str, fn):
         return None, f"{label}: {type(e).__name__}: {e}"
 
 
+def run_quick_company_scan(no_email: bool = True, dry_run: bool = False) -> Dict[str, Any]:
+    """Fetch all 12 direct-company sources (Microsoft/NVIDIA/Amazon/Goldman Sachs/IBM/
+    Oracle/Google/Apple/Meta/Netflix/Stripe/LinkedIn) right now, classify/filter them
+    exactly like the scheduled main() run (title allow-list, US-location, YOE cap,
+    clearance/no-sponsorship hard block), persist newly-found jobs to state/seen.json +
+    state/jobs_db.json, and return a summary dict instead of only printing to stdout.
+
+    Built 2026-07-11 for the dashboard's on-demand "Run New Scan" button — importable and
+    callable directly (no argparse/CLI involved), so dashboard/app.py can call it from a
+    background thread. Deliberately kept as its own function rather than refactoring
+    main() to share this logic: main() is the live, scheduled GitHub Actions pipeline, and
+    duplicating ~120 lines here is a smaller risk than touching the proven production path
+    (per this project's "pause for confirmation before making changes" rule — a shared-code
+    refactor of main() would need closer review than a session like this allows).
+
+    no_email defaults to True: a dashboard-triggered scan is for browsing results in the
+    UI, not for firing off an email digest every time someone clicks the button.
+    """
+    t0 = time.time()
+    seen = load_seen_ids(STATE_PATH)
+
+    normalized: List[Dict[str, str]] = []
+    errors: List[str] = []
+    src_norm: Dict[str, List[Dict[str, str]]] = {}
+    src_errors: Dict[str, str] = {}
+
+    _fetchers = [
+        ("microsoft", "Microsoft fetch", lambda: fetch_eightfold_positions("microsoft", seen_keys=seen),
+         lambda ps: [normalize_eightfold_position("microsoft", p) for p in (ps or [])]),
+        ("nvidia", "NVIDIA fetch", lambda: fetch_eightfold_positions("nvidia", seen_keys=seen),
+         lambda ps: [normalize_eightfold_position("nvidia", p) for p in (ps or [])]),
+        ("amazon", "Amazon fetch", lambda: fetch_amazon_positions(seen_keys=seen),
+         lambda ps: [normalize_amazon_job(j) for j in (ps or [])]),
+        ("goldman_sachs", "Goldman Sachs fetch", lambda: fetch_goldman_sachs(seen_keys=seen),
+         lambda ps: [normalize_goldman_item(i) for i in (ps or [])]),
+        ("ibm", "IBM fetch", lambda: fetch_ibm(seen_keys=seen),
+         lambda ps: [normalize_ibm_hit(h) for h in (ps or [])]),
+        ("oracle", "Oracle fetch", lambda: fetch_oracle(seen_keys=seen),
+         lambda ps: [normalize_oracle_req(rq) for rq in (ps or [])]),
+        ("google", "Google fetch", lambda: fetch_google_positions(seen_keys=seen),
+         lambda ps: [normalize_google_job(j) for j in (ps or [])]),
+        ("apple", "Apple fetch", lambda: fetch_apple_positions(seen_keys=seen),
+         lambda ps: [normalize_apple_job(j) for j in (ps or [])]),
+        ("meta", "Meta fetch", lambda: fetch_meta_positions(seen_keys=seen),
+         lambda ps: [normalize_meta_job(j) for j in (ps or [])]),
+        ("netflix", "Netflix fetch", lambda: fetch_netflix_positions(seen_keys=seen),
+         lambda ps: [normalize_netflix_job(j) for j in (ps or [])]),
+        ("stripe", "Stripe fetch", lambda: fetch_stripe_positions(seen_keys=seen),
+         lambda ps: [normalize_stripe_job(j) for j in (ps or [])]),
+        ("linkedin", "LinkedIn fetch", lambda: fetch_linkedin_positions(seen_keys=seen),
+         lambda ps: [normalize_linkedin_job(j) for j in (ps or [])]),
+    ]
+
+    for _src, _label, _fetch_fn, _norm_fn in _fetchers:
+        _positions, _err = safe_call(_label, _fetch_fn)
+        if _err:
+            errors.append(_err)
+            src_errors[_src] = _err
+        else:
+            _norm = _norm_fn(_positions)
+            normalized.extend(_norm)
+            src_norm[_src] = _norm
+
+    yes_matched = [j for j in normalized if classify_title(j.get("title", "")) == "yes"]
+    maybe_matched = [j for j in normalized if classify_title(j.get("title", "")) == "maybe"]
+    matched = yes_matched + maybe_matched
+
+    _per_source: Dict[str, Dict[str, Any]] = {}
+    for _src in SUPPORTED_SOURCES:
+        _jobs = src_norm.get(_src, [])
+        _t_ok = [j for j in _jobs if title_matches(j.get("title", ""))]
+        _l_ok = [j for j in _t_ok if is_us_location(j.get("location", ""))]
+        _sr_excl = [j for j in _jobs if classify_title(j.get("title", "")) == "senior"]
+        _entry: Dict[str, Any] = {
+            "fetched": len(_jobs), "title_ok": len(_t_ok), "loc_ok": len(_l_ok),
+            "new": 0, "emailed": 0, "senior_excluded": len(_sr_excl),
+        }
+        if _src in src_errors:
+            _entry["error"] = src_errors[_src]
+        _per_source[_src] = _entry
+
+    latest_keys = {j["key"] for j in matched if j.get("key")}
+
+    bootstrap_sources: Set[str] = set()
+    for _src in SUPPORTED_SOURCES:
+        if not any(k.startswith(f"{_src}:") for k in seen):
+            bootstrap_sources.add(_src)
+
+    if bootstrap_sources:
+        for _src in bootstrap_sources:
+            src_keys = {k for k in latest_keys if k.startswith(f"{_src}:")}
+            seen |= src_keys
+        if not dry_run:
+            save_seen_ids(STATE_PATH, seen)
+
+    if not os.path.exists(STATE_PATH):
+        if not dry_run:
+            save_seen_ids(STATE_PATH, latest_keys)
+        _dur = round(time.time() - t0, 1)
+        return {
+            "ok": True, "bootstrap": True, "new_yes": 0, "new_maybe": 0,
+            "per_source": _per_source, "errors": errors, "duration_s": _dur, "emailed": False,
+            "jobs": [], "message": f"Bootstrap run — saved {len(latest_keys)} seen id(s), no jobs evaluated yet.",
+        }
+
+    new_keys = latest_keys - seen
+    for _src in SUPPORTED_SOURCES:
+        _per_source[_src]["new"] = sum(1 for k in new_keys if k.startswith(_src + ":"))
+
+    new_yes = [j for j in yes_matched if j.get("key") in new_keys]
+    new_maybe = [j for j in maybe_matched if j.get("key") in new_keys]
+
+    _yoe_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _yoe = _extract_min_yoe(_j.get("description", ""))
+            if _yoe is not None and _yoe > MAX_YOE_ALLOWED:
+                _yoe_excluded_this_run += 1
+                _bsrc = (_j.get("key") or "").split(":")[0]
+                if _bsrc in _per_source:
+                    _per_source[_bsrc]["yoe_excluded"] = _per_source[_bsrc].get("yoe_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+
+    _clearance_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _reason = _clearance_or_no_sponsorship_reason(
+                _j.get("title", ""), _j.get("company", ""), _j.get("location", ""), _j.get("description", "")
+            )
+            if _reason:
+                _clearance_excluded_this_run += 1
+                _bsrc = (_j.get("key") or "").split(":")[0]
+                if _bsrc in _per_source:
+                    _per_source[_bsrc]["clearance_excluded"] = _per_source[_bsrc].get("clearance_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+
+    emailed = False
+    if new_yes or new_maybe:
+        if not no_email:
+            send_email_digest(new_yes, new_maybe, subject_prefix="[Job Alerts - Quick Scan]")
+            emailed = True
+            for _j in new_yes + new_maybe:
+                _bsrc = (_j.get("key") or "").split(":")[0]
+                if _bsrc in _per_source:
+                    _per_source[_bsrc]["emailed"] += 1
+        if not dry_run:
+            save_to_jobs_db(new_yes, new_maybe)
+
+    if not dry_run:
+        seen |= latest_keys
+        save_seen_ids(STATE_PATH, seen)
+
+    _ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    _dur = round(time.time() - t0, 1)
+    if not dry_run:
+        _append_run_log({"ts": _ts, "mode": "quick_scan", "per_source": _per_source, "duration_s": _dur, "cursor": None})
+
+    _out_fields = ("key", "title", "company", "location", "posted", "url")
+    _jobs_out = (
+        [{**{k: j.get(k, "") for k in _out_fields}, "bucket": "yes"} for j in new_yes]
+        + [{**{k: j.get(k, "") for k in _out_fields}, "bucket": "maybe"} for j in new_maybe]
+    )
+
+    return {
+        "ok": True, "bootstrap": False, "ts": _ts, "duration_s": _dur,
+        "new_yes": len(new_yes), "new_maybe": len(new_maybe),
+        "yoe_excluded": _yoe_excluded_this_run, "clearance_excluded": _clearance_excluded_this_run,
+        "per_source": _per_source, "errors": errors, "emailed": emailed, "jobs": _jobs_out,
+    }
+
+
 def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False) -> None:
     t0 = time.time()
     seen = load_seen_ids(STATE_PATH)
@@ -2496,12 +3357,21 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
         normalized.extend(_oracle_norm)
         src_norm["oracle"] = _oracle_norm
 
+    # NOTE: Google/Apple/Meta/Netflix/Stripe/LinkedIn are deliberately NOT fetched here.
+    # main() is the live, scheduled GitHub Actions pipeline (10-min cadence via
+    # cron-job.org) — those 6 sources are reverse-engineered/undocumented scrapers, and
+    # LinkedIn explicitly blocks/rate-limits cloud IPs (see fetch_linkedin_positions'
+    # docstring: "works best run locally"). Per Likhith's confirmed choice ("Run locally,
+    # right from the dashboard"), all 12 sources are fetched together only by
+    # run_quick_company_scan() below, which the dashboard's "Run New Scan" button calls —
+    # not by this scheduled function. See docs/STATE.md 2026-07-11 entry.
+
     yes_matched = [j for j in normalized if classify_title(j.get("title", "")) == "yes"]
     maybe_matched = [j for j in normalized if classify_title(j.get("title", "")) == "maybe"]
     matched = yes_matched + maybe_matched
 
     _per_source: Dict[str, Dict[str, Any]] = {}
-    for _src in SUPPORTED_SOURCES:
+    for _src in MAIN_SUPPORTED_SOURCES:
         _jobs = src_norm.get(_src, [])
         _t_ok = [j for j in _jobs if title_matches(j.get("title", ""))]
         _l_ok = [j for j in _t_ok if is_us_location(j.get("location", ""))]
@@ -2533,7 +3403,7 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
     latest_keys = {j["key"] for j in matched if j.get("key")}
 
     bootstrap_sources: Set[str] = set()
-    for src in SUPPORTED_SOURCES:
+    for src in MAIN_SUPPORTED_SOURCES:
         if not any(k.startswith(f"{src}:") for k in seen):
             bootstrap_sources.add(src)
 
@@ -2557,14 +3427,15 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
         return
 
     new_keys = latest_keys - seen
-    for _src in SUPPORTED_SOURCES:
+    for _src in MAIN_SUPPORTED_SOURCES:
         _per_source[_src]["new"] = sum(1 for k in new_keys if k.startswith(_src + ":"))
 
     new_yes = [j for j in yes_matched if j.get("key") in new_keys]
     new_maybe = [j for j in maybe_matched if j.get("key") in new_keys]
 
-    # YOE filter — see MAX_YOE_ALLOWED / _extract_min_yoe. No-op today: none of the main-mode
-    # sources (Microsoft/NVIDIA/Amazon/Goldman Sachs/IBM/Oracle) carry description text yet.
+    # YOE filter — see MAX_YOE_ALLOWED / _extract_min_yoe. Effective for Google/Apple/Meta/
+    # Netflix/Stripe (description text available); still a no-op for Microsoft/NVIDIA/Amazon/
+    # Goldman Sachs/IBM/Oracle/LinkedIn (no description text from those endpoints).
     _yoe_excluded_this_run = 0
     for _bucket in (new_yes, new_maybe):
         _kept = []
@@ -2580,6 +3451,26 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
         _bucket[:] = _kept
     if _yoe_excluded_this_run:
         print(f"[YOE] Excluded {_yoe_excluded_this_run} job(s) requiring > {MAX_YOE_ALLOWED} years experience.")
+
+    # Clearance / no-sponsorship filter — see _clearance_or_no_sponsorship_reason above.
+    # Same description-text limitation as the YOE filter (no-op on sources without description).
+    _clearance_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _reason = _clearance_or_no_sponsorship_reason(
+                _j.get("title", ""), _j.get("company", ""), _j.get("location", ""), _j.get("description", "")
+            )
+            if _reason:
+                _clearance_excluded_this_run += 1
+                _src = (_j.get("key") or "").split(":")[0]
+                if _src in _per_source:
+                    _per_source[_src]["clearance_excluded"] = _per_source[_src].get("clearance_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+    if _clearance_excluded_this_run:
+        print(f"[CLEARANCE] Excluded {_clearance_excluded_this_run} job(s) requiring clearance/citizenship or explicitly not sponsoring.")
 
     if new_yes or new_maybe:
         if no_email:
@@ -2753,6 +3644,26 @@ if __name__ == "__main__":
                 _bucket[:] = _kept
             if _yoe_excluded_this_run:
                 print(f"[YOE] Excluded {_yoe_excluded_this_run} job(s) requiring > {MAX_YOE_ALLOWED} years experience.")
+
+            # Clearance / no-sponsorship filter — see _clearance_or_no_sponsorship_reason above.
+            # Same description-text limitation as the YOE filter.
+            _clearance_excluded_this_run = 0
+            for _bucket in (new_yes, new_maybe):
+                _kept = []
+                for _j in _bucket:
+                    _reason = _clearance_or_no_sponsorship_reason(
+                        _j.get("title", ""), _j.get("company", ""), _j.get("location", ""), _j.get("description", "")
+                    )
+                    if _reason:
+                        _clearance_excluded_this_run += 1
+                        _plat = (_j.get("key") or "").split(":")[0]
+                        if _plat in per_platform:
+                            per_platform[_plat]["clearance_excluded"] = per_platform[_plat].get("clearance_excluded", 0) + 1
+                    else:
+                        _kept.append(_j)
+                _bucket[:] = _kept
+            if _clearance_excluded_this_run:
+                print(f"[CLEARANCE] Excluded {_clearance_excluded_this_run} job(s) requiring clearance/citizenship or explicitly not sponsoring.")
 
             if new_yes or new_maybe:
                 if args.no_email:

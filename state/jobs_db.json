@@ -16,7 +16,8 @@
     "good_tech": [],
     "bad_tech": [
       "embedded"
-    ]
+    ],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:andurilindustries:5112335007",
@@ -33,7 +34,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:andurilindustries:5184726007",
@@ -50,7 +52,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:allstate:Allstate_Careers:req:R32514",
@@ -67,7 +70,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:amat:External:req:R2622927",
@@ -84,7 +88,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:chime:8607195002",
@@ -101,7 +106,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244177",
@@ -118,7 +124,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244172",
@@ -135,7 +142,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244165",
@@ -152,7 +160,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244150",
@@ -169,7 +178,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:caci:External:req:328891",
@@ -186,7 +196,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:caci:External:req:328793",
@@ -198,233 +209,13 @@
     "date_found": "2026-07-11T00:02:30.998268+00:00",
     "bucket": "yes",
     "score": 90,
-    "role_category": "other",
+    "role_category": "cloud_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:anthropic:5316565008",
-    "title": "Platform Security Engineering, Auditor",
-    "company": "Anthropic",
-    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5316565008",
-    "posted": "2026-07-10T16:04:07-04:00",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:anthropic:5320469008",
-    "title": "Red Team Engineer, Safeguards",
-    "company": "Anthropic",
-    "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5320469008",
-    "posted": "2026-07-10T18:50:56-04:00",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:andurilindustries:5179714007",
-    "title": "Systems Engineer, C2 Networking - Edge Compute and Communications",
-    "company": "andurilindustries",
-    "location": "Costa Mesa, California, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5179714007?gh_jid=5179714007",
-    "posted": "2026-07-10T15:00:10-04:00",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:amat:External:req:R2614929",
-    "title": "Quality Control / CIP Engineer",
-    "company": "Applied Materials",
-    "location": "Chandler,AZ",
-    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ChandlerAZ/Quality-Control---CIP-Engineer_R2614929",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518653",
-    "title": "Configuration Management & Integration Engineer (Associate or Experienced)",
-    "company": "Boeing",
-    "location": "USA - Oklahoma City, OK",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Configuration-Management---Integration-Engineer--Associate-or-Experienced-_JR2026518653-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026517323",
-    "title": "Propulsion Systems Engineer (Associate or Experienced)",
-    "company": "Boeing",
-    "location": "USA - El Segundo, CA",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Propulsion-Systems-Engineer--Associate-or-Experienced-_JR2026517323-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518500",
-    "title": "Experienced Software/Hardware Estimator",
-    "company": "Boeing",
-    "location": "USA - Everett, WA",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Everett-WA/Experienced-Software-Hardware-Estimator_JR2026518500",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026516713",
-    "title": "X-37B Product Review Engineer (Liaison Engineering)",
-    "company": "Boeing",
-    "location": "USA - Kennedy Space Center, FL",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Kennedy-Space-Center-FL/X-37B-Product-Review-Engineer--Liaison-Engineering-_JR2026516713-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026517733",
-    "title": "Structure & Payload Design Engineer (Associate) (Payload Systems Design)",
-    "company": "Boeing",
-    "location": "USA - San Diego, CA",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---San-Diego-CA/Structure---Payload-Design-Engineer--Associate---Payload-Systems-Design-_JR2026517733-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518583",
-    "title": "Cyber A&A Engineer",
-    "company": "Boeing",
-    "location": "USA - Colorado Springs, CO",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Cyber-A-A-Engineer_JR2026518583-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518572",
-    "title": "Network Security Engineer",
-    "company": "Boeing",
-    "location": "USA - Colorado Springs, CO",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Network-Security-Engineer_JR2026518572-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:caci:External:req:328799",
-    "title": "Information Assurance (IA) Cyber Security Engineer",
-    "company": "CACI International",
-    "location": "Hampton, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Hampton-VA-US/Information-Assurance--IA--Cyber-Security-Engineer_328799",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:caci:External:req:328934",
-    "title": "Cybersecurity Engineer - JIATF",
-    "company": "CACI International",
-    "location": "Alexandria, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Alexandria-VA-US/Cybersecurity-Engineer---JIATF_328934",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:caci:External:req:328834",
@@ -441,24 +232,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:caci:External:req:328572",
-    "title": "Information Systems Security Engineer (ISSE)",
-    "company": "CACI International",
-    "location": "Omaha, NE, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Omaha-NE-US/Information-Systems-Security-Engineer--ISSE-_328572",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:gleanwork:4713145005",
@@ -475,7 +250,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:gleanwork:4713977005",
@@ -492,7 +268,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:leidos:External:req:R-00187132",
@@ -509,7 +286,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:leidos:External:req:R-00187108",
@@ -526,7 +304,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:leidos:External:req:R-00187097",
@@ -543,194 +322,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:gusto:8035802",
-    "title": "Business Money Engineering",
-    "company": "Gusto",
-    "location": "San Francisco, CA;New York, NY;Ontario, CAN - Remote;Toronto, Ontario, CAN - Remote;United States - Remote",
-    "url": "https://job-boards.greenhouse.io/gusto/jobs/8035802",
-    "posted": "2026-07-10T19:40:42-04:00",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:disney:disneycareer:req:10153844",
-    "title": "Manager, Product & Engineering",
-    "company": "Disney",
-    "location": "Orlando, FL, USA",
-    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Manager--Product---Engineering_10153844",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:equifax:External:req:J00177676",
-    "title": "Mulesoft Developer",
-    "company": "Equifax",
-    "location": "USA - Missouri - St. Louis - Lackland",
-    "url": "https://equifax.wd5.myworkdayjobs.com/en-US/External/job/USA---Missouri---St-Louis---Lackland/Mulesoft-Developer_J00177676",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:instacart:8056109",
-    "title": "Engineering Manager, Order Experience",
-    "company": "Instacart",
-    "location": "United States - Remote",
-    "url": "https://instacart.careers/job/?gh_jid=8056109",
-    "posted": "2026-07-10T16:56:18-04:00",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:gdit:External_Career_Site:req:RQ224163",
-    "title": "SPOK System Engineer",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA MD Bethesda",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-MD-Bethesda/SPOK-System-Engineer_RQ224163",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:intel:External:req:JR0285464",
-    "title": "Wafer Sort Module Engineer",
-    "company": "Intel",
-    "location": "US, New Mexico, Albuquerque",
-    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-New-Mexico-Albuquerque/Wafer-Sort-Module-Engineer_JR0285464",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:intel:External:req:JR0285601",
-    "title": "Packaging Module Development Engineer",
-    "company": "Intel",
-    "location": "US, Arizona, Phoenix",
-    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Arizona-Phoenix/Packaging-Module-Development-Engineer_JR0285601",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:intel:External:req:JR0285537",
-    "title": "IP Design Verification Engineer",
-    "company": "Intel",
-    "location": "US, California, Folsom",
-    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-California-Folsom/IP-Design-Verification-Engineer_JR0285537",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:jll:jllcareers:req:REQ521548",
-    "title": "Critical Environment Operating Engineer",
-    "company": "JLL",
-    "location": "Tempe, AZ",
-    "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Tempe-AZ/Critical-Environment-Operating-Engineer_REQ521548-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:leidos:External:req:R-00187124",
-    "title": "Acoustic Engineer (NASA HHPC)",
-    "company": "Leidos",
-    "location": "Houston, TX",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Houston-TX/Acoustic-Engineer--NASA-HHPC-_R-00187124",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:leidos:External:req:R-00186961",
-    "title": "Application Security Engineer",
-    "company": "Leidos",
-    "location": "Ashburn, VA",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Ashburn-VA/Application-Security-Engineer_R-00186961-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:32:51.463236+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:matx:5326322008",
@@ -747,7 +340,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:redventures:8051205",
@@ -764,7 +358,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:redventures:8052804",
@@ -781,7 +376,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "greenhouse:reddit:7922994",
@@ -798,7 +394,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239890",
@@ -815,7 +412,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2021179",
@@ -832,128 +430,8 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:redventures:8051110",
-    "title": "Engineering Manager | Bankrate",
-    "company": "Red Ventures",
-    "location": "United States",
-    "url": "https://www.redventures.com/careers/positions/open?gh_jid=8051110",
-    "posted": "2026-07-10T14:41:52-04:00",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239952",
-    "title": "Systems Engineer - Level 3/4",
-    "company": "Northrop Grumman",
-    "location": "United States-Colorado-Colorado Springs",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Systems-Engineer---level-3-4_R10239952",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239946",
-    "title": "Modeling and Simulation Systems Engineer - Level 3/4",
-    "company": "Northrop Grumman",
-    "location": "United States-Colorado-Colorado Springs",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Modeling-and-Simulation-Systems-Engineer---Level-3-4_R10239946",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239861",
-    "title": "Manager Engineering 3",
-    "company": "Northrop Grumman",
-    "location": "United States-Florida-Melbourne",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Manager-Engineering-3_R10239861",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10238541",
-    "title": "Sentinel - DAPS Associate / Systems Engineer - 14374",
-    "company": "Northrop Grumman",
-    "location": "United States-Utah-Roy",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/Sentinel---DAPS-Associate---Systems-Engineer---14374_R10238541",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:spacex:8629130002",
-    "title": "Electrical Design Engineer (Falcon & Dragon Avionics)",
-    "company": "SpaceX",
-    "location": "Hawthorne, CA",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8629130002?gh_jid=8629130002",
-    "posted": "2026-07-10T20:43:29-04:00",
-    "date_found": "2026-07-11T01:32:16.103303+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:spacex:8627675002",
-    "title": "Propulsion Engineer, Chamber and Nozzle (Raptor) ",
-    "company": "SpaceX",
-    "location": "Hawthorne, CA",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8627675002?gh_jid=8627675002",
-    "posted": "2026-07-10T20:21:18-04:00",
-    "date_found": "2026-07-11T01:32:16.103303+00:00",
-    "bucket": "no",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4543-1",
@@ -965,12 +443,13 @@
     "date_found": "2026-07-11T01:32:16.103303+00:00",
     "bucket": "yes",
     "score": 90,
-    "role_category": "other",
+    "role_category": "cloud_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4541",
@@ -982,12 +461,13 @@
     "date_found": "2026-07-11T01:32:16.103303+00:00",
     "bucket": "yes",
     "score": 90,
-    "role_category": "other",
+    "role_category": "cloud_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   },
   {
     "key": "amazon:30b839c4-b6b3-41dd-833b-5b419d409ecd",
@@ -1004,6 +484,7 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "good_tech": [],
-    "bad_tech": []
+    "bad_tech": [],
+    "opt_friendly": false
   }
 ]
