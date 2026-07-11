@@ -2803,6 +2803,106 @@ _DASH_H1B_NEG = ["no sponsorship", "no visa", "not sponsor", "cannot sponsor",
 _DASH_OPT_POS = ["opt student", "opt students", "opt welcome", "opt friendly", "opt eligible",
                   "cpt student", "cpt students", "cpt eligible", "stem opt", "f-1 opt",
                   "opt extension", "will consider opt"]
+
+# Added 2026-07-11 — Likhith's explicit request, after asking how the H1B filter could show
+# 0 results (root cause: _DASH_H1B_POS/_NEG only fire on explicit JD text, which almost no
+# posting contains — "unknown" swallows nearly everything). This is a SEPARATE signal: past
+# H-1B filing VOLUME by company, not anything read from the job posting text. Matched against
+# `company` by substring (case-insensitive) against real employer names/aliases.
+#
+# Source: DOL LCA (Labor Condition Application) filings, FY2024-2026, aggregated by
+# h1bdatahub.com (https://h1bdatahub.com/blog/top-50-h1b-sponsoring-companies-salaries-2026,
+# published 2026-02-15) — a third-party site built on public Department of Labor data, not an
+# official USCIS/DOL ranking. Treat counts as directional, not authoritative.
+#
+# IMPORTANT CAVEAT (2026-07-11 policy landscape, see docs/STATE.md for detail): this reflects
+# how much a company sponsored H-1B historically — it is NOT a guarantee they will sponsor at
+# the same rate this cycle. As of writing: a $100,000 supplemental fee on new cap-subject H-1B
+# petitions (for beneficiaries outside the US) is tied up in dueling court rulings (struck down
+# by a MA district court 2026-06-08, stayed pending appeal 2026-06-12, upheld in a separate DC
+# court case) — legally unsettled, likely headed to the Supreme Court. Separately, a
+# wage-weighted lottery rule (effective 2026-02-27) now favors higher-wage petitions, which
+# structurally disadvantages entry-level/new-grad applicants relative to before. The $100K fee
+# is reported to mostly target petitions filed from outside the US — most inside-the-US
+# change-of-status filings (e.g. F-1 OPT/STEM-OPT -> H-1B) are exempt, which is the more
+# relevant path for Likhith specifically — but sponsorship willingness under the new
+# wage/lottery rules is still genuinely uncertain even for historically heavy sponsors.
+H1B_SPONSOR_HISTORY: List[Tuple[str, str, int]] = [
+    # (company name/alias substring to match against job "company" field, tier label, ~LCAs/yr)
+    ("amazon", "Tier 1 sponsor", 15524),
+    ("cognizant", "Tier 1 sponsor", 8688),
+    ("tata consultancy", "Tier 1 sponsor", 8120),
+    ("tcs", "Tier 1 sponsor", 8120),
+    ("microsoft", "Tier 2 sponsor", 5189),
+    ("meta platforms", "Tier 2 sponsor", 5123),
+    ("meta", "Tier 2 sponsor", 5123),
+    ("infosys", "Tier 2 sponsor", 4926),
+    ("google", "Tier 2 sponsor", 4890),
+    ("alphabet", "Tier 2 sponsor", 4890),
+    ("apple", "Tier 2 sponsor", 4202),
+    ("wipro", "Tier 3 sponsor", 3456),
+    ("accenture", "Tier 3 sponsor", 3234),
+    ("hcl technologies", "Tier 3 sponsor", 2987),
+    ("hcl", "Tier 3 sponsor", 2987),
+    ("deloitte", "Tier 3 sponsor", 2876),
+    ("ibm", "Tier 3 sponsor", 2654),
+    ("intel", "Tier 3 sponsor", 2543),
+    ("jpmorgan", "Tier 3 sponsor", 2440),
+    ("jp morgan", "Tier 3 sponsor", 2440),
+    ("nvidia", "Tier 3 sponsor", 2341),
+    ("aws", "Tier 3 sponsor", 2347),
+    ("amazon web services", "Tier 3 sponsor", 2347),
+    ("oracle", "Tier 3 sponsor", 2456),
+    ("cisco", "Tier 3 sponsor", 2234),
+    ("qualcomm", "Tier 3 sponsor", 2123),
+    ("salesforce", "Tier 4 sponsor", 1876),
+    ("goldman sachs", "Tier 4 sponsor", 1765),
+    ("capital one", "Tier 4 sponsor", 1654),
+    ("uber", "Tier 4 sponsor", 1567),
+    ("bytedance", "Tier 4 sponsor", 1456),
+    ("tiktok", "Tier 4 sponsor", 1456),
+    ("paypal", "Tier 4 sponsor", 1234),
+    ("adobe", "Tier 4 sponsor", 1234),
+    ("lyft", "Tier 4 sponsor", 1123),
+    ("stripe", "Tier 4 sponsor", 987),
+    ("netflix", "Tier 4 sponsor", 892),
+    ("snap inc", "Tier 4 sponsor", 876),
+    ("airbnb", "Tier 4 sponsor", 789),
+    ("doordash", "Tier 4 sponsor", 765),
+    ("coinbase", "Tier 4 sponsor", 654),
+    ("morgan stanley", "Tier 5 sponsor", 987),
+    ("bloomberg", "Tier 5 sponsor", 876),
+    ("vmware", "Tier 5 sponsor", 765),
+    ("intuit", "Tier 5 sponsor", 654),
+    ("servicenow", "Tier 5 sponsor", 567),
+    ("palantir", "Tier 5 sponsor", 543),
+    ("zoom", "Tier 5 sponsor", 521),
+    ("workday", "Tier 5 sponsor", 498),
+    ("databricks", "Tier 5 sponsor", 476),
+    ("splunk", "Tier 5 sponsor", 454),
+    ("atlassian", "Tier 5 sponsor", 432),
+    ("snowflake", "Tier 5 sponsor", 421),
+    ("palo alto networks", "Tier 5 sponsor", 398),
+    ("crowdstrike", "Tier 5 sponsor", 376),
+    ("mongodb", "Tier 5 sponsor", 354),
+]
+
+
+def h1b_sponsor_history_match(company: str) -> Dict[str, Any]:
+    """Look up a job's company against H1B_SPONSOR_HISTORY. Returns {} if no match, else
+    {"tier": <label>, "lcas_per_year": <int>}. Substring match on lowercased company name —
+    checked longest-alias-first so e.g. "amazon web services" doesn't get shadowed by a
+    shorter unrelated match. See the caveat above H1B_SPONSOR_HISTORY before treating this
+    as anything more than a directional historical signal."""
+    c = (company or "").strip().lower()
+    if not c:
+        return {}
+    for alias, tier, lcas in sorted(H1B_SPONSOR_HISTORY, key=lambda t: -len(t[0])):
+        if alias in c:
+            return {"tier": tier, "lcas_per_year": lcas}
+    return {}
+
+
 _DASH_ROLE_MAP = {
     "ml_engineer": ["machine learning engineer", "ml engineer", "ai engineer", "applied scientist",
                     "research engineer", "mlops", "model engineer", "llm engineer", "nlp engineer",
@@ -2987,6 +3087,8 @@ def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
 
     opt_friendly = any(k in text for k in _DASH_OPT_POS)
 
+    h1b_history = h1b_sponsor_history_match(job.get("company", ""))
+
     role_category = "other"
     tl = title.lower()
     for cat, phrases in _DASH_ROLE_MAP.items():
@@ -3006,6 +3108,11 @@ def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
         "clearance_required": clearance,
         "h1b_status": h1b,
         "opt_friendly": opt_friendly,
+        # Historical H1B filing volume by company (DOL LCA data via h1bdatahub.com) — a
+        # directional signal, NOT a text-read from this specific posting and NOT a guarantee
+        # of sponsorship this cycle. See the caveat above H1B_SPONSOR_HISTORY.
+        "h1b_sponsor_tier": h1b_history.get("tier", ""),
+        "h1b_sponsor_lcas_per_year": h1b_history.get("lcas_per_year", 0),
         "good_tech": good_tech,
         "bad_tech": bad_tech,
     }

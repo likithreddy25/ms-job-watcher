@@ -50,6 +50,7 @@ def api_jobs():
     exp = request.args.get("exp", "")
     clearance = request.args.get("clearance", "")
     h1b = request.args.get("h1b", "")
+    h1b_history = request.args.get("h1b_history", "")
     bad_tech = request.args.get("bad_tech", "")
     search = request.args.get("search", "").lower()
 
@@ -64,6 +65,8 @@ def api_jobs():
         if clearance == "exclude" and j.get("clearance_required"):
             continue
         if h1b and h1b != "all" and j.get("h1b_status") != h1b:
+            continue
+        if h1b_history == "known" and not j.get("h1b_sponsor_tier"):
             continue
         if bad_tech == "exclude" and j.get("bad_tech"):
             continue
@@ -86,6 +89,7 @@ def api_stats():
         "clearance": sum(1 for j in jobs if j.get("clearance_required")),
         "h1b_yes": sum(1 for j in jobs if j.get("h1b_status") == "yes"),
         "h1b_unknown": sum(1 for j in jobs if j.get("h1b_status") == "unknown"),
+        "h1b_known_sponsor_history": sum(1 for j in jobs if j.get("h1b_sponsor_tier")),
         "opt_friendly": sum(1 for j in jobs if j.get("opt_friendly")),
         "roles": {
             "ml_engineer": sum(1 for j in jobs if j.get("role_category") == "ml_engineer"),

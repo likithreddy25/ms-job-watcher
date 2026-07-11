@@ -60,6 +60,7 @@
   .pill-h1b { background: #ecfdf5; border-color: #6ee7b7; color: #065f46; }
   .pill-noh1b { background: #fff7ed; border-color: #fdba74; color: #9a3412; }
   .pill-clearance { background: #fff7ed; border-color: #fdba74; color: #9a3412; }
+  .pill-h1b-history { background: #eef2ff; border-color: #c7d2fe; color: #3730a3; cursor: help; }
   .score-badge { display: inline-block; min-width: 34px; padding: 2px 7px; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-align: center; }
   .score-high { background: #dcfce7; color: #166534; }
   .score-mid  { background: #fef9c3; color: #854d0e; }
@@ -162,12 +163,19 @@
         </select>
       </div>
       <div class="filter-group">
-        <label>H1B Sponsorship</label>
+        <label>H1B Sponsorship (from JD text)</label>
         <select id="f-h1b" onchange="applyFilters()">
           <option value="all">All</option>
-          <option value="yes">Sponsors H1B</option>
-          <option value="unknown">Unknown</option>
+          <option value="yes">Sponsors H1B (stated)</option>
+          <option value="unknown">Unknown / not stated</option>
           <option value="no">No sponsorship</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label title="Based on past H1B filing volume (DOL LCA data), not a guarantee for this cycle — see docs/STATE.md">H1B Sponsor History ⓘ</label>
+        <select id="f-h1b-history" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="known">Known historical sponsor</option>
         </select>
       </div>
       <div class="filter-group">
@@ -189,6 +197,10 @@
       <hr style="border:none;border-top:1px solid var(--line);margin:18px 0 14px;">
       <h3>By Role</h3>
       <div id="role-stats" style="font-size:0.82rem;color:var(--muted);line-height:2;">—</div>
+
+      <hr style="border:none;border-top:1px solid var(--line);margin:18px 0 14px;">
+      <h3>H1B Sponsor History</h3>
+      <div id="h1b-history-stat" style="font-size:0.78rem;color:var(--muted);line-height:1.5;">—</div>
     </div>
 
     <!-- Main -->
@@ -233,6 +245,9 @@ function renderJob(j) {
     : j.h1b_status === "no" ? '<span class="pill pill-noh1b">No sponsorship</span>' : "";
   const clearPill = j.clearance_required ? '<span class="pill pill-clearance">🔒 Clearance</span>' : "";
   const optPill = j.opt_friendly ? '<span class="pill pill-h1b">🎓 OPT friendly</span>' : "";
+  const h1bHistoryPill = j.h1b_sponsor_tier
+    ? `<span class="pill pill-h1b-history" title="Historical H1B filing volume (DOL LCA data) — not a guarantee for this hiring cycle. See docs/STATE.md.">🏛 ${j.h1b_sponsor_tier}</span>`
+    : "";
   const techPills = (j.good_tech || []).slice(0, 5).map(t => `<span class="pill pill-tech">${t}</span>`).join("");
   const badPills = (j.bad_tech || []).map(t => `<span class="pill pill-bad">⚠ ${t}</span>`).join("");
   const postedStr = j.posted ? ` &middot; Posted ${j.posted}` : "";
@@ -250,7 +265,7 @@ function renderJob(j) {
         </div>
       </div>
       <div class="card-tags">
-        ${rolePill} ${h1bPill} ${optPill} ${clearPill} ${techPills} ${badPills}
+        ${rolePill} ${h1bPill} ${h1bHistoryPill} ${optPill} ${clearPill} ${techPills} ${badPills}
       </div>
     </div>`;
 }
@@ -262,6 +277,7 @@ async function loadJobs() {
     exp: document.getElementById("f-exp").value,
     clearance: document.getElementById("f-clearance").value,
     h1b: document.getElementById("f-h1b").value,
+    h1b_history: document.getElementById("f-h1b-history").value,
     bad_tech: document.getElementById("f-bad-tech").value,
     search: document.getElementById("f-search").value,
   };
@@ -324,6 +340,8 @@ async function loadStats() {
     row.children[3].querySelector("strong").textContent = s.h1b_yes;
     document.getElementById("role-stats").innerHTML =
       `ML Eng: ${s.roles.ml_engineer}<br>Data Sci: ${s.roles.data_scientist}<br>Data Eng: ${s.roles.data_engineer}<br>Analyst: ${s.roles.data_analyst}<br>SWE: ${s.roles.swe}<br>Cloud Eng: ${s.roles.cloud_engineer}`;
+    document.getElementById("h1b-history-stat").textContent =
+      `${s.h1b_known_sponsor_history} of ${s.total} jobs are from companies with H1B filing history (not a sponsorship guarantee — see the ⓘ filter above)`;
   } catch(e) {}
 }
 
@@ -337,6 +355,7 @@ function resetFilters() {
   document.getElementById("f-exp").value = "mid";
   document.getElementById("f-clearance").value = "exclude";
   document.getElementById("f-h1b").value = "all";
+  document.getElementById("f-h1b-history").value = "all";
   document.getElementById("f-bad-tech").value = "exclude";
   document.getElementById("f-sort").value = "date";
   loadJobs();
