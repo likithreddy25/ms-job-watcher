@@ -195,6 +195,15 @@ STRONG_INCLUDE_PHRASES = [
     "product analyst",
     "sdet",
     "software development engineer in test",
+    # Added 2026-07-10 — was missing entirely, meaning these titles likely got excluded
+    # outright (no "software"/"engineer"/"analytics" weak-match hit either) rather than
+    # showing up as "maybe."
+    "quantitative analyst",
+    "quant analyst",
+    "quantitative researcher",
+    "quant researcher",
+    "quantitative developer",
+    "quantitative engineer",
 ]
 
 WEAK_INCLUDE_PHRASES = [
@@ -271,6 +280,34 @@ HARD_EXCLUDE_PHRASES = [
     "java software",
     "j2ee",
     "spring boot engineer",
+    # Non-software engineering disciplines — WEAK_INCLUDE_PHRASES' bare "engineer" match
+    # (with no requirement it's paired with software/data/ML context) was letting these
+    # straight through as "maybe." Added 2026-07-10 after mechanical engineering postings
+    # showed up on the dashboard. Deliberately NOT touching the "engineer" weak-match
+    # itself, since that would also drop legitimately-relevant unlisted titles like
+    # "Cloud Engineer" or "Infrastructure Engineer" that have no dedicated strong-match
+    # entry — excluding the specific irrelevant disciplines is more surgical.
+    "mechanical engineer",
+    "civil engineer",
+    "electrical engineer",
+    "chemical engineer",
+    "industrial engineer",
+    "structural engineer",
+    "aerospace engineer",
+    "biomedical engineer",
+    "environmental engineer",
+    "manufacturing engineer",
+    "process engineer",
+    "field engineer",
+    "field service",
+    "sales engineer",
+    "hardware engineer",
+    "firmware engineer",
+    "hvac",
+    "petroleum engineer",
+    "mining engineer",
+    "nuclear engineer",
+    "marine engineer",
 ]
 
 HARD_EXCLUDE_REGEXES = [
