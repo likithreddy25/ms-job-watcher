@@ -1254,5 +1254,115 @@
     "h1b_status": "unknown",
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:wehrtyou:7364943",
+    "title": "Junior Treasury Quant Researcher",
+    "company": "wehrtyou",
+    "location": "New York, NY, United States",
+    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7364943",
+    "posted": "2026-06-24T11:23:48-04:00",
+    "date_found": "2026-07-11T03:31:52.107300+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:wehrtyou:3903145",
+    "title": "Quantitative Researcher (Mid-Freq)",
+    "company": "wehrtyou",
+    "location": "New York, NY, United States",
+    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=3903145",
+    "posted": "2026-06-22T16:46:21-04:00",
+    "date_found": "2026-07-11T03:31:52.107300+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:dadavidson:b2553693-ba11-445c-bd58-614a2a9dfaba",
+    "title": "Quantitative Analyst, Public Finance",
+    "company": "dadavidson",
+    "location": "Salt Lake City, UT",
+    "url": "https://jobs.lever.co/dadavidson/b2553693-ba11-445c-bd58-614a2a9dfaba",
+    "posted": "2026-05-01 21:58 UTC",
+    "date_found": "2026-07-11T03:31:52.107300+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:crypto:5e8ddb0f-c326-41d3-be2e-382be2b5a3e0",
+    "title": "Quantitative Researcher - Prediction Markets, Quant Trading",
+    "company": "crypto",
+    "location": "United States",
+    "url": "https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0",
+    "posted": "2026-06-12 01:56 UTC",
+    "date_found": "2026-07-11T03:31:52.107300+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:quantco-:59f04d07-6daa-47fe-a96a-561ffdaa120c",
+    "title": "Quantitative Researcher",
+    "company": "quantco-",
+    "location": "USA",
+    "url": "https://jobs.lever.co/quantco-/59f04d07-6daa-47fe-a96a-561ffdaa120c",
+    "posted": "2024-05-01 22:25 UTC",
+    "date_found": "2026-07-11T03:31:52.107300+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "tensorflow",
+      "xgboost",
+      "lightgbm",
+      "rag",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
