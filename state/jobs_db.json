@@ -1220,5 +1220,428 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:janestreet:8573726002",
+    "title": "Quantitative Researcher",
+    "company": "janestreet",
+    "location": "New York, New York, United States",
+    "url": "https://job-boards.greenhouse.io/janestreet/jobs/8573726002",
+    "posted": "2026-07-06T12:14:16-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:janestreet:8498547002",
+    "title": "Quantitative Researcher",
+    "company": "janestreet",
+    "location": "New York, New York, United States",
+    "url": "https://job-boards.greenhouse.io/janestreet/jobs/8498547002",
+    "posted": "2026-07-06T15:38:34-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:janestreet:6302325002",
+    "title": "Quantitative Researcher",
+    "company": "janestreet",
+    "location": "New York, New York, United States",
+    "url": "https://job-boards.greenhouse.io/janestreet/jobs/6302325002",
+    "posted": "2026-07-07T19:28:56-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:numus:4083711101",
+    "title": "Quantitative Researcher",
+    "company": "numus",
+    "location": "London, New York, or Zug (Switzerland)",
+    "url": "https://job-boards.eu.greenhouse.io/numus/jobs/4083711101",
+    "posted": "2024-12-12T13:58:25-05:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:octus:5151616007",
+    "title": "Quantitative Analyst",
+    "company": "octus",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/octus/jobs/5151616007",
+    "posted": "2026-07-08T14:54:26-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "java",
+      "c#"
+    ]
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:6309652003",
+    "title": "Junior Quantitative Researcher (Ph.D.)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6309652003",
+    "posted": "2026-05-26T10:31:46-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:4461365003",
+    "title": "Quantitative Researcher",
+    "company": "oldmissioncapital",
+    "location": "New York, NY, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=4461365003",
+    "posted": "2026-05-26T10:31:46-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "ruby"
+    ]
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:7513238003",
+    "title": "Quantitative Researcher (Experienced - Ph.D.)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7513238003",
+    "posted": "2026-05-26T10:31:46-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:6519353003",
+    "title": "Quantitative Researcher (Fixed Income)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6519353003",
+    "posted": "2026-05-26T10:31:46-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:optiverus:8451762002",
+    "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
+    "company": "optiverus",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://www.optiver.com/join-us/jobs/8451762002/?gh_jid=8451762002",
+    "posted": "2026-07-10T12:28:57-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:optiverus:8451763002",
+    "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
+    "company": "optiverus",
+    "location": "Austin, Texas, United States",
+    "url": "https://www.optiver.com/join-us/jobs/8451763002/?gh_jid=8451763002",
+    "posted": "2026-07-10T12:28:57-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:optiverus:8440641002",
+    "title": "Quantitative Researcher \u2013 HFT Futures/Equities ",
+    "company": "optiverus",
+    "location": "Austin, Texas, United States",
+    "url": "https://www.optiver.com/join-us/jobs/8440641002/?gh_jid=8440641002",
+    "posted": "2026-07-06T14:38:18-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:optiverus:8440640002",
+    "title": "Quantitative Researcher \u2013 HFT Futures/Equities ",
+    "company": "optiverus",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://www.optiver.com/join-us/jobs/8440640002/?gh_jid=8440640002",
+    "posted": "2026-07-06T14:37:27-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:radixexperienced:6629844002",
+    "title": "Quantitative Researcher",
+    "company": "radixexperienced",
+    "location": "Chicago, Illinois, United States; New York, New York, United States; Radix Trading Amsterdam",
+    "url": "https://job-boards.greenhouse.io/radixexperienced/jobs/6629844002",
+    "posted": "2025-11-07T13:11:08-05:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:scm:7311297",
+    "title": "Quantitative Researcher - Portfolio Optimization",
+    "company": "scm",
+    "location": "Radnor, PA",
+    "url": "https://job-boards.greenhouse.io/scm/jobs/7311297",
+    "posted": "2026-05-24T01:00:23-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:scm:7359467",
+    "title": "Quantitative Researcher - Portfolio Optimization - Jersey City, NJ",
+    "company": "scm",
+    "location": "Jersey City, NJ",
+    "url": "https://job-boards.greenhouse.io/scm/jobs/7359467",
+    "posted": "2026-05-24T01:00:24-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:scm:7359481",
+    "title": "Quantitative Researcher - Portfolio Optimization - Remote",
+    "company": "scm",
+    "location": "Radnor, PA",
+    "url": "https://job-boards.greenhouse.io/scm/jobs/7359481",
+    "posted": "2026-05-24T01:00:24-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:tanius:4335451002",
+    "title": "Quantitative Researcher",
+    "company": "tanius",
+    "location": "Alamo, CA",
+    "url": "https://job-boards.greenhouse.io/tanius/jobs/4335451002",
+    "posted": "2024-07-24T16:12:07-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++"
+    ]
+  },
+  {
+    "key": "greenhouse:tanius:4296339002",
+    "title": "Quantitative Researcher",
+    "company": "tanius",
+    "location": "Alamo, CA",
+    "url": "https://job-boards.greenhouse.io/tanius/jobs/4296339002",
+    "posted": "2024-07-24T16:12:07-04:00",
+    "date_found": "2026-07-11T03:01:21.729972+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++"
+    ]
   }
 ]
