@@ -798,5 +798,388 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:artefactus:8425217002",
+    "title": "Data Consultant",
+    "company": "Artefactus",
+    "location": "135 W 26th Street, New York, NY 10001",
+    "url": "https://job-boards.greenhouse.io/artefactus/jobs/8425217002",
+    "posted": "2026-06-18T19:41:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:artefactus:8537949002",
+    "title": "Junior Data Consultant  - US",
+    "company": "Artefactus",
+    "location": "135 W 26th Street, New York, NY 10001; North America",
+    "url": "https://job-boards.greenhouse.io/artefactus/jobs/8537949002",
+    "posted": "2026-06-23T17:17:54-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:doximity:7787892",
+    "title": "Data Analyst, Reporting Partnerships",
+    "company": "Doximity",
+    "location": "San Francisco, CA or Remote (U.S.)",
+    "url": "https://job-boards.greenhouse.io/doximity/jobs/7787892",
+    "posted": "2026-07-01T15:36:27-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:glydways:5144477007",
+    "title": "Financial Analyst",
+    "company": "Glydways",
+    "location": "Richmond, CA - Hybrid",
+    "url": "https://job-boards.greenhouse.io/glydways/jobs/5144477007",
+    "posted": "2026-06-26T15:51:28-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:glydways:5144542007",
+    "title": "Financial Analyst - Early Career",
+    "company": "Glydways",
+    "location": "Richmond, CA - Hybrid",
+    "url": "https://job-boards.greenhouse.io/glydways/jobs/5144542007",
+    "posted": "2026-06-29T14:28:46-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:antora:5762518004",
+    "title": "Financial Analyst",
+    "company": "Antora",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/antora/jobs/5762518004",
+    "posted": "2026-03-09T16:24:46-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:perpay:4969050007",
+    "title": "Junior Financial Analyst",
+    "company": "Perpay",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "url": "https://job-boards.greenhouse.io/perpay/jobs/4969050007",
+    "posted": "2026-05-18T16:34:57-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:perpay:4801124007",
+    "title": "Mid-Level Financial Analyst",
+    "company": "Perpay",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "url": "https://job-boards.greenhouse.io/perpay/jobs/4801124007",
+    "posted": "2025-07-28T11:42:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5226811008",
+    "title": "Cryptography Research Scientist, FHE",
+    "company": "Lgelectronics",
+    "location": "Santa Clara, CA ",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5226811008",
+    "posted": "2026-06-27T19:31:27-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "etl"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:lgelectronics:5235528008",
+    "title": "Financial Analyst/Accountant",
+    "company": "Lgelectronics",
+    "location": "Huntsville, AL",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5235528008",
+    "posted": "2026-05-29T14:20:11-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:figureai:4590702006",
+    "title": "Data Quality Analyst",
+    "company": "Figureai",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4590702006",
+    "posted": "2026-06-11T19:37:55-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:thehealthmanagementacademy:5267381008",
+    "title": "Research Analyst, Nursing Catalyst",
+    "company": "Thehealthmanagementacademy",
+    "location": "Arlington, VA",
+    "url": "https://job-boards.greenhouse.io/thehealthmanagementacademy/jobs/5267381008",
+    "posted": "2026-06-17T10:30:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:cartesiansystems:4299504009",
+    "title": "Applied Research Scientist",
+    "company": "Cartesiansystems",
+    "location": "Cambridge, MA",
+    "url": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4299504009",
+    "posted": "2026-06-26T10:53:47-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "computer vision",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:instawork:4620751006",
+    "title": "Data Operations Analyst - Instawork Robotics",
+    "company": "Instawork",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4620751006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:instawork:4583588006",
+    "title": "Product Operations Analyst",
+    "company": "Instawork",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4583588006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:instawork:4583589006",
+    "title": "Product Operations Analyst",
+    "company": "Instawork",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4583589006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:madisonenergyinfrastructure:4285317009",
+    "title": "Finance Operations Analyst ",
+    "company": "Madisonenergyinfrastructure",
+    "location": "Tysons, VA",
+    "url": "https://job-boards.greenhouse.io/madisonenergyinfrastructure/jobs/4285317009",
+    "posted": "2026-06-12T15:47:28-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:lgelectronics:5275115008",
+    "title": "Korean Bilingual Technical Service Operations Analyst",
+    "company": "Lgelectronics",
+    "location": "Huntsville, AL",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5275115008",
+    "posted": "2026-06-22T12:41:45-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
