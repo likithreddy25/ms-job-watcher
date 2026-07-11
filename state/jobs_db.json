@@ -1376,5 +1376,43 @@
     "h1b_status": "unknown",
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:98afae11-ace7-4b02-aa33-f50a3c15cee1",
+    "title": "Software Development Engineer, AWS GuardDuty",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10471823/software-development-engineer-aws-guardduty",
+    "posted": "July 11, 2026",
+    "date_found": "2026-07-11T18:30:48.609181+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:d0747073-bd7a-476d-aa7e-27c105300af4",
+    "title": "Software Development Engineer, AWS GuardDuty",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10471826/software-development-engineer-aws-guardduty",
+    "posted": "July 11, 2026",
+    "date_found": "2026-07-11T18:30:48.609181+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
