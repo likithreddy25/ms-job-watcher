@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-07-02T03:02Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 5215,
-        "title_ok": 1677,
-        "loc_ok": 743,
-        "new": 0,
-        "emailed": 0
-      },
-      "lever": {
-        "fetched": 959,
-        "title_ok": 210,
-        "loc_ok": 98,
-        "new": 0,
-        "emailed": 0
-      },
-      "smartrecruiters": {
-        "fetched": 852,
-        "title_ok": 294,
-        "loc_ok": 76,
-        "new": 0,
-        "emailed": 0
-      },
-      "workday": {
-        "fetched": 7000,
-        "title_ok": 1983,
-        "loc_ok": 702,
-        "new": 9,
-        "emailed": 9
-      }
-    },
-    "duration_s": 81.0,
-    "cursor": 600
-  },
-  {
     "ts": "2026-07-02T03:10Z",
     "mode": "main",
     "per_source": {
@@ -44537,5 +44501,61 @@
     },
     "duration_s": 10.7,
     "cursor": 0
+  },
+  {
+    "ts": "2026-07-11T04:00Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 163,
+        "title_ok": 11,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 58
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 150,
+        "loc_ok": 150,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 109
+      },
+      "nvidia": {
+        "fetched": 50,
+        "title_ok": 6,
+        "loc_ok": 6,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 41
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 3,
+        "title_ok": 2,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 9.4,
+    "cursor": null
   }
 ]
