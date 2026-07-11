@@ -170,8 +170,6 @@ STRONG_INCLUDE_PHRASES = [
     "sde",
     "backend engineer",
     "backend developer",
-    "full stack",
-    "fullstack",
     "platform engineer",
     "application developer",
     "applications engineer",
@@ -316,6 +314,22 @@ HARD_EXCLUDE_PHRASES = [
     "systems engineering",  # gerund form (distinct from "systems engineer") — in practice
                              # dominated by defense/aerospace SE postings (e.g. Northrop
                              # Grumman "Sentinel... Systems Engineering"), not software systems
+    # Likhith's explicit call (2026-07-10): not applying to Full Stack Developer roles —
+    # doesn't identify as one (background is data analytics + computer/electronics
+    # engineering, not dedicated web dev). Moved from STRONG_INCLUDE_PHRASES to a hard
+    # exclude rather than just removing it, since "developer" alone is a WEAK_INCLUDE_PHRASES
+    # token and would otherwise still leak these through as "maybe".
+    "full stack",
+    "fullstack",
+    # No mobile dev experience on any resume (checked against the resume-grounded shortlist
+    # built 2026-07-10) — "developer"/"engineer" weak-match tokens would otherwise let these
+    # through as "maybe" (e.g. "iOS Developer" was already sitting in jobs_db.json this way).
+    "ios developer",
+    "ios engineer",
+    "android developer",
+    "android engineer",
+    "mobile developer",
+    "mobile engineer",
 ]
 
 HARD_EXCLUDE_REGEXES = [
@@ -2054,15 +2068,22 @@ _DASH_STRONG = [
     "computer vision engineer", "computer vision scientist",
     "multimodal", "foundation model",
     "analytics consultant", "data consultant", "data advisor",
-    # Added 2026-07-10 — SWE/cloud/infra/mobile roles were previously in _DASH_HARD_EXCLUDES
+    # Added 2026-07-10 — SWE/cloud/infra roles were previously in _DASH_HARD_EXCLUDES
     # below (this scorer was ported from a data/ML-specific tool and treated general software
     # roles as irrelevant), but Likhith explicitly listed "SWE" as one of his target categories.
     # Moved here so these score normally instead of hard-zeroing.
+    # NOTE (2026-07-10, follow-up): "full stack" and mobile (iOS/Android) variants were
+    # originally included in this batch too, but that was an unchecked assumption — neither
+    # matches Likhith's actual resumes (no mobile dev experience anywhere; and he explicitly
+    # said he doesn't identify as a Full Stack Developer). Removed both groups after building
+    # a resume-grounded job-title shortlist with him. Frontend/backend engineer+developer
+    # variants stay, since backend is real (Hippocloud Node/Express) and frontend wasn't
+    # flagged for removal.
     "software engineer", "software developer", "software development engineer",
     "frontend engineer", "front-end engineer", "front end engineer",
     "backend engineer", "back-end engineer", "back end engineer",
-    "full stack engineer", "fullstack engineer", "full-stack engineer",
-    "mobile engineer", "ios engineer", "ios developer", "android engineer", "android developer",
+    "backend developer", "back-end developer", "back end developer",
+    "frontend developer", "front-end developer", "front end developer",
     "embedded engineer", "systems engineer",
     "platform engineer", "cloud engineer", "infrastructure engineer", "network engineer",
 ]
@@ -2165,7 +2186,7 @@ _DASH_ROLE_MAP = {
     "data_analyst": ["data analyst", "analytics analyst", "product analyst", "bi analyst",
                      "business intelligence", "insights analyst", "reporting analyst",
                      "growth analyst", "marketing analyst", "financial analyst"],
-    "swe": ["software engineer", "software developer", "backend engineer", "full stack", "sde"],
+    "swe": ["software engineer", "software developer", "backend engineer", "sde"],
 }
 
 JOBS_DB_PATH = os.path.join("state", "jobs_db.json")
