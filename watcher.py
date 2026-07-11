@@ -230,6 +230,9 @@ SENIORITY_EXCLUDE_TOKENS = [
     "distinguished",
     "fellow",
     "director",
+    "chief",
+    "deputy",
+    "vp",
 ]
 
 # Numbered/roman-numeral levels (e.g. "Software Engineer II", "Data Scientist 2")
@@ -308,6 +311,11 @@ HARD_EXCLUDE_PHRASES = [
     "mining engineer",
     "nuclear engineer",
     "marine engineer",
+    # Added 2026-07-10 after seeing these on the dashboard
+    "developer relations",  # DevRel/community — not hands-on engineering
+    "systems engineering",  # gerund form (distinct from "systems engineer") — in practice
+                             # dominated by defense/aerospace SE postings (e.g. Northrop
+                             # Grumman "Sentinel... Systems Engineering"), not software systems
 ]
 
 HARD_EXCLUDE_REGEXES = [
@@ -2046,6 +2054,17 @@ _DASH_STRONG = [
     "computer vision engineer", "computer vision scientist",
     "multimodal", "foundation model",
     "analytics consultant", "data consultant", "data advisor",
+    # Added 2026-07-10 — SWE/cloud/infra/mobile roles were previously in _DASH_HARD_EXCLUDES
+    # below (this scorer was ported from a data/ML-specific tool and treated general software
+    # roles as irrelevant), but Likhith explicitly listed "SWE" as one of his target categories.
+    # Moved here so these score normally instead of hard-zeroing.
+    "software engineer", "software developer", "software development engineer",
+    "frontend engineer", "front-end engineer", "front end engineer",
+    "backend engineer", "back-end engineer", "back end engineer",
+    "full stack engineer", "fullstack engineer", "full-stack engineer",
+    "mobile engineer", "ios engineer", "ios developer", "android engineer", "android developer",
+    "embedded engineer", "systems engineer",
+    "platform engineer", "cloud engineer", "infrastructure engineer", "network engineer",
 ]
 
 _DASH_WEAK = [
@@ -2058,14 +2077,8 @@ _DASH_WEAK = [
 ]
 
 _DASH_HARD_EXCLUDES = [
-    "software engineer", "software developer", "software development engineer",
-    "frontend engineer", "front-end engineer", "front end engineer",
-    "backend engineer", "back-end engineer", "back end engineer",
-    "full stack engineer", "fullstack engineer", "full-stack engineer",
-    "mobile engineer", "ios engineer", "android engineer",
-    "embedded engineer", "embedded software", "systems engineer",
-    "site reliability", "sre", "devops", "platform engineer",
-    "cloud engineer", "infrastructure engineer", "network engineer",
+    # SWE/cloud/infra/mobile phrases moved to _DASH_STRONG above (2026-07-10) — see comment there.
+    "site reliability", "sre", "devops",
     "security engineer", "cybersecurity", "penetration tester",
     "quality assurance", "qa engineer", "qa analyst",
     "test engineer", "quality engineer", "validation engineer",
