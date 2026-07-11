@@ -1337,5 +1337,27 @@
       "embedded",
       "firmware"
     ]
+  },
+  {
+    "key": "greenhouse:didi:8056500",
+    "title": "Software Engineer \u2013 Motion Planning ",
+    "company": "didi",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/didi/jobs/8056500",
+    "posted": "2026-07-10T23:33:27-04:00",
+    "date_found": "2026-07-11T06:02:38.734065+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
