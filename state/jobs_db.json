@@ -1310,5 +1310,32 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:soeffects:7802118003",
+    "title": "Embedded Engineer",
+    "company": "soeffects",
+    "location": "El Segundo, California, United States; Redmond, Washington, United States",
+    "url": "https://job-boards.greenhouse.io/soeffects/jobs/7802118003",
+    "posted": "2026-07-11T00:15:39-04:00",
+    "date_found": "2026-07-11T04:31:18.618105+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": true,
+    "h1b_status": "unknown",
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "fpga",
+      "verilog",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
