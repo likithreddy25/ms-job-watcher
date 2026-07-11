@@ -14,12 +14,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": [
       "embedded"
-    ],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    ]
   },
   {
     "key": "greenhouse:andurilindustries:5112335007",
@@ -36,10 +36,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:andurilindustries:5184726007",
@@ -56,10 +56,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:allstate:Allstate_Careers:req:R32514",
@@ -76,10 +76,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:amat:External:req:R2622927",
@@ -96,10 +96,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:chime:8607195002",
@@ -116,10 +116,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244177",
@@ -136,10 +136,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244172",
@@ -156,10 +156,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244165",
@@ -176,10 +176,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:bah:BAH_Jobs:req:R0244150",
@@ -196,10 +196,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:caci:External:req:328891",
@@ -216,10 +216,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:caci:External:req:328793",
@@ -236,10 +236,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:caci:External:req:328834",
@@ -256,10 +256,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:gleanwork:4713145005",
@@ -276,10 +276,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:gleanwork:4713977005",
@@ -296,10 +296,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:leidos:External:req:R-00187132",
@@ -316,10 +316,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:leidos:External:req:R-00187108",
@@ -336,10 +336,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:leidos:External:req:R-00187097",
@@ -356,10 +356,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:matx:5326322008",
@@ -376,10 +376,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:redventures:8051205",
@@ -396,10 +396,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:redventures:8052804",
@@ -416,10 +416,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:reddit:7922994",
@@ -436,10 +436,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239890",
@@ -456,10 +456,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2021179",
@@ -476,10 +476,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2341
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4543-1",
@@ -496,10 +496,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Cloud-and-Edge-Infrastructure-Engineer_R26-4541",
@@ -516,10 +516,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "amazon:30b839c4-b6b3-41dd-833b-5b419d409ecd",
@@ -536,10 +536,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:akunacapital:7863348",
@@ -556,10 +556,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:akunacapital:7496416",
@@ -576,10 +576,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:akunacapital:7846695",
@@ -596,10 +596,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:chicagotradingcampus:4645631005",
@@ -616,10 +616,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:crossriverbank:7770430003",
@@ -636,10 +636,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:imc:4907368101",
@@ -656,10 +656,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:imc:4912325101",
@@ -676,10 +676,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:imc:4660792101",
@@ -696,10 +696,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:imc:4382558101",
@@ -716,10 +716,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:citi:2:req:26976139",
@@ -736,10 +736,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:fmr:FidelityCareers:req:2132163",
@@ -756,10 +756,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:fmr:FidelityCareers:req:2126953",
@@ -776,10 +776,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "greenhouse:point72:8023550002",
@@ -796,12 +796,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [
       "machine learning"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "bad_tech": []
   },
   {
     "key": "greenhouse:didi:8056500",
@@ -818,10 +818,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "workday:gdit:External_Career_Site:req:RQ223693",
@@ -838,10 +838,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "amazon:98afae11-ace7-4b02-aa33-f50a3c15cee1",
@@ -858,12 +858,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [
       "aws"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524
+    "bad_tech": []
   },
   {
     "key": "amazon:d0747073-bd7a-476d-aa7e-27c105300af4",
@@ -880,12 +880,372 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [
       "aws"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:artefactus:8425217002",
+    "title": "Data Consultant",
+    "company": "Artefactus",
+    "location": "135 W 26th Street, New York, NY 10001",
+    "url": "https://job-boards.greenhouse.io/artefactus/jobs/8425217002",
+    "posted": "2026-06-18T19:41:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:artefactus:8537949002",
+    "title": "Junior Data Consultant  - US",
+    "company": "Artefactus",
+    "location": "135 W 26th Street, New York, NY 10001; North America",
+    "url": "https://job-boards.greenhouse.io/artefactus/jobs/8537949002",
+    "posted": "2026-06-23T17:17:54-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:doximity:7787892",
+    "title": "Data Analyst, Reporting Partnerships",
+    "company": "Doximity",
+    "location": "San Francisco, CA or Remote (U.S.)",
+    "url": "https://job-boards.greenhouse.io/doximity/jobs/7787892",
+    "posted": "2026-07-01T15:36:27-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:glydways:5144477007",
+    "title": "Financial Analyst",
+    "company": "Glydways",
+    "location": "Richmond, CA - Hybrid",
+    "url": "https://job-boards.greenhouse.io/glydways/jobs/5144477007",
+    "posted": "2026-06-26T15:51:28-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:glydways:5144542007",
+    "title": "Financial Analyst - Early Career",
+    "company": "Glydways",
+    "location": "Richmond, CA - Hybrid",
+    "url": "https://job-boards.greenhouse.io/glydways/jobs/5144542007",
+    "posted": "2026-06-29T14:28:46-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:antora:5762518004",
+    "title": "Financial Analyst",
+    "company": "Antora",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/antora/jobs/5762518004",
+    "posted": "2026-03-09T16:24:46-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:perpay:4969050007",
+    "title": "Junior Financial Analyst",
+    "company": "Perpay",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "url": "https://job-boards.greenhouse.io/perpay/jobs/4969050007",
+    "posted": "2026-05-18T16:34:57-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:perpay:4801124007",
+    "title": "Mid-Level Financial Analyst",
+    "company": "Perpay",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "url": "https://job-boards.greenhouse.io/perpay/jobs/4801124007",
+    "posted": "2025-07-28T11:42:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5226811008",
+    "title": "Cryptography Research Scientist, FHE",
+    "company": "Lgelectronics",
+    "location": "Santa Clara, CA ",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5226811008",
+    "posted": "2026-06-27T19:31:27-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5235528008",
+    "title": "Financial Analyst/Accountant",
+    "company": "Lgelectronics",
+    "location": "Huntsville, AL",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5235528008",
+    "posted": "2026-05-29T14:20:11-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:figureai:4590702006",
+    "title": "Data Quality Analyst",
+    "company": "Figureai",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4590702006",
+    "posted": "2026-06-11T19:37:55-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:thehealthmanagementacademy:5267381008",
+    "title": "Research Analyst, Nursing Catalyst",
+    "company": "Thehealthmanagementacademy",
+    "location": "Arlington, VA",
+    "url": "https://job-boards.greenhouse.io/thehealthmanagementacademy/jobs/5267381008",
+    "posted": "2026-06-17T10:30:00-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:cartesiansystems:4299504009",
+    "title": "Applied Research Scientist",
+    "company": "Cartesiansystems",
+    "location": "Cambridge, MA",
+    "url": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4299504009",
+    "posted": "2026-06-26T10:53:47-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:instawork:4620751006",
+    "title": "Data Operations Analyst - Instawork Robotics",
+    "company": "Instawork",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4620751006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:instawork:4583588006",
+    "title": "Product Operations Analyst",
+    "company": "Instawork",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4583588006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:instawork:4583589006",
+    "title": "Product Operations Analyst",
+    "company": "Instawork",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/instawork/jobs/4583589006",
+    "posted": "2026-06-15T12:01:51-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:madisonenergyinfrastructure:4285317009",
+    "title": "Finance Operations Analyst ",
+    "company": "Madisonenergyinfrastructure",
+    "location": "Tysons, VA",
+    "url": "https://job-boards.greenhouse.io/madisonenergyinfrastructure/jobs/4285317009",
+    "posted": "2026-06-12T15:47:28-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5275115008",
+    "title": "Korean Bilingual Technical Service Operations Analyst",
+    "company": "Lgelectronics",
+    "location": "Huntsville, AL",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5275115008",
+    "posted": "2026-06-22T12:41:45-04:00",
+    "date_found": "2026-07-11T23:00:57.874862+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4417660572",
@@ -902,10 +1262,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436667132",
@@ -922,10 +1282,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436656862",
@@ -942,10 +1302,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439567324",
@@ -962,10 +1322,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4430073309",
@@ -982,10 +1342,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4437893946",
@@ -1002,10 +1362,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436643312",
@@ -1022,10 +1382,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4419993130",
@@ -1042,10 +1402,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4411473326",
@@ -1062,10 +1422,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4412418474",
@@ -1082,12 +1442,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [
       "machine learning"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "bad_tech": []
   },
   {
     "key": "linkedin:4120819992",
@@ -1104,10 +1464,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4120822583",
@@ -1124,10 +1484,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4120824568",
@@ -1144,10 +1504,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4120825428",
@@ -1164,10 +1524,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436670248",
@@ -1184,10 +1544,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4417911182",
@@ -1204,10 +1564,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4370496942",
@@ -1224,10 +1584,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436652134",
@@ -1244,10 +1604,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4399925053",
@@ -1264,10 +1624,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 892
+    "h1b_sponsor_lcas_per_year": 892,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4419349108",
@@ -1284,10 +1644,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4438928341",
@@ -1304,10 +1664,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4431115937",
@@ -1324,10 +1684,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439547587",
@@ -1344,10 +1704,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439510334",
@@ -1364,10 +1724,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4351966701",
@@ -1384,10 +1744,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4428292196",
@@ -1404,10 +1764,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4381054241",
@@ -1424,10 +1784,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4351669392",
@@ -1444,10 +1804,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439574550",
@@ -1464,10 +1824,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4428523505",
@@ -1484,10 +1844,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123
+    "h1b_sponsor_lcas_per_year": 5123,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4409620194",
@@ -1504,10 +1864,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4430065848",
@@ -1524,10 +1884,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436652684",
@@ -1544,10 +1904,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436639406",
@@ -1564,10 +1924,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439523740",
@@ -1584,10 +1944,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4438946086",
@@ -1604,10 +1964,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4418841312",
@@ -1624,10 +1984,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439562980",
@@ -1644,10 +2004,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4359892957",
@@ -1664,12 +2024,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [
       "machine learning"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "bad_tech": []
   },
   {
     "key": "linkedin:4281123069",
@@ -1686,12 +2046,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1456,
     "good_tech": [
       "machine learning"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 1456
+    "bad_tech": []
   },
   {
     "key": "linkedin:4438392779",
@@ -1708,10 +2068,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4436641099",
@@ -1728,12 +2088,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [
       "machine learning"
     ],
-    "bad_tech": [],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "bad_tech": []
   },
   {
     "key": "linkedin:4438390763",
@@ -1750,10 +2110,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4420624126",
@@ -1770,10 +2130,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4098166100",
@@ -1790,10 +2150,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4411637470",
@@ -1810,12 +2170,12 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": [
       "rust"
-    ],
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    ]
   },
   {
     "key": "linkedin:4438903130",
@@ -1832,10 +2192,10 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   },
   {
     "key": "linkedin:4439512196",
@@ -1852,9 +2212,9 @@
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "good_tech": [],
-    "bad_tech": [],
     "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
