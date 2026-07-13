@@ -5826,5 +5826,53 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:res:5310642008",
+    "title": "Financial Analyst",
+    "company": "res",
+    "location": "Bellaire, Texas, United States",
+    "url": "https://job-boards.greenhouse.io/res/jobs/5310642008",
+    "posted": "2026-07-13T15:15:28-04:00",
+    "date_found": "2026-07-13T19:32:02.661152+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:thesciongroupllc:8631764002",
+    "title": "Data Engineer",
+    "company": "thesciongroupllc",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/thesciongroupllc/jobs/8631764002",
+    "posted": "2026-07-13T14:51:03-04:00",
+    "date_found": "2026-07-13T19:32:02.661152+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "dbt",
+      "elt",
+      "aws",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
