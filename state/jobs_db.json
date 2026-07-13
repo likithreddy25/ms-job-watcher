@@ -5941,5 +5941,32 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:7796048003",
+    "title": "Software Engineer \u2013 2027 Graduate Program (August Start)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796048003",
+    "posted": "2026-07-13T15:46:19-04:00",
+    "date_found": "2026-07-13T21:01:31.793967+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
   }
 ]
