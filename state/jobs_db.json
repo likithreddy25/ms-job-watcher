@@ -5510,5 +5510,78 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:wehrtyou:8052050",
+    "title": "Algorithm Developer (Quant Researcher) \u2013 2027 Grads",
+    "company": "wehrtyou",
+    "location": "New York, NY, United States; Singapore",
+    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052050",
+    "posted": "2026-07-13T11:37:24-04:00",
+    "date_found": "2026-07-13T16:31:53.568680+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:wehrtyou:8059845",
+    "title": "Algorithm Developer (Quant Researcher) \u2013 2027 PhDs",
+    "company": "wehrtyou",
+    "location": "New York, NY, United States; Singapore",
+    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059845",
+    "posted": "2026-07-13T11:37:25-04:00",
+    "date_found": "2026-07-13T16:31:53.568680+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:wehrtyou:8052122",
+    "title": "Software Engineer (C++ or Python) \u2013 2027 Grads",
+    "company": "wehrtyou",
+    "location": "Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore",
+    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052122",
+    "posted": "2026-07-13T11:30:48-04:00",
+    "date_found": "2026-07-13T16:31:53.568680+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++"
+    ]
   }
 ]
