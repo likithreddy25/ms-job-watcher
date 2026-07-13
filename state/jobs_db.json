@@ -5694,5 +5694,57 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:figureai:4696533006",
+    "title": "Helix AI Engineer, Localization and Mapping",
+    "company": "Figureai",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4696533006",
+    "posted": "2026-07-13T12:02:44-04:00",
+    "date_found": "2026-07-13T18:01:11.365922+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "computer vision",
+      "deep learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:whoop:82635467-6cfb-4e8b-967e-73355a0d0b8f",
+    "title": "Software Engineer II, MLOps",
+    "company": "Whoop",
+    "location": "Boston, MA",
+    "url": "https://jobs.lever.co/whoop/82635467-6cfb-4e8b-967e-73355a0d0b8f",
+    "posted": "2026-07-13 16:24 UTC",
+    "date_found": "2026-07-13T18:01:11.365922+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
