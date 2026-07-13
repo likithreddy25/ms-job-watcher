@@ -1,48 +1,5 @@
 [
   {
-    "ts": "2026-07-04T05:32Z",
-    "mode": "boards",
-    "per_source": {
-      "smartrecruiters": {
-        "fetched": 228,
-        "title_ok": 55,
-        "loc_ok": 48,
-        "new": 0,
-        "emailed": 0
-      },
-      "greenhouse": {
-        "fetched": 2018,
-        "title_ok": 627,
-        "loc_ok": 318,
-        "new": 0,
-        "emailed": 0
-      },
-      "lever": {
-        "fetched": 567,
-        "title_ok": 244,
-        "loc_ok": 182,
-        "new": 0,
-        "emailed": 0
-      },
-      "ashby": {
-        "fetched": 4795,
-        "title_ok": 1811,
-        "loc_ok": 441,
-        "new": 0,
-        "emailed": 0
-      },
-      "workday": {
-        "fetched": 2500,
-        "title_ok": 637,
-        "loc_ok": 184,
-        "new": 0,
-        "emailed": 0
-      }
-    },
-    "duration_s": 67.1,
-    "cursor": 1000
-  },
-  {
     "ts": "2026-07-04T05:41Z",
     "mode": "main",
     "per_source": {
@@ -46185,6 +46142,62 @@
       }
     },
     "duration_s": 11.1,
+    "cursor": null
+  },
+  {
+    "ts": "2026-07-13T08:00Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 154,
+        "title_ok": 8,
+        "loc_ok": 8,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 42
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 109,
+        "loc_ok": 109,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 72
+      },
+      "nvidia": {
+        "fetched": 70,
+        "title_ok": 8,
+        "loc_ok": 8,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 53
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 3,
+        "title_ok": 2,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 10.1,
     "cursor": null
   }
 ]
