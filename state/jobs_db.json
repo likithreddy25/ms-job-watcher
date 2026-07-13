@@ -5893,5 +5893,33 @@
       "java",
       "c++"
     ]
+  },
+  {
+    "key": "greenhouse:upstart:8060317",
+    "title": "Software Engineer, Upstart Bank",
+    "company": "UpStart",
+    "location": "United States | Remote",
+    "url": "https://careers.upstart.com/jobs?gh_jid=8060317",
+    "posted": "2026-07-13T14:11:25-04:00",
+    "date_found": "2026-07-13T20:02:13.848304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "kafka"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "kotlin"
+    ]
   }
 ]
