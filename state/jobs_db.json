@@ -6370,5 +6370,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5231612008",
+    "title": "Research Engineer, Chip Design RL (Reinforcement Learning)",
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231612008",
+    "posted": "2026-07-13T19:27:58-04:00",
+    "date_found": "2026-07-13T23:32:32.001382+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust",
+      "fpga"
+    ]
   }
 ]
