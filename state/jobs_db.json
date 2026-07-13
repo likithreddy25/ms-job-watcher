@@ -5284,5 +5284,57 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:vividseatsllc:5167447007",
+    "title": "Software Engineer",
+    "company": "vividseatsllc",
+    "location": "Chicago, IL or Toronto, CAN",
+    "url": "https://job-boards.greenhouse.io/vividseatsllc/jobs/5167447007?gh_jid=5167447007",
+    "posted": "2026-07-13T10:21:21-04:00",
+    "date_found": "2026-07-13T15:02:04.287091+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "elt"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:ceso:26e75eb9-c3a8-4828-804b-285be63ad57e",
+    "title": "Software Engineer",
+    "company": "ceso",
+    "location": "Columbus, OH",
+    "url": "https://jobs.lever.co/ceso/26e75eb9-c3a8-4828-804b-285be63ad57e",
+    "posted": "2026-07-07 14:03 UTC",
+    "date_found": "2026-07-13T15:02:04.287091+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#"
+    ]
   }
 ]
