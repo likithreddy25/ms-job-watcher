@@ -6181,5 +6181,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:b4a95a09-4316-4b68-b9c9-12e50680d780",
+    "title": "Neuron Runtime Software Development Engineer , Neuron Runtime",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10473201/neuron-runtime-software-development-engineer-neuron-runtime",
+    "posted": "July 13, 2026",
+    "date_found": "2026-07-13T21:40:48.657097+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8aa9fe12-4a70-47a3-8b73-d7887ab51e2d",
+    "title": " Software Development Engineer, AWS OpenSearch",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10473193/software-development-engineer-aws-opensearch",
+    "posted": "July 13, 2026",
+    "date_found": "2026-07-13T21:40:48.657097+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
