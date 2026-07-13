@@ -6303,5 +6303,72 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:Versant3:744000137544489",
+    "title": "Analytics Engineer Manager, CNBC & MS NOW",
+    "company": "Versant",
+    "location": "New York, NY, us",
+    "url": "https://jobs.smartrecruiters.com/Versant3",
+    "posted": "2026-07-13T21:39:52.508Z",
+    "date_found": "2026-07-13T22:31:46.039919+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:yesenergy:5344484008",
+    "title": "Data Engineer I",
+    "company": "yesenergy",
+    "location": "Boston, Massachusetts, United States, Boulder, Colorado, United States",
+    "url": "https://job-boards.greenhouse.io/yesenergy/jobs/5344484008",
+    "posted": "2026-07-13T16:25:08-04:00",
+    "date_found": "2026-07-13T22:31:46.039919+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "ashby:ramp:16fb536d-fe10-4ea7-8956-d6d0cbddd6f5",
+    "title": "AML Operations Analyst",
+    "company": "Ramp",
+    "location": "New York, NY (HQ)",
+    "url": "https://jobs.ashbyhq.com/ramp/16fb536d-fe10-4ea7-8956-d6d0cbddd6f5",
+    "posted": "",
+    "date_found": "2026-07-13T22:31:46.039919+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
