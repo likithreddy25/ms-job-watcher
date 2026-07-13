@@ -5672,5 +5672,27 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:a0114cd2-e15b-4fb0-aca5-081b7977e719",
+    "title": "Machine Learning Engineer, Sponsored Products Off-Search Sourcing and Relevance",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10472926/machine-learning-engineer-sponsored-products-off-search-sourcing-and-relevance",
+    "posted": "July 13, 2026",
+    "date_found": "2026-07-13T17:50:48.681215+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
