@@ -5806,5 +5806,128 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:akunacapital:8016687",
+    "title": "Junior Quantitative Developer & Strategist",
+    "company": "akunacapital",
+    "location": "Chicago, IL ",
+    "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687",
+    "posted": "2026-07-13T14:29:02-04:00",
+    "date_found": "2026-07-13T19:01:36.896445+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:akunacapital:8036541",
+    "title": "Junior Quantitative Researcher",
+    "company": "akunacapital",
+    "location": "Chicago, IL ",
+    "url": "https://www.akunacapital.com/careers/job/8036541/?gh_jid=8036541",
+    "posted": "2026-07-13T14:28:26-04:00",
+    "date_found": "2026-07-13T19:01:36.896445+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:akunacapital:8013085",
+    "title": "Software Engineer (Entry-Level) - C++",
+    "company": "akunacapital",
+    "location": "Chicago, IL",
+    "url": "https://www.akunacapital.com/careers/job/8013085/?gh_jid=8013085",
+    "posted": "2026-07-13T14:41:18-04:00",
+    "date_found": "2026-07-13T19:01:36.896445+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:akunacapital:8013230",
+    "title": "Software Engineer (Entry-Level) - Python",
+    "company": "akunacapital",
+    "location": "Chicago, IL",
+    "url": "https://www.akunacapital.com/careers/job/8013230/?gh_jid=8013230",
+    "posted": "2026-07-13T14:21:16-04:00",
+    "date_found": "2026-07-13T19:01:36.896445+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "elt"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:fleetio:4823689007",
+    "title": "Software Engineer, Growth",
+    "company": "fleetio",
+    "location": "Remote - USA, CAN, MEX",
+    "url": "https://job-boards.greenhouse.io/fleetio/jobs/4823689007",
+    "posted": "2026-07-13T14:28:58-04:00",
+    "date_found": "2026-07-13T19:01:36.896445+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby",
+      "rails"
+    ]
   }
 ]
