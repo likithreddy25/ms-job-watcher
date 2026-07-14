@@ -6913,5 +6913,31 @@
     "bad_tech": [
       "swift"
     ]
+  },
+  {
+    "key": "greenhouse:scopely:5301857008",
+    "title": "Data Analyst - Marvel Strike Force",
+    "company": "scopely",
+    "location": "CA - Canada; US - United States",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5301857008?gh_jid=5301857008",
+    "posted": "2026-07-14T13:41:19-04:00",
+    "date_found": "2026-07-14T18:01:48.707437+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "dbt",
+      "snowflake",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
