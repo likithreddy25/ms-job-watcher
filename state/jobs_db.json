@@ -7337,5 +7337,58 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:waymo:8051390",
+    "title": "Machine Learning Engineer, Sensor Pipelines",
+    "company": "waymo",
+    "location": "Mountain View, CA, USA",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8051390",
+    "posted": "2026-07-14T16:03:11-04:00",
+    "date_found": "2026-07-14T22:01:50.521553+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:intersect:ee5b6876-80d5-48da-9b41-35a5b81367fa",
+    "title": "Software Engineer, Microgrid Controls Developer",
+    "company": "intersect",
+    "location": "United States",
+    "url": "https://jobs.lever.co/intersect/ee5b6876-80d5-48da-9b41-35a5b81367fa",
+    "posted": "2025-12-24 15:51 UTC",
+    "date_found": "2026-07-14T22:01:50.521553+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "rust",
+      "embedded"
+    ]
   }
 ]
