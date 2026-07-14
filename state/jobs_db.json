@@ -6865,5 +6865,27 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:513ff74e-f192-4052-b9ca-1d4937a75b68",
+    "title": "SDE, MLA hardware/software co-design, Annapurna Labs Machine Learning Acceleration",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10473895/sde-mla-hardware-software-co-design-annapurna-labs-machine-learning-acceleration",
+    "posted": "July 14, 2026",
+    "date_found": "2026-07-14T16:40:49.425482+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
