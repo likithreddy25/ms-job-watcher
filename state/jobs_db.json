@@ -6821,5 +6821,51 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lucidsoftware:6115492004",
+    "title": "Associate Revenue Operations Analyst - Partners",
+    "company": "lucidsoftware",
+    "location": "Raleigh, NC",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6115492004",
+    "posted": "2026-07-14T10:51:19-04:00",
+    "date_found": "2026-07-14T16:31:59.008701+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lucidsoftware:6115491004",
+    "title": "Associate Revenue Operations Analyst - Partners",
+    "company": "lucidsoftware",
+    "location": "Salt Lake City, UT",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6115491004",
+    "posted": "2026-07-14T10:51:18-04:00",
+    "date_found": "2026-07-14T16:31:59.008701+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
