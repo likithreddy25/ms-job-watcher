@@ -6700,5 +6700,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lucidsoftware:5638743004",
+    "title": "EMEA Senior Revenue Operations Analyst  ",
+    "company": "lucidsoftware",
+    "location": "Hamburg, DE",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5638743004",
+    "posted": "2026-07-14T10:08:03-04:00",
+    "date_found": "2026-07-14T14:31:46.522346+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
