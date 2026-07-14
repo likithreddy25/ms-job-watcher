@@ -6484,5 +6484,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:jam-loop:dece841c-39f3-4fb7-ac9d-85113cb7100a",
+    "title": "SDET",
+    "company": "jam-loop",
+    "location": "United States",
+    "url": "https://jobs.lever.co/jam-loop/dece841c-39f3-4fb7-ac9d-85113cb7100a",
+    "posted": "2026-07-13 23:09 UTC",
+    "date_found": "2026-07-14T01:01:43.247599+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "azure"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
