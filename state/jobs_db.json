@@ -6725,5 +6725,41 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "lever:grailbio:666f1bb9-96a2-4d79-b4a3-9090ca201b34",
+    "title": "Forward Deployed Engineer - Software Development Engineer \u2013 Artificial Intelligence (AI) - #4883",
+    "company": "grailbio",
+    "location": "Menlo Park, CA",
+    "url": "https://jobs.lever.co/grailbio/666f1bb9-96a2-4d79-b4a3-9090ca201b34",
+    "posted": "2026-07-06 19:13 UTC",
+    "date_found": "2026-07-14T15:02:07.584262+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "scikit-learn",
+      "rag",
+      "openai",
+      "langchain",
+      "machine learning",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "c#"
+    ]
   }
 ]
