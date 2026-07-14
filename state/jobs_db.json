@@ -7100,5 +7100,58 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "greenhouse:hudl:8052358",
+    "title": "Software Engineer",
+    "company": "Hudl",
+    "location": "Lexington, KY, United States; Lincoln, NE, United States; Omaha, NE, United States",
+    "url": "https://job-boards.greenhouse.io/hudl/jobs/8052358",
+    "posted": "2026-07-14T14:22:25-04:00",
+    "date_found": "2026-07-14T20:01:03.557344+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "mongodb"
+    ],
+    "bad_tech": [
+      "rust",
+      "c#"
+    ]
+  },
+  {
+    "key": "greenhouse:impiricus:5349829008",
+    "title": "Data Analyst",
+    "company": "Impiricus",
+    "location": "Atlanta, GA | NYC, NY | Remote, USA",
+    "url": "https://job-boards.greenhouse.io/impiricus/jobs/5349829008",
+    "posted": "2026-07-14T14:32:50-04:00",
+    "date_found": "2026-07-14T20:01:03.557344+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
