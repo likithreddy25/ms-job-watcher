@@ -7390,5 +7390,33 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:netdocuments:5350440008",
+    "title": "Manager, Software Engineering - Platform",
+    "company": "netdocuments",
+    "location": "Lehi, Utah, United States; Remote - US",
+    "url": "https://job-boards.greenhouse.io/netdocuments/jobs/5350440008",
+    "posted": "2026-07-14T18:21:17-04:00",
+    "date_found": "2026-07-14T23:01:22.379136+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "transformers",
+      "elt",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust",
+      "c#"
+    ]
   }
 ]
