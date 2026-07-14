@@ -6416,5 +6416,53 @@
     "h1b_sponsor_lcas_per_year": 2543,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:janestreet:8631973002",
+    "title": "Data Engineer",
+    "company": "janestreet",
+    "location": "New York, New York, United States",
+    "url": "https://job-boards.greenhouse.io/janestreet/jobs/8631973002",
+    "posted": "2026-07-13T20:19:37-04:00",
+    "date_found": "2026-07-14T00:31:08.711657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lunarenergy:6114834004",
+    "title": "Operations BI Engineer (6 months contract)",
+    "company": "lunarenergy",
+    "location": "Mountain View, CA",
+    "url": "https://job-boards.greenhouse.io/lunarenergy/jobs/6114834004",
+    "posted": "2026-07-13T18:56:08-04:00",
+    "date_found": "2026-07-14T00:31:08.711657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
