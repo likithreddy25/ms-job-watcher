@@ -6528,5 +6528,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:torcrobotics:8534177002",
+    "title": "Software Engineer I - Device Drivers",
+    "company": "Torcrobotics",
+    "location": "Ann Arbor, MI",
+    "url": "https://job-boards.greenhouse.io/torcrobotics/jobs/8534177002",
+    "posted": "2026-07-13T19:10:51-04:00",
+    "date_found": "2026-07-14T02:00:54.608133+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
   }
 ]
