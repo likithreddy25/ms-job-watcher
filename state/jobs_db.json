@@ -6841,5 +6841,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4696640006",
+    "title": "Associate Product Developer - Home Environment ",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4696640006",
+    "posted": "2026-07-14T11:13:37-04:00",
+    "date_found": "2026-07-14T16:36:54.846804+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
