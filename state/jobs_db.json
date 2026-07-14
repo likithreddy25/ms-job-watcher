@@ -7430,5 +7430,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:47c964d3-c449-4172-b5cf-4acb2fa5efbd",
+    "title": "Software Development Engineer, Benchmarks",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10474656/software-development-engineer-benchmarks",
+    "posted": "July 14, 2026",
+    "date_found": "2026-07-14T23:20:52.398332+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:f96fc746-507a-4378-a103-a6a15a99885f",
+    "title": "Software Development Engineer, AWS Bill Generation Fulfillment Tracking",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10474654/software-development-engineer-aws-bill-generation-fulfillment-tracking",
+    "posted": "July 14, 2026",
+    "date_found": "2026-07-14T23:20:52.398332+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
