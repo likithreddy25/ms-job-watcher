@@ -6635,5 +6635,31 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:katalyst:6115352004",
+    "title": "Software Engineer I, Model and Simulation ",
+    "company": "katalyst",
+    "location": "Broomfield, Colorado, United States",
+    "url": "https://job-boards.greenhouse.io/katalyst/jobs/6115352004",
+    "posted": "2026-07-14T08:19:16-04:00",
+    "date_found": "2026-07-14T13:01:53.056699+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]

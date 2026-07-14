@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-14T12:31:47.666722+00:00",
+  "updated_utc": "2026-07-14T13:01:53.180663+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -391,6 +391,33 @@
     "greenhouse:glide": {
       "first_seen_utc": "2026-07-14T12:31:30.984562+00:00",
       "last_seen_utc": "2026-07-14T12:31:30.984562+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:johnsonlawgroup": {
+      "first_seen_utc": "2026-07-14T13:00:51.963745+00:00",
+      "last_seen_utc": "2026-07-14T13:00:51.963745+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:kunai": {
+      "first_seen_utc": "2026-07-14T13:00:53.794485+00:00",
+      "last_seen_utc": "2026-07-14T13:00:53.794485+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:thrivecart": {
+      "first_seen_utc": "2026-07-14T13:01:47.500812+00:00",
+      "last_seen_utc": "2026-07-14T13:01:47.500812+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
