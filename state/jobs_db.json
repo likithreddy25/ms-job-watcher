@@ -7073,5 +7073,60 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5186832007",
+    "title": "Software Development Engineer I \u2013 Agentic AI, ArcGIS Enterprise",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5186832007?gh_jid=5186832007",
+    "posted": "2026-07-14T14:21:12-04:00",
+    "date_found": "2026-07-14T19:31:34.890988+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "langchain"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5185716007",
+    "title": "Software Development Engineer I - ArcGIS Enterprise",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5185716007?gh_jid=5185716007",
+    "posted": "2026-07-14T15:00:43-04:00",
+    "date_found": "2026-07-14T19:31:34.890988+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "azure",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
