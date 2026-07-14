@@ -6887,5 +6887,31 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:equipmentsharecom:7985681",
+    "title": "Financial Analyst",
+    "company": "equipmentsharecom",
+    "location": "Columbia, MO (Headquarters)",
+    "url": "https://www.equipmentshare.com/careers/openings/?gh_jid=7985681",
+    "posted": "2026-07-14T13:30:55-04:00",
+    "date_found": "2026-07-14T17:31:37.171647+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "swift"
+    ]
   }
 ]
