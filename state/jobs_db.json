@@ -7073,5 +7073,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twilio:7434770",
+    "title": "Software Engineer L2 - Cloud Infrastructure ",
+    "company": "twilio",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7434770",
+    "posted": "2026-07-14T14:25:57-04:00",
+    "date_found": "2026-07-14T19:32:23.390206+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
