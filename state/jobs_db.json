@@ -7624,5 +7624,27 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:84647344-7ba0-4ce4-8574-9752b084e02e",
+    "title": "Machine Learning Engineer",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10474916/machine-learning-engineer",
+    "posted": "July 15, 2026",
+    "date_found": "2026-07-15T09:01:01.314405+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
