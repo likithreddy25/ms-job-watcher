@@ -8414,5 +8414,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:8067617",
+    "title": "Global Intelligence Analyst",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/8067617?gh_jid=8067617",
+    "posted": "2026-07-15T16:12:11-04:00",
+    "date_found": "2026-07-15T22:01:42.191102+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
