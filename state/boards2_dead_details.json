@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-15T18:01:04.718318+00:00",
+  "updated_utc": "2026-07-15T18:31:36.186832+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -490,6 +490,15 @@
     "greenhouse:zenvia": {
       "first_seen_utc": "2026-07-15T16:01:00.518012+00:00",
       "last_seen_utc": "2026-07-15T16:01:00.518012+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:haydenconsultinggroupllc": {
+      "first_seen_utc": "2026-07-15T18:31:26.990726+00:00",
+      "last_seen_utc": "2026-07-15T18:31:26.990726+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
