@@ -7646,5 +7646,53 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:vetevolve:5350829008",
+    "title": "Financial Analyst",
+    "company": "vetevolve",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/vetevolve/jobs/5350829008",
+    "posted": "2026-07-15T09:34:31-04:00",
+    "date_found": "2026-07-15T14:27:12.543438+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:distro:5ba638a6-c811-4252-86f1-af7bc6f64538",
+    "title": "Technical Product Analyst",
+    "company": "distro",
+    "location": "United States",
+    "url": "https://jobs.lever.co/distro/5ba638a6-c811-4252-86f1-af7bc6f64538",
+    "posted": "2026-07-09 20:05 UTC",
+    "date_found": "2026-07-15T14:27:12.543438+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "c#"
+    ]
   }
 ]
