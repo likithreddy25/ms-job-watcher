@@ -7512,5 +7512,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twitch:8623578002",
+    "title": "Software Engineer I, Discovery",
+    "company": "twitch",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8623578002",
+    "posted": "2026-07-14T18:43:05-04:00",
+    "date_found": "2026-07-15T00:32:10.562462+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "golang",
+      "swift",
+      "kotlin"
+    ]
   }
 ]
