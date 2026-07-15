@@ -7736,5 +7736,36 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lightspeeddms:5355127008",
+    "title": "Software Engineer - AI",
+    "company": "lightspeeddms",
+    "location": "South Jordan, UT",
+    "url": "https://job-boards.greenhouse.io/lightspeeddms/jobs/5355127008",
+    "posted": "2026-07-15T10:57:39-04:00",
+    "date_found": "2026-07-15T15:31:41.080988+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "no",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
