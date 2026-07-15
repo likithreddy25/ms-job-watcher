@@ -7601,5 +7601,28 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:flyzipline:7802181003",
+    "title": "Billing Operations Analyst",
+    "company": "flyzipline",
+    "location": "South San Francisco, California, USA",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7802181003",
+    "posted": "2026-07-15T01:02:56-04:00",
+    "date_found": "2026-07-15T06:01:42.328748+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": true,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
