@@ -7876,5 +7876,70 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:ensono:4711789005",
+    "title": "Associate Machine Learning AI Engineer",
+    "company": "ensono",
+    "location": "Remote - United States",
+    "url": "https://ensono.com/company/careers/jobs-board/?gh_jid=4711789005",
+    "posted": "2026-07-15T12:41:23-04:00",
+    "date_found": "2026-07-15T16:56:03.273304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "nlp",
+      "machine learning",
+      "etl",
+      "aws",
+      "gcp",
+      "azure",
+      "docker"
+    ],
+    "bad_tech": [
+      "java",
+      "c#"
+    ]
+  },
+  {
+    "key": "greenhouse:feedzai:8067569",
+    "title": "Software Engineer - Customer Success",
+    "company": "feedzai",
+    "location": "Atlanta, GA, United States",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8067569",
+    "posted": "2026-07-15T12:52:53-04:00",
+    "date_found": "2026-07-15T16:56:03.273304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kafka",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
