@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-15T13:31:38.570993+00:00",
+  "updated_utc": "2026-07-15T14:01:57.573812+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -472,6 +472,15 @@
     "greenhouse:baincapitalventures": {
       "first_seen_utc": "2026-07-15T06:00:55.430554+00:00",
       "last_seen_utc": "2026-07-15T06:00:55.430554+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:interviewkickstart": {
+      "first_seen_utc": "2026-07-15T14:00:52.275448+00:00",
+      "last_seen_utc": "2026-07-15T14:00:52.275448+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
