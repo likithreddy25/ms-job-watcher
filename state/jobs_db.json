@@ -9935,5 +9935,45 @@
       "ruby",
       "rails"
     ]
+  },
+  {
+    "key": "amazon:dad2a6f4-6a92-4b30-9e97-a6f87336107e",
+    "title": "Software Development Engineer, Ads Data Manager",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10476935/software-development-engineer-ads-data-manager",
+    "posted": "July 16, 2026",
+    "date_found": "2026-07-16T23:40:42.829172+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e2ba3f5a-0fed-44b9-ac2f-8c92fa4ae810",
+    "title": "Software Development Engineer, Amazon Core Shopping, Buy for Me",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10476934/software-development-engineer-amazon-core-shopping-buy-for-me",
+    "posted": "July 16, 2026",
+    "date_found": "2026-07-16T23:40:42.829172+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
