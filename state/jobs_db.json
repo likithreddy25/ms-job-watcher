@@ -8556,5 +8556,29 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:cribl:6018893004",
+    "title": "Sr Revenue Operations Analyst",
+    "company": "cribl",
+    "location": "Remote - United States",
+    "url": "https://cribl.io/job-detail/?gh_jid=6018893004",
+    "posted": "2026-07-15T20:20:23-04:00",
+    "date_found": "2026-07-16T01:31:24.808073+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
