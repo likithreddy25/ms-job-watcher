@@ -8600,5 +8600,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:b1c2f31b-2ba6-4c5a-89b1-095855c004a4",
+    "title": " Applied Scientist, AWS Automated Reasoning",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10475958/applied-scientist-aws-automated-reasoning",
+    "posted": "July 16, 2026",
+    "date_found": "2026-07-16T03:30:56.028195+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
