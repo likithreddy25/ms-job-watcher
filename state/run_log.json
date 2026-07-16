@@ -1,48 +1,5 @@
 [
   {
-    "ts": "2026-07-07T17:02Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 8015,
-        "title_ok": 2723,
-        "loc_ok": 1733,
-        "new": 5,
-        "emailed": 5
-      },
-      "smartrecruiters": {
-        "fetched": 1380,
-        "title_ok": 285,
-        "loc_ok": 161,
-        "new": 0,
-        "emailed": 0
-      },
-      "lever": {
-        "fetched": 277,
-        "title_ok": 118,
-        "loc_ok": 69,
-        "new": 0,
-        "emailed": 0
-      },
-      "ashby": {
-        "fetched": 124,
-        "title_ok": 47,
-        "loc_ok": 15,
-        "new": 0,
-        "emailed": 0
-      },
-      "workday": {
-        "fetched": 6500,
-        "title_ok": 1708,
-        "loc_ok": 72,
-        "new": 0,
-        "emailed": 0
-      }
-    },
-    "duration_s": 102.0,
-    "cursor": 800
-  },
-  {
     "ts": "2026-07-07T17:11Z",
     "mode": "main",
     "per_source": {
@@ -48668,5 +48625,54 @@
     },
     "duration_s": 14.1,
     "cursor": null
+  },
+  {
+    "ts": "2026-07-16T20:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 8232,
+        "title_ok": 484,
+        "loc_ok": 302,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 842,
+        "clearance_excluded": 1
+      },
+      "smartrecruiters": {
+        "fetched": 1367,
+        "title_ok": 35,
+        "loc_ok": 25,
+        "new": 5,
+        "emailed": 5,
+        "senior_excluded": 96
+      },
+      "workday": {
+        "fetched": 6500,
+        "title_ok": 193,
+        "loc_ok": 13,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 801
+      },
+      "lever": {
+        "fetched": 273,
+        "title_ok": 20,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 41
+      },
+      "ashby": {
+        "fetched": 126,
+        "title_ok": 12,
+        "loc_ok": 5,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 27
+      }
+    },
+    "duration_s": 113.0,
+    "cursor": 800
   }
 ]
