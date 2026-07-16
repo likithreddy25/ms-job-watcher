@@ -8706,5 +8706,34 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "greenhouse:pointc:5236213008",
+    "title": "Software Engineer - Contractor",
+    "company": "pointc",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/pointc/jobs/5236213008",
+    "posted": "2026-07-16T09:32:36-04:00",
+    "date_found": "2026-07-16T14:37:34.629066+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
   }
 ]
