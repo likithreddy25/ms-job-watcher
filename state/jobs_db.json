@@ -9572,5 +9572,32 @@
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:woven-by-toyota:4afeadd3-5418-41d8-b292-0c65a2ce8191",
+    "title": "Software Engineer, Calibration",
+    "company": "woven-by-toyota",
+    "location": "Ann Arbor, MI",
+    "url": "https://jobs.lever.co/woven-by-toyota/4afeadd3-5418-41d8-b292-0c65a2ce8191",
+    "posted": "2026-07-16 19:22 UTC",
+    "date_found": "2026-07-16T20:31:39.963319+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "computer vision",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "embedded"
+    ]
   }
 ]
