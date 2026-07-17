@@ -1,45 +1,5 @@
 [
   {
-    "ts": "2026-07-11T00:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 4362,
-        "title_ok": 449,
-        "loc_ok": 190,
-        "new": 4,
-        "emailed": 4,
-        "senior_excluded": 754
-      },
-      "lever": {
-        "fetched": 626,
-        "title_ok": 82,
-        "loc_ok": 62,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 39
-      },
-      "ashby": {
-        "fetched": 4,
-        "title_ok": 1,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "workday": {
-        "fetched": 9577,
-        "title_ok": 1020,
-        "loc_ok": 372,
-        "new": 17,
-        "emailed": 34,
-        "senior_excluded": 1053
-      }
-    },
-    "duration_s": 130.6,
-    "cursor": 400
-  },
-  {
     "ts": "2026-07-11T00:40Z",
     "mode": "main",
     "per_source": {
@@ -49359,5 +49319,53 @@
     },
     "duration_s": 11.6,
     "cursor": null
+  },
+  {
+    "ts": "2026-07-17T11:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 10645,
+        "title_ok": 570,
+        "loc_ok": 367,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1066
+      },
+      "lever": {
+        "fetched": 592,
+        "title_ok": 8,
+        "loc_ok": 7,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 20
+      },
+      "smartrecruiters": {
+        "fetched": 1315,
+        "title_ok": 70,
+        "loc_ok": 19,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 36
+      },
+      "ashby": {
+        "fetched": 136,
+        "title_ok": 7,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 9
+      },
+      "workday": {
+        "fetched": 10657,
+        "title_ok": 430,
+        "loc_ok": 149,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 505
+      }
+    },
+    "duration_s": 122.3,
+    "cursor": 200
   }
 ]
