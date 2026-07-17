@@ -10671,5 +10671,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:thinkahead:b044c4f0-4509-425f-8581-58070ded2379",
+    "title": "Software Engineer",
+    "company": "thinkahead",
+    "location": "United States",
+    "url": "https://jobs.lever.co/thinkahead/b044c4f0-4509-425f-8581-58070ded2379",
+    "posted": "2026-07-17 18:55 UTC",
+    "date_found": "2026-07-17T20:31:54.227661+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
