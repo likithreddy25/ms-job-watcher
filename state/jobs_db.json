@@ -10375,5 +10375,45 @@
       "snowflake"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0244671",
+    "title": "Data Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "San Diego, CA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/San-Diego-CA/Data-Engineer_R0244671-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-17T16:32:29.006007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:capitalone:Capital_One:req:R247224",
+    "title": "Senior Software Engineer, DevOps (Cloud Operations Resilience Engineering)",
+    "company": "Capital One",
+    "location": "Plano, TX",
+    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Senior-Software-Engineer--DevOps--Cloud-Operations-Resilience-Engineering-_R247224-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-17T16:32:29.006007+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1654,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
