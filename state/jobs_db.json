@@ -10375,5 +10375,60 @@
       "snowflake"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:ethoslife:8635727002",
+    "title": "Software Engineer ",
+    "company": "ethoslife",
+    "location": "Remote US",
+    "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8635727002",
+    "posted": "2026-07-17T12:04:57-04:00",
+    "date_found": "2026-07-17T16:31:17.015640+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:imc:4908708101",
+    "title": "Software Engineer - Risk Technology ",
+    "company": "imc",
+    "location": "Chicago, United States",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4908708101",
+    "posted": "2026-07-17T12:08:32-04:00",
+    "date_found": "2026-07-17T16:31:17.015640+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
