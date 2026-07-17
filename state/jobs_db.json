@@ -10435,5 +10435,39 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:wellfit:ee1d84de-6aac-4bbd-9b3e-f9c7110c3393",
+    "title": "Associate AI Engineer",
+    "company": "wellfit",
+    "location": "Irving, TX",
+    "url": "https://jobs.lever.co/wellfit/ee1d84de-6aac-4bbd-9b3e-f9c7110c3393",
+    "posted": "2026-06-22 18:30 UTC",
+    "date_found": "2026-07-17T17:30:42.187010+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "openai",
+      "machine learning",
+      "aws",
+      "gcp",
+      "azure",
+      "fastapi",
+      "flask",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
   }
 ]
