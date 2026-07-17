@@ -10353,5 +10353,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:snowflake:282bfe6e-14aa-4992-a5e4-dff12a2e2f47",
+    "title": "Finance Rotation Program (Financial Analyst) ",
+    "company": "Snowflake",
+    "location": "US-CA-Dublin",
+    "url": "https://jobs.ashbyhq.com/snowflake/282bfe6e-14aa-4992-a5e4-dff12a2e2f47",
+    "posted": "",
+    "date_found": "2026-07-17T16:01:44.215686+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 421,
+    "good_tech": [
+      "snowflake"
+    ],
+    "bad_tech": []
   }
 ]
