@@ -48846,24 +48846,40 @@
     "cursor": null
   },
   {
-    "ts": "2026-07-17T03:31Z",
+    "ts": "2026-07-17T03:32Z",
     "mode": "boards",
     "per_source": {
       "greenhouse": {
-        "fetched": 14772,
-        "title_ok": 525,
-        "loc_ok": 159,
+        "fetched": 4355,
+        "title_ok": 276,
+        "loc_ok": 96,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 640
+        "senior_excluded": 481
       },
       "lever": {
-        "fetched": 46910,
-        "title_ok": 1414,
-        "loc_ok": 338,
+        "fetched": 621,
+        "title_ok": 16,
+        "loc_ok": 10,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 1311
+        "senior_excluded": 14
+      },
+      "ashby": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "workday": {
+        "fetched": 9581,
+        "title_ok": 317,
+        "loc_ok": 105,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 443
       }
     },
     "duration_s": 65.1,
