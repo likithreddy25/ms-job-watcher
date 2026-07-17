@@ -10015,5 +10015,71 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6104600004",
+    "title": "Software Engineer I",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6104600004",
+    "posted": "2026-07-16T20:08:32-04:00",
+    "date_found": "2026-07-17T01:32:05.293103+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "android"
+    ]
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000138205419",
+    "title": "Software Engineer, DevOps - Moveworks",
+    "company": "ServiceNow",
+    "location": "Mountain View, CALIFORNIA, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-07-16T22:52:59.743Z",
+    "date_found": "2026-07-17T01:32:05.293103+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000138204940",
+    "title": "Senior Software Engineer, DevOps - Moveworks",
+    "company": "ServiceNow",
+    "location": "Mountain View, CALIFORNIA, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-07-16T22:52:57.489Z",
+    "date_found": "2026-07-17T01:32:05.293103+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
