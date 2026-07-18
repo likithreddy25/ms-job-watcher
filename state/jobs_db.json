@@ -11008,5 +11008,45 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0244740",
+    "title": "Cyber Intelligence Analyst",
+    "company": "Booz Allen Hamilton",
+    "location": "Fort Meade, MD",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Cyber-Intelligence-Analyst_R0244740-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-18T00:32:23.390836+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026516821",
+    "title": "Experienced Software Engineer \u2013 DevSecOps",
+    "company": "Boeing",
+    "location": "USA - Daytona Beach, FL",
+    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Daytona-Beach-FL/Experienced-Software-Engineer---DevSecOps_JR2026516821",
+    "posted": "Posted Today",
+    "date_found": "2026-07-18T00:32:23.390836+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
