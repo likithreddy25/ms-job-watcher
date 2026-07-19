@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-19T05:30:39.440917+00:00",
+  "updated_utc": "2026-07-19T06:02:04.756973+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -535,6 +535,51 @@
     "greenhouse:thirtymadison": {
       "first_seen_utc": "2026-07-17T16:46:20.353746+00:00",
       "last_seen_utc": "2026-07-17T16:46:20.353746+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:gainternships": {
+      "first_seen_utc": "2026-07-19T06:01:58.241680+00:00",
+      "last_seen_utc": "2026-07-19T06:01:58.241680+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:gafg": {
+      "first_seen_utc": "2026-07-19T06:01:58.287527+00:00",
+      "last_seen_utc": "2026-07-19T06:01:58.287527+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:ghd": {
+      "first_seen_utc": "2026-07-19T06:01:58.678116+00:00",
+      "last_seen_utc": "2026-07-19T06:01:58.678116+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:gradientcomfort": {
+      "first_seen_utc": "2026-07-19T06:01:59.500577+00:00",
+      "last_seen_utc": "2026-07-19T06:01:59.500577+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:houseaccount": {
+      "first_seen_utc": "2026-07-19T06:02:01.473864+00:00",
+      "last_seen_utc": "2026-07-19T06:02:01.473864+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
