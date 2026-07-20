@@ -11413,5 +11413,31 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7809759003",
+    "title": "Spacecraft Mission Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7809759003",
+    "posted": "2026-07-20T11:37:58-04:00",
+    "date_found": "2026-07-20T17:08:44.954536+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
