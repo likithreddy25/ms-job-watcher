@@ -11623,5 +11623,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:babelstreet:8075011",
+    "title": "Software Engineer",
+    "company": "babelstreet",
+    "location": "Somerville, Massachusetts, United States",
+    "url": "https://job-boards.greenhouse.io/babelstreet/jobs/8075011",
+    "posted": "2026-07-20T14:16:29-04:00",
+    "date_found": "2026-07-20T20:01:31.323307+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "transformers",
+      "computer vision",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
