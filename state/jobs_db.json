@@ -11581,5 +11581,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:396ae614-3315-4d27-b087-fa57a1d1a45f",
+    "title": "Software Dev Engineer (SDE II), EC2 Core / Outposts Console, AWS CX ",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10479160/software-dev-engineer-sde-ii-ec2-core-outposts-console-aws-cx",
+    "posted": "July 20, 2026",
+    "date_found": "2026-07-20T18:40:41.072081+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
