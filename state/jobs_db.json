@@ -11932,5 +11932,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:fea3f115-e35f-4423-8b3c-6348e53ca0d6",
+    "title": " Software Development Engineer, AWS OpenSearch",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10479464/software-development-engineer-aws-opensearch",
+    "posted": "July 20, 2026",
+    "date_found": "2026-07-20T23:10:39.849503+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
