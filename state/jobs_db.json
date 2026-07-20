@@ -11240,5 +11240,49 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:clinchoice:4932466101",
+    "title": "Health Authority Reporting Analyst",
+    "company": "clinchoice",
+    "location": "United States",
+    "url": "https://job-boards.eu.greenhouse.io/clinchoice/jobs/4932466101",
+    "posted": "2026-07-20T10:20:19-04:00",
+    "date_found": "2026-07-20T14:58:27.848722+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:clinchoice:4932506101",
+    "title": "Health Authority Reporting Analyst ",
+    "company": "clinchoice",
+    "location": "United States",
+    "url": "https://job-boards.eu.greenhouse.io/clinchoice/jobs/4932506101",
+    "posted": "2026-07-20T10:27:28-04:00",
+    "date_found": "2026-07-20T14:58:27.848722+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
