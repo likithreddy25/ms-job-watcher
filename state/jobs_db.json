@@ -11650,5 +11650,27 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:f3a98667-6529-411b-b6c9-d52fe4096aaa",
+    "title": "Software Development Engineer, AWS Marketplace",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10479280/software-development-engineer-aws-marketplace",
+    "posted": "July 20, 2026",
+    "date_found": "2026-07-20T20:10:38.418647+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
