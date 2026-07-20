@@ -1,61 +1,5 @@
 [
   {
-    "ts": "2026-07-13T19:50Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 160,
-        "title_ok": 8,
-        "loc_ok": 8,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 44
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 108,
-        "loc_ok": 108,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 74
-      },
-      "nvidia": {
-        "fetched": 20,
-        "title_ok": 1,
-        "loc_ok": 1,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 16
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 4,
-        "title_ok": 2,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      }
-    },
-    "duration_s": 9.8,
-    "cursor": null
-  },
-  {
     "ts": "2026-07-13T20:02Z",
     "mode": "boards",
     "per_source": {
@@ -48816,5 +48760,53 @@
     },
     "duration_s": 13.1,
     "cursor": null
+  },
+  {
+    "ts": "2026-07-20T06:32Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 10599,
+        "title_ok": 568,
+        "loc_ok": 368,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1058
+      },
+      "lever": {
+        "fetched": 598,
+        "title_ok": 8,
+        "loc_ok": 7,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 19
+      },
+      "ashby": {
+        "fetched": 138,
+        "title_ok": 7,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 9
+      },
+      "smartrecruiters": {
+        "fetched": 1321,
+        "title_ok": 69,
+        "loc_ok": 19,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 36
+      },
+      "workday": {
+        "fetched": 10652,
+        "title_ok": 425,
+        "loc_ok": 148,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 522
+      }
+    },
+    "duration_s": 104.7,
+    "cursor": 200
   }
 ]
