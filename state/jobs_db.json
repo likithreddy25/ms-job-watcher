@@ -11822,5 +11822,51 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "ashby:benchling:5f98903f-739c-44d4-8ce9-80767baf569b",
+    "title": "Software Engineer, Applications (Scientific Development Solutions) (High Seniority)",
+    "company": "Benchling",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.ashbyhq.com/benchling/5f98903f-739c-44d4-8ce9-80767baf569b",
+    "posted": "",
+    "date_found": "2026-07-20T22:11:44.202358+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:5e03b357-0cc1-4194-9488-14f85044f4f9",
+    "title": "Part-Time Student Worker - Data Analyst",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/5e03b357-0cc1-4194-9488-14f85044f4f9",
+    "posted": "2026-07-20 21:28 UTC",
+    "date_found": "2026-07-20T22:11:44.202358+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "pyspark",
+      "databricks",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
