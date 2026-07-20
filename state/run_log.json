@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-07-13T15:08Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 1950,
-        "title_ok": 71,
-        "loc_ok": 29,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 256
-      },
-      "lever": {
-        "fetched": 569,
-        "title_ok": 61,
-        "loc_ok": 41,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 75
-      },
-      "smartrecruiters": {
-        "fetched": 213,
-        "title_ok": 15,
-        "loc_ok": 12,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 32
-      },
-      "ashby": {
-        "fetched": 4882,
-        "title_ok": 429,
-        "loc_ok": 86,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 496
-      },
-      "workday": {
-        "fetched": 2500,
-        "title_ok": 193,
-        "loc_ok": 33,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 139
-      }
-    },
-    "duration_s": 69.2,
-    "cursor": 1000
-  },
-  {
     "ts": "2026-07-13T15:10Z",
     "mode": "main",
     "per_source": {
@@ -48749,6 +48701,62 @@
   },
   {
     "ts": "2026-07-20T01:10Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 164,
+        "title_ok": 15,
+        "loc_ok": 15,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 43
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 107,
+        "loc_ok": 107,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 79
+      },
+      "nvidia": {
+        "fetched": 30,
+        "title_ok": 3,
+        "loc_ok": 3,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 23
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 3,
+        "title_ok": 2,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 9.9,
+    "cursor": null
+  },
+  {
+    "ts": "2026-07-20T01:20Z",
     "mode": "main",
     "per_source": {
       "microsoft": {
