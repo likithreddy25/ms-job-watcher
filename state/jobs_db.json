@@ -11284,5 +11284,30 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:rockstargames:7800927003",
+    "title": "Cloud Platform Engineer",
+    "company": "rockstargames",
+    "location": "Manhattan, New York, United States",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7800927003",
+    "posted": "2026-07-20T10:26:01-04:00",
+    "date_found": "2026-07-20T15:01:35.924201+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "rails"
+    ]
   }
 ]
