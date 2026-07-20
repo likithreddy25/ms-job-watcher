@@ -11890,5 +11890,47 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0244720",
+    "title": "Artificial Intelligence & Machine Learning Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "Arlington, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Artificial-Intelligence---Machine-Learning-Engineer_R0244720",
+    "posted": "Posted Today",
+    "date_found": "2026-07-20T23:02:38.091906+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0235447",
+    "title": "Operations Research Analyst, Senior",
+    "company": "Booz Allen Hamilton",
+    "location": "Stafford, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Stafford-VA/Operations-Research-Analyst--Senior_R0235447",
+    "posted": "Posted Today",
+    "date_found": "2026-07-20T23:02:38.091906+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
