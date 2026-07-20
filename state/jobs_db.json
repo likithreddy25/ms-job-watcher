@@ -11389,5 +11389,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:keyfactorinc:6119682004",
+    "title": "Software Engineer",
+    "company": "keyfactorinc",
+    "location": "United States; Remote",
+    "url": "https://job-boards.greenhouse.io/keyfactorinc/jobs/6119682004",
+    "posted": "2026-07-20T12:55:33-04:00",
+    "date_found": "2026-07-20T17:01:54.210352+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
