@@ -11369,5 +11369,28 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:berkadia:7795942003",
+    "title": "Financial Analyst ",
+    "company": "berkadia",
+    "location": "United States Of America",
+    "url": "https://boards.greenhouse.io/berkadia/jobs/7795942003?gh_jid=7795942003",
+    "posted": "2026-07-20T11:54:42-04:00",
+    "date_found": "2026-07-20T16:31:33.983288+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
