@@ -11561,5 +11561,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:quince:5364373008",
+    "title": "Data Scientist, Growth",
+    "company": "quince",
+    "location": "Palo Alto, CA",
+    "url": "https://job-boards.greenhouse.io/quince/jobs/5364373008",
+    "posted": "2026-07-20T14:08:34-04:00",
+    "date_found": "2026-07-20T18:31:16.840787+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
