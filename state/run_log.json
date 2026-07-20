@@ -1,45 +1,5 @@
 [
   {
-    "ts": "2026-07-13T16:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 4406,
-        "title_ok": 276,
-        "loc_ok": 104,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 503
-      },
-      "lever": {
-        "fetched": 624,
-        "title_ok": 17,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 15
-      },
-      "ashby": {
-        "fetched": 4,
-        "title_ok": 1,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1
-      },
-      "workday": {
-        "fetched": 9577,
-        "title_ok": 354,
-        "loc_ok": 98,
-        "new": 4,
-        "emailed": 4,
-        "senior_excluded": 434
-      }
-    },
-    "duration_s": 120.5,
-    "cursor": 400
-  },
-  {
     "ts": "2026-07-13T16:40Z",
     "mode": "main",
     "per_source": {
@@ -48858,6 +48818,63 @@
       }
     },
     "duration_s": 9.6,
+    "cursor": null
+  },
+  {
+    "ts": "2026-07-20T03:00Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "Microsoft fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United+States%2C+Multiple+Locations%2C+Multiple+Locations&start=0&sort_by=timestamp&filter_include_remote=1&filter_seniority=Entry&filter_seniority=Mid-Level"
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 106,
+        "loc_ok": 106,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 80
+      },
+      "nvidia": {
+        "fetched": 20,
+        "title_ok": 1,
+        "loc_ok": 1,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 15
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 3,
+        "title_ok": 2,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 9.0,
     "cursor": null
   }
 ]
