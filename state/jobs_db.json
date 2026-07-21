@@ -12461,5 +12461,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:f4fed7c4-7cbc-43f3-b0a7-c97f9c31f642",
+    "title": "Applied Scientist, AWS Automated Reasoning",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10480215/applied-scientist-aws-automated-reasoning",
+    "posted": "July 21, 2026",
+    "date_found": "2026-07-21T16:10:48.122098+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
