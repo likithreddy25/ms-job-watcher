@@ -13128,5 +13128,62 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:current81:8077997",
+    "title": "Software Engineer, iOS",
+    "company": "current81",
+    "location": "New York, NY",
+    "url": "https://current.com/careers/open-positions/?id=8077997&gh_jid=8077997",
+    "posted": "2026-07-21T16:59:15-04:00",
+    "date_found": "2026-07-21T22:03:31.411443+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "swift",
+      "kotlin"
+    ]
+  },
+  {
+    "key": "greenhouse:digicert:8637536002",
+    "title": "Associate Backend Engineer.",
+    "company": "digicert",
+    "location": "Sunnyvale, CA",
+    "url": "https://www.digicert.com/careers/?gh_jid=8637536002",
+    "posted": "2026-07-21T16:11:42-04:00",
+    "date_found": "2026-07-21T22:03:31.411443+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust"
+    ]
   }
 ]
