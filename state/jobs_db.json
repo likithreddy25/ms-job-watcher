@@ -13225,5 +13225,75 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5364804008",
+    "title": "Machine Learning Infrastructure Engineer, Safeguards Research",
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008",
+    "posted": "2026-07-21T17:13:51-04:00",
+    "date_found": "2026-07-21T23:32:17.989218+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "transformers",
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:citi:2:req:26980434",
+    "title": "Data & API Platform Engineering Group Manager",
+    "company": "Citigroup",
+    "location": "Irving Texas United States",
+    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Irving-Texas-United-States/Data---API-Platform-Engineering-Group-Manager_26980434",
+    "posted": "Posted Today",
+    "date_found": "2026-07-21T23:32:17.989218+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:citi:2:req:26948500",
+    "title": "Python Data Analyst- Assistant Vice President",
+    "company": "Citigroup",
+    "location": "Jacksonville Florida United States",
+    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Jacksonville-Florida-United-States/Python-Data-Analyst--Assistant-Vice-President_26948500",
+    "posted": "Posted Today",
+    "date_found": "2026-07-21T23:32:17.989218+00:00",
+    "bucket": "yes",
+    "score": 34,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": []
   }
 ]
