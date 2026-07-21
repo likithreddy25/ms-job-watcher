@@ -12014,5 +12014,31 @@
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:hexarmor:7718550003",
+    "title": "Data Engineer I",
+    "company": "hexarmor",
+    "location": "Grand Rapids, Michigan, United States",
+    "url": "https://job-boards.greenhouse.io/hexarmor/jobs/7718550003",
+    "posted": "2026-07-20T20:19:58-04:00",
+    "date_found": "2026-07-21T01:02:25.110872+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "etl",
+      "elt",
+      "aws",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
