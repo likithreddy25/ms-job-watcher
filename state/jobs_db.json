@@ -12769,5 +12769,32 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:verkada:5191604007",
+    "title": "Backend Engineer, Alarms",
+    "company": "verkada",
+    "location": "San Mateo, CA United States",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5191604007",
+    "posted": "2026-07-21T13:53:38-04:00",
+    "date_found": "2026-07-21T20:01:48.656939+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kafka",
+      "postgres"
+    ],
+    "bad_tech": [
+      "rust",
+      "firmware"
+    ]
   }
 ]
