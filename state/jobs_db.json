@@ -12503,5 +12503,52 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000138897471",
+    "title": "Manager, Software Engineering Management",
+    "company": "ServiceNow",
+    "location": "Santa Clara, CALIFORNIA, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-07-21T15:22:04.523Z",
+    "date_found": "2026-07-21T17:02:24.130826+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6120141004",
+    "title": "Software Development Engineer in Test (Firmware and Driver SDET Contractor)",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6120141004",
+    "posted": "2026-07-21T11:24:17-04:00",
+    "date_found": "2026-07-21T17:02:24.130826+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
