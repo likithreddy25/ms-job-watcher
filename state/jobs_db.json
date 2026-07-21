@@ -12546,5 +12546,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:snowflake:74466b25-9cc8-4e9b-b60b-234c539c455c",
+    "title": "Software Engineer",
+    "company": "Snowflake",
+    "location": "US-CA-Menlo Park",
+    "url": "https://jobs.ashbyhq.com/snowflake/74466b25-9cc8-4e9b-b60b-234c539c455c",
+    "posted": "",
+    "date_found": "2026-07-21T17:31:46.312397+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 421,
+    "good_tech": [
+      "snowflake"
+    ],
+    "bad_tech": []
   }
 ]
