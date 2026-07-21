@@ -13128,5 +13128,31 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:newrelic:5294389008",
+    "title": "Software Engineer- Infrastructure",
+    "company": "New Relic",
+    "location": "Atlanta, Georgia, USA; Boise, Idaho, USA; Charleston, South Carolina, USA; Chicago, Illinois, USA; Columbus, Ohio, USA; Dallas, Texas, USA; Denver, Colorado, USA; Detroit, Michigan, USA; Houston, Texas, USA; Indianapolis, Indiana, USA; Las Vegas, Nevada, USA; Madison, Wisconsin, USA; Orlando, Florida, USA; Phoenix, Arizona, USA; Portland, Oregon, USA; Salt Lake City, Utah, USA",
+    "url": "https://job-boards.greenhouse.io/newrelic/jobs/5294389008",
+    "posted": "2026-07-21T15:43:19-04:00",
+    "date_found": "2026-07-21T22:01:43.217750+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "azure",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
