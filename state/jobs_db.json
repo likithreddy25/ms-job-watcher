@@ -12503,5 +12503,28 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:questbridge:8642273002",
+    "title": "Data Analyst",
+    "company": "questbridge",
+    "location": "Remote Within the U.S.",
+    "url": "https://job-boards.greenhouse.io/questbridge/jobs/8642273002",
+    "posted": "2026-07-21T11:31:49-04:00",
+    "date_found": "2026-07-21T17:02:17.299093+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
