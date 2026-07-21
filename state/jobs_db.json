@@ -12149,5 +12149,31 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:commerceiq:7803169003",
+    "title": "Software Engineer",
+    "company": "commerceiq",
+    "location": "Mountain View, California, United States",
+    "url": "https://job-boards.greenhouse.io/commerceiq/jobs/7803169003",
+    "posted": "2026-07-21T02:43:17-04:00",
+    "date_found": "2026-07-21T07:01:54.897255+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": []
   }
 ]
