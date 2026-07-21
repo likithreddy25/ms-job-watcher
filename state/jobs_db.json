@@ -12608,5 +12608,28 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:five9:6112682004",
+    "title": "WEM AQM Prompt Engineer",
+    "company": "five9",
+    "location": "United States (Remote)",
+    "url": "https://www.five9.com/about/careers/job-detail?gh_jid=6112682004",
+    "posted": "2026-07-21T12:53:14-04:00",
+    "date_found": "2026-07-21T18:31:32.224801+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai"
+    ],
+    "bad_tech": []
   }
 ]
