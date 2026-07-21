@@ -12014,5 +12014,52 @@
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:d4108968-e83d-4d87-a92c-e4cd1823801c",
+    "title": "Software Engineer, ML Platform (ML Training)",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/d4108968-e83d-4d87-a92c-e4cd1823801c",
+    "posted": "2026-07-20 22:15 UTC",
+    "date_found": "2026-07-21T01:01:44.224954+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "pytorch",
+      "rag",
+      "deep learning",
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:replit:07c4c890-0dd4-4022-bba4-8dfba6ff16ee",
+    "title": "Data Scientist, Trust & Safety",
+    "company": "Replit",
+    "location": "Foster City, CA",
+    "url": "https://jobs.ashbyhq.com/replit/07c4c890-0dd4-4022-bba4-8dfba6ff16ee",
+    "posted": "",
+    "date_found": "2026-07-21T01:01:44.224954+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
