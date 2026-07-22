@@ -14818,5 +14818,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:1276eacb-2183-42a8-b53e-0aff8f20aa73",
+    "title": "Software Development Engineer - AWS IAM Identity Center, IAM Identity Center - Unified SignIn and Sessions",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10481995/software-development-engineer-aws-iam-identity-center-iam-identity-center-unified-signin-and-sessions",
+    "posted": "July 22, 2026",
+    "date_found": "2026-07-22T22:20:47.113319+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
