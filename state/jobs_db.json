@@ -14608,5 +14608,31 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:xai:4803905007",
+    "title": "Software Engineer, Observability",
+    "company": "xai",
+    "location": "Palo Alto, California, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4803905007",
+    "posted": "2026-07-22T16:44:33-04:00",
+    "date_found": "2026-07-22T21:01:49.054817+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kafka",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
