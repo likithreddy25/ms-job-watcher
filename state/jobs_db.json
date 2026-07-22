@@ -14750,5 +14750,73 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:rubrik:8076167",
+    "title": "Software Engineer - SaaS Data Protection",
+    "company": "Rubrik",
+    "location": "Palo Alto, CA",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8076167?gh_jid=8076167",
+    "posted": "2026-07-22T16:32:52-04:00",
+    "date_found": "2026-07-22T22:02:21.244515+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "golang",
+      "rust",
+      "rails"
+    ]
+  },
+  {
+    "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Manager--AI-Engineering_R26-5836",
+    "title": "Manager, AI Engineering",
+    "company": "Rockwell Automation",
+    "location": "Milwaukee, Wisconsin, United States",
+    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Manager--AI-Engineering_R26-5836",
+    "posted": "Posted Today",
+    "date_found": "2026-07-22T22:02:21.244515+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:trm-labs:13abf238-3475-4227-91cd-ac470973080f",
+    "title": "Data Engineer - AI/ML ",
+    "company": "TRM Labs",
+    "location": "United States",
+    "url": "https://jobs.ashbyhq.com/trm-labs/13abf238-3475-4227-91cd-ac470973080f",
+    "posted": "",
+    "date_found": "2026-07-22T22:02:21.244515+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
