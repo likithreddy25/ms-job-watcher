@@ -14150,5 +14150,55 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:extend:6122551004",
+    "title": " Analytics Engineer",
+    "company": "extend",
+    "location": "Remote, US",
+    "url": "https://job-boards.greenhouse.io/extend/jobs/6122551004",
+    "posted": "2026-07-22T13:14:50-04:00",
+    "date_found": "2026-07-22T18:31:16.154991+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "dbt",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:geniussports:7813019003",
+    "title": "AI Engineer",
+    "company": "geniussports",
+    "location": "New York, New York, United States",
+    "url": "https://boards.greenhouse.io/geniussports/jobs/7813019003?gh_jid=7813019003",
+    "posted": "2026-07-22T13:55:46-04:00",
+    "date_found": "2026-07-22T18:31:16.154991+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
