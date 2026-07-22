@@ -14519,5 +14519,74 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5362838008",
+    "title": "People Research Scientist, Recruiting",
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5362838008",
+    "posted": "2026-07-22T14:09:36-04:00",
+    "date_found": "2026-07-22T20:32:42.373076+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "aws",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:allstate:Allstate_Careers:req:R33039",
+    "title": "Exposure Intelligence Analyst \u2013 Network & Perimeter (Firewalls / VPN / Segmentation)",
+    "company": "Allstate",
+    "location": "US - Remote",
+    "url": "https://allstate.wd5.myworkdayjobs.com/en-US/Allstate_Careers/job/US---Remote/Exposure-Intelligence-Analyst---Network---Perimeter--Firewalls---VPN---Segmentation-_R33039-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-22T20:32:42.373076+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:caci:External:req:329463",
+    "title": "Software Engineer Supporting AI ML",
+    "company": "CACI International",
+    "location": "Denver, CO, US",
+    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Denver-CO-US/Software-Engineer-Supporting-AI-ML_329463",
+    "posted": "Posted Today",
+    "date_found": "2026-07-22T20:32:42.373076+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
