@@ -14862,5 +14862,45 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0244899",
+    "title": "AI Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "Washington, DC",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/AI-Engineer_R0244899",
+    "posted": "Posted Today",
+    "date_found": "2026-07-22T23:02:31.117524+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:citi:2:req:26971900",
+    "title": "Head of Data Platform Engineering",
+    "company": "Citigroup",
+    "location": "Jersey City New Jersey United States",
+    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Jersey-City-New-Jersey-United-States/Head-of-Data-Platform-Engineering_26971900-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-22T23:02:31.117524+00:00",
+    "bucket": "yes",
+    "score": 34,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
