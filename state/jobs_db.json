@@ -13627,5 +13627,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:gruve:5366520008",
+    "title": "AI Software Engineer",
+    "company": "gruve",
+    "location": "USA (Remote)",
+    "url": "https://gruve.ai/careers/?gh_jid=5366520008",
+    "posted": "2026-07-22T10:18:22-04:00",
+    "date_found": "2026-07-22T14:47:42.223558+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "azure"
+    ],
+    "bad_tech": [
+      "java",
+      "c#"
+    ]
   }
 ]
