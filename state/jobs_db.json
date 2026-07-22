@@ -13559,5 +13559,33 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:loftorbital:531e74b5-128c-4c44-8b3b-aebd86c0de7a",
+    "title": "Onboard Software Engineer - Deployment & Runtime Environments",
+    "company": "loftorbital",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.lever.co/loftorbital/531e74b5-128c-4c44-8b3b-aebd86c0de7a",
+    "posted": "2026-07-22 13:44 UTC",
+    "date_found": "2026-07-22T14:02:15.153344+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust",
+      "embedded"
+    ]
   }
 ]
