@@ -13914,5 +13914,34 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:flyzipline:7812245003",
+    "title": "Business Data Analyst",
+    "company": "flyzipline",
+    "location": "South San Francisco, California, USA",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7812245003",
+    "posted": "2026-07-22T11:42:46-04:00",
+    "date_found": "2026-07-22T16:32:05.889547+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "snowflake",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded"
+    ]
   }
 ]
