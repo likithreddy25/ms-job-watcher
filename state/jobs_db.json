@@ -13428,5 +13428,34 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:xai:5193037007",
+    "title": "ML Infrastructure Engineer",
+    "company": "xai",
+    "location": "Palo Alto, California, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5193037007",
+    "posted": "2026-07-22T00:04:23-04:00",
+    "date_found": "2026-07-22T04:31:32.550228+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
   }
 ]
