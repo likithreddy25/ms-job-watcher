@@ -14728,5 +14728,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:37d0612a-de55-46c7-bf55-0c05cee1ed74",
+    "title": "Embedded SDE II, HW Compute Group",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10481960/embedded-sde-ii-hw-compute-group",
+    "posted": "July 22, 2026",
+    "date_found": "2026-07-22T21:45:41.587760+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
