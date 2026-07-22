@@ -14427,5 +14427,97 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:enova:8080280",
+    "title": "Analytics Analyst - Fraud",
+    "company": "enova",
+    "location": "Chicago, IL",
+    "url": "https://job-boards.greenhouse.io/enova/jobs/8080280",
+    "posted": "2026-07-22T15:24:55-04:00",
+    "date_found": "2026-07-22T20:01:32.307905+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:berkadia:7748461003",
+    "title": "Operations Analyst - Innovation ",
+    "company": "berkadia",
+    "location": "Ambler, Pennsylvania, United States",
+    "url": "https://boards.greenhouse.io/berkadia/jobs/7748461003?gh_jid=7748461003",
+    "posted": "2026-07-22T14:51:16-04:00",
+    "date_found": "2026-07-22T20:01:32.307905+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:berkadia:7773393003",
+    "title": "Operations Analyst - Innovation ",
+    "company": "berkadia",
+    "location": "Salt Lake City, Utah, United States",
+    "url": "https://boards.greenhouse.io/berkadia/jobs/7773393003?gh_jid=7773393003",
+    "posted": "2026-07-22T14:51:17-04:00",
+    "date_found": "2026-07-22T20:01:32.307905+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:berkadia:7773396003",
+    "title": "Operations Analyst - Innovation ",
+    "company": "berkadia",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "url": "https://boards.greenhouse.io/berkadia/jobs/7773396003?gh_jid=7773396003",
+    "posted": "2026-07-22T14:51:40-04:00",
+    "date_found": "2026-07-22T20:01:32.307905+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
