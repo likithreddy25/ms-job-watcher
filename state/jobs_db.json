@@ -15044,5 +15044,28 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:vestwell:7751400003",
+    "title": "Software Engineer",
+    "company": "vestwell",
+    "location": "New York, NY | Austin, TX",
+    "url": "https://job-boards.greenhouse.io/vestwell/jobs/7751400003",
+    "posted": "2026-07-23T00:53:33-04:00",
+    "date_found": "2026-07-23T06:02:07.611900+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
