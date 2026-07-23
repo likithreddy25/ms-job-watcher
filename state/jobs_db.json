@@ -15691,5 +15691,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twilio:7689461",
+    "title": "Software Engineer (L2) Email",
+    "company": "twilio",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7689461",
+    "posted": "2026-07-23T16:53:32-04:00",
+    "date_found": "2026-07-23T21:32:10.726742+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
