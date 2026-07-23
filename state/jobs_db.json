@@ -14962,5 +14962,67 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:newsbreak:4699217006",
+    "title": "Machine Learning Engineer, Local Search & Marketplace",
+    "company": "newsbreak",
+    "location": "Mountain View, California, United States",
+    "url": "https://job-boards.greenhouse.io/newsbreak/jobs/4699217006",
+    "posted": "2026-07-22T18:40:45-04:00",
+    "date_found": "2026-07-23T00:01:51.352934+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "nlp",
+      "deep learning",
+      "machine learning",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:newsbreak:4699218006",
+    "title": "Machine Learning Engineer, Local Search & Marketplace",
+    "company": "newsbreak",
+    "location": "Mountain View, California, United States",
+    "url": "https://job-boards.greenhouse.io/newsbreak/jobs/4699218006",
+    "posted": "2026-07-22T18:42:20-04:00",
+    "date_found": "2026-07-23T00:01:51.352934+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "nlp",
+      "deep learning",
+      "machine learning",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
   }
 ]
