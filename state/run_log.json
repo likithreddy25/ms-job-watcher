@@ -1,45 +1,5 @@
 [
   {
-    "ts": "2026-07-17T00:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 4354,
-        "title_ok": 276,
-        "loc_ok": 96,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 479
-      },
-      "lever": {
-        "fetched": 621,
-        "title_ok": 16,
-        "loc_ok": 10,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 14
-      },
-      "ashby": {
-        "fetched": 1,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "workday": {
-        "fetched": 9581,
-        "title_ok": 335,
-        "loc_ok": 106,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 443
-      }
-    },
-    "duration_s": 123.3,
-    "cursor": 400
-  },
-  {
     "ts": "2026-07-17T00:40Z",
     "mode": "main",
     "per_source": {
@@ -48077,5 +48037,53 @@
     },
     "duration_s": 11.5,
     "cursor": null
+  },
+  {
+    "ts": "2026-07-23T12:32Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 10564,
+        "title_ok": 561,
+        "loc_ok": 357,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1061
+      },
+      "lever": {
+        "fetched": 611,
+        "title_ok": 9,
+        "loc_ok": 7,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 18
+      },
+      "ashby": {
+        "fetched": 145,
+        "title_ok": 8,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 10
+      },
+      "smartrecruiters": {
+        "fetched": 1339,
+        "title_ok": 67,
+        "loc_ok": 18,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 35
+      },
+      "workday": {
+        "fetched": 10656,
+        "title_ok": 395,
+        "loc_ok": 148,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 560
+      }
+    },
+    "duration_s": 117.0,
+    "cursor": 200
   }
 ]
