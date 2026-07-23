@@ -15233,5 +15233,34 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:pipe17:4717950005",
+    "title": "Junior Software Engineer, AI-Native",
+    "company": "pipe17",
+    "location": "Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/pipe17/jobs/4717950005",
+    "posted": "2026-07-23T12:14:47-04:00",
+    "date_found": "2026-07-23T16:31:48.843106+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "docker",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
