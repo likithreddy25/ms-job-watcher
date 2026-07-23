@@ -15482,5 +15482,30 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:upwardhealth:4047372009",
+    "title": "Data Analyst",
+    "company": "upwardhealth",
+    "location": "US - Hybrid",
+    "url": "https://upwardhealth.com/jobs/apply/?gh_jid=4047372009",
+    "posted": "2026-07-23T13:59:55-04:00",
+    "date_found": "2026-07-23T18:32:03.103552+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "etl",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
