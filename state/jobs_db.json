@@ -15522,5 +15522,30 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:field-ai:8a92d84f-7512-4d64-8d3a-c29b304358d6",
+    "title": "Senior Data Operations Engineer",
+    "company": "Field Ai",
+    "location": "Boston, MA",
+    "url": "https://jobs.lever.co/field-ai/8a92d84f-7512-4d64-8d3a-c29b304358d6",
+    "posted": "2026-07-23 18:48 UTC",
+    "date_found": "2026-07-23T19:42:04.899669+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
