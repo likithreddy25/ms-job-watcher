@@ -15547,5 +15547,29 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "workday:allstate:Allstate_Careers:req:R32498",
+    "title": "Software Engineer (C#/SQL)",
+    "company": "Allstate",
+    "location": "US - Remote",
+    "url": "https://allstate.wd5.myworkdayjobs.com/en-US/Allstate_Careers/job/US---Remote/Software-Engineer--C--SQL-_R32498-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-23T20:02:29.459841+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": [
+      "c#"
+    ]
   }
 ]
