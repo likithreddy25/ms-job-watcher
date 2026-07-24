@@ -16296,5 +16296,91 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:kraftonamericas:8645788002",
+    "title": "Game Security Data Scientist",
+    "company": "kraftonamericas",
+    "location": "El Segundo, CA",
+    "url": "https://job-boards.greenhouse.io/kraftonamericas/jobs/8645788002",
+    "posted": "2026-07-24T12:56:34-04:00",
+    "date_found": "2026-07-24T17:12:07.616864+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "deep learning",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:kraftonamericas:8645900002",
+    "title": "Game Security Software Engineer",
+    "company": "kraftonamericas",
+    "location": "El Segundo, CA",
+    "url": "https://job-boards.greenhouse.io/kraftonamericas/jobs/8645900002",
+    "posted": "2026-07-24T12:57:58-04:00",
+    "date_found": "2026-07-24T17:12:07.616864+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:preciselyusjobs:4718405005",
+    "title": "Software Engineer",
+    "company": "preciselyusjobs",
+    "location": "United States",
+    "url": "https://www.precisely.com/careers-and-culture/us-jobs/job/4718405005?gh_jid=4718405005",
+    "posted": "2026-07-24T11:43:54-04:00",
+    "date_found": "2026-07-24T17:12:07.616864+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "azure",
+      "docker",
+      "kubernetes",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "j2ee",
+      "rust",
+      "rails"
+    ]
   }
 ]
