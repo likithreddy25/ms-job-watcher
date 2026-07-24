@@ -16482,5 +16482,36 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:verkada:5194598007",
+    "title": "Backend Engineer - Connectivity",
+    "company": "verkada",
+    "location": "San Mateo, CA United States",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5194598007",
+    "posted": "2026-07-24T13:18:48-04:00",
+    "date_found": "2026-07-24T19:02:01.948054+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "computer vision",
+      "kafka",
+      "kubernetes",
+      "postgres"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
