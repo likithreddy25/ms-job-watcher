@@ -16152,5 +16152,45 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00188066",
+    "title": "Software Engineer - Environmental Test Lab",
+    "company": "Leidos",
+    "location": "Huntsville, AL",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Software-Engineer---Environmental-Test-Lab_R-00188066",
+    "posted": "Posted Today",
+    "date_found": "2026-07-24T15:03:00.165733+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00188054",
+    "title": "Operations & Maintenance Cloud Engineer",
+    "company": "Leidos",
+    "location": "Ashburn, VA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Ashburn-VA/Operations---Maintenance-Cloud-Engineer_R-00188054",
+    "posted": "Posted Today",
+    "date_found": "2026-07-24T15:03:00.165733+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
