@@ -16687,5 +16687,54 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:stripe:8084195",
+    "title": "Backend Engineer, Credit Decisions ",
+    "company": "Stripe",
+    "location": "Chicago, IL ",
+    "url": "https://stripe.com/jobs/search?gh_jid=8084195",
+    "posted": "2026-07-24T16:10:18-04:00",
+    "date_found": "2026-07-24T21:02:36.231638+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 987,
+    "good_tech": [
+      "python",
+      "aws",
+      "docker",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "ruby"
+    ]
+  },
+  {
+    "key": "workday:troweprice:TRowePrice:req:82522",
+    "title": "Integrated Media Operations Analyst",
+    "company": "T. Rowe Price",
+    "location": "Baltimore, MD",
+    "url": "https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Baltimore-MD/Integrated-Media-Operations-Analyst_82522-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-24T21:02:36.231638+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
