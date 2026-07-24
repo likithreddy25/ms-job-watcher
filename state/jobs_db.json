@@ -16130,5 +16130,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:great-gray-group:5f1164c5-06f7-43e5-b6b7-5e1a04fd9ba4",
+    "title": "Data Scientist",
+    "company": "great-gray-group",
+    "location": "Remote, USA",
+    "url": "https://jobs.lever.co/great-gray-group/5f1164c5-06f7-43e5-b6b7-5e1a04fd9ba4",
+    "posted": "2026-07-24 14:13 UTC",
+    "date_found": "2026-07-24T14:26:03.674306+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
