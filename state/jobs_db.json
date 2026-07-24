@@ -16558,5 +16558,45 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0245271",
+    "title": "Data Scientist",
+    "company": "Booz Allen Hamilton",
+    "location": "Washington, DC",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Data-Scientist_R0245271-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-24T19:45:30.583880+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:caci:External:req:329580",
+    "title": "Software Developer \u2013 Full-Stack / Systems Integration",
+    "company": "CACI International",
+    "location": "Fairfax, VA, US",
+    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Fairfax-VA-US/Software-Developer---Full-Stack---Systems-Integration_329580",
+    "posted": "Posted Today",
+    "date_found": "2026-07-24T19:45:30.583880+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
