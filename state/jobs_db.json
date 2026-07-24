@@ -16841,5 +16841,33 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:samsungresearchamerica:8648301002",
+    "title": "Research Engineer, Robot Intelligence",
+    "company": "samsungresearchamerica",
+    "location": "665 Clyde Avenue, Mountain View,  CA, USA",
+    "url": "https://job-boards.greenhouse.io/samsungresearchamerica/jobs/8648301002",
+    "posted": "2026-07-24T18:13:03-04:00",
+    "date_found": "2026-07-24T22:31:09.655252+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "computer vision",
+      "aws"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
