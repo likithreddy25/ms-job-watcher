@@ -16736,5 +16736,28 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:snowflake:494fcbd0-1cf3-4248-b5cf-b35d982ced00",
+    "title": "Software Engineer- Postgres",
+    "company": "Snowflake",
+    "location": "US-CA-Menlo Park",
+    "url": "https://jobs.ashbyhq.com/snowflake/494fcbd0-1cf3-4248-b5cf-b35d982ced00",
+    "posted": "",
+    "date_found": "2026-07-24T21:31:40.549436+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 421,
+    "good_tech": [
+      "postgres",
+      "snowflake"
+    ],
+    "bad_tech": []
   }
 ]
