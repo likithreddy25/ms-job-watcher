@@ -16046,5 +16046,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:queracomputinginc:5369462008",
+    "title": "Scientific Software Engineer - Developer Experience",
+    "company": "queracomputinginc",
+    "location": "Boston, MA, USA",
+    "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5369462008",
+    "posted": "2026-07-23T22:10:01-04:00",
+    "date_found": "2026-07-24T03:31:21.019824+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
