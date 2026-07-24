@@ -16618,5 +16618,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:beyondtrust:7930944",
+    "title": "Software Development Engineer",
+    "company": "beyondtrust",
+    "location": "Remote Canada | Remote United States",
+    "url": "https://job-boards.greenhouse.io/beyondtrust/jobs/7930944",
+    "posted": "2026-07-24T15:58:36-04:00",
+    "date_found": "2026-07-24T20:03:11.885315+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "c#"
+    ]
   }
 ]
