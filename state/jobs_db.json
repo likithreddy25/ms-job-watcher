@@ -17061,5 +17061,29 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:chanzuckerberginitiative:8084561",
+    "title": "Applied AI Engineer, Investments",
+    "company": "chanzuckerberginitiative",
+    "location": "Redwood City, CA (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/chanzuckerberginitiative/jobs/8084561",
+    "posted": "2026-07-24T20:31:53-04:00",
+    "date_found": "2026-07-25T01:31:30.456979+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
