@@ -17208,5 +17208,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:hippo70:8649207002",
+    "title": "Software Engineer",
+    "company": "hippo70",
+    "location": "Austin, Texas, United States",
+    "url": "https://boards.greenhouse.io/hippo70/jobs/8649207002?gh_jid=8649207002",
+    "posted": "2026-07-25T13:27:51-04:00",
+    "date_found": "2026-07-25T17:31:07.349725+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "postgres"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
