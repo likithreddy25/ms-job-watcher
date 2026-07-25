@@ -17128,5 +17128,65 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:botauto:5370717008",
+    "title": "Software Engineer, Generalist in Autonomous Driving System",
+    "company": "Botauto",
+    "location": "Houston, TX or San Francisco Bay Area",
+    "url": "https://job-boards.greenhouse.io/botauto/jobs/5370717008",
+    "posted": "2026-07-24T21:56:09-04:00",
+    "date_found": "2026-07-25T03:30:43.220088+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "kafka",
+      "aws",
+      "docker",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:botauto:5370716008",
+    "title": "Software Engineer, VCU (Vehicle Control Unit)",
+    "company": "Botauto",
+    "location": "Houston, TX",
+    "url": "https://job-boards.greenhouse.io/botauto/jobs/5370716008",
+    "posted": "2026-07-24T21:48:42-04:00",
+    "date_found": "2026-07-25T03:30:43.220088+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
   }
 ]
