@@ -17128,5 +17128,49 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:c771038f-8e39-48d9-88a2-ca09a6c36aa4",
+    "title": " Applied Scientist, AWS Automated Reasoning",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10484024/applied-scientist-aws-automated-reasoning",
+    "posted": "July 25, 2026",
+    "date_found": "2026-07-25T03:30:40.266522+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:44d39550-495f-41ba-af63-063f549a73f8",
+    "title": "Applied Scientist, AWS Identity",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10484023/applied-scientist-aws-identity",
+    "posted": "July 25, 2026",
+    "date_found": "2026-07-25T03:30:40.266522+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
