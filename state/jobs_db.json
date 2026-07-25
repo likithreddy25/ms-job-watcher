@@ -17036,5 +17036,30 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5370669008",
+    "title": "Research Scientist, Takeoff Intel",
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5370669008",
+    "posted": "2026-07-24T19:31:13-04:00",
+    "date_found": "2026-07-25T01:02:18.229644+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
