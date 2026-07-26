@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-26T05:30:41.203038+00:00",
+  "updated_utc": "2026-07-26T06:01:21.077139+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -742,6 +742,24 @@
     "greenhouse:codeforamerica": {
       "first_seen_utc": "2026-07-24T22:01:35.674941+00:00",
       "last_seen_utc": "2026-07-24T22:01:35.674941+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:ascendanalytics": {
+      "first_seen_utc": "2026-07-26T06:00:46.196631+00:00",
+      "last_seen_utc": "2026-07-26T06:00:46.196631+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:dbtlabsinc": {
+      "first_seen_utc": "2026-07-26T06:01:03.080243+00:00",
+      "last_seen_utc": "2026-07-26T06:01:03.080243+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
