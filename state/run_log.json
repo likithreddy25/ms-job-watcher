@@ -48204,45 +48204,21 @@
         "emailed": 0,
         "senior_excluded": 44
       },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 122,
-        "loc_ok": 122,
+      "greenhouse": {
+        "fetched": 4235,
+        "title_ok": 255,
+        "loc_ok": 139,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 82
+        "senior_excluded": 264
       },
-      "nvidia": {
-        "fetched": 70,
-        "title_ok": 10,
-        "loc_ok": 10,
+      "lever": {
+        "fetched": 1588,
+        "title_ok": 105,
+        "loc_ok": 39,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 50
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 2,
-        "title_ok": 1,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
+        "senior_excluded": 168
       }
     },
     "duration_s": 11.5,
