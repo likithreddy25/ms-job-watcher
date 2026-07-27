@@ -18460,5 +18460,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:newsbreak:4700278006",
+    "title": "Applied AI Engineer, Advertising Agents (New Grad)",
+    "company": "newsbreak",
+    "location": "Mountain View, California, United States",
+    "url": "https://job-boards.greenhouse.io/newsbreak/jobs/4700278006",
+    "posted": "2026-07-27T18:40:04-04:00",
+    "date_found": "2026-07-27T23:01:53.796063+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "machine learning",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
