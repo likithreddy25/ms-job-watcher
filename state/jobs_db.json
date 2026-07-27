@@ -17934,5 +17934,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:08b35581-dc6c-4476-b163-a35205922488",
+    "title": "Software Development Engineer, Android",
+    "company": "Amazon",
+    "location": "US, MA, Cambridge",
+    "url": "https://www.amazon.jobs/en/jobs/10485096/software-development-engineer-android",
+    "posted": "July 27, 2026",
+    "date_found": "2026-07-27T18:20:46.989094+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "android"
+    ]
   }
 ]
