@@ -17956,5 +17956,62 @@
     "bad_tech": [
       "android"
     ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7817924003",
+    "title": "Spacecraft Ground Systems Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7817924003",
+    "posted": "2026-07-27T14:02:37-04:00",
+    "date_found": "2026-07-27T19:02:18.831198+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:meds:366be0ea-89b9-4193-a486-a92f3ee4d1d6",
+    "title": "Entry Level Data Analyst",
+    "company": "meds",
+    "location": "Austin, TX",
+    "url": "https://jobs.lever.co/meds/366be0ea-89b9-4193-a486-a92f3ee4d1d6",
+    "posted": "2026-07-27 17:32 UTC",
+    "date_found": "2026-07-27T19:02:18.831198+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "scikit-learn",
+      "rag",
+      "machine learning",
+      "airflow",
+      "dbt",
+      "elt",
+      "snowflake",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
