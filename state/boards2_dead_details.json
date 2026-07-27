@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-27T07:01:23.394569+00:00",
+  "updated_utc": "2026-07-27T07:31:06.904557+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -787,6 +787,15 @@
     "greenhouse:infomedia": {
       "first_seen_utc": "2026-07-27T05:30:30.105027+00:00",
       "last_seen_utc": "2026-07-27T05:30:30.105027+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:nutrabolt": {
+      "first_seen_utc": "2026-07-27T07:30:45.585931+00:00",
+      "last_seen_utc": "2026-07-27T07:30:45.585931+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
