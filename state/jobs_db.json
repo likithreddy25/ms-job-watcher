@@ -18225,5 +18225,73 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:taxreliefadvocates:4759563008",
+    "title": "Junior Machine Learning Engineer ",
+    "company": "taxreliefadvocates",
+    "location": "Irvine, CA",
+    "url": "https://job-boards.greenhouse.io/taxreliefadvocates/jobs/4759563008",
+    "posted": "2026-07-27T16:40:49-04:00",
+    "date_found": "2026-07-27T22:02:04.767469+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "scikit-learn",
+      "mlflow",
+      "rag",
+      "openai",
+      "nlp",
+      "machine learning",
+      "aws",
+      "azure",
+      "docker",
+      "snowflake",
+      "fastapi"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tebra:4710332005",
+    "title": "Data Engineer",
+    "company": "tebra",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/tebra/jobs/4710332005",
+    "posted": "2026-07-27T17:21:39-04:00",
+    "date_found": "2026-07-27T22:02:04.767469+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "databricks",
+      "airflow",
+      "kafka",
+      "elt",
+      "aws",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
