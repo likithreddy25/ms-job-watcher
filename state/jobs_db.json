@@ -17650,5 +17650,71 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:patterndata:5196699007",
+    "title": "Software Engineer (Entry)",
+    "company": "patterndata",
+    "location": "Richmond, VA",
+    "url": "https://job-boards.greenhouse.io/patterndata/jobs/5196699007",
+    "posted": "2026-07-27T12:37:32-04:00",
+    "date_found": "2026-07-27T17:02:22.534154+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:place:4718737005",
+    "title": "Data Scientist",
+    "company": "place",
+    "location": "Remote - United States",
+    "url": "https://place.com/corporate-careers/4718737005?gh_jid=4718737005",
+    "posted": "2026-07-27T11:12:33-04:00",
+    "date_found": "2026-07-27T17:02:22.534154+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "scikit-learn",
+      "xgboost",
+      "lightgbm",
+      "mlflow",
+      "rag",
+      "langchain",
+      "transformers",
+      "computer vision",
+      "deep learning",
+      "machine learning",
+      "aws",
+      "docker",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust",
+      "rails"
+    ]
   }
 ]
