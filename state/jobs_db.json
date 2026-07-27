@@ -17435,5 +17435,30 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:usconec:4330491009",
+    "title": "Operations Data Analyst",
+    "company": "usconec",
+    "location": "Hickory, North Carolina, United States",
+    "url": "https://job-boards.greenhouse.io/usconec/jobs/4330491009",
+    "posted": "2026-07-27T08:30:03-04:00",
+    "date_found": "2026-07-27T13:32:15.965713+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
