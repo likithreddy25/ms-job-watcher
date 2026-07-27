@@ -18113,5 +18113,33 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:mitratech:8060928",
+    "title": "Software Engineer I - AssureHire (Go)",
+    "company": "mitratech",
+    "location": "Remote US",
+    "url": "https://job-boards.greenhouse.io/mitratech/jobs/8060928",
+    "posted": "2026-07-27T15:44:07-04:00",
+    "date_found": "2026-07-27T20:09:54.711485+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby",
+      "rails"
+    ]
   }
 ]
