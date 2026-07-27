@@ -18053,5 +18053,34 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:energyhub:8385899002",
+    "title": "Software Engineer, SupportHub",
+    "company": "energyhub",
+    "location": "Remote - United States",
+    "url": "https://job-boards.greenhouse.io/energyhub/jobs/8385899002",
+    "posted": "2026-07-27T15:14:22-04:00",
+    "date_found": "2026-07-27T20:02:34.232082+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "java",
+      ".net"
+    ]
   }
 ]
