@@ -17956,5 +17956,55 @@
     "bad_tech": [
       "android"
     ]
+  },
+  {
+    "key": "greenhouse:verkada:5195995007",
+    "title": "Software Engineer - Computer Vision",
+    "company": "verkada",
+    "location": "San Mateo, CA United States",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5195995007",
+    "posted": "2026-07-27T13:40:21-04:00",
+    "date_found": "2026-07-27T19:01:52.785613+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "pytorch",
+      "tensorflow",
+      "keras",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "ashby:render:8815f772-6895-4383-a9e5-6c7bdc2bf141",
+    "title": "Software Engineer, User Auth Experience",
+    "company": "Render",
+    "location": "Remote: United States",
+    "url": "https://jobs.ashbyhq.com/render/8815f772-6895-4383-a9e5-6c7bdc2bf141",
+    "posted": "",
+    "date_found": "2026-07-27T19:01:52.785613+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
