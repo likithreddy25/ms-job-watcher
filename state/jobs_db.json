@@ -18181,5 +18181,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:jetsetpilates:aec6c354-6ea6-4d9b-918f-8b22ca8a0b1e",
+    "title": "Financial Analyst",
+    "company": "jetsetpilates",
+    "location": "Miami, FL",
+    "url": "https://jobs.lever.co/jetsetpilates/aec6c354-6ea6-4d9b-918f-8b22ca8a0b1e",
+    "posted": "2026-07-27 19:12 UTC",
+    "date_found": "2026-07-27T20:31:55.284193+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
