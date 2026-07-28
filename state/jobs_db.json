@@ -18545,5 +18545,41 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:block:5369941008",
+    "title": "Software Engineer, Reconciliation & Reporting",
+    "company": "Block (Square)",
+    "location": "Bay Area, CA, United States of America",
+    "url": "http://block.xyz/careers/jobs/5369941008?gh_jid=5369941008",
+    "posted": "2026-07-27T18:50:13-04:00",
+    "date_found": "2026-07-28T01:02:33.247055+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "pyspark",
+      "airflow",
+      "kafka",
+      "elt",
+      "aws",
+      "kubernetes",
+      "snowflake",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "embedded"
+    ]
   }
 ]
