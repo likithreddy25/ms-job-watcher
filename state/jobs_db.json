@@ -18685,5 +18685,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:equipmentsharecom:8091776",
+    "title": "Data Analyst - People",
+    "company": "equipmentsharecom",
+    "location": "Kansas City, MO",
+    "url": "https://www.equipmentshare.com/careers/openings/?gh_jid=8091776",
+    "posted": "2026-07-28T08:46:29-04:00",
+    "date_found": "2026-07-28T13:32:05.616719+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
