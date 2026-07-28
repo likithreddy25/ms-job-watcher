@@ -18791,5 +18791,67 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00188203",
+    "title": "Software Engineer",
+    "company": "Leidos",
+    "location": "Arlington, VA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Arlington-VA/Software-Engineer_R-00188203",
+    "posted": "Posted Today",
+    "date_found": "2026-07-28T15:02:51.329264+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ224868",
+    "title": "Contact Center Operations Analyst",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA LA Home Office (LAHOME)",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-LA-Home-Office-LAHOME/Contact-Center-Operations-Analyst_RQ224868",
+    "posted": "Posted Today",
+    "date_found": "2026-07-28T15:02:51.329264+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:keybank:External_Career_Site:req:R-40146",
+    "title": "Operations Analyst - Trust Distributions",
+    "company": "KeyBank",
+    "location": "4900 Tiedeman Road, Brooklyn, OH",
+    "url": "https://keybank.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/4900-Tiedeman-Road-Brooklyn-OH/Operations-Analyst---Trust-Distributions_R-40146",
+    "posted": "Posted Today",
+    "date_found": "2026-07-28T15:02:51.329264+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
