@@ -18769,5 +18769,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:ef2fe2c2-2208-4dfa-b8a1-e4b533aa1464",
+    "title": "SDE, MLA hardware/software co-design, Annapurna Labs Machine Learning Acceleration",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10486046/sde-mla-hardware-software-co-design-annapurna-labs-machine-learning-acceleration",
+    "posted": "July 28, 2026",
+    "date_found": "2026-07-28T14:50:42.906635+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
