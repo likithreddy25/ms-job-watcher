@@ -19883,5 +19883,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:fictiv:8643074002",
+    "title": "University Applications Engineer",
+    "company": "fictiv",
+    "location": "Remote - USA",
+    "url": "https://job-boards.greenhouse.io/fictiv/jobs/8643074002",
+    "posted": "2026-07-28T16:23:32-04:00",
+    "date_found": "2026-07-28T22:02:28.588796+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
