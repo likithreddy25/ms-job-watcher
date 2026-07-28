@@ -19967,5 +19967,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:hp:ExternalCareerSite:req:3165869",
+    "title": "Embedded Software Engineer",
+    "company": "HP Inc",
+    "location": "Austin, Texas, United States of America",
+    "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Austin-Texas-United-States-of-America/Embedded-Software-Engineer_3165869-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-28T22:32:23.293069+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:jll:jllcareers:req:REQ524663",
+    "title": "Financial Analyst",
+    "company": "JLL",
+    "location": "Rosemead, CA",
+    "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Rosemead-CA/Financial-Analyst_REQ524663-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-28T22:32:23.293069+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
