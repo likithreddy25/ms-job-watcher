@@ -19747,5 +19747,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:682b6640-ce68-4cbc-8e8a-cf57e1563d8c",
+    "title": "Senior Software Developer, AWS DevOps Agent",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10486659/senior-software-developer-aws-devops-agent",
+    "posted": "July 28, 2026",
+    "date_found": "2026-07-28T20:30:44.530233+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
