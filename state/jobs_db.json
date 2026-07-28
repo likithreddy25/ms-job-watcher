@@ -19747,5 +19747,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tebra:4714981005",
+    "title": "Software Engineer 1",
+    "company": "tebra",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/tebra/jobs/4714981005",
+    "posted": "2026-07-28T15:54:10-04:00",
+    "date_found": "2026-07-28T20:31:52.404403+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot",
+      "rust"
+    ]
   }
 ]
