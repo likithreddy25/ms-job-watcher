@@ -18545,5 +18545,54 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:altentechnologyusa:5197168007",
+    "title": "Robotics Software Engineer",
+    "company": "altentechnologyusa",
+    "location": "North Reading, MA",
+    "url": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5197168007",
+    "posted": "2026-07-27T19:10:45-04:00",
+    "date_found": "2026-07-28T01:01:28.709059+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "embedded"
+    ]
+  },
+  {
+    "key": "greenhouse:gigaenergy:5372259008",
+    "title": "Financial Analyst - Project Finance",
+    "company": "gigaenergy",
+    "location": "Houston, TX",
+    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5372259008",
+    "posted": "2026-07-27T21:00:31-04:00",
+    "date_found": "2026-07-28T01:01:28.709059+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
