@@ -20029,5 +20029,33 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:toast:8039434",
+    "title": "Software Engineer, Orders API",
+    "company": "Toast",
+    "location": "Boston, MA",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8039434",
+    "posted": "2026-07-28T18:28:49-04:00",
+    "date_found": "2026-07-28T23:32:27.652657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "apache spark",
+      "aws",
+      "postgres"
+    ],
+    "bad_tech": [
+      "java",
+      "kotlin"
+    ]
   }
 ]
