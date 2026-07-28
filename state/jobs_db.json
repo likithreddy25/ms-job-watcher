@@ -18977,5 +18977,50 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:encora10:5197605007",
+    "title": "Software Developer",
+    "company": "encora10",
+    "location": "Scottsdale, AZ",
+    "url": "https://job-boards.greenhouse.io/encora10/jobs/5197605007",
+    "posted": "2026-07-28T12:37:30-04:00",
+    "date_found": "2026-07-28T17:02:01.137210+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5195914007",
+    "title": "Spatial Data Engineer I",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5195914007?gh_jid=5195914007",
+    "posted": "2026-07-28T11:15:50-04:00",
+    "date_found": "2026-07-28T17:02:01.137210+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
