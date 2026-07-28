@@ -19202,5 +19202,47 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:8f850569-1f3d-424e-aa2f-f6bf9006fc89",
+    "title": "Software Development Engineer, AWS Agentic AI",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10486378/software-development-engineer-aws-agentic-ai",
+    "posted": "July 28, 2026",
+    "date_found": "2026-07-28T17:10:49.844120+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:c9c236a4-eb94-4a7c-90c6-ab5965be1b3e",
+    "title": "Software Development Engineer, Ads Security",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10486387/software-development-engineer-ads-security",
+    "posted": "July 28, 2026",
+    "date_found": "2026-07-28T17:10:49.844120+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
