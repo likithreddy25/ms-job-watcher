@@ -21430,5 +21430,54 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:fairlife:5198809007",
+    "title": "Research Scientist",
+    "company": "fairlife",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/fairlife/jobs/5198809007",
+    "posted": "2026-07-29T15:45:27-04:00",
+    "date_found": "2026-07-29T21:31:18.469541+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:amperesand:4336766009",
+    "title": "Software Engineer-DevOps",
+    "company": "amperesand",
+    "location": "Reno, Nevada, United States; San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/amperesand/jobs/4336766009",
+    "posted": "2026-07-29T17:19:24-04:00",
+    "date_found": "2026-07-29T21:31:18.469541+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
