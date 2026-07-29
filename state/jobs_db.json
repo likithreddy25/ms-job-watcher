@@ -21450,5 +21450,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:liaisoninternational:5374628008",
+    "title": "Financial Analyst",
+    "company": "liaisoninternational",
+    "location": "Hybrid, US",
+    "url": "https://www.liaisonedu.com/open-positions/?gh_jid=5374628008",
+    "posted": "2026-07-29T17:09:18-04:00",
+    "date_found": "2026-07-29T22:01:29.939480+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
