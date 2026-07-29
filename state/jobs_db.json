@@ -21078,5 +21078,30 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:fairlife:5198690007",
+    "title": "Infrastructure Engineer \u2013 Database Administrator",
+    "company": "fairlife",
+    "location": "Coopersville, Michigan, United States",
+    "url": "https://job-boards.greenhouse.io/fairlife/jobs/5198690007",
+    "posted": "2026-07-29T13:48:18-04:00",
+    "date_found": "2026-07-29T19:31:39.840891+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
