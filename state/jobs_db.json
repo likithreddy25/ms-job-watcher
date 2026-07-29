@@ -21243,5 +21243,71 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:fmr:FidelityCareers:req:2133211",
+    "title": "Fixed Income Quantitative Analyst",
+    "company": "Fidelity Investments",
+    "location": "Merrimack, NH",
+    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Merrimack-NH/Fixed-Income-Quantitative-Analyst_2133211-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-29T20:02:56.962590+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00185616",
+    "title": "Identity Intelligence Analyst",
+    "company": "Leidos",
+    "location": "McLean, VA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/McLean-VA/Identity-Intelligence-Analyst_R-00185616-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-29T20:02:56.962590+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:doordashusa:8080784",
+    "title": "Partner Operations Analyst, Food Access",
+    "company": "doordashusa",
+    "location": "Washington D.C.; Atlanta, GA; Philadelphia, PA; Boston, MA; Raleigh, NC; Miami, FL; LA, Seattle, WA; Chicago, IL; Austin, TX; Denver, CO; United States - Remote",
+    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8080784",
+    "posted": "2026-07-29T14:27:43-04:00",
+    "date_found": "2026-07-29T20:02:56.962590+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 765,
+    "good_tech": [
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
