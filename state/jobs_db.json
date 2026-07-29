@@ -21103,5 +21103,67 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:a5ca78ca-4ee1-4177-b66c-6790e3d8aec3",
+    "title": "Software Development Engineer - Apache Flink Engineer, Amazon Managed Service for Apache Flink",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10487621/software-development-engineer-apache-flink-engineer-amazon-managed-service-for-apache-flink",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T19:40:45.373657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:48d115f9-4d24-47d7-83a8-de3c673808f0",
+    "title": "Software Development Engineer, Fulfillment Planning and Execution",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10487617/software-development-engineer-fulfillment-planning-and-execution",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T19:40:45.373657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:15ec5a57-0dd7-4f06-a525-7ade565033a6",
+    "title": "AI & AWS Software Development Engineer , Ring/Blink CS Technology Enablement",
+    "company": "Amazon",
+    "location": "US, CA, Hawthorne",
+    "url": "https://www.amazon.jobs/en/jobs/10487631/ai-aws-software-development-engineer-ring-blink-cs-technology-enablement",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T19:40:45.373657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
