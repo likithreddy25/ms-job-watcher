@@ -20448,5 +20448,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:e449be71-1639-4ce7-a154-e5ca024ef31d",
+    "title": "Software Development Engineer AI/ML, Inference Model Enablement, AWS Neuron",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10487278/software-development-engineer-ai-ml-inference-model-enablement-aws-neuron",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T15:50:50.907863+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
