@@ -21358,5 +21358,57 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:tailscale:4715448005",
+    "title": "Software Engineer, Networking (Edge)",
+    "company": "Tailscale",
+    "location": "Remote (United States)",
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4715448005",
+    "posted": "2026-07-29T15:13:28-04:00",
+    "date_found": "2026-07-29T21:02:28.105459+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:theweathercompany:5190840007",
+    "title": "Software Engineer",
+    "company": "theweathercompany",
+    "location": "Andover, MA",
+    "url": "https://job-boards.greenhouse.io/theweathercompany/jobs/5190840007",
+    "posted": "2026-07-29T15:12:02-04:00",
+    "date_found": "2026-07-29T21:02:28.105459+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "docker",
+      "kubernetes",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": [
+      "c#",
+      ".net"
+    ]
   }
 ]
