@@ -21329,5 +21329,34 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:kippsocal:c87bcb54-19d4-4953-ab0b-4f8a147a2609",
+    "title": "Data Analyst",
+    "company": "kippsocal",
+    "location": "Los Angeles, CA",
+    "url": "https://jobs.lever.co/kippsocal/c87bcb54-19d4-4953-ab0b-4f8a147a2609",
+    "posted": "2021-12-15 16:40 UTC",
+    "date_found": "2026-07-29T20:32:14.216855+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "dbt",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded"
+    ]
   }
 ]
