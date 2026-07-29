@@ -20470,5 +20470,54 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:nice:4938955101",
+    "title": "Software Engineer",
+    "company": "nice",
+    "location": "USA - Richardson, TX",
+    "url": "https://boards.eu.greenhouse.io/nice/jobs/4938955101?gh_jid=4938955101",
+    "posted": "2026-07-29T12:22:52-04:00",
+    "date_found": "2026-07-29T16:32:27.966377+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "spring framework",
+      "hibernate"
+    ]
+  },
+  {
+    "key": "greenhouse:precisionaq:6128715004",
+    "title": "Research Scientist, Health Economic Modeling",
+    "company": "precisionaq",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/precisionaq/jobs/6128715004",
+    "posted": "2026-07-29T12:09:25-04:00",
+    "date_found": "2026-07-29T16:32:27.966377+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
