@@ -20117,5 +20117,27 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:ywcaworks:bc040e15-0596-47fc-97a0-9eedae1936b6",
+    "title": "Client Data Analyst \u2013 Programs & Impact",
+    "company": "ywcaworks",
+    "location": "Seattle, WA",
+    "url": "https://jobs.lever.co/ywcaworks/bc040e15-0596-47fc-97a0-9eedae1936b6",
+    "posted": "2026-07-29 00:45 UTC",
+    "date_found": "2026-07-29T01:00:51.867478+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
