@@ -20304,5 +20304,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:gassouth:8093008",
+    "title": "Operations Analyst",
+    "company": "gassouth",
+    "location": "Atlanta, Georgia or Gainesville, FL",
+    "url": "https://job-boards.greenhouse.io/gassouth/jobs/8093008",
+    "posted": "2026-07-29T09:32:28-04:00",
+    "date_found": "2026-07-29T14:02:32.025005+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
