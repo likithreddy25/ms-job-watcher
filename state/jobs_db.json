@@ -20823,5 +20823,49 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:532ae8f8-599f-4735-95bc-46585cfc85f6",
+    "title": "Software Development Engineer, AWS Config, AWS Config",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10487479/software-development-engineer-aws-config-aws-config",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T17:40:43.192767+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:6e8372c0-012e-4a77-acaf-0e73098339b5",
+    "title": "Software Development Engineer, AWS Config, AWS Config",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10487481/software-development-engineer-aws-config-aws-config",
+    "posted": "July 29, 2026",
+    "date_found": "2026-07-29T17:40:43.192767+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
