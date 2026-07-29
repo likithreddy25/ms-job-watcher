@@ -20909,5 +20909,34 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:atomcomputing:e6db0921-3a50-4c45-931a-deffbfa8d826",
+    "title": "Software Engineer",
+    "company": "atomcomputing",
+    "location": "Boulder, CO",
+    "url": "https://jobs.lever.co/atomcomputing/e6db0921-3a50-4c45-931a-deffbfa8d826",
+    "posted": "2026-07-29 17:00 UTC",
+    "date_found": "2026-07-29T18:31:53.703707+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "gcp",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
   }
 ]
