@@ -21955,5 +21955,40 @@
     "bad_tech": [
       "c++"
     ]
+  },
+  {
+    "key": "greenhouse:arevonenergyimpltest:5027450007",
+    "title": "Software Engineer, Business Systems & Analytics ",
+    "company": "arevonenergyimpltest",
+    "location": "Scottsdale, AZ",
+    "url": "https://job-boards.greenhouse.io/arevonenergyimpltest/jobs/5027450007",
+    "posted": "2026-07-29T19:48:15-04:00",
+    "date_found": "2026-07-30T01:01:37.576134+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "kafka",
+      "aws",
+      "docker",
+      "postgresql",
+      "postgres",
+      "mongodb",
+      "snowflake",
+      "fastapi",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
