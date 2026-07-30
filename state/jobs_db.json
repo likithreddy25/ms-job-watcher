@@ -22851,5 +22851,31 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:xai:4803862007",
+    "title": "Software Engineer - Data Platform",
+    "company": "xai",
+    "location": "Palo Alto, California, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4803862007",
+    "posted": "2026-07-30T13:55:00-04:00",
+    "date_found": "2026-07-30T19:32:02.160904+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kafka"
+    ],
+    "bad_tech": [
+      "rust",
+      "rails"
+    ]
   }
 ]
