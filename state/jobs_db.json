@@ -22677,5 +22677,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:7814534003",
+    "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003",
+    "posted": "2026-07-30T11:35:12-04:00",
+    "date_found": "2026-07-30T17:08:58.183321+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
   }
 ]
