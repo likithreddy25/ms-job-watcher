@@ -23315,5 +23315,49 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:51439e7a-bf44-4423-bbaf-cb151f149ef9",
+    "title": "SDE - CPLD / FPGA",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10488715/sde-cpld-fpga",
+    "posted": "July 30, 2026",
+    "date_found": "2026-07-30T20:40:57.065202+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "fpga"
+    ]
+  },
+  {
+    "key": "amazon:6d502ea5-8836-4770-9968-33c9b596de38",
+    "title": "SDE - CPLD / FPGA",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10488714/sde-cpld-fpga",
+    "posted": "July 30, 2026",
+    "date_found": "2026-07-30T20:40:57.065202+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "fpga"
+    ]
   }
 ]
