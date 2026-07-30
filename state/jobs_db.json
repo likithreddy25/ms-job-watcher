@@ -23429,5 +23429,45 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:00639ed1-e3e7-43e2-8ed0-f0864d27c183",
+    "title": "Software Development Engineer, Amazon Kinesis Data Streams & Firehose",
+    "company": "Amazon",
+    "location": "US, CA, East Palo Alto",
+    "url": "https://www.amazon.jobs/en/jobs/10488807/software-development-engineer-amazon-kinesis-data-streams-firehose",
+    "posted": "July 30, 2026",
+    "date_found": "2026-07-30T22:10:58.445098+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:6fe62a89-9bb5-49b3-97c1-cde46af80ccc",
+    "title": "Software Development Engineer, Amazon Security Platform Engineering",
+    "company": "Amazon",
+    "location": "US, CA, San Luis Obispo",
+    "url": "https://www.amazon.jobs/en/jobs/10488805/software-development-engineer-amazon-security-platform-engineering",
+    "posted": "July 30, 2026",
+    "date_found": "2026-07-30T22:10:58.445098+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
