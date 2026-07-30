@@ -23509,5 +23509,36 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twilio:8097672",
+    "title": "Software Engineer (L2)",
+    "company": "twilio",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8097672",
+    "posted": "2026-07-30T17:08:53-04:00",
+    "date_found": "2026-07-30T23:02:53.706963+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "kafka",
+      "aws",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
