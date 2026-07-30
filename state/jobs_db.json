@@ -22055,5 +22055,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:katalyst:6130553004",
+    "title": "Software Engineer, Ground Software",
+    "company": "katalyst",
+    "location": "Broomfield, Colorado, United States",
+    "url": "https://job-boards.greenhouse.io/katalyst/jobs/6130553004",
+    "posted": "2026-07-30T07:48:34-04:00",
+    "date_found": "2026-07-30T12:01:21.510265+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "kafka",
+      "aws",
+      "docker",
+      "mongodb"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
