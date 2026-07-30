@@ -22703,5 +22703,39 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "lever:life:0c67a3d6-e91f-44aa-a72a-44a4a6e037ef",
+    "title": "Data Engineer",
+    "company": "life",
+    "location": "Edmond, OK",
+    "url": "https://jobs.lever.co/life/0c67a3d6-e91f-44aa-a72a-44a4a6e037ef",
+    "posted": "2026-07-30 17:13 UTC",
+    "date_found": "2026-07-30T17:32:24.153614+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "airflow",
+      "dbt",
+      "etl",
+      "aws",
+      "azure",
+      "postgres",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
   }
 ]
