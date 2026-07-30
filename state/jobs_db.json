@@ -22083,5 +22083,83 @@
     "bad_tech": [
       "c++"
     ]
+  },
+  {
+    "key": "greenhouse:esri:5076416007",
+    "title": "Software Development Engineer in Test II (SDET) - Apps",
+    "company": "esri",
+    "location": "Portland, ME",
+    "url": "https://www.esri.com/careers/5076416007?gh_jid=5076416007",
+    "posted": "2026-07-30T07:49:43-04:00",
+    "date_found": "2026-07-30T13:31:52.392964+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "swift",
+      "kotlin",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5076397007",
+    "title": "Software Development Engineer in Test II (SDET) - Apps",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5076397007?gh_jid=5076397007",
+    "posted": "2026-07-30T07:49:43-04:00",
+    "date_found": "2026-07-30T13:31:52.392964+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "swift",
+      "kotlin",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5194632007",
+    "title": "Software Development Engineer in Test II (SDET) - Apps",
+    "company": "esri",
+    "location": "Remote Eligible, US",
+    "url": "https://www.esri.com/careers/5194632007?gh_jid=5194632007",
+    "posted": "2026-07-30T07:49:37-04:00",
+    "date_found": "2026-07-30T13:31:52.392964+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "swift",
+      "kotlin",
+      "android"
+    ]
   }
 ]
