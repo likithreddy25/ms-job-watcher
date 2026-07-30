@@ -23265,5 +23265,55 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4700749006",
+    "title": "Financial Analyst, Corporate FP&A",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4700749006",
+    "posted": "2026-07-30T15:45:36-04:00",
+    "date_found": "2026-07-30T20:32:23.921998+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "snowflake"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:spotify:aca5697a-a87a-415e-8d58-627bb782cce8",
+    "title": "Machine Learning Engineering Manager, Personalization",
+    "company": "spotify",
+    "location": "New York, NY",
+    "url": "https://jobs.lever.co/spotify/aca5697a-a87a-415e-8d58-627bb782cce8",
+    "posted": "2026-07-30 18:31 UTC",
+    "date_found": "2026-07-30T20:32:23.921998+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
