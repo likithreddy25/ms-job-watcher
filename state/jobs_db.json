@@ -23265,5 +23265,58 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:reliant:5368434008",
+    "title": "Software Engineer - Full-Stack",
+    "company": "reliant",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/reliant/jobs/5368434008",
+    "posted": "2026-07-30T16:06:55-04:00",
+    "date_found": "2026-07-30T20:31:47.191101+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
+  },
+  {
+    "key": "greenhouse:roblox:8080438",
+    "title": "Software Engineer, User Frameworks",
+    "company": "roblox",
+    "location": "San Mateo, CA, United States",
+    "url": "https://careers.roblox.com/jobs/8080438?gh_jid=8080438",
+    "posted": "2026-07-30T16:17:16-04:00",
+    "date_found": "2026-07-30T20:31:47.191101+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
