@@ -24023,5 +24023,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:d5b4776b-abf7-4252-a066-0c29a4324f05",
+    "title": "Embedded Software Engineer, Mobile Robotics",
+    "company": "Amazon",
+    "location": "US, MA, North Reading",
+    "url": "https://www.amazon.jobs/en/jobs/10489396/embedded-software-engineer-mobile-robotics",
+    "posted": "July 31, 2026",
+    "date_found": "2026-07-31T17:00:54.772255+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
