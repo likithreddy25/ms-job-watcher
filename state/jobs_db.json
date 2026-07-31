@@ -24203,5 +24203,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:freedompay:306f4d8d-adf0-401c-bd73-8b9a63bbd15a",
+    "title": "Snowflake Data Engineer",
+    "company": "freedompay",
+    "location": "Select USA Remote Locations",
+    "url": "https://jobs.lever.co/freedompay/306f4d8d-adf0-401c-bd73-8b9a63bbd15a",
+    "posted": "2026-07-29 19:30 UTC",
+    "date_found": "2026-07-31T18:02:18.974298+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "kafka",
+      "azure",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
