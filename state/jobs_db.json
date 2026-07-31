@@ -24615,5 +24615,96 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:archer56:7823270003",
+    "title": "Computer Vision Engineer",
+    "company": "archer56",
+    "location": "San Jose, California, United States",
+    "url": "https://job-boards.greenhouse.io/archer56/jobs/7823270003",
+    "posted": "2026-07-31T18:03:33-04:00",
+    "date_found": "2026-07-31T22:15:53.508007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "computer vision",
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "c++",
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0245835",
+    "title": "C5ISRT Intelligence Analyst",
+    "company": "Booz Allen Hamilton",
+    "location": "Washington, DC",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/C5ISRT-Intelligence-Analyst_R0245835",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T22:15:53.508007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0245838",
+    "title": "Embedded Software Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "King George, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/King-George-VA/Embedded-Software-Engineer_R0245838",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T22:15:53.508007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:citi:2:req:26970983",
+    "title": "Quantitative Analyst - Rates XVA, AVP",
+    "company": "Citigroup",
+    "location": "New York New York United States",
+    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Quantitative-Analyst---Rates-XVA--AVP_26970983-1",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T22:15:53.508007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
