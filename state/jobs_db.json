@@ -23850,5 +23850,28 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:gridware:9acaa603-e9e8-4426-a5f7-5c2d8283c85d",
+    "title": "Research Engineer, Mechanical",
+    "company": "gridware",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.lever.co/gridware/9acaa603-e9e8-4426-a5f7-5c2d8283c85d",
+    "posted": "2026-07-31 14:48 UTC",
+    "date_found": "2026-07-31T15:03:03.030814+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
