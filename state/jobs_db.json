@@ -24265,5 +24265,28 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:stripe:8099239",
+    "title": "Software Engineer - Infrastructure",
+    "company": "Stripe",
+    "location": "Seattle, WA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8099239",
+    "posted": "2026-07-31T12:19:00-04:00",
+    "date_found": "2026-07-31T18:32:37.264601+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 987,
+    "good_tech": [],
+    "bad_tech": [
+      "java",
+      "ruby"
+    ]
   }
 ]
