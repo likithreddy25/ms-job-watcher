@@ -24438,5 +24438,40 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:circadiahealth:1138ac93-5ed3-43d3-b0fa-d99a264d6ece",
+    "title": "Software Engineer",
+    "company": "circadiahealth",
+    "location": "Los Angeles, CA",
+    "url": "https://jobs.lever.co/circadiahealth/1138ac93-5ed3-43d3-b0fa-d99a264d6ece",
+    "posted": "2026-07-31 18:57 UTC",
+    "date_found": "2026-07-31T20:02:16.584187+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "kafka",
+      "aws",
+      "docker",
+      "postgresql",
+      "postgres",
+      "mysql",
+      "mongodb",
+      "fastapi",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust"
+    ]
   }
 ]
