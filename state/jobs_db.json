@@ -24593,5 +24593,27 @@
       "rust",
       "c#"
     ]
+  },
+  {
+    "key": "amazon:8cb43c28-3551-498c-a019-8b0b2ec3366a",
+    "title": "Software Development Engineer, RDS SQL Server",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10489782/software-development-engineer-rds-sql-server",
+    "posted": "July 31, 2026",
+    "date_found": "2026-07-31T21:30:57.120382+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
