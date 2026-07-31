@@ -23560,5 +23560,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0245751",
+    "title": "Embedded Software Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "Colorado Springs, CO",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Colorado-Springs-CO/Embedded-Software-Engineer_R0245751",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T00:32:27.941913+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
