@@ -24203,5 +24203,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:motorolasolutions:Careers:req:R67073",
+    "title": "Embedded Software Engineer",
+    "company": "Motorola",
+    "location": "Schaumburg, IL",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Schaumburg-IL/Embedded-Software-Engineer_R67073",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T18:02:30.245095+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:motorolasolutions:Careers:req:R67294",
+    "title": "Senior Staff DevOps/Infrastructure Engineer (Chicago Hybrid)",
+    "company": "Motorola",
+    "location": "Chicago, IL",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Chicago-IL/Senior-Staff-DevOps-Infrastructure-Engineer--Chicago-Hybrid-_R67294",
+    "posted": "Posted Today",
+    "date_found": "2026-07-31T18:02:30.245095+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
