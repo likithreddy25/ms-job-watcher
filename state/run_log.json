@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-07-24T22:17Z",
-    "mode": "boards",
-    "per_source": {
-      "lever": {
-        "fetched": 611,
-        "title_ok": 8,
-        "loc_ok": 7,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 19
-      },
-      "greenhouse": {
-        "fetched": 10560,
-        "title_ok": 563,
-        "loc_ok": 361,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1059
-      },
-      "smartrecruiters": {
-        "fetched": 1328,
-        "title_ok": 65,
-        "loc_ok": 18,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 35
-      },
-      "ashby": {
-        "fetched": 148,
-        "title_ok": 9,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 10
-      },
-      "workday": {
-        "fetched": 10654,
-        "title_ok": 388,
-        "loc_ok": 136,
-        "new": 2,
-        "emailed": 2,
-        "senior_excluded": 530
-      }
-    },
-    "duration_s": 110.9,
-    "cursor": 200
-  },
-  {
     "ts": "2026-07-24T22:20Z",
     "mode": "main",
     "per_source": {
@@ -48700,6 +48652,62 @@
       }
     },
     "duration_s": 12.9,
+    "cursor": null
+  },
+  {
+    "ts": "2026-07-31T09:30Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 179,
+        "title_ok": 13,
+        "loc_ok": 13,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 50
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 142,
+        "loc_ok": 142,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 78
+      },
+      "nvidia": {
+        "fetched": 60,
+        "title_ok": 4,
+        "loc_ok": 4,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 50
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 1,
+        "loc_ok": 1,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 10.8,
     "cursor": null
   }
 ]
