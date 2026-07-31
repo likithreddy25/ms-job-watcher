@@ -23560,5 +23560,37 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:h1:05d083e8-7bb9-4cc6-a8ff-a1abae2048f8",
+    "title": "Full-Stack Software Engineer",
+    "company": "h1",
+    "location": "US Remote",
+    "url": "https://jobs.lever.co/h1/05d083e8-7bb9-4cc6-a8ff-a1abae2048f8",
+    "posted": "2026-05-26 21:11 UTC",
+    "date_found": "2026-07-31T00:31:50.007034+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "airflow",
+      "kafka",
+      "aws",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
