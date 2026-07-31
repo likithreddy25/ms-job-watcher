@@ -23873,5 +23873,33 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:vendavo:bdc772d4-2acf-4c65-890a-efdd7e5f3100",
+    "title": "AI Revenue Operations Analyst",
+    "company": "vendavo",
+    "location": "Bengaluru, IN",
+    "url": "https://jobs.lever.co/vendavo/bdc772d4-2acf-4c65-890a-efdd7e5f3100",
+    "posted": "2026-07-31 14:19 UTC",
+    "date_found": "2026-07-31T15:08:49.593924+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "mongodb"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
