@@ -23981,5 +23981,34 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:smartsheet:8070067",
+    "title": "Software Engineer I (Remote Eligible)",
+    "company": "Smartsheet",
+    "location": " -REMOTE, USA-",
+    "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8070067",
+    "posted": "2026-07-31T11:26:55-04:00",
+    "date_found": "2026-07-31T16:02:43.990901+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "azure",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "kotlin"
+    ]
   }
 ]
