@@ -23582,5 +23582,49 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:f1ed9b9c-108a-417e-a47a-cd7cb0ce7c2e",
+    "title": "Software Development Engineer, AWS Catalog",
+    "company": "Amazon",
+    "location": "US, CA, East Palo Alto",
+    "url": "https://www.amazon.jobs/en/jobs/10488872/software-development-engineer-aws-catalog",
+    "posted": "July 31, 2026",
+    "date_found": "2026-07-31T00:50:52.702382+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:0f5f14ad-105f-4039-9a47-04a33e7c703d",
+    "title": "Software Development Engineer, AWS Catalog",
+    "company": "Amazon",
+    "location": "US, CA, East Palo Alto",
+    "url": "https://www.amazon.jobs/en/jobs/10488871/software-development-engineer-aws-catalog",
+    "posted": "July 31, 2026",
+    "date_found": "2026-07-31T00:50:52.702382+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
