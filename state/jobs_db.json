@@ -24766,5 +24766,27 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:26cddf45-307d-4a37-9c53-d0399e498723",
+    "title": "Software Development Engineer, AWS, AWS Field Exp - BPO Tech",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10489819/software-development-engineer-aws-aws-field-exp-bpo-tech",
+    "posted": "July 31, 2026",
+    "date_found": "2026-07-31T23:01:00.298304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
