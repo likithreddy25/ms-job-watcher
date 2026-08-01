@@ -24926,5 +24926,59 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:field-ai:e3b7bac7-5410-44bb-964c-02815fbd0c97",
+    "title": "Software Engineer, Data Engineering",
+    "company": "Field Ai",
+    "location": "Irvine, CA",
+    "url": "https://jobs.lever.co/field-ai/e3b7bac7-5410-44bb-964c-02815fbd0c97",
+    "posted": "2026-08-01 01:03 UTC",
+    "date_found": "2026-08-01T03:30:48.134071+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "databricks",
+      "airflow",
+      "aws",
+      "kubernetes",
+      "snowflake",
+      "bigquery",
+      "redshift"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:field-ai:b6a02c7e-8726-47b7-b0b0-899644613c47",
+    "title": "Software Engineer, DevOps",
+    "company": "Field Ai",
+    "location": "Irvine, CA",
+    "url": "https://jobs.lever.co/field-ai/b6a02c7e-8726-47b7-b0b0-899644613c47",
+    "posted": "2026-08-01 00:42 UTC",
+    "date_found": "2026-08-01T03:30:48.134071+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
