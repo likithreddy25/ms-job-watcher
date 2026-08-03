@@ -26017,5 +26017,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:baton:5200002007",
+    "title": "Software Engineer, MLOps - Machine Learning",
+    "company": "baton",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/baton/jobs/5200002007",
+    "posted": "2026-08-03T16:22:09-04:00",
+    "date_found": "2026-08-03T21:02:05.360896+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "aws",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
