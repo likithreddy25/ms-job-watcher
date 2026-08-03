@@ -25593,5 +25593,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:lumafield:181866d7-ffa5-4e12-b25c-aa4f1fd0bb11",
+    "title": "Applications Engineer",
+    "company": "lumafield",
+    "location": "Boston, MA",
+    "url": "https://jobs.lever.co/lumafield/181866d7-ffa5-4e12-b25c-aa4f1fd0bb11",
+    "posted": "2026-08-03 17:12 UTC",
+    "date_found": "2026-08-03T18:32:23.186295+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "computer vision"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
