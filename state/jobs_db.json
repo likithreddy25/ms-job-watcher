@@ -26122,5 +26122,58 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "greenhouse:xai:5202187007",
+    "title": "Software Engineer - Platform Core (C++, C)",
+    "company": "xai",
+    "location": "Palo Alto, California, United States; Seattle, Washington, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5202187007",
+    "posted": "2026-08-03T16:27:25-04:00",
+    "date_found": "2026-08-03T22:02:16.404696+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:pattern:85786cfb-6f7b-4853-9aad-31b7c3241278",
+    "title": "Data Engineer",
+    "company": "pattern",
+    "location": "Lehi, UT, US",
+    "url": "https://jobs.lever.co/pattern/85786cfb-6f7b-4853-9aad-31b7c3241278",
+    "posted": "2025-06-26 21:34 UTC",
+    "date_found": "2026-08-03T22:02:16.404696+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "machine learning",
+      "airflow",
+      "aws",
+      "snowflake",
+      "bigquery",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
