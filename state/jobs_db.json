@@ -26044,5 +26044,49 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:e182066a-f898-4cf5-8233-110db687aec5",
+    "title": "Software Development Engineer - Amazon MSK, Managed Streaming for Kafka",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10490963/software-development-engineer-amazon-msk-managed-streaming-for-kafka",
+    "posted": "August  3, 2026",
+    "date_found": "2026-08-03T21:10:51.065304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "kafka"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7dfbd371-4059-41ab-9f91-5e94544b4e32",
+    "title": "Software Development Engineer - Amazon MSK, Managed Streaming for Kafka",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10490964/software-development-engineer-amazon-msk-managed-streaming-for-kafka",
+    "posted": "August  3, 2026",
+    "date_found": "2026-08-03T21:10:51.065304+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "kafka"
+    ],
+    "bad_tech": []
   }
 ]
