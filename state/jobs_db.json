@@ -25461,5 +25461,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:questanalytics:7a2805ed-25be-4ece-9d1a-a41da801c426",
+    "title": "AI Intelligence Analyst",
+    "company": "questanalytics",
+    "location": "Overland Park, KS",
+    "url": "https://jobs.lever.co/questanalytics/7a2805ed-25be-4ece-9d1a-a41da801c426",
+    "posted": "2026-07-28 21:09 UTC",
+    "date_found": "2026-08-03T17:32:14.348048+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
