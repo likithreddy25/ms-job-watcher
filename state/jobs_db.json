@@ -26088,5 +26088,39 @@
       "kafka"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5378493008",
+    "title": "Data Scientist / AI Engineer",
+    "company": "Lgelectronics",
+    "location": "Huntsville, AL",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5378493008",
+    "posted": "2026-08-03T16:50:33-04:00",
+    "date_found": "2026-08-03T21:30:48.006800+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "nlp",
+      "machine learning",
+      "aws",
+      "gcp",
+      "docker",
+      "bigquery",
+      "fastapi",
+      "flask",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
