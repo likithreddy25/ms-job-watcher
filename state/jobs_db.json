@@ -26204,5 +26204,80 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:gleanwork:4711484005",
+    "title": "Machine Learning Engineer, Assistant Quality",
+    "company": "Glean",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4711484005",
+    "posted": "2026-08-03T17:43:08-04:00",
+    "date_found": "2026-08-03T22:17:36.170727+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "nlp",
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust",
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:dxctechnology:DXCJobs:req:51585412",
+    "title": "Software Engineer (Java/Reinsurance)",
+    "company": "DXC Technology",
+    "location": "USA - SC - CHARLESTON",
+    "url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/USA---SC---CHARLESTON/Software-Engineer--Java-Reinsurance-_51585412",
+    "posted": "Posted Today",
+    "date_found": "2026-08-03T22:17:36.170727+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00188633",
+    "title": "Software Engineer, C++",
+    "company": "Leidos",
+    "location": "Tewksbury, MA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Tewksbury-MA/Software-Engineer--C--_R-00188633",
+    "posted": "Posted Today",
+    "date_found": "2026-08-03T22:17:36.170727+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
