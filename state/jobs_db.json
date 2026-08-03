@@ -25212,5 +25212,29 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:align:8652408002",
+    "title": "Strategy and Business Operations Analyst",
+    "company": "align",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/align/jobs/8652408002",
+    "posted": "2026-08-03T11:47:19-04:00",
+    "date_found": "2026-08-03T16:03:13.682755+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
