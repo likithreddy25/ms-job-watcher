@@ -27364,5 +27364,72 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:clearcapital:ff82c6ec-d9f2-411e-87c3-11165d0cb5d8",
+    "title": "Product Analyst, AI Quality",
+    "company": "clearcapital",
+    "location": "Remote - US",
+    "url": "https://jobs.lever.co/clearcapital/ff82c6ec-d9f2-411e-87c3-11165d0cb5d8",
+    "posted": "2026-08-03 22:32 UTC",
+    "date_found": "2026-08-04T19:01:57.758758+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:layup:024d2772-e251-4cdf-9b12-0cd919390b8e",
+    "title": "Machine Learning Engineer",
+    "company": "layup",
+    "location": "Huntington Beach, CA",
+    "url": "https://jobs.lever.co/layup/024d2772-e251-4cdf-9b12-0cd919390b8e",
+    "posted": "2026-08-04 18:53 UTC",
+    "date_found": "2026-08-04T19:01:57.758758+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:layup:4a97feec-c1af-4f81-8148-d7ad27a88e1e",
+    "title": "Software Engineer, Controls & Automation",
+    "company": "layup",
+    "location": "Huntington Beach, CA",
+    "url": "https://jobs.lever.co/layup/4a97feec-c1af-4f81-8148-d7ad27a88e1e",
+    "posted": "2026-08-04 18:38 UTC",
+    "date_found": "2026-08-04T19:01:57.758758+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "embedded"
+    ]
   }
 ]
