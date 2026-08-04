@@ -26365,5 +26365,31 @@
     "h1b_sponsor_lcas_per_year": 2543,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:agatesoftware:60c278e1-9b47-4ba9-8961-0e0cf41e0739",
+    "title": "Software Developer I - hybrid in Glendale AZ  [SD1-2026-08]",
+    "company": "agatesoftware",
+    "location": "Glendale, AZ",
+    "url": "https://jobs.lever.co/agatesoftware/60c278e1-9b47-4ba9-8961-0e0cf41e0739",
+    "posted": "2026-08-04 00:08 UTC",
+    "date_found": "2026-08-04T01:31:43.416105+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
   }
 ]
