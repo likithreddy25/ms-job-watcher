@@ -26836,5 +26836,28 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:pokemoncareers:7826409003",
+    "title": "Manager, Software Engineering",
+    "company": "pokemoncareers",
+    "location": "Bellevue, Washington, United States",
+    "url": "https://job-boards.greenhouse.io/pokemoncareers/jobs/7826409003",
+    "posted": "2026-08-04T12:59:37-04:00",
+    "date_found": "2026-08-04T17:03:31.425059+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
