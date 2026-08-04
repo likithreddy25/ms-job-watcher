@@ -27162,5 +27162,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:preciselyusjobs:4717827005",
+    "title": "Platform Engineer",
+    "company": "preciselyusjobs",
+    "location": "United States",
+    "url": "https://www.precisely.com/careers-and-culture/us-jobs/job/4717827005?gh_jid=4717827005",
+    "posted": "2026-08-04T14:13:45-04:00",
+    "date_found": "2026-08-04T18:31:46.950463+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "rust",
+      "rails"
+    ]
   }
 ]
