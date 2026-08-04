@@ -27364,5 +27364,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:4c16c18c-18c0-433c-bc21-8bd72824a1d9",
+    "title": "Embedded Software Engineer - MCU Platforms",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/4c16c18c-18c0-433c-bc21-8bd72824a1d9",
+    "posted": "2026-08-04 17:23 UTC",
+    "date_found": "2026-08-04T19:01:56.807301+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
