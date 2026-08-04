@@ -26660,5 +26660,53 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:upstart:7293116",
+    "title": "Applied Scientist ",
+    "company": "UpStart",
+    "location": "United States | Remote",
+    "url": "https://careers.upstart.com/jobs?gh_jid=7293116",
+    "posted": "2026-08-04T10:17:50-04:00",
+    "date_found": "2026-08-04T16:02:16.685585+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "ashby:snowflake:ecd08904-f188-4336-bf8c-f75f97df1a02",
+    "title": "Data Engineering Solutions Specialist ",
+    "company": "Snowflake",
+    "location": "US-NY-New York",
+    "url": "https://jobs.ashbyhq.com/snowflake/ecd08904-f188-4336-bf8c-f75f97df1a02",
+    "posted": "",
+    "date_found": "2026-08-04T16:02:16.685585+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 421,
+    "good_tech": [
+      "snowflake"
+    ],
+    "bad_tech": []
   }
 ]
