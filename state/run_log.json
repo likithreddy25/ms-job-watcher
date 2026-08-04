@@ -48489,32 +48489,17 @@
     "cursor": null
   },
   {
-    "ts": "2026-08-04T11:30Z",
+    "ts": "2026-08-04T11:31Z",
     "mode": "boards",
     "per_source": {
-      "ashby": {
-        "fetched": 1934,
-        "title_ok": 112,
-        "loc_ok": 19,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 217
-      },
       "greenhouse": {
-        "fetched": 4226,
-        "title_ok": 258,
-        "loc_ok": 137,
-        "new": 0,
+        "fetched": 56071,
+        "title_ok": 1717,
+        "loc_ok": 592,
+        "new": 1,
         "emailed": 0,
-        "senior_excluded": 250
-      },
-      "lever": {
-        "fetched": 1439,
-        "title_ok": 100,
-        "loc_ok": 34,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 148
+        "senior_excluded": 2707,
+        "yoe_excluded": 1
       }
     },
     "duration_s": 9.2,
