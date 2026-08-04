@@ -27553,5 +27553,59 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:monumentalsports:5167643007",
+    "title": "Basketball Data Analyst (Mystics)",
+    "company": "monumentalsports",
+    "location": "Washington, DC 20032",
+    "url": "https://job-boards.greenhouse.io/monumentalsports/jobs/5167643007",
+    "posted": "2026-08-04T16:02:21-04:00",
+    "date_found": "2026-08-04T20:13:31.510292+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:monumentalsports:5200883007",
+    "title": "Data Engineer (Wizards)",
+    "company": "monumentalsports",
+    "location": "Washington, DC 20032",
+    "url": "https://job-boards.greenhouse.io/monumentalsports/jobs/5200883007",
+    "posted": "2026-08-04T16:02:38-04:00",
+    "date_found": "2026-08-04T20:13:31.510292+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "dbt",
+      "aws",
+      "gcp",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "rails"
+    ]
   }
 ]
