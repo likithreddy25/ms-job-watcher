@@ -26708,5 +26708,53 @@
       "snowflake"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:honeycombinsurance:4704040005",
+    "title": "Software Engineer",
+    "company": "honeycombinsurance",
+    "location": "Chicago, IL",
+    "url": "https://job-boards.greenhouse.io/honeycombinsurance/jobs/4704040005",
+    "posted": "2026-08-04T11:53:50-04:00",
+    "date_found": "2026-08-04T16:32:08.482315+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "docker",
+      "kubernetes",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:imc:4696380101",
+    "title": "Equity Research Analyst  ",
+    "company": "imc",
+    "location": "Chicago, United States",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4696380101",
+    "posted": "2026-08-04T11:31:09-04:00",
+    "date_found": "2026-08-04T16:32:08.482315+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": []
   }
 ]
