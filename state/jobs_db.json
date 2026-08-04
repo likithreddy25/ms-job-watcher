@@ -27891,5 +27891,45 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:NielsenIQ:744000141585129",
+    "title": "Brand Insights Analyst",
+    "company": "NielsenIQ",
+    "location": "Illinois, IL, us",
+    "url": "https://jobs.smartrecruiters.com/NielsenIQ",
+    "posted": "2026-08-04T21:39:49.495Z",
+    "date_found": "2026-08-04T23:02:04.581164+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2022783",
+    "title": "Systems Software Engineer - Infrastructure",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer---Infrastructure_JR2022783",
+    "posted": "Posted Today",
+    "date_found": "2026-08-04T23:02:04.581164+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
