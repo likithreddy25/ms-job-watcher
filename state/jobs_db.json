@@ -27533,5 +27533,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:abacusinsights:8674746002",
+    "title": "Associate Data Engineer",
+    "company": "abacusinsights",
+    "location": "Remote US",
+    "url": "https://boards.greenhouse.io/abacusinsights/jobs/8674746002?gh_jid=8674746002",
+    "posted": "2026-08-04T14:30:59-04:00",
+    "date_found": "2026-08-04T20:02:11.721733+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "no",
+    "opt_friendly": true,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "databricks",
+      "etl",
+      "aws",
+      "azure",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
