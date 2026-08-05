@@ -29054,5 +29054,47 @@
       "java",
       "c++"
     ]
+  },
+  {
+    "key": "amazon:f22deea9-474c-4065-ba75-49d256acb49b",
+    "title": "Applied Scientist, Search Ranking",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10493467/applied-scientist-search-ranking",
+    "posted": "August  5, 2026",
+    "date_found": "2026-08-05T20:30:51.978279+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:1fa7f579-0956-44bd-9a65-ef1d0dcf900d",
+    "title": "Software Development Engineer, RDS SQL Server",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10493470/software-development-engineer-rds-sql-server",
+    "posted": "August  5, 2026",
+    "date_found": "2026-08-05T20:30:51.978279+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
