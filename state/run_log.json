@@ -48689,57 +48689,48 @@
     "cursor": null
   },
   {
-    "ts": "2026-08-05T14:29Z",
-    "mode": "main",
+    "ts": "2026-08-05T14:30Z",
+    "mode": "boards",
     "per_source": {
-      "microsoft": {
-        "fetched": 172,
-        "title_ok": 13,
-        "loc_ok": 13,
+      "greenhouse": {
+        "fetched": 10632,
+        "title_ok": 568,
+        "loc_ok": 370,
+        "new": 1,
+        "emailed": 1,
+        "senior_excluded": 1054
+      },
+      "lever": {
+        "fetched": 615,
+        "title_ok": 7,
+        "loc_ok": 6,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 43
+        "senior_excluded": 20
       },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 151,
-        "loc_ok": 151,
+      "smartrecruiters": {
+        "fetched": 1291,
+        "title_ok": 72,
+        "loc_ok": 19,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 72
+        "senior_excluded": 35
       },
-      "nvidia": {
-        "fetched": 170,
-        "title_ok": 20,
-        "loc_ok": 20,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 130
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
+      "ashby": {
+        "fetched": 148,
+        "title_ok": 5,
         "loc_ok": 0,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 0,
-        "error": "Goldman Sachs fetch: HTTPError: 403 Client Error: Forbidden for url: https://api-higher.gs.com/gateway/api/v1/graphql"
+        "senior_excluded": 13
       },
-      "ibm": {
-        "fetched": 2,
-        "title_ok": 1,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
+      "workday": {
+        "fetched": 10147,
+        "title_ok": 397,
+        "loc_ok": 182,
+        "new": 1,
+        "emailed": 1,
+        "senior_excluded": 460
       }
     },
     "duration_s": 15.6,
