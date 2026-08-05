@@ -28403,5 +28403,55 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lyft:8678744002",
+    "title": "Software Engineer",
+    "company": "Lyft",
+    "location": "San Francisco, CA",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8678744002?gh_jid=8678744002",
+    "posted": "2026-08-05T10:19:48-04:00",
+    "date_found": "2026-08-05T15:32:10.676965+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1123,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "golang"
+    ]
+  },
+  {
+    "key": "greenhouse:point72:8675312002",
+    "title": "Business Intelligence Analyst, Market Abuse",
+    "company": "Point72",
+    "location": "Stamford, CT ",
+    "url": "https://boards.greenhouse.io/point72/jobs/8675312002?gh_jid=8675312002",
+    "posted": "2026-08-05T09:15:40-04:00",
+    "date_found": "2026-08-05T15:32:10.676965+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
