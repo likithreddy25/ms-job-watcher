@@ -28987,5 +28987,45 @@
       "rails",
       "embedded"
     ]
+  },
+  {
+    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026521072",
+    "title": "Software Engineer - DevSecOps (Senior or Lead)",
+    "company": "Boeing",
+    "location": "USA - Tukwila, WA",
+    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Software-Engineer---DevSecOps--Senior-or-Lead-_JR2026521072-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-05T19:52:23.476084+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:citi:2:req:26983000",
+    "title": "Sanctions Operations Analyst Bilingual",
+    "company": "Citigroup",
+    "location": "Tampa Florida United States",
+    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Tampa-Florida-United-States/Sanctions-Operations-Analyst-Bilingual_26983000",
+    "posted": "Posted Today",
+    "date_found": "2026-08-05T19:52:23.476084+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
