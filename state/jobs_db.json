@@ -28763,5 +28763,52 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:salesloft:8106373",
+    "title": "Financial Analyst ",
+    "company": "Salesloft",
+    "location": "United States, Remote",
+    "url": "https://www.salesloft.com/company/careers?gh_jid=8106373",
+    "posted": "2026-08-05T13:53:05-04:00",
+    "date_found": "2026-08-05T18:32:34.558416+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "elt"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:stripe:8109554",
+    "title": "Monetization Operations Analyst",
+    "company": "Stripe",
+    "location": "Seattle, WA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8109554",
+    "posted": "2026-08-05T14:17:51-04:00",
+    "date_found": "2026-08-05T18:32:34.558416+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 987,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
