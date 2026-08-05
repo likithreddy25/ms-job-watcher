@@ -28091,5 +28091,54 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6127233004",
+    "title": "Manager, Software Engineering",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6127233004",
+    "posted": "2026-08-04T20:49:22-04:00",
+    "date_found": "2026-08-05T02:32:19.898231+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++"
+    ]
+  },
+  {
+    "key": "greenhouse:stripe:8089353",
+    "title": "Software Engineer, Vulnerability Management",
+    "company": "Stripe",
+    "location": "US - Remote",
+    "url": "https://stripe.com/jobs/search?gh_jid=8089353",
+    "posted": "2026-08-04T20:01:19-04:00",
+    "date_found": "2026-08-05T02:32:19.898231+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 987,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
