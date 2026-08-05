@@ -29366,5 +29366,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000141812359",
+    "title": "Machine Learning Engineer, Agentic AI Harness & Quality - Moveworks",
+    "company": "ServiceNow",
+    "location": "Mountain View, CALIFORNIA, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-08-05T23:25:41.150Z",
+    "date_found": "2026-08-05T23:32:26.095083+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000141804089",
+    "title": "Software Engineer, Agentic AI Harness & Quality - Moveworks",
+    "company": "ServiceNow",
+    "location": "Mountain View, CALIFORNIA, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-08-05T21:40:33.606Z",
+    "date_found": "2026-08-05T23:32:26.095083+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
