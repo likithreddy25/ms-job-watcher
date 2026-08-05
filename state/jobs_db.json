@@ -28643,5 +28643,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:roblox:8072244",
+    "title": "[2027] Software Engineer, Early Career",
+    "company": "roblox",
+    "location": "San Mateo, CA, United States",
+    "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+    "posted": "2026-08-05T12:46:52-04:00",
+    "date_found": "2026-08-05T17:32:00.432689+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "c#",
+      "ruby",
+      "swift"
+    ]
   }
 ]
