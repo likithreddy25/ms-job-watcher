@@ -28810,5 +28810,131 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:current81:8109373",
+    "title": "Software Engineer, Android",
+    "company": "current81",
+    "location": "New York, NY",
+    "url": "https://current.com/careers/open-positions/?id=8109373&gh_jid=8109373",
+    "posted": "2026-08-05T13:48:43-04:00",
+    "date_found": "2026-08-05T19:02:06.968882+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "swift",
+      "kotlin",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5199470007",
+    "title": "C++ Software Engineer I \u2013 Maps SDKS",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5199470007?gh_jid=5199470007",
+    "posted": "2026-08-05T13:21:45-04:00",
+    "date_found": "2026-08-05T19:02:06.968882+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5199136007",
+    "title": "C++ Software Engineer I \u2013 Maps SDKS",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5199136007?gh_jid=5199136007",
+    "posted": "2026-08-05T13:22:10-04:00",
+    "date_found": "2026-08-05T19:02:06.968882+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5199123007",
+    "title": "Software Developer I - Android Apps",
+    "company": "esri",
+    "location": "Portland, ME",
+    "url": "https://www.esri.com/careers/5199123007?gh_jid=5199123007",
+    "posted": "2026-08-05T13:22:41-04:00",
+    "date_found": "2026-08-05T19:02:06.968882+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "kotlin",
+      "android"
+    ]
+  },
+  {
+    "key": "greenhouse:gwkinvestmentmanagementllc:4721669005",
+    "title": "Associate Taxable Research Analyst",
+    "company": "gwkinvestmentmanagementllc",
+    "location": "Boston, MA",
+    "url": "https://job-boards.greenhouse.io/gwkinvestmentmanagementllc/jobs/4721669005",
+    "posted": "2026-08-05T14:09:17-04:00",
+    "date_found": "2026-08-05T19:02:06.968882+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
