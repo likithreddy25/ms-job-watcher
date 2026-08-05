@@ -28403,5 +28403,81 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:betterhelpcom:5268359008",
+    "title": "Data Scientist",
+    "company": "betterhelpcom",
+    "location": "US - Remote",
+    "url": "https://job-boards.greenhouse.io/betterhelpcom/jobs/5268359008",
+    "posted": "2026-08-05T10:51:18-04:00",
+    "date_found": "2026-08-05T15:32:02.401957+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:akunacapital:8108733",
+    "title": "Operations Analyst",
+    "company": "akunacapital",
+    "location": "Chicago, IL",
+    "url": "https://www.akunacapital.com/careers/job/8108733/?gh_jid=8108733",
+    "posted": "2026-08-05T10:29:25-04:00",
+    "date_found": "2026-08-05T15:32:02.401957+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:boulevard:4702047006",
+    "title": "Revenue Operations Analyst",
+    "company": "boulevard",
+    "location": "Remote - USA",
+    "url": "https://job-boards.greenhouse.io/boulevard/jobs/4702047006",
+    "posted": "2026-08-05T10:41:45-04:00",
+    "date_found": "2026-08-05T15:32:02.401957+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
