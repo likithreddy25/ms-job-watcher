@@ -27958,5 +27958,53 @@
       "ruby",
       "swift"
     ]
+  },
+  {
+    "key": "greenhouse:verisign:7820611003",
+    "title": "Research Engineer",
+    "company": "verisign",
+    "location": "Reston,Virginia,United States",
+    "url": "https://job-boards.greenhouse.io/verisign/jobs/7820611003",
+    "posted": "2026-08-04T18:01:05-04:00",
+    "date_found": "2026-08-05T00:01:47.322746+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:zillow:Zillow_Group_External:req:P750344",
+    "title": "Business Intelligence Manager, Product Analytics",
+    "company": "Zillow",
+    "location": "Remote-USA",
+    "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Remote-USA/Business-Intelligence-Analyst_P750344-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-05T00:01:47.322746+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
