@@ -28026,5 +28026,30 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:calyxo:5199096007",
+    "title": "Software Engineer in Test- Pleasanton, CA",
+    "company": "calyxo",
+    "location": "Pleasanton, CA",
+    "url": "https://job-boards.greenhouse.io/calyxo/jobs/5199096007",
+    "posted": "2026-08-04T19:15:32-04:00",
+    "date_found": "2026-08-05T01:01:54.459284+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "computer vision",
+      "elt"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
