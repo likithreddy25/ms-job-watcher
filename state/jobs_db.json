@@ -29027,5 +29027,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:zestai:6135604004",
+    "title": "Data Analyst",
+    "company": "zestai",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/zestai/jobs/6135604004",
+    "posted": "2026-08-05T15:21:11-04:00",
+    "date_found": "2026-08-05T20:02:16.312644+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
   }
 ]
