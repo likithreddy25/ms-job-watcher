@@ -29154,5 +29154,36 @@
       "kubernetes"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:viome:13ef7e9d-263e-4305-89f8-e5f063982c10",
+    "title": "Full-Stack Software Engineer Innovation",
+    "company": "viome",
+    "location": "Bellevue, WA",
+    "url": "https://jobs.lever.co/viome/13ef7e9d-263e-4305-89f8-e5f063982c10",
+    "posted": "2026-04-13 21:00 UTC",
+    "date_found": "2026-08-05T22:00:55.911856+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "gcp",
+      "azure",
+      "postgres",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "php",
+      "android"
+    ]
   }
 ]
