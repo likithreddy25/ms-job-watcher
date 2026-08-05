@@ -28212,5 +28212,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:Miratech1:744000141673965",
+    "title": "AWS Cloud Engineer - Platform Operations",
+    "company": "Miratech",
+    "location": "Canada, LATAM, us",
+    "url": "https://jobs.smartrecruiters.com/Miratech1",
+    "posted": "2026-08-05T09:15:44.414Z",
+    "date_found": "2026-08-05T10:02:09.282583+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
