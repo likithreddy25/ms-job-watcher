@@ -28956,5 +28956,36 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lucidmotors:5202054007",
+    "title": "Software Developer",
+    "company": "Lucidmotors",
+    "location": "Newark, CA",
+    "url": "https://job-boards.greenhouse.io/lucidmotors/jobs/5202054007",
+    "posted": "2026-08-05T14:10:14-04:00",
+    "date_found": "2026-08-05T19:31:01.150926+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "rails",
+      "embedded"
+    ]
   }
 ]
