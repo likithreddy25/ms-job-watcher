@@ -29104,5 +29104,55 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:xai:5125621007",
+    "title": "Software Engineer - Search Ranking",
+    "company": "xai",
+    "location": "Palo Alto, California, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5125621007",
+    "posted": "2026-08-05T16:38:50-04:00",
+    "date_found": "2026-08-05T21:31:52.074153+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:5051966007",
+    "title": "Software Engineer - Voice Model",
+    "company": "xai",
+    "location": "Palo Alto, California, United States",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5051966007",
+    "posted": "2026-08-05T16:43:56-04:00",
+    "date_found": "2026-08-05T21:31:52.074153+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
