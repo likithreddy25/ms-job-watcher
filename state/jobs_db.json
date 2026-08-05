@@ -28703,5 +28703,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:unlockhealth:5189177007",
+    "title": "Creative Data Analyst",
+    "company": "unlockhealth",
+    "location": "Chicago, Illinois, United States; Nashville, Tennessee, United States",
+    "url": "https://job-boards.greenhouse.io/unlockhealth/jobs/5189177007",
+    "posted": "2026-08-05T12:37:34-04:00",
+    "date_found": "2026-08-05T18:02:11.832150+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
