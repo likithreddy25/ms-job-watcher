@@ -29563,5 +29563,64 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:bandwidth:8108831",
+    "title": "Internal Applications Engineer - Network Evolution",
+    "company": "bandwidth",
+    "location": "Raleigh, NC",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8108831",
+    "posted": "2026-08-05T23:46:25-04:00",
+    "date_found": "2026-08-06T04:02:47.602130+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "aws",
+      "docker",
+      "snowflake",
+      "fastapi",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:bandwidth:8108712",
+    "title": "Software Engineer (Voice)",
+    "company": "bandwidth",
+    "location": "Raleigh, NC",
+    "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8108712",
+    "posted": "2026-08-05T23:43:53-04:00",
+    "date_found": "2026-08-06T04:02:47.602130+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c#"
+    ]
   }
 ]
