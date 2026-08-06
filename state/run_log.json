@@ -48861,21 +48861,21 @@
     "cursor": null
   },
   {
-    "ts": "2026-08-06T21:59Z",
+    "ts": "2026-08-06T22:01Z",
     "mode": "boards",
     "per_source": {
       "greenhouse": {
-        "fetched": 56229,
-        "title_ok": 1718,
+        "fetched": 56240,
+        "title_ok": 1719,
         "loc_ok": 586,
         "new": 7,
         "emailed": 2,
-        "senior_excluded": 2719,
+        "senior_excluded": 2724,
         "yoe_excluded": 3,
         "clearance_excluded": 2
       }
     },
-    "duration_s": 77.2,
+    "duration_s": 48.6,
     "cursor": 2000
   },
   {
