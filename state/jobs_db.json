@@ -30413,5 +30413,49 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:46c23963-2be1-4037-8f1a-ce87bdccde6d",
+    "title": "Embedded Software Engineer - Body Systems",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/46c23963-2be1-4037-8f1a-ce87bdccde6d",
+    "posted": "2026-08-06 20:51 UTC",
+    "date_found": "2026-08-06T22:31:46.512836+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "embedded",
+      "firmware"
+    ]
+  },
+  {
+    "key": "ashby:kustomer:50bf7508-e199-4136-a11f-705f06b834c4",
+    "title": "Software Engineer, Cost Optimization (Infrastructure)",
+    "company": "Kustomer",
+    "location": "US - New York, NY",
+    "url": "https://jobs.ashbyhq.com/kustomer/50bf7508-e199-4136-a11f-705f06b834c4",
+    "posted": "",
+    "date_found": "2026-08-06T22:31:46.512836+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
