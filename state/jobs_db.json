@@ -30477,5 +30477,39 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:8113286",
+    "title": "Software Engineer, Data Platform Team",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/8113286?gh_jid=8113286",
+    "posted": "2026-08-06T18:57:50-04:00",
+    "date_found": "2026-08-06T23:31:27.703978+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "databricks",
+      "airflow",
+      "etl",
+      "elt",
+      "aws",
+      "docker",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
