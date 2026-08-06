@@ -30343,5 +30343,53 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:axogen:8661952002",
+    "title": "Business Intelligence Analyst",
+    "company": "axogen",
+    "location": "Tampa, Florida, United States",
+    "url": "https://www.axogeninc.com/about-axogen/careers/?gh_jid=8661952002",
+    "posted": "2026-08-06T13:06:57-04:00",
+    "date_found": "2026-08-06T21:59:22.581545+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:devtechnology:8672781002",
+    "title": "Audio AI Engineer",
+    "company": "devtechnology",
+    "location": "Reston, VA",
+    "url": "https://job-boards.greenhouse.io/devtechnology/jobs/8672781002",
+    "posted": "2026-08-06T11:26:31-04:00",
+    "date_found": "2026-08-06T21:59:22.581545+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "transformers",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": [
+      "swift"
+    ]
   }
 ]
