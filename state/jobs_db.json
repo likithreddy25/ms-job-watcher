@@ -29939,5 +29939,53 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:robinhood:8088444",
+    "title": "Software Engineer",
+    "company": "Robinhood",
+    "location": "Menlo Park, CA; New York, NY",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8088444?t=gh_src=&gh_jid=8088444",
+    "posted": "2026-08-06T13:17:24-04:00",
+    "date_found": "2026-08-06T17:33:20.572616+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4701492006",
+    "title": "Product Developer - Floorcare",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4701492006",
+    "posted": "2026-08-06T12:16:55-04:00",
+    "date_found": "2026-08-06T17:33:20.572616+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
