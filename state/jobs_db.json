@@ -29534,5 +29534,34 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:waymo:8107088",
+    "title": "ML Engineer, Foundation Model Infrastructure",
+    "company": "waymo",
+    "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York, NY, USA",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8107088",
+    "posted": "2026-08-05T22:56:15-04:00",
+    "date_found": "2026-08-06T03:01:58.708697+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
   }
 ]
