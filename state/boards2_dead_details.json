@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-06T07:00:59.603298+00:00",
+  "updated_utc": "2026-08-06T07:31:29.802341+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1192,6 +1192,33 @@
     "greenhouse:providencedig": {
       "first_seen_utc": "2026-08-06T06:01:12.744337+00:00",
       "last_seen_utc": "2026-08-06T06:01:12.744337+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:beauhurst": {
+      "first_seen_utc": "2026-08-06T07:30:52.177905+00:00",
+      "last_seen_utc": "2026-08-06T07:30:52.177905+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:esusu": {
+      "first_seen_utc": "2026-08-06T07:31:11.661718+00:00",
+      "last_seen_utc": "2026-08-06T07:31:11.661718+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:iherb": {
+      "first_seen_utc": "2026-08-06T07:31:25.624819+00:00",
+      "last_seen_utc": "2026-08-06T07:31:25.624819+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
