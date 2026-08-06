@@ -29987,5 +29987,52 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "lever:dnb:a59048eb-ab98-4763-93cf-d8c775cea5e0",
+    "title": "Associate Data Advisor (R-19712)",
+    "company": "dnb",
+    "location": "Jacksonville - Florida - United States",
+    "url": "https://jobs.lever.co/dnb/a59048eb-ab98-4763-93cf-d8c775cea5e0",
+    "posted": "2026-08-06 14:53 UTC",
+    "date_found": "2026-08-06T18:06:08.329148+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:sunwatercapital:8f57e7a2-250e-4b84-8a01-d3c186361003",
+    "title": "Junior Data Analyst \u2014 Legis1",
+    "company": "sunwatercapital",
+    "location": "North Bethesda, MD",
+    "url": "https://jobs.lever.co/sunwatercapital/8f57e7a2-250e-4b84-8a01-d3c186361003",
+    "posted": "2026-08-06 16:45 UTC",
+    "date_found": "2026-08-06T18:06:08.329148+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
