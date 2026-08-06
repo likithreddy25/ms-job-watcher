@@ -29644,5 +29644,48 @@
     "bad_tech": [
       "firmware"
     ]
+  },
+  {
+    "key": "workday:target:targetcareers:req:R0000448313",
+    "title": "Item Data Quality Analyst",
+    "company": "Target",
+    "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Item-Data-Quality-Analyst_R0000448313",
+    "posted": "Posted Today",
+    "date_found": "2026-08-06T14:02:38.721858+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tenableinc:5381528008",
+    "title": "Professional Services Operations Analyst",
+    "company": "Tenable",
+    "location": "MA - Boston - Office , US - Headquarters - Maryland - Columbia",
+    "url": "https://job-boards.greenhouse.io/tenableinc/jobs/5381528008",
+    "posted": "2026-08-06T09:20:42-04:00",
+    "date_found": "2026-08-06T14:02:38.721858+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
