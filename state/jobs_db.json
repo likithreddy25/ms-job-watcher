@@ -31629,5 +31629,29 @@
       "fpga",
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:allcareers:8692383002",
+    "title": "Junior AI Data Engineer",
+    "company": "allcareers",
+    "location": "San Diego, CA",
+    "url": "https://job-boards.greenhouse.io/allcareers/jobs/8692383002",
+    "posted": "2026-08-07T18:15:45-04:00",
+    "date_found": "2026-08-07T22:18:51.030949+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "azure"
+    ],
+    "bad_tech": []
   }
 ]

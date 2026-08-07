@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T22:00:55.124081+00:00",
+  "updated_utc": "2026-08-07T22:18:51.062197+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1282,6 +1282,15 @@
     "greenhouse:quartzbio": {
       "first_seen_utc": "2026-08-07T19:31:13.471591+00:00",
       "last_seen_utc": "2026-08-07T19:31:13.471591+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:catenaclearing": {
+      "first_seen_utc": "2026-08-07T22:18:17.076002+00:00",
+      "last_seen_utc": "2026-08-07T22:18:17.076002+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
