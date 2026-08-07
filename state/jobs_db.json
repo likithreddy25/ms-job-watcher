@@ -31324,5 +31324,45 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:71604b82-5140-400b-8dfe-579bed68a08d",
+    "title": "Software Development Engineer, Conversational AI Modeling and Learning",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10496262/software-development-engineer-conversational-ai-modeling-and-learning",
+    "posted": "August  7, 2026",
+    "date_found": "2026-08-07T19:21:00.228025+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:6206491a-5ed7-40d2-a264-21a30ae12c33",
+    "title": "Applied Scientist, Alexa-PAPI",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10496248/applied-scientist-alexa-papi",
+    "posted": "August  7, 2026",
+    "date_found": "2026-08-07T19:21:00.228025+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
