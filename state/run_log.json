@@ -1,37 +1,5 @@
 [
   {
-    "ts": "2026-07-31T22:01Z",
-    "mode": "boards",
-    "per_source": {
-      "ashby": {
-        "fetched": 1933,
-        "title_ok": 111,
-        "loc_ok": 16,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 218
-      },
-      "greenhouse": {
-        "fetched": 4227,
-        "title_ok": 254,
-        "loc_ok": 133,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 257
-      },
-      "lever": {
-        "fetched": 1452,
-        "title_ok": 101,
-        "loc_ok": 34,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 147
-      }
-    },
-    "duration_s": 21.3,
-    "cursor": 0
-  },
-  {
     "ts": "2026-07-31T22:10Z",
     "mode": "main",
     "per_source": {
@@ -48988,5 +48956,62 @@
     },
     "duration_s": 83.1,
     "cursor": 2000
+  },
+  {
+    "ts": "2026-08-07T13:33Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 179,
+        "title_ok": 12,
+        "loc_ok": 12,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 45
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 142,
+        "loc_ok": 142,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 81
+      },
+      "nvidia": {
+        "fetched": 190,
+        "title_ok": 23,
+        "loc_ok": 23,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 145
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "Goldman Sachs fetch: HTTPError: 403 Client Error: Forbidden for url: https://api-higher.gs.com/gateway/api/v1/graphql"
+      },
+      "ibm": {
+        "fetched": 3,
+        "title_ok": 1,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 17.6,
+    "cursor": null
   }
 ]
