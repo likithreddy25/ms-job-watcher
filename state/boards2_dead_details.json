@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T02:01:52.024569+00:00",
+  "updated_utc": "2026-08-07T02:31:45.214035+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1237,6 +1237,15 @@
     "lever:brightseedbio": {
       "first_seen_utc": "2026-08-07T00:32:36.871834+00:00",
       "last_seen_utc": "2026-08-07T00:32:36.871834+00:00",
+      "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:sensortower": {
+      "first_seen_utc": "2026-08-07T02:31:24.535233+00:00",
+      "last_seen_utc": "2026-08-07T02:31:24.535233+00:00",
       "platform": "lever",
       "company": "",
       "board_url": "",
