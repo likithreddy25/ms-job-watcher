@@ -30880,5 +30880,30 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:salesloft:8114019",
+    "title": "Financial Analyst, R&D",
+    "company": "Salesloft",
+    "location": "United States, Remote",
+    "url": "https://www.salesloft.com/company/careers?gh_jid=8114019",
+    "posted": "2026-08-07T09:38:51-04:00",
+    "date_found": "2026-08-07T16:07:58.665736+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "elt"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
