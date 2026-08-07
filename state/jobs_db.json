@@ -30639,5 +30639,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:ceabae92-41dc-4941-a93e-7b2038c950dc",
+    "title": "Embedded Software Engineer, Amazon Leo Optical Inter-Satellite Link ",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10495449/embedded-software-engineer-amazon-leo-optical-inter-satellite-link",
+    "posted": "August  7, 2026",
+    "date_found": "2026-08-07T01:31:06.214810+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
