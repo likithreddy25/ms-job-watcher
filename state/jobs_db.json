@@ -31529,5 +31529,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:huntress:7835867003",
+    "title": "Security Operations Analyst- East Coast ",
+    "company": "Huntress",
+    "location": "United States of America",
+    "url": "https://job-boards.greenhouse.io/huntress/jobs/7835867003",
+    "posted": "2026-08-07T14:07:32-04:00",
+    "date_found": "2026-08-07T20:32:59.367674+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "ruby",
+      "php"
+    ]
   }
 ]
