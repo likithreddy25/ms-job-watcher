@@ -31653,5 +31653,83 @@
       "azure"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:k2spacecorporation:5373554008",
+    "title": "Ground Software Engineer",
+    "company": "k2spacecorporation",
+    "location": "Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5373554008",
+    "posted": "2026-08-07T17:57:43-04:00",
+    "date_found": "2026-08-07T22:31:50.017945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "elt",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust",
+      "c#"
+    ]
+  },
+  {
+    "key": "greenhouse:lucidsoftware:6135381004",
+    "title": "Revenue Operations Analyst II",
+    "company": "lucidsoftware",
+    "location": "Salt Lake City, UT ",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6135381004",
+    "posted": "2026-08-07T17:40:20-04:00",
+    "date_found": "2026-08-07T22:31:50.017945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lucidsoftware:6139259004",
+    "title": "Revenue Operations Analyst II",
+    "company": "lucidsoftware",
+    "location": "Raleigh, NC",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6139259004",
+    "posted": "2026-08-07T17:40:21-04:00",
+    "date_found": "2026-08-07T22:31:50.017945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
