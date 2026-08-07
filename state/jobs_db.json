@@ -30557,5 +30557,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ225955",
+    "title": "Business Intelligence & Reporting Analyst (Tableau / SQL)",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA VA Arlington",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Arlington/Business-Intelligence---Reporting-Analyst--Tableau---SQL-_RQ225955-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-07T00:02:46.560778+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:hp:ExternalCareerSite:req:3163597",
+    "title": "AI Software Engineer - HP IQ",
+    "company": "HP Inc",
+    "location": "San Francisco, California, United States of America",
+    "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/AI-Software-Engineer---HP-IQ_3163597-2",
+    "posted": "Posted Today",
+    "date_found": "2026-08-07T00:02:46.560778+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
