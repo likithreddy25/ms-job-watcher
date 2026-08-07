@@ -31041,5 +31041,66 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:picarroinc:5192521008",
+    "title": "Systems Software Engineer",
+    "company": "picarroinc",
+    "location": "Santa Clara, CA",
+    "url": "https://www.picarro.com/company/careers/job-openings/apply?gh_jid=5192521008",
+    "posted": "2026-08-07T13:08:11-04:00",
+    "date_found": "2026-08-07T17:31:51.915424+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "rust",
+      "fpga",
+      "embedded",
+      "firmware"
+    ]
+  },
+  {
+    "key": "greenhouse:sambanovasystems:5719567004",
+    "title": "Cloud Platform Engineer",
+    "company": "sambanovasystems",
+    "location": "San Jose, California, United States",
+    "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=5719567004",
+    "posted": "2026-08-07T12:08:44-04:00",
+    "date_found": "2026-08-07T17:31:51.915424+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
