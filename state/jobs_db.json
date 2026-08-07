@@ -30965,5 +30965,49 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:7faca3e1-bcf3-4fab-9902-d44eced0b640",
+    "title": "Software Development Engineer, AWS Route 53 Global Resolver, AWS Route 53 Global Resolver",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10496059/software-development-engineer-aws-route-53-global-resolver-aws-route-53-global-resolver",
+    "posted": "August  7, 2026",
+    "date_found": "2026-08-07T16:41:00.185495+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:cf75eaff-660e-49d8-9bc3-f8c6da6c70b3",
+    "title": "Software Development Engineer, AWS Route 53 Global Resolver, AWS Route 53 Global Resolver",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10496060/software-development-engineer-aws-route-53-global-resolver-aws-route-53-global-resolver",
+    "posted": "August  7, 2026",
+    "date_found": "2026-08-07T16:41:00.185495+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
