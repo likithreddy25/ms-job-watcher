@@ -31715,5 +31715,45 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:disney:disneycareer:req:10155280",
+    "title": "Data Engineer",
+    "company": "Disney",
+    "location": "Orlando, FL, USA",
+    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Data-Engineer_10155280",
+    "posted": "Posted Today",
+    "date_found": "2026-08-07T23:02:40.539967+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:thehartford:Careers_External:req:R2626310",
+    "title": "AVP, Software Engineering Leader \u2013 Corporate Functions IT",
+    "company": "Hartford",
+    "location": "Hartford, CT",
+    "url": "https://thehartford.wd5.myworkdayjobs.com/en-US/Careers_External/job/Hartford-CT/AVP--Software-Engineering-Leader---Corporate-Functions-IT_R2626310",
+    "posted": "Posted Today",
+    "date_found": "2026-08-07T23:02:40.539967+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
