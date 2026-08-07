@@ -31009,5 +31009,37 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:downtownmusic:8642700002",
+    "title": "Data Engineer",
+    "company": "downtownmusic",
+    "location": "Nashville, Tennessee, United States",
+    "url": "https://job-boards.greenhouse.io/downtownmusic/jobs/8642700002",
+    "posted": "2026-08-07T12:57:07-04:00",
+    "date_found": "2026-08-07T17:01:38.719651+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl",
+      "elt",
+      "aws",
+      "postgresql",
+      "postgres",
+      "mongodb",
+      "snowflake",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
