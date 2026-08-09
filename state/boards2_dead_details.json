@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-09T05:31:22.850570+00:00",
+  "updated_utc": "2026-08-09T06:01:28.580779+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1291,6 +1291,15 @@
     "greenhouse:catenaclearing": {
       "first_seen_utc": "2026-08-07T22:18:17.076002+00:00",
       "last_seen_utc": "2026-08-07T22:18:17.076002+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:ottoaviation": {
+      "first_seen_utc": "2026-08-09T06:01:03.820937+00:00",
+      "last_seen_utc": "2026-08-09T06:01:03.820937+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
