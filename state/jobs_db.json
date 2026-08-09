@@ -31955,5 +31955,63 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:verse:5383955008",
+    "title": "Software Engineer, Distributed Systems",
+    "company": "verse",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/verse/jobs/5383955008",
+    "posted": "2026-08-09T16:28:11-04:00",
+    "date_found": "2026-08-09T22:01:33.616683+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "c/c++",
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:verse:5383957008",
+    "title": "Software Engineer, Product Experience",
+    "company": "verse",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/verse/jobs/5383957008",
+    "posted": "2026-08-09T16:35:37-04:00",
+    "date_found": "2026-08-09T22:01:33.616683+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "docker",
+      "kubernetes",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
