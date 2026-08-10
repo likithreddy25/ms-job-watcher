@@ -32303,5 +32303,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:9a4cc9a4-6dbd-4d8c-83d6-3d8db800db60",
+    "title": "Software Development Engineer, AWS Security, HawkEye",
+    "company": "Amazon",
+    "location": "US, MD, Annapolis Junction",
+    "url": "https://www.amazon.jobs/en/jobs/10496986/software-development-engineer-aws-security-hawkeye",
+    "posted": "August 10, 2026",
+    "date_found": "2026-08-10T14:31:09.931931+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
