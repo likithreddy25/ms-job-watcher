@@ -33335,5 +33335,71 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4702969006",
+    "title": "Associate Product Developer - Indoor Heated",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4702969006",
+    "posted": "2026-08-10T16:03:25-04:00",
+    "date_found": "2026-08-10T22:03:05.492733+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4703760006",
+    "title": "Associate Product Developer - Ninja APAC",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4703760006",
+    "posted": "2026-08-10T16:19:18-04:00",
+    "date_found": "2026-08-10T22:03:05.492733+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:tanium:8113448",
+    "title": "Treasury Operations Analyst",
+    "company": "Tanium",
+    "location": "Emeryville, CA (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/tanium/jobs/8113448",
+    "posted": "2026-08-10T17:12:43-04:00",
+    "date_found": "2026-08-10T22:03:05.492733+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
