@@ -33153,5 +33153,62 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:observeai:5383979008",
+    "title": "Software Engineer I - AI Agents",
+    "company": "observeai",
+    "location": "Redwood City, CA (Hybrid)",
+    "url": "https://www.observe.ai/position?gh_jid=5383979008",
+    "posted": "2026-08-10T15:25:01-04:00",
+    "date_found": "2026-08-10T20:01:46.298783+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "kafka",
+      "aws",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "golang"
+    ]
+  },
+  {
+    "key": "greenhouse:recordedfuture:8694161002",
+    "title": "Associate Threat Intelligence Analyst",
+    "company": "recordedfuture",
+    "location": "Washington, DC",
+    "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8694161002",
+    "posted": "2026-08-10T15:20:55-04:00",
+    "date_found": "2026-08-10T20:01:46.298783+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "ruby"
+    ]
   }
 ]
