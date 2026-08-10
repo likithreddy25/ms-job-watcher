@@ -33427,5 +33427,47 @@
       "ruby",
       "rails"
     ]
+  },
+  {
+    "key": "amazon:e0fc2db5-1f47-47e3-a3af-360fd0136980",
+    "title": "Software Development Engineer, Personalization, Amazon Personalization",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10497095/software-development-engineer-personalization-amazon-personalization",
+    "posted": "August 10, 2026",
+    "date_found": "2026-08-10T23:21:07.972085+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8e7f982a-ea0a-40ad-8148-dfaf0ef1a989",
+    "title": "Machine Learning Engineer, AppStar Data Analytics & Engineering",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10498023/machine-learning-engineer-appstar-data-analytics-engineering",
+    "posted": "August 10, 2026",
+    "date_found": "2026-08-10T23:21:07.972085+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
