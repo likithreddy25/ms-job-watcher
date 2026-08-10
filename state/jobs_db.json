@@ -33335,5 +33335,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:place:4722896005",
+    "title": "Software Developer (Frontend)",
+    "company": "place",
+    "location": "Bellingham, WA",
+    "url": "https://place.com/corporate-careers/4722896005?gh_jid=4722896005",
+    "posted": "2026-08-10T17:01:36-04:00",
+    "date_found": "2026-08-10T22:02:02.619140+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "elt"
+    ],
+    "bad_tech": [
+      "rust",
+      ".net",
+      "ruby"
+    ]
   }
 ]
