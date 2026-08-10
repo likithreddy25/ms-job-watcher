@@ -32759,5 +32759,57 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:flyzipline:7848909003",
+    "title": "Embedded Software Engineer, Validation",
+    "company": "flyzipline",
+    "location": "South San Francisco, California, USA",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7848909003",
+    "posted": "2026-08-10T12:15:23-04:00",
+    "date_found": "2026-08-10T18:02:06.490998+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded"
+    ]
+  },
+  {
+    "key": "greenhouse:geniussports:7584840003",
+    "title": "Software Engineer, Ad-Tech",
+    "company": "geniussports",
+    "location": "New York, New York, United States",
+    "url": "https://boards.greenhouse.io/geniussports/jobs/7584840003?gh_jid=7584840003",
+    "posted": "2026-08-10T12:58:25-04:00",
+    "date_found": "2026-08-10T18:02:06.490998+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust",
+      "kotlin"
+    ]
   }
 ]
