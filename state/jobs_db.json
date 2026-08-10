@@ -32303,5 +32303,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:nyiso:5207906007",
+    "title": "Distributed Resources Operations Analyst",
+    "company": "nyiso",
+    "location": "Rensselaer, New York, United States",
+    "url": "https://job-boards.greenhouse.io/nyiso/jobs/5207906007",
+    "posted": "2026-08-10T10:12:03-04:00",
+    "date_found": "2026-08-10T14:31:51.656364+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
