@@ -32730,5 +32730,34 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:yesenergy:5384532008",
+    "title": "Business Intelligence Analyst I",
+    "company": "yesenergy",
+    "location": "Boston, Massachusetts, United States, Boulder, Colorado, United States",
+    "url": "https://job-boards.greenhouse.io/yesenergy/jobs/5384532008",
+    "posted": "2026-08-10T13:19:24-04:00",
+    "date_found": "2026-08-10T17:32:05.103000+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "dbt",
+      "aws",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
