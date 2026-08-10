@@ -32079,5 +32079,57 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7846480003",
+    "title": "Ground Systems Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7846480003",
+    "posted": "2026-08-09T23:58:27-04:00",
+    "date_found": "2026-08-10T05:01:51.379419+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7846478003",
+    "title": "Mission Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7846478003",
+    "posted": "2026-08-09T23:56:59-04:00",
+    "date_found": "2026-08-10T05:01:51.379419+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
