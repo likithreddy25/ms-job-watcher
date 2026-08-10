@@ -32640,5 +32640,47 @@
     "h1b_sponsor_lcas_per_year": 1654,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189072",
+    "title": "Embedded Software Engineer - Kinetic Effects",
+    "company": "Leidos",
+    "location": "Huntsville, AL",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Embedded-Software-Engineer---Kinetic-Effects_R-00189072",
+    "posted": "Posted Today",
+    "date_found": "2026-08-10T16:09:23.145720+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189069",
+    "title": "Senior Operations Intelligence Analyst",
+    "company": "Leidos",
+    "location": "Tampa, FL",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Tampa-FL/Senior-Operations-Intelligence-Analyst_R-00189069",
+    "posted": "Posted Today",
+    "date_found": "2026-08-10T16:09:23.145720+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
