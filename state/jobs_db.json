@@ -33193,5 +33193,36 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:babelstreet:8120325",
+    "title": "Data Warehouse Software Engineer ",
+    "company": "babelstreet",
+    "location": "Somerville, Massachusetts, United States",
+    "url": "https://job-boards.greenhouse.io/babelstreet/jobs/8120325",
+    "posted": "2026-08-10T15:56:44-04:00",
+    "date_found": "2026-08-10T21:32:10.616228+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "airflow",
+      "etl",
+      "elt",
+      "aws",
+      "gcp",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
