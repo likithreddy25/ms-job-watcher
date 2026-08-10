@@ -33401,5 +33401,31 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:wealthfront:a4a9fd4e-d33a-4767-995f-7a2286bc9762",
+    "title": "Software Engineer, Frontend",
+    "company": "wealthfront",
+    "location": "Palo Alto, CA",
+    "url": "https://jobs.lever.co/wealthfront/a4a9fd4e-d33a-4767-995f-7a2286bc9762",
+    "posted": "2026-05-12 20:36 UTC",
+    "date_found": "2026-08-10T22:31:13.587551+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "ruby",
+      "rails"
+    ]
   }
 ]
