@@ -33040,5 +33040,51 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:pfizer:PfizerCareers:req:4961809",
+    "title": "Machine Learning Data Engineer (AIM2)",
+    "company": "Pfizer",
+    "location": "United States - Massachusetts - Cambridge",
+    "url": "https://pfizer.wd1.myworkdayjobs.com/en-US/PfizerCareers/job/United-States---Massachusetts---Cambridge/Machine-Learning-Data-Engineer--AIM2-_4961809-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-10T19:13:29.688055+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:postman:7833157003",
+    "title": "Senior Deal Operations Analyst",
+    "company": "Postman",
+    "location": "San Francisco, California, United States",
+    "url": "https://job-boards.greenhouse.io/postman/jobs/7833157003",
+    "posted": "2026-08-10T13:57:26-04:00",
+    "date_found": "2026-08-10T19:13:29.688055+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
