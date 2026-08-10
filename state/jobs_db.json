@@ -32327,5 +32327,58 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:waymo:8109035",
+    "title": "ML Engineer, Foundation Model Recipes",
+    "company": "waymo",
+    "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York, NY, USA",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8109035",
+    "posted": "2026-08-10T10:40:16-04:00",
+    "date_found": "2026-08-10T15:02:12.550061+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:picklerobot:42939c0b-de3b-47fa-a661-e9492c71de63",
+    "title": "Robotics Software Engineer",
+    "company": "picklerobot",
+    "location": "Charlestown, MA",
+    "url": "https://jobs.lever.co/picklerobot/42939c0b-de3b-47fa-a661-e9492c71de63",
+    "posted": "2026-08-10 13:49 UTC",
+    "date_found": "2026-08-10T15:02:12.550061+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "firmware"
+    ]
   }
 ]
