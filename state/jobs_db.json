@@ -32702,5 +32702,49 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:b402326e-3af4-4e2d-a9c3-87713373570a",
+    "title": "Software Development Engineer, AWS - Amazon EKS",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10497270/software-development-engineer-aws-amazon-eks",
+    "posted": "August 10, 2026",
+    "date_found": "2026-08-10T17:01:08.011965+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:399df452-9485-477c-9d02-85d81234038d",
+    "title": "Software Development Engineer, AWS - Amazon EKS",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10497267/software-development-engineer-aws-amazon-eks",
+    "posted": "August 10, 2026",
+    "date_found": "2026-08-10T17:01:08.011965+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
