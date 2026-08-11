@@ -34232,5 +34232,51 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:epicgames:6134271004",
+    "title": "Machine Learning Engineer, Memory",
+    "company": "Epic Games",
+    "location": "Cary,North Carolina,United States",
+    "url": "https://epicgames.com/careers/jobs/6134271004?gh_jid=6134271004",
+    "posted": "2026-08-11T12:38:01-04:00",
+    "date_found": "2026-08-11T18:08:02.301622+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "sklearn",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ226246",
+    "title": "Geospatial Systems Software Engineer, Mid",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA VA Springfield",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Springfield/Geospatial-Systems-Software-Engineer--Mid_RQ226246-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-11T18:08:02.301622+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
