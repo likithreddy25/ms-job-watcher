@@ -33962,5 +33962,34 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:66degrees:6141079004",
+    "title": "Cloud Engineer, Contract",
+    "company": "66degrees",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/66degrees/jobs/6141079004",
+    "posted": "2026-08-11T11:24:17-04:00",
+    "date_found": "2026-08-11T16:32:38.963627+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "gcp",
+      "kubernetes",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": [
+      "swift"
+    ]
   }
 ]
