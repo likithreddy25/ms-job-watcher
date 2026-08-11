@@ -34382,5 +34382,54 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:aperiasolutions:5209531007",
+    "title": "AI Engineer (LLMs + C#)",
+    "company": "aperiasolutions",
+    "location": "Alpharetta, Georgia, United States; Frisco, Texas, United States; Omaha, Nebraska, United States",
+    "url": "https://job-boards.greenhouse.io/aperiasolutions/jobs/5209531007",
+    "posted": "2026-08-11T14:13:32-04:00",
+    "date_found": "2026-08-11T19:46:17.179969+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "azure"
+    ],
+    "bad_tech": [
+      "c#",
+      ".net"
+    ]
+  },
+  {
+    "key": "greenhouse:ieqcapital:7735968003",
+    "title": "Data Operations Analyst",
+    "company": "ieqcapital",
+    "location": "Foster City, CA",
+    "url": "https://job-boards.greenhouse.io/ieqcapital/jobs/7735968003",
+    "posted": "2026-08-11T14:44:13-04:00",
+    "date_found": "2026-08-11T19:46:17.179969+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
