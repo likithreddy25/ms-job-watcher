@@ -33962,5 +33962,53 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:7206fd97-14e4-43a0-b903-ba65dfeee53e",
+    "title": "Student Worker - Machine Learning Engineer - Data Mining & VLM",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/7206fd97-14e4-43a0-b903-ba65dfeee53e",
+    "posted": "2026-08-07 19:04 UTC",
+    "date_found": "2026-08-11T16:32:03.348624+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "nlp",
+      "computer vision",
+      "machine learning",
+      "pyspark",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:ramp:aa5512b1-d973-4d74-9d10-d56446ecf803",
+    "title": "Data Scientist, Finance",
+    "company": "Ramp",
+    "location": "New York, NY (HQ)",
+    "url": "https://jobs.ashbyhq.com/ramp/aa5512b1-d973-4d74-9d10-d56446ecf803",
+    "posted": "",
+    "date_found": "2026-08-11T16:32:03.348624+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
