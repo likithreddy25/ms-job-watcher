@@ -34020,5 +34020,57 @@
       "c#",
       ".net"
     ]
+  },
+  {
+    "key": "lever:brightonjones:1e35c875-0676-4a5a-b52b-0131c6f40c69",
+    "title": "Business Intelligence Analyst",
+    "company": "brightonjones",
+    "location": "Seattle, WA",
+    "url": "https://jobs.lever.co/brightonjones/1e35c875-0676-4a5a-b52b-0131c6f40c69",
+    "posted": "2026-08-11 16:47 UTC",
+    "date_found": "2026-08-11T17:02:24.746099+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "databricks",
+      "dbt",
+      "snowflake",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:flowlife:822b0d60-29d3-4eb1-b98a-bec445b7c15e",
+    "title": "Software Engineer",
+    "company": "flowlife",
+    "location": "New York, NY",
+    "url": "https://jobs.lever.co/flowlife/822b0d60-29d3-4eb1-b98a-bec445b7c15e",
+    "posted": "2026-08-11 16:35 UTC",
+    "date_found": "2026-08-11T17:02:24.746099+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded"
+    ]
   }
 ]
