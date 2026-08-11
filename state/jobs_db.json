@@ -34795,5 +34795,56 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:nice:4871267101",
+    "title": "IT Software Engineer",
+    "company": "nice",
+    "location": "USA - Atlanta, GA; USA - Hoboken, NJ; USA - Sandy, UT",
+    "url": "https://boards.eu.greenhouse.io/nice/jobs/4871267101?gh_jid=4871267101",
+    "posted": "2026-08-11T18:00:27-04:00",
+    "date_found": "2026-08-11T22:01:35.745993+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "langchain",
+      "azure",
+      "snowflake"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:thealleninstitute:8115864",
+    "title": "Research Scientist, Temporary ",
+    "company": "thealleninstitute",
+    "location": "Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8115864",
+    "posted": "2026-08-11T17:32:36-04:00",
+    "date_found": "2026-08-11T22:01:35.745993+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
