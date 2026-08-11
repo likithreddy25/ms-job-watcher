@@ -33991,5 +33991,34 @@
     "bad_tech": [
       "swift"
     ]
+  },
+  {
+    "key": "greenhouse:pointc:5384358008",
+    "title": "Software Engineer - .NET / Azure / AI",
+    "company": "pointc",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/pointc/jobs/5384358008",
+    "posted": "2026-08-11T12:31:56-04:00",
+    "date_found": "2026-08-11T16:35:36.974458+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
   }
 ]
