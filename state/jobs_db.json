@@ -33730,5 +33730,65 @@
       "etl"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:usconec:4308970009",
+    "title": "Data Scientist - Metrology",
+    "company": "usconec",
+    "location": "Hickory, North Carolina, United States",
+    "url": "https://job-boards.greenhouse.io/usconec/jobs/4308970009",
+    "posted": "2026-08-11T08:21:25-04:00",
+    "date_found": "2026-08-11T14:02:18.715146+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:careernowbrands:48e61dd7-e47e-402d-8bed-9cb370e57c1e",
+    "title": "Data Platform Engineer",
+    "company": "careernowbrands",
+    "location": "Royal Oak, MI",
+    "url": "https://jobs.lever.co/careernowbrands/48e61dd7-e47e-402d-8bed-9cb370e57c1e",
+    "posted": "2026-08-11 12:24 UTC",
+    "date_found": "2026-08-11T14:02:18.715146+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "airflow",
+      "dbt",
+      "etl",
+      "elt",
+      "aws",
+      "docker",
+      "kubernetes",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
