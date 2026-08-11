@@ -34362,5 +34362,34 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:torcrobotics:8695202002",
+    "title": "Machine Learning Engineer, II - 3D Perception",
+    "company": "Torcrobotics",
+    "location": "Remote, U.S, Ann Arbor, MI, Fort Worth, TX, Blacksburg, VA",
+    "url": "https://job-boards.greenhouse.io/torcrobotics/jobs/8695202002",
+    "posted": "2026-08-11T14:34:22-04:00",
+    "date_found": "2026-08-11T19:30:53.796236+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
