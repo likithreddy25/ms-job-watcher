@@ -33700,5 +33700,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zaimler:6a8c9e21-ca3b-4a74-81d3-0307f838b0ec",
+    "title": "Machine Learning Engineer",
+    "company": "zaimler",
+    "location": "San Mateo, CA",
+    "url": "https://jobs.lever.co/zaimler/6a8c9e21-ca3b-4a74-81d3-0307f838b0ec",
+    "posted": "2026-08-11 05:57 UTC",
+    "date_found": "2026-08-11T07:30:57.818266+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "transformers",
+      "nlp",
+      "machine learning",
+      "kafka",
+      "etl"
+    ],
+    "bad_tech": []
   }
 ]
