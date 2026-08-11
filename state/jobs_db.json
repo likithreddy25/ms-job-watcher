@@ -33573,5 +33573,38 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:carvana:8120638",
+    "title": "Software Engineer",
+    "company": "carvana",
+    "location": "Carmel, IN",
+    "url": "https://www.carvana.com/careers/apply?gh_jid=8120638",
+    "posted": "2026-08-10T20:00:54-04:00",
+    "date_found": "2026-08-11T01:01:38.603008+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "computer vision",
+      "kafka",
+      "aws",
+      "gcp",
+      "azure",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c#",
+      ".net"
+    ]
   }
 ]
