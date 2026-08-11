@@ -34846,5 +34846,34 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:akunacapital:8096516",
+    "title": "Software Engineer - Python, Business Operations",
+    "company": "akunacapital",
+    "location": "Chicago, IL",
+    "url": "https://www.akunacapital.com/careers/job/8096516/?gh_jid=8096516",
+    "posted": "2026-08-11T18:16:36-04:00",
+    "date_found": "2026-08-11T23:02:39.486734+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "openai",
+      "elt",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
