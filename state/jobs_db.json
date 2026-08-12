@@ -35155,5 +35155,28 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:pointclickcare:794046ff-e6cc-45cb-ad8f-09a730e485fd",
+    "title": "Associate Data Scientist (USA)",
+    "company": "pointclickcare",
+    "location": "Salt Lake City, UT",
+    "url": "https://jobs.lever.co/pointclickcare/794046ff-e6cc-45cb-ad8f-09a730e485fd",
+    "posted": "2026-08-12 13:15 UTC",
+    "date_found": "2026-08-12T14:02:54.609687+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
