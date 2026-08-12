@@ -35178,5 +35178,53 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:avride:4354179009",
+    "title": "Software Engineer, Networking & Linux Systems",
+    "company": "avride",
+    "location": "Texas, US",
+    "url": "https://job-boards.greenhouse.io/avride/jobs/4354179009",
+    "posted": "2026-08-12T10:06:35-04:00",
+    "date_found": "2026-08-12T14:32:37.387034+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
+  },
+  {
+    "key": "greenhouse:berkadia:7859079003",
+    "title": "Operations Analyst - Innovation ",
+    "company": "berkadia",
+    "location": "New York, New York, United States",
+    "url": "https://boards.greenhouse.io/berkadia/jobs/7859079003?gh_jid=7859079003",
+    "posted": "2026-08-12T09:02:17-04:00",
+    "date_found": "2026-08-12T14:32:37.387034+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
