@@ -35671,5 +35671,34 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:verkada:5210563007",
+    "title": "Embedded Software Engineer - Access Control",
+    "company": "verkada",
+    "location": "San Mateo, CA United States",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5210563007",
+    "posted": "2026-08-12T13:43:20-04:00",
+    "date_found": "2026-08-12T19:02:01.207385+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "rust",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
