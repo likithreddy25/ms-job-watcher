@@ -36195,5 +36195,72 @@
       "ruby",
       "rails"
     ]
+  },
+  {
+    "key": "greenhouse:launchdarkly:7861151003",
+    "title": "Backend Engineer, Flag Delivery",
+    "company": "LaunchDarkly",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7861151003",
+    "posted": "2026-08-12T18:14:44-04:00",
+    "date_found": "2026-08-12T22:32:42.847344+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00188548",
+    "title": "Research Engineer",
+    "company": "Leidos",
+    "location": "Pittsburgh, PA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Pittsburgh-PA/Research-Engineer_R-00188548",
+    "posted": "Posted Today",
+    "date_found": "2026-08-12T22:32:42.847344+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189064",
+    "title": "Junior Software Engineer - Kinetic Effects",
+    "company": "Leidos",
+    "location": "Huntsville, AL",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Junior-Software-Engineer---Kinetic-Effects_R-00189064",
+    "posted": "Posted Today",
+    "date_found": "2026-08-12T22:32:42.847344+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
