@@ -36166,5 +36166,34 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:bazaarvoice:cb084257-9d69-4301-a6f4-101db9713123",
+    "title": "Software Engineer",
+    "company": "bazaarvoice",
+    "location": "Remote, United States",
+    "url": "https://jobs.lever.co/bazaarvoice/cb084257-9d69-4301-a6f4-101db9713123",
+    "posted": "2026-08-05 14:32 UTC",
+    "date_found": "2026-08-12T22:24:47.859095+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "ruby",
+      "rails"
+    ]
   }
 ]
