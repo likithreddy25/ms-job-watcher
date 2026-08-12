@@ -35997,5 +35997,31 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:nintendo:4341082009",
+    "title": "CONTRACT - Gameplay Software Engineer ",
+    "company": "nintendo",
+    "location": "Redmond, WA",
+    "url": "https://careers.nintendo.com/?gh_jid=4341082009",
+    "posted": "2026-08-12T16:44:01-04:00",
+    "date_found": "2026-08-12T22:02:27.499812+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "c#"
+    ]
   }
 ]
