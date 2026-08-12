@@ -36262,5 +36262,60 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:concentric:4704757006",
+    "title": "Junior Open Source Intelligence Analyst ",
+    "company": "concentric",
+    "location": "Mountain View, CA",
+    "url": "https://job-boards.greenhouse.io/concentric/jobs/4704757006",
+    "posted": "2026-08-12T18:28:41-04:00",
+    "date_found": "2026-08-12T23:01:41.929347+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "docker"
+    ],
+    "bad_tech": [
+      "rust",
+      "embedded"
+    ]
+  },
+  {
+    "key": "greenhouse:generalmatter:5375987008",
+    "title": "Software Engineer (New Grad) ",
+    "company": "generalmatter",
+    "location": "Los Angeles, CA",
+    "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5375987008",
+    "posted": "2026-08-12T18:08:54-04:00",
+    "date_found": "2026-08-12T23:01:41.929347+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust",
+      "embedded"
+    ]
   }
 ]
