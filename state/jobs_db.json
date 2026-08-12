@@ -35490,5 +35490,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189428",
+    "title": "Mid-Level Embedded Software Engineer",
+    "company": "Leidos",
+    "location": "Huntsville, AL",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Mid-Level-Embedded-Software-Engineer_R-00189428",
+    "posted": "Posted Today",
+    "date_found": "2026-08-12T17:32:45.626758+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189420",
+    "title": "Security Infrastructure Engineer",
+    "company": "Leidos",
+    "location": "Alexandria, VA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Alexandria-VA/Security-Infrastructure-Engineer_R-00189420",
+    "posted": "Posted Today",
+    "date_found": "2026-08-12T17:32:45.626758+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
