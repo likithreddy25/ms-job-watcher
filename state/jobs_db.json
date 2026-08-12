@@ -35929,5 +35929,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:webflow:8122601",
+    "title": "Associate Infrastructure Engineer",
+    "company": "Webflow",
+    "location": "CA Remote (BC & ON only); U.S. Remote",
+    "url": "https://job-boards.greenhouse.io/webflow/jobs/8122601",
+    "posted": "2026-08-12T16:08:05-04:00",
+    "date_found": "2026-08-12T21:32:02.863644+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
