@@ -35340,5 +35340,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:roblox:8097701",
+    "title": "Software Engineer, Account Authentication",
+    "company": "roblox",
+    "location": "San Mateo, CA, United States",
+    "url": "https://careers.roblox.com/jobs/8097701?gh_jid=8097701",
+    "posted": "2026-08-12T12:11:42-04:00",
+    "date_found": "2026-08-12T16:36:58.124586+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust",
+      "c#"
+    ]
   }
 ]
