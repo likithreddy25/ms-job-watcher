@@ -35758,5 +35758,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:caseguard:5387488008",
+    "title": "Software Engineer - Backend",
+    "company": "caseguard",
+    "location": "Arlington, VA",
+    "url": "https://job-boards.greenhouse.io/caseguard/jobs/5387488008",
+    "posted": "2026-08-12T14:07:22-04:00",
+    "date_found": "2026-08-12T19:48:29.251108+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "docker",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "c#",
+      ".net"
+    ]
   }
 ]
