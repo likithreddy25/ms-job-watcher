@@ -35298,5 +35298,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:0723018d-bc78-439e-9ff9-bfefaa8dba78",
+    "title": "Software Development Engineer, Elastic Block Store (EBS), AWS (L5), EBS Stats",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10499845/software-development-engineer-elastic-block-store-ebs-aws-l5-ebs-stats",
+    "posted": "August 12, 2026",
+    "date_found": "2026-08-12T15:51:16.520161+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
