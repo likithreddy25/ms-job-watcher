@@ -35532,5 +35532,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:95ac06d5-a5a2-484c-9ce9-f3b3f2ba7f25",
+    "title": "Applied Scientist, AWS Applied AI Solutions",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10500009/applied-scientist-aws-applied-ai-solutions",
+    "posted": "August 12, 2026",
+    "date_found": "2026-08-12T17:41:04.837156+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:18d800f2-8271-4f39-8405-da4be234b01b",
+    "title": "Software Development Engineer, Amazon Fuse",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10500005/software-development-engineer-amazon-fuse",
+    "posted": "August 12, 2026",
+    "date_found": "2026-08-12T17:41:04.837156+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
