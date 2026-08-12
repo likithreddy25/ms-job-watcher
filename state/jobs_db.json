@@ -35671,5 +35671,32 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tracelinkinc:5034388007",
+    "title": "Applied Scientist - GenAI",
+    "company": "tracelinkinc",
+    "location": "US - MA - Wilmington",
+    "url": "https://www.tracelink.com/about/culture-and-careers/jobs?gh_jid=5034388007",
+    "posted": "2026-08-12T14:32:28-04:00",
+    "date_found": "2026-08-12T19:02:52.988060+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "nlp",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": []
   }
 ]
