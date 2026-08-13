@@ -37008,5 +37008,36 @@
     "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:impact:8645964002",
+    "title": "Associate Software Engineer ",
+    "company": "impact",
+    "location": "Santa Barbara, CA",
+    "url": "https://job-boards.greenhouse.io/impact/jobs/8645964002",
+    "posted": "2026-08-13T13:05:57-04:00",
+    "date_found": "2026-08-13T18:02:59.010800+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "spring framework",
+      "rust"
+    ]
   }
 ]
