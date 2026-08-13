@@ -37826,5 +37826,54 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:naughtydog:6139154004",
+    "title": "Research Data Analyst",
+    "company": "naughtydog",
+    "location": "United States, Santa Monica, CA",
+    "url": "https://job-boards.greenhouse.io/naughtydog/jobs/6139154004",
+    "posted": "2026-08-13T18:04:50-04:00",
+    "date_found": "2026-08-13T23:31:34.742551+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:oura:4239300009",
+    "title": "Research Scientist",
+    "company": "oura",
+    "location": "Remote - United States",
+    "url": "https://job-boards.greenhouse.io/oura/jobs/4239300009",
+    "posted": "2026-08-13T19:14:01-04:00",
+    "date_found": "2026-08-13T23:31:34.742551+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
