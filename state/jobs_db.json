@@ -37350,5 +37350,66 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5209800007",
+    "title": "Software Development Engineer I",
+    "company": "esri",
+    "location": "Denver, CO - Louisville",
+    "url": "https://www.esri.com/careers/5209800007?gh_jid=5209800007",
+    "posted": "2026-08-13T14:45:10-04:00",
+    "date_found": "2026-08-13T19:44:18.869941+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5209466007",
+    "title": "Software Development Engineer I - Applied Research & Prototyping",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5209466007?gh_jid=5209466007",
+    "posted": "2026-08-13T14:46:13-04:00",
+    "date_found": "2026-08-13T19:44:18.869941+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "computer vision",
+      "machine learning",
+      "docker",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
