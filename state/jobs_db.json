@@ -36353,5 +36353,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5388612008",
+    "title": "Software Engineer, Infrastructure, Interpretability",
+    "company": "Anthropic",
+    "location": "San Francisco, CA | New York City, NY",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388612008",
+    "posted": "2026-08-12T18:29:15-04:00",
+    "date_found": "2026-08-13T01:02:36.984374+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "embedded"
+    ]
   }
 ]
