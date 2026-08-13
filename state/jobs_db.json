@@ -36826,5 +36826,79 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5209734007",
+    "title": "Software Development Engineer",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5209734007?gh_jid=5209734007",
+    "posted": "2026-08-13T11:28:10-04:00",
+    "date_found": "2026-08-13T16:31:59.160399+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5209750007",
+    "title": "Software Development Engineer",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5209750007?gh_jid=5209750007",
+    "posted": "2026-08-13T12:06:35-04:00",
+    "date_found": "2026-08-13T16:31:59.160399+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5210782007",
+    "title": "Software Development Engineer   ",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5210782007?gh_jid=5210782007",
+    "posted": "2026-08-13T12:08:22-04:00",
+    "date_found": "2026-08-13T16:31:59.160399+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
