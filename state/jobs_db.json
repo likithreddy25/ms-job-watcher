@@ -36383,5 +36383,32 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:place:4723725005",
+    "title": "Software Developer (Frontend)",
+    "company": "place",
+    "location": "Draper, UT",
+    "url": "https://place.com/corporate-careers/4723725005?gh_jid=4723725005",
+    "posted": "2026-08-12T19:44:50-04:00",
+    "date_found": "2026-08-13T01:31:46.449792+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "elt"
+    ],
+    "bad_tech": [
+      "rust",
+      ".net",
+      "ruby"
+    ]
   }
 ]
