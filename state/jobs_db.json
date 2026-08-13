@@ -36574,5 +36574,29 @@
     "bad_tech": [
       "rails"
     ]
+  },
+  {
+    "key": "greenhouse:spire:8124588",
+    "title": "Cloud Infrastructure Engineer",
+    "company": "spire",
+    "location": "Boulder, Colorado, United States",
+    "url": "https://spire.com/careers/job-openings/job/?gh_jid=8124588&gh_jid=8124588",
+    "posted": "2026-08-13T05:38:22-04:00",
+    "date_found": "2026-08-13T10:01:33.935817+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "kubernetes"
+    ],
+    "bad_tech": []
   }
 ]
