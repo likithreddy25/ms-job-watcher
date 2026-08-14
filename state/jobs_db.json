@@ -37905,5 +37905,36 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "lever:zaimler:28868c70-2d24-4446-9d9f-fa89f0649b02",
+    "title": "Data Infrastructure Engineer (Query Engine)",
+    "company": "zaimler",
+    "location": "San Mateo, CA",
+    "url": "https://jobs.lever.co/zaimler/28868c70-2d24-4446-9d9f-fa89f0649b02",
+    "posted": "2026-08-13 23:46 UTC",
+    "date_found": "2026-08-14T00:31:02.372444+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "machine learning",
+      "apache spark",
+      "elt",
+      "docker",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust"
+    ]
   }
 ]
