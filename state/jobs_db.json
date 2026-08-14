@@ -38247,23 +38247,26 @@
     "bad_tech": []
   },
   {
-    "key": "amazon:d5f44547-7af0-41a8-a26d-1d4a87280b35",
-    "title": "Applied Scientist, Customer360",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10502400/applied-scientist-customer360",
-    "posted": "August 14, 2026",
-    "date_found": "2026-08-14T16:01:09.155154+00:00",
+    "key": "greenhouse:aippublishing:6144177004",
+    "title": "Cloud Infrastructure Engineer",
+    "company": "aippublishing",
+    "location": "Remote - NY, NJ, CT, MD, VA, PA, MA, RI or Washington, DC",
+    "url": "https://job-boards.greenhouse.io/aippublishing/jobs/6144177004",
+    "posted": "2026-08-14T10:23:52-04:00",
+    "date_found": "2026-08-14T16:02:24.186856+00:00",
     "bucket": "yes",
     "score": 90,
-    "role_category": "ml_engineer",
+    "role_category": "cloud_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
     "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "azure"
+    ],
     "bad_tech": []
   }
 ]
