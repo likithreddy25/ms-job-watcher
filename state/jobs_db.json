@@ -38542,5 +38542,85 @@
     "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:langchain:bdc96ffd-2a95-4d63-bf8f-193574961e00",
+    "title": "Research Engineer, LangSmith Engine",
+    "company": "LangChain",
+    "location": "New York, NY",
+    "url": "https://jobs.ashbyhq.com/langchain/bdc96ffd-2a95-4d63-bf8f-193574961e00",
+    "posted": "",
+    "date_found": "2026-08-14T18:31:13.698122+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "langchain"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:weride:5cde0d09-ba2d-408d-947e-4a42028cd4f7",
+    "title": "New Grads 2027 - Software Engineer - Perception/Computer Vision",
+    "company": "Weride",
+    "location": "San Jose, CA",
+    "url": "https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7",
+    "posted": "2026-08-10 20:42 UTC",
+    "date_found": "2026-08-14T18:31:13.698122+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:weride:5a7cbc83-2381-482e-9d6d-e9c9d59ad63b",
+    "title": "New Grads 2027 - Software Engineer, Algorithm",
+    "company": "Weride",
+    "location": "San Jose, CA",
+    "url": "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b",
+    "posted": "2026-08-10 20:44 UTC",
+    "date_found": "2026-08-14T18:31:13.698122+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
