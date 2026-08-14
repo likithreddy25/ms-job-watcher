@@ -38033,5 +38033,31 @@
       "java",
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:figureai:4705296006",
+    "title": "Helix AI Engineer, Training Performance",
+    "company": "Figureai",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4705296006",
+    "posted": "2026-08-14T00:53:35-04:00",
+    "date_found": "2026-08-14T05:00:55.454009+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
