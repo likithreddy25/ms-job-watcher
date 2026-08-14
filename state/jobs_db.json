@@ -38183,5 +38183,27 @@
     "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:c3444c0f-cb75-4f0a-9c00-3c0906284568",
+    "title": "Applied Scientist, AWS Security",
+    "company": "Amazon",
+    "location": "US, MD, Annapolis Junction",
+    "url": "https://www.amazon.jobs/en/jobs/10502316/applied-scientist-aws-security",
+    "posted": "August 14, 2026",
+    "date_found": "2026-08-14T14:41:05.179712+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
