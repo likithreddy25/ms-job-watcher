@@ -37936,5 +37936,74 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:fastly:8128535",
+    "title": "Software Development Engineer",
+    "company": "Fastly",
+    "location": "San Francisco, CA",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=8128535",
+    "posted": "2026-08-13T19:59:18-04:00",
+    "date_found": "2026-08-14T01:02:42.454532+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "golang",
+      "rust"
+    ]
+  },
+  {
+    "key": "workday:leidos:External:req:R-00189576",
+    "title": "Software Engineer - 25k Sign on Bonus",
+    "company": "Leidos",
+    "location": "Columbia, MD",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Columbia-MD/Software-Engineer---25k-Sign-on-Bonus_R-00189576",
+    "posted": "Posted Today",
+    "date_found": "2026-08-14T01:02:42.454532+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00181075",
+    "title": "Intelligence Analyst",
+    "company": "Leidos",
+    "location": "Marysville, CA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Marysville-CA/Intelligence-Analyst_R-00181075",
+    "posted": "Posted Today",
+    "date_found": "2026-08-14T01:02:42.454532+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
