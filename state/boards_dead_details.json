@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T07:46:46.779453+00:00",
+  "updated_utc": "2026-08-14T08:02:36.340039+00:00",
   "dead_details": {
     "greenhouse:auth0": {
       "first_seen_utc": "2026-02-16T03:03:47.356270+00:00",
@@ -8546,6 +8546,15 @@
       "first_seen_utc": "2026-08-07T09:30:48.447462+00:00",
       "last_seen_utc": "2026-08-07T09:30:48.447462+00:00",
       "platform": "ashby",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:10xgenomics": {
+      "first_seen_utc": "2026-08-14T08:00:58.239632+00:00",
+      "last_seen_utc": "2026-08-14T08:00:58.239632+00:00",
+      "platform": "greenhouse",
       "company": "",
       "board_url": "",
       "last_status": 404,
