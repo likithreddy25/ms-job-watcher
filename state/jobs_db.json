@@ -38980,5 +38980,66 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lyft:8716222002",
+    "title": "Software Engineer, Fulfillment Core Services",
+    "company": "Lyft",
+    "location": "Seattle, WA",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8716222002?gh_jid=8716222002",
+    "posted": "2026-08-14T16:46:23-04:00",
+    "date_found": "2026-08-14T22:02:07.525944+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1123,
+    "good_tech": [
+      "python",
+      "aws",
+      "gcp",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "golang"
+    ]
+  },
+  {
+    "key": "greenhouse:newrelic:5390637008",
+    "title": "Associate Software Engineer - Java (Distributed Systems and Databases)",
+    "company": "New Relic",
+    "location": "Portland, Oregon, USA",
+    "url": "https://job-boards.greenhouse.io/newrelic/jobs/5390637008",
+    "posted": "2026-08-14T16:30:06-04:00",
+    "date_found": "2026-08-14T22:02:07.525944+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes",
+      "postgres",
+      "mysql",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
