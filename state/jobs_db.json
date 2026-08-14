@@ -39041,5 +39041,32 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "greenhouse:twitch:8700578002",
+    "title": "Software Engineer I, Payments",
+    "company": "twitch",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8700578002",
+    "posted": "2026-08-14T16:13:21-04:00",
+    "date_found": "2026-08-14T22:32:37.766110+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "ruby"
+    ]
   }
 ]
