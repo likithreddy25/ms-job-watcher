@@ -38742,5 +38742,54 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:atomicmachines:4370850009",
+    "title": "Robotics Software Engineer, Simulations",
+    "company": "atomicmachines",
+    "location": "Emeryville, or Santa Clara, California",
+    "url": "https://job-boards.greenhouse.io/atomicmachines/jobs/4370850009",
+    "posted": "2026-08-14T14:57:57-04:00",
+    "date_found": "2026-08-14T19:37:53.112968+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:centrumhealth:6030747004",
+    "title": "Risk Adjustment Data Analyst ",
+    "company": "centrumhealth",
+    "location": "Doral, Florida, United States",
+    "url": "https://job-boards.greenhouse.io/centrumhealth/jobs/6030747004",
+    "posted": "2026-08-14T14:42:30-04:00",
+    "date_found": "2026-08-14T19:37:53.112968+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "databricks",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
