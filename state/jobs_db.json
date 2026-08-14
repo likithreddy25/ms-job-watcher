@@ -38445,5 +38445,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:koalafi:6143343004",
+    "title": "Financial Data Analyst",
+    "company": "koalafi",
+    "location": "Richmond, VA, Arlington, VA, Remote",
+    "url": "https://boards.greenhouse.io/koalafi/jobs/6143343004?gh_jid=6143343004",
+    "posted": "2026-08-14T11:25:23-04:00",
+    "date_found": "2026-08-14T16:31:57.181114+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
