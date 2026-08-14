@@ -37936,5 +37936,58 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:applovin:4705263006",
+    "title": "Data Scientist \u2013 Analytics ",
+    "company": "applovin",
+    "location": "Palo Alto, CA",
+    "url": "https://boards.greenhouse.io/applovin/jobs/4705263006?gh_jid=4705263006",
+    "posted": "2026-08-13T20:33:27-04:00",
+    "date_found": "2026-08-14T01:01:32.200809+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "airflow",
+      "snowflake",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:billcom:6142609004",
+    "title": "Strategy Data Scientist - Compliance",
+    "company": "billcom",
+    "location": "United States",
+    "url": "https://www.bill.com/job?6142609004&gh_jid=6142609004",
+    "posted": "2026-08-13T19:25:44-04:00",
+    "date_found": "2026-08-14T01:01:32.200809+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "dbt",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
