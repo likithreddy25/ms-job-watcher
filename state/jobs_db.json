@@ -37875,5 +37875,35 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:waymo:8127006",
+    "title": "Perception Machine Learning Engineer - Continuous Learning",
+    "company": "waymo",
+    "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8127006",
+    "posted": "2026-08-13T18:58:13-04:00",
+    "date_found": "2026-08-14T00:02:33.136886+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust"
+    ]
   }
 ]
