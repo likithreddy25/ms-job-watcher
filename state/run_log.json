@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-08-08T16:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 10619,
-        "title_ok": 568,
-        "loc_ok": 371,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1058
-      },
-      "lever": {
-        "fetched": 602,
-        "title_ok": 6,
-        "loc_ok": 5,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 18
-      },
-      "ashby": {
-        "fetched": 145,
-        "title_ok": 5,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 11
-      },
-      "smartrecruiters": {
-        "fetched": 1264,
-        "title_ok": 69,
-        "loc_ok": 19,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 35
-      },
-      "workday": {
-        "fetched": 10149,
-        "title_ok": 375,
-        "loc_ok": 161,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 477
-      }
-    },
-    "duration_s": 95.0,
-    "cursor": 200
-  },
-  {
     "ts": "2026-08-08T16:40Z",
     "mode": "main",
     "per_source": {
@@ -48944,6 +48896,63 @@
       }
     },
     "duration_s": 21.3,
+    "cursor": null
+  },
+  {
+    "ts": "2026-08-15T02:21Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 205,
+        "title_ok": 13,
+        "loc_ok": 13,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 54
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 146,
+        "loc_ok": 146,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 82
+      },
+      "nvidia": {
+        "fetched": 210,
+        "title_ok": 21,
+        "loc_ok": 21,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 168
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 32,
+        "title_ok": 25,
+        "loc_ok": 13,
+        "new": 1,
+        "emailed": 1,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "Oracle fetch: HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_45001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=50,offset=0,lastSelectedFacet=AttributeChar13,locationId=300000000149325,selectedCategoriesFacet=300000001559315%3B300000001917356,selectedFlexFieldsFacets=%22AttributeChar6%7C0%20to%202%2B%20years%22,selectedLocationsFacet=300000000149325,selectedPostingDatesFacet=7,sortBy=POSTING_DATES_DESC"
+      }
+    },
+    "duration_s": 18.8,
     "cursor": null
   }
 ]
