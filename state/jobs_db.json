@@ -39577,5 +39577,49 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:f72c078e-4cf9-40f3-9586-59ed50c3960d",
+    "title": "SDE II, AWS Field Experience ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10503183/sde-ii-aws-field-experience",
+    "posted": "August 16, 2026",
+    "date_found": "2026-08-16T16:01:14.664463+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:d3610c2e-8180-4115-a23e-afcb5b711d07",
+    "title": "SDE II, AWS Field Experience ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10503184/sde-ii-aws-field-experience",
+    "posted": "August 16, 2026",
+    "date_found": "2026-08-16T16:01:14.664463+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
