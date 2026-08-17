@@ -40467,5 +40467,107 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:bluerivertech:8047515",
+    "title": "Machine Learning Engineer, Autonomy",
+    "company": "bluerivertech",
+    "location": "US-Remote",
+    "url": "https://www.bluerivertechnology.com/job/?gh_jid=8047515",
+    "posted": "2026-08-17T15:29:34-04:00",
+    "date_found": "2026-08-17T20:01:47.800737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:esri:5205997007",
+    "title": "Software Development Engineer I - Analytics",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5205997007?gh_jid=5205997007",
+    "posted": "2026-08-17T15:58:49-04:00",
+    "date_found": "2026-08-17T20:01:47.800737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "c#",
+      ".net"
+    ]
+  },
+  {
+    "key": "greenhouse:fleetio:5213856007",
+    "title": "Software Engineer, Marketplace",
+    "company": "fleetio",
+    "location": "Remote - USA, CAN, MEX",
+    "url": "https://job-boards.greenhouse.io/fleetio/jobs/5213856007",
+    "posted": "2026-08-17T15:03:07-04:00",
+    "date_found": "2026-08-17T20:01:47.800737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby",
+      "rails"
+    ]
+  },
+  {
+    "key": "greenhouse:assetwatch:4724045005",
+    "title": "EHS Operations Analyst",
+    "company": "assetwatch",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/assetwatch/jobs/4724045005",
+    "posted": "2026-08-17T14:44:03-04:00",
+    "date_found": "2026-08-17T20:01:47.800737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
