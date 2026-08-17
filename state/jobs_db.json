@@ -39685,5 +39685,30 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:didi:8131865",
+    "title": "Software Engineer \u2013 Motion Planning ",
+    "company": "didi",
+    "location": "San Jose, CA",
+    "url": "https://job-boards.greenhouse.io/didi/jobs/8131865",
+    "posted": "2026-08-17T02:12:41-04:00",
+    "date_found": "2026-08-17T07:32:31.211165+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "machine learning"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
