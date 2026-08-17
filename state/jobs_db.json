@@ -39770,5 +39770,53 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:precisionaq:6128944004",
+    "title": "Associate Research Scientist, Real World Evidence",
+    "company": "precisionaq",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/precisionaq/jobs/6128944004",
+    "posted": "2026-08-17T10:22:19-04:00",
+    "date_found": "2026-08-17T14:31:52.547512+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:precisionmedicinegroup:6128935004",
+    "title": "Associate Research Scientist, Real World Evidence",
+    "company": "precisionmedicinegroup",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/precisionmedicinegroup/jobs/6128935004",
+    "posted": "2026-08-17T10:22:18-04:00",
+    "date_found": "2026-08-17T14:31:52.547512+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
