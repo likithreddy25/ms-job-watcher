@@ -39621,5 +39621,29 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:hubspotjobs:8019271",
+    "title": "Manager, AI Engineering",
+    "company": "hubspotjobs",
+    "location": "Remote - USA",
+    "url": "https://www.hubspot.com/careers/jobs/8019271?gh_jid=8019271",
+    "posted": "2026-08-17T00:00:17-04:00",
+    "date_found": "2026-08-17T04:01:41.727342+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
