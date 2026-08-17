@@ -40163,5 +40163,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:steerbridge:7b94ac97-8c86-4775-9805-49f8c8b106cf",
+    "title": "Data Scientist (Mid-Level)",
+    "company": "steerbridge",
+    "location": "Vienna, VA",
+    "url": "https://jobs.lever.co/steerbridge/7b94ac97-8c86-4775-9805-49f8c8b106cf",
+    "posted": "2026-08-17 15:44 UTC",
+    "date_found": "2026-08-17T17:02:51.550601+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
