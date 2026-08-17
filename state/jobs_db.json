@@ -40061,5 +40061,47 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:53e4f35f-22b3-422f-b54b-8619b1de8a04",
+    "title": "SDE, AWS OpenSearch Service, Opensearch",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10503784/sde-aws-opensearch-service-opensearch",
+    "posted": "August 17, 2026",
+    "date_found": "2026-08-17T16:21:04.518453+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:b6bc7227-1bdc-455e-b11a-848def9cb3ee",
+    "title": "Software Development Engineer, FinTech Ledger Technology",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10503782/software-development-engineer-fintech-ledger-technology",
+    "posted": "August 17, 2026",
+    "date_found": "2026-08-17T16:21:04.518453+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
