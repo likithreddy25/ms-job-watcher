@@ -41573,5 +41573,45 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:thehartford:Careers_External:req:R2626454",
+    "title": "GIS Software Engineer - Esri",
+    "company": "Hartford",
+    "location": "Hartford, CT",
+    "url": "https://thehartford.wd5.myworkdayjobs.com/en-US/Careers_External/job/Hartford-CT/GIS-Software-Engineer---Esri_R2626454",
+    "posted": "Posted Today",
+    "date_found": "2026-08-18T16:32:58.915921+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:intel:External:req:JR0286395",
+    "title": "Design Automation & DevOps Software Engineer",
+    "company": "Intel",
+    "location": "US, Texas, Austin",
+    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Texas-Austin/Design-Automation---DevOps-Software-Engineer_JR0286395",
+    "posted": "Posted Today",
+    "date_found": "2026-08-18T16:32:58.915921+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2543,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
