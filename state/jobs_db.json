@@ -42352,5 +42352,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:otter:8654629002",
+    "title": "Operations Analytics Engineer",
+    "company": "otter",
+    "location": "Los Angeles, CA",
+    "url": "https://job-boards.greenhouse.io/otter/jobs/8654629002",
+    "posted": "2026-08-18T16:56:43-04:00",
+    "date_found": "2026-08-18T21:31:51.340349+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
