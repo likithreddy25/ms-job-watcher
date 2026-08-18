@@ -42036,5 +42036,58 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:intersystems:7593456003",
+    "title": "Cyber Threat Intelligence Analyst",
+    "company": "intersystems",
+    "location": "Boston, MA",
+    "url": "https://job-boards.greenhouse.io/intersystems/jobs/7593456003",
+    "posted": "2026-08-18T14:36:46-04:00",
+    "date_found": "2026-08-18T19:31:44.574133+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "azure",
+      "kubernetes"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:relativity:8726261002",
+    "title": "AI Software Engineer",
+    "company": "relativity",
+    "location": "Long Beach, California, United States",
+    "url": "https://boards.greenhouse.io/relativity/jobs/8726261002?gh_jid=8726261002",
+    "posted": "2026-08-18T15:29:08-04:00",
+    "date_found": "2026-08-18T19:31:44.574133+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "dbt",
+      "aws",
+      "kubernetes",
+      "postgres",
+      "duckdb",
+      "redshift"
+    ],
+    "bad_tech": []
   }
 ]
