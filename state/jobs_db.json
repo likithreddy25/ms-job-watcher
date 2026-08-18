@@ -41489,5 +41489,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:monumentalsports:5214778007",
+    "title": "Assistant, Business Intelligence Insights (Part-Time/Seasonal)",
+    "company": "monumentalsports",
+    "location": "Washington, DC 20004",
+    "url": "https://job-boards.greenhouse.io/monumentalsports/jobs/5214778007",
+    "posted": "2026-08-18T11:23:05-04:00",
+    "date_found": "2026-08-18T16:04:34.454819+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "databricks",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
