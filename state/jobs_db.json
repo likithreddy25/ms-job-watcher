@@ -41091,5 +41091,32 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:cooksys:5386869008",
+    "title": "Entry-Level Software Developer ",
+    "company": "cooksys",
+    "location": "Nashville, TN",
+    "url": "https://job-boards.greenhouse.io/cooksys/jobs/5386869008",
+    "posted": "2026-08-17T20:33:34-04:00",
+    "date_found": "2026-08-18T02:01:45.482349+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot",
+      "rust"
+    ]
   }
 ]
