@@ -41208,5 +41208,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145023004",
+    "title": "Software Development Engineer in Test II - Contractor",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145023004",
+    "posted": "2026-08-18T00:06:57-04:00",
+    "date_found": "2026-08-18T07:02:24.704383+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
