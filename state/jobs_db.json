@@ -42176,5 +42176,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:440c8ae4-2574-4fea-978f-f8b3f3e57b34",
+    "title": "Applied Scientist, AWS Quick",
+    "company": "Amazon",
+    "location": "US, CA, Santa Clara",
+    "url": "https://www.amazon.jobs/en/jobs/10505803/applied-scientist-aws-quick",
+    "posted": "August 18, 2026",
+    "date_found": "2026-08-18T20:01:24.446212+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
