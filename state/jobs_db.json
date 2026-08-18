@@ -41315,5 +41315,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:scopely:5370217008",
+    "title": "Data Analyst_ Unannounced Title",
+    "company": "scopely",
+    "location": "US - United States",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5370217008?gh_jid=5370217008",
+    "posted": "2026-08-18T06:51:59-04:00",
+    "date_found": "2026-08-18T12:32:09.303272+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "bigquery",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
