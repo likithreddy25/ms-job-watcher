@@ -41118,5 +41118,35 @@
       "spring boot",
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:peregrinetechnologies:4704822005",
+    "title": "Software Engineer, Front-end Product Experiences",
+    "company": "peregrinetechnologies",
+    "location": "New York, NY",
+    "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4704822005",
+    "posted": "2026-08-17T21:09:12-04:00",
+    "date_found": "2026-08-18T02:06:54.825772+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "machine learning",
+      "airflow",
+      "kafka",
+      "aws",
+      "kubernetes",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
