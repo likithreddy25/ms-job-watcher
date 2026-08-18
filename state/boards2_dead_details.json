@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T06:31:02.631700+00:00",
+  "updated_utc": "2026-08-18T07:01:37.064541+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1508,6 +1508,15 @@
       "first_seen_utc": "2026-08-18T01:01:53.641323+00:00",
       "last_seen_utc": "2026-08-18T01:01:53.641323+00:00",
       "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:beatboxbeveragesllc": {
+      "first_seen_utc": "2026-08-18T07:01:05.011468+00:00",
+      "last_seen_utc": "2026-08-18T07:01:05.011468+00:00",
+      "platform": "greenhouse",
       "company": "",
       "board_url": "",
       "last_status": 404,
