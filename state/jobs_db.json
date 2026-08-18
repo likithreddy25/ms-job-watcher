@@ -42246,5 +42246,49 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:44ca65c9-f11c-4d2f-ab4a-fe4f37a7d59d",
+    "title": "Software Development Engineer, AWS Central SDE Team",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10505873/software-development-engineer-aws-central-sde-team",
+    "posted": "August 18, 2026",
+    "date_found": "2026-08-18T20:41:14.180943+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:976d6061-8bc6-4fdd-8b62-3512f835f9f9",
+    "title": "Software Development Engineer, AWS Central SDE Team",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10505871/software-development-engineer-aws-central-sde-team",
+    "posted": "August 18, 2026",
+    "date_found": "2026-08-18T20:41:14.180943+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
