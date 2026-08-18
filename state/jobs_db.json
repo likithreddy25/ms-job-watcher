@@ -42222,5 +42222,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:wealthfront:7d0dc8f4-0434-43ed-8290-3c9a5e140fd6",
+    "title": "Financial Intelligence Analyst",
+    "company": "wealthfront",
+    "location": "Palo Alto, CA (Open to US-based Remote)",
+    "url": "https://jobs.lever.co/wealthfront/7d0dc8f4-0434-43ed-8290-3c9a5e140fd6",
+    "posted": "2026-08-13 20:12 UTC",
+    "date_found": "2026-08-18T20:31:05.656761+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": []
   }
 ]
