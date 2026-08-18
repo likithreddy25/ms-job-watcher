@@ -41359,5 +41359,35 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:bluesight:0478c8b8-e41b-4506-8dfb-b924e69b563b",
+    "title": "Associate Data Analyst",
+    "company": "bluesight",
+    "location": "United States - Remote",
+    "url": "https://jobs.lever.co/bluesight/0478c8b8-e41b-4506-8dfb-b924e69b563b",
+    "posted": "2026-08-11 21:25 UTC",
+    "date_found": "2026-08-18T13:03:03.595007+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pyspark",
+      "etl",
+      "aws",
+      "mysql",
+      "mongodb",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby"
+    ]
   }
 ]
