@@ -42310,5 +42310,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:langchain:bdcced92-2dca-49b0-bc33-4ec0cf5a8e00",
+    "title": "Platform Software Engineer, Ingestion ",
+    "company": "LangChain",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.ashbyhq.com/langchain/bdcced92-2dca-49b0-bc33-4ec0cf5a8e00",
+    "posted": "",
+    "date_found": "2026-08-18T21:01:20.731948+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "langchain"
+    ],
+    "bad_tech": []
   }
 ]
