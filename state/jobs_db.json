@@ -42222,5 +42222,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:44256995-b7d1-4c4a-b83b-3c55b69dedf7",
+    "title": "Data Scientist - Perception Verification and Validation",
+    "company": "zoox",
+    "location": "Boston, MA",
+    "url": "https://jobs.lever.co/zoox/44256995-b7d1-4c4a-b83b-3c55b69dedf7",
+    "posted": "2026-08-18 18:33 UTC",
+    "date_found": "2026-08-18T20:31:58.986603+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "computer vision",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
