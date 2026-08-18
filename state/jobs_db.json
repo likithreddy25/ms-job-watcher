@@ -41726,5 +41726,31 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lgelectronics:5394128008",
+    "title": "Backend/ML Engineer",
+    "company": "Lgelectronics",
+    "location": "Santa Clara, CA ",
+    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5394128008",
+    "posted": "2026-08-18T14:05:59-04:00",
+    "date_found": "2026-08-18T18:31:17.628949+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "fastapi",
+      "flask",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
