@@ -41653,5 +41653,38 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:flovisionsolutions:5385387008",
+    "title": "Machine Learning Engineer",
+    "company": "flovisionsolutions",
+    "location": "US - Remote",
+    "url": "https://job-boards.greenhouse.io/flovisionsolutions/jobs/5385387008",
+    "posted": "2026-08-18T13:06:06-04:00",
+    "date_found": "2026-08-18T17:31:53.317120+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning",
+      "etl",
+      "aws",
+      "gcp",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
