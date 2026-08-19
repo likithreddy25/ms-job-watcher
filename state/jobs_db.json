@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:reddit:7922994",
-    "title": "Backend Engineer, Moderation Enforcement",
-    "company": "Reddit",
-    "location": "Remote - United States",
-    "url": "https://job-boards.greenhouse.io/reddit/jobs/7922994",
-    "posted": "2026-07-10T18:27:31-04:00",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239890",
     "title": "Software Engineer - Simulation (Palmdale)",
     "company": "Northrop Grumman",
@@ -43160,6 +43140,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9c60253e-6b68-4f9a-9f10-eac8468ddb09",
+    "title": "Software Development Engineer , Project Leo",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10507256/software-development-engineer-project-leo",
+    "posted": "August 19, 2026",
+    "date_found": "2026-08-19T19:11:09.689955+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
