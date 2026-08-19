@@ -43019,5 +43019,33 @@
       "c/c++",
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:usconec:4374306009",
+    "title": "Software Developer",
+    "company": "usconec",
+    "location": "Hickory, North Carolina, United States",
+    "url": "https://job-boards.greenhouse.io/usconec/jobs/4374306009",
+    "posted": "2026-08-19T11:11:29-04:00",
+    "date_found": "2026-08-19T15:32:25.212598+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust",
+      "c#",
+      ".net"
+    ]
   }
 ]
