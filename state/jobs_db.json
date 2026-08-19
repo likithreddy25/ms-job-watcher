@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244177",
-    "title": "Signals Data Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Dayton, OH",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Dayton-OH/Signals-Data-Analyst--Mid_R0244177",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T00:02:30.998268+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244172",
     "title": "Data Scientist",
     "company": "Booz Allen Hamilton",
@@ -43152,6 +43132,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 521,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:6138c3a8-e0c9-495e-b94f-504ba63fbffe",
+    "title": "Software Development Engineer, Last Mile Delivery Automation, Autonomous Vehicle",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10507127/software-development-engineer-last-mile-delivery-automation-autonomous-vehicle",
+    "posted": "August 19, 2026",
+    "date_found": "2026-08-19T17:51:10.493946+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
