@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:akunacapital:7496416",
-    "title": "Quantitative Researcher",
-    "company": "akunacapital",
-    "location": "Chicago, IL",
-    "url": "https://www.akunacapital.com/careers/job/7496416/?gh_jid=7496416",
-    "posted": "2026-07-09T17:21:40-04:00",
-    "date_found": "2026-07-11T02:31:22.475513+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:akunacapital:7846695",
     "title": "Quantitative Researcher - Prediction Markets",
     "company": "akunacapital",
@@ -43170,6 +43150,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ibm:a0d6f37ab873d08c60ec8dbaac7210a2ad04880a721148038ceb93e4f513d65e",
+    "title": "Entry Level Software Developer 2027",
+    "company": "IBM",
+    "location": "Hybrid",
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=129784",
+    "posted": "",
+    "date_found": "2026-08-19T20:31:13.548569+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
   }
