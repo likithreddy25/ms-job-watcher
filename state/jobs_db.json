@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:citi:2:req:26976139",
-    "title": "Systematic Quantitative Analyst",
-    "company": "Citigroup",
-    "location": "New York New York United States",
-    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Systematic-Quantitative-Analyst_26976139",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T03:02:27.788459+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:fmr:FidelityCareers:req:2132163",
     "title": "Quantitative Analyst",
     "company": "Fidelity Investments",
@@ -43170,6 +43150,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9f69f926-caf1-491f-adc5-4c022f46e8cd",
+    "title": "SDE- Kuiper Network Services",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10507424/sde-kuiper-network-services",
+    "posted": "August 19, 2026",
+    "date_found": "2026-08-19T21:31:12.905373+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
