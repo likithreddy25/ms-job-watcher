@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:didi:8056500",
-    "title": "Software Engineer \u2013 Motion Planning ",
-    "company": "didi",
-    "location": "San Jose, CA",
-    "url": "https://job-boards.greenhouse.io/didi/jobs/8056500",
-    "posted": "2026-07-10T23:33:27-04:00",
-    "date_found": "2026-07-11T06:02:38.734065+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ223693",
     "title": "Software Developer/Web Master Expert",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43171,6 +43151,28 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:3eb960f8-dc5f-4dfc-91aa-8158ad494bfa",
+    "title": "Applied Scientist, AWS Security",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10507457/applied-scientist-aws-security",
+    "posted": "August 19, 2026",
+    "date_found": "2026-08-19T22:01:19.822497+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
