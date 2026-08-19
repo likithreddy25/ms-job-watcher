@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:redventures:8052804",
-    "title": "Software Engineer | Bankrate",
-    "company": "Red Ventures",
-    "location": "United States",
-    "url": "https://www.redventures.com/careers/positions/open?gh_jid=8052804",
-    "posted": "2026-07-10T14:55:43-04:00",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:reddit:7922994",
     "title": "Backend Engineer, Moderation Enforcement",
     "company": "Reddit",
@@ -43161,6 +43141,26 @@
     "good_tech": [
       "rag"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10246571",
+    "title": "Software Engineer Level 2 or 3 (AHT)",
+    "company": "Northrop Grumman",
+    "location": "United States-Colorado-Aurora",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-2-or-3--AHT-_R10246571-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-19T19:02:25.533423+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
