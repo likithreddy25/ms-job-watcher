@@ -1,30 +1,5 @@
 [
   {
-    "ts": "2026-08-12T19:02Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 14913,
-        "title_ok": 510,
-        "loc_ok": 134,
-        "new": 1,
-        "emailed": 1,
-        "senior_excluded": 589
-      },
-      "lever": {
-        "fetched": 45694,
-        "title_ok": 1170,
-        "loc_ok": 352,
-        "new": 1,
-        "emailed": 0,
-        "senior_excluded": 1370,
-        "yoe_excluded": 1
-      }
-    },
-    "duration_s": 123.4,
-    "cursor": 6000
-  },
-  {
     "ts": "2026-08-12T19:11Z",
     "mode": "main",
     "per_source": {
@@ -48661,5 +48636,62 @@
     },
     "duration_s": 42.6,
     "cursor": 2000
+  },
+  {
+    "ts": "2026-08-19T04:11Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 200,
+        "title_ok": 14,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 58
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 142,
+        "loc_ok": 142,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 80
+      },
+      "nvidia": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "NVIDIA fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://nvidia.eightfold.ai/api/pcsx/search?domain=nvidia.com&query=&location=united+states&start=0&sort_by=timestamp&filter_include_remote=1&filter_job_category=engineering&filter_job_type=regular+employee&filter_time_type=full+time&filter_hiring_title=Software+Engineer&filter_hiring_title=Machine+Learning+Engineer&filter_hiring_title=Artificial+Intelligence&filter_hiring_title=machine+learning&filter_hiring_title=software+development+engineer&filter_hiring_title=data"
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 34,
+        "title_ok": 25,
+        "loc_ok": 13,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 13.0,
+    "cursor": null
   }
 ]
