@@ -42968,5 +42968,56 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sandtechholdingslimited:4956160101",
+    "title": "Software Engineer",
+    "company": "sandtechholdingslimited",
+    "location": "USA",
+    "url": "https://job-boards.eu.greenhouse.io/sandtechholdingslimited/jobs/4956160101",
+    "posted": "2026-08-19T10:42:59-04:00",
+    "date_found": "2026-08-19T15:02:52.050405+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "gcp",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:sti:5395424008",
+    "title": "Embedded Software Engineer - UAS (Aerospace Division)",
+    "company": "sti",
+    "location": "Hawthorne, CA",
+    "url": "https://job-boards.greenhouse.io/sti/jobs/5395424008",
+    "posted": "2026-08-19T10:42:36-04:00",
+    "date_found": "2026-08-19T15:02:52.050405+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
   }
 ]
