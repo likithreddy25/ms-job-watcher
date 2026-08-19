@@ -42810,5 +42810,38 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:bounteous:efa39bac-21db-417e-86d5-0a6f40ef9945",
+    "title": "CDP Data Engineer",
+    "company": "bounteous",
+    "location": "United States",
+    "url": "https://jobs.lever.co/bounteous/efa39bac-21db-417e-86d5-0a6f40ef9945",
+    "posted": "2026-08-19 05:40 UTC",
+    "date_found": "2026-08-19T06:32:35.678015+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "etl",
+      "elt",
+      "aws",
+      "gcp",
+      "azure",
+      "snowflake",
+      "bigquery",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
