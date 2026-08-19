@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10239890",
-    "title": "Software Engineer - Simulation (Palmdale)",
-    "company": "Northrop Grumman",
-    "location": "United States-California-Palmdale",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Software-Engineer---Simulation--Palmdale-_R10239890",
-    "posted": "Posted Today",
-    "date_found": "2026-07-11T01:01:59.402289+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2021179",
     "title": "Supply Chain Data Engineer",
     "company": "NVIDIA",
@@ -43161,6 +43141,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:4b4060c3-3623-47e9-8713-0c79a19ffbc2",
+    "title": "Software Development Engineer, AWS",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10507287/software-development-engineer-aws",
+    "posted": "August 19, 2026",
+    "date_found": "2026-08-19T19:31:06.476499+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
