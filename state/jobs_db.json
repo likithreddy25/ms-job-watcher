@@ -1,45 +1,5 @@
 [
   {
-    "key": "greenhouse:perpay:4801124007",
-    "title": "Mid-Level Financial Analyst",
-    "company": "Perpay",
-    "location": "Philadelphia, Pennsylvania, United States",
-    "url": "https://job-boards.greenhouse.io/perpay/jobs/4801124007",
-    "posted": "2025-07-28T11:42:00-04:00",
-    "date_found": "2026-07-11T23:00:57.874862+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:lgelectronics:5226811008",
-    "title": "Cryptography Research Scientist, FHE",
-    "company": "Lgelectronics",
-    "location": "Santa Clara, CA ",
-    "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5226811008",
-    "posted": "2026-06-27T19:31:27-04:00",
-    "date_found": "2026-07-11T23:00:57.874862+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:lgelectronics:5235528008",
     "title": "Financial Analyst/Accountant",
     "company": "Lgelectronics",
@@ -43192,6 +43152,59 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:cribl:6144377004",
+    "title": "Software Engineer, Edge",
+    "company": "cribl",
+    "location": "Remote - United States",
+    "url": "https://cribl.io/job-detail/?gh_jid=6144377004",
+    "posted": "2026-08-19T17:47:29-04:00",
+    "date_found": "2026-08-19T23:31:14.521658+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "azure",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "swift"
+    ]
+  },
+  {
+    "key": "greenhouse:gomotive:8709999002",
+    "title": "GTM AI Engineer",
+    "company": "gomotive",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/gomotive/jobs/8709999002",
+    "posted": "2026-08-19T19:11:57-04:00",
+    "date_found": "2026-08-19T23:31:14.521658+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "no",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
