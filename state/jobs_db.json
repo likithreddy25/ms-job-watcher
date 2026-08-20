@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4351966701",
-    "title": "Data Engineer, Analytics (Technical Leadership)",
-    "company": "Meta",
-    "location": "New York, NY",
-    "url": "https://www.linkedin.com/jobs/view/4351966701",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4428292196",
     "title": "Analytics Engineer",
     "company": "Morgan & Morgan, P.A.",
@@ -43229,6 +43209,35 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:ampsortation:7919163003",
+    "title": "Machine Learning Engineer",
+    "company": "ampsortation",
+    "location": "Remote, United States",
+    "url": "https://job-boards.greenhouse.io/ampsortation/jobs/7919163003",
+    "posted": "2026-08-20T15:40:36-04:00",
+    "date_found": "2026-08-20T20:31:32.453223+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "computer vision",
+      "deep learning",
+      "machine learning",
+      "aws",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
