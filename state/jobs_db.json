@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:instawork:4620751006",
-    "title": "Data Operations Analyst - Instawork Robotics",
-    "company": "Instawork",
-    "location": "San Francisco, California, United States",
-    "url": "https://job-boards.greenhouse.io/instawork/jobs/4620751006",
-    "posted": "2026-06-15T12:01:51-04:00",
-    "date_found": "2026-07-11T23:00:57.874862+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:instawork:4583588006",
     "title": "Product Operations Analyst",
     "company": "Instawork",
@@ -43200,6 +43180,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:522f460e-c9ed-4843-b3d2-8dbae92a3052",
+    "title": "Software Development Engineer, IAM Security",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10507556/software-development-engineer-iam-security",
+    "posted": "August 20, 2026",
+    "date_found": "2026-08-20T00:40:59.476593+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
