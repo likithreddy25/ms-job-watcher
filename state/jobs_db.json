@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4436656862",
-    "title": "Data Analyst",
-    "company": "Haystack",
-    "location": "New York, United States",
-    "url": "https://www.linkedin.com/jobs/view/4436656862",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4439567324",
     "title": "Junior Data Analyst",
     "company": "Helic & Co",
@@ -43200,6 +43180,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1654,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ226853",
+    "title": "SME Platform Engineer",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA VA Arlington",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Arlington/SME-Platform-Engineer_RQ226853",
+    "posted": "Posted Today",
+    "date_found": "2026-08-20T15:32:53.881281+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
