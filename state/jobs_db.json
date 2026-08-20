@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4438928341",
-    "title": "Data Engineer",
-    "company": "Gigascale Capital",
-    "location": "San Bruno, CA",
-    "url": "https://www.linkedin.com/jobs/view/4438928341",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4431115937",
     "title": "Data Engineer",
     "company": "Ibotta",
@@ -43230,5 +43210,25 @@
       "c++",
       "rust"
     ]
+  },
+  {
+    "key": "amazon:da2bcd21-2720-419e-a167-aeac535e6c12",
+    "title": "Software Development Engineer, Traffic and Network Modeling",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10509132/software-development-engineer-traffic-and-network-modeling",
+    "posted": "August 20, 2026",
+    "date_found": "2026-08-20T19:41:04.873649+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
