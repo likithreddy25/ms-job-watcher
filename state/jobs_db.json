@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4431115937",
-    "title": "Data Engineer",
-    "company": "Ibotta",
-    "location": "Denver, CO",
-    "url": "https://www.linkedin.com/jobs/view/4431115937",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4439547587",
     "title": "Data Engineer",
     "company": "PBK",
@@ -43228,6 +43208,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:caci:External:req:330929",
+    "title": "\u200b\u200bSoftware Engineer\u200b",
+    "company": "CACI International",
+    "location": "Aberdeen Proving Ground, MD, US",
+    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Aberdeen-Proving-Ground-MD-US/XMLNAME---Software-Engineer-_330929",
+    "posted": "Posted Today",
+    "date_found": "2026-08-20T20:03:22.350170+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
