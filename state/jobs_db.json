@@ -1,45 +1,5 @@
 [
   {
-    "key": "linkedin:4417911182",
-    "title": "Data Scientist, Product Analytics",
-    "company": "Meta",
-    "location": "Washington, DC",
-    "url": "https://www.linkedin.com/jobs/view/4417911182",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "linkedin:4370496942",
-    "title": "Associate Data Scientist",
-    "company": "Quantifind",
-    "location": "Palo Alto, CA",
-    "url": "https://www.linkedin.com/jobs/view/4370496942",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4436652134",
     "title": "Data Engineer",
     "company": "Axos Bank",
@@ -43199,6 +43159,54 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:zoox:11d7b37e-4420-4619-a465-d387ffc6ee16",
+    "title": "Contract Student Worker - Data Analyst",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/11d7b37e-4420-4619-a465-d387ffc6ee16",
+    "posted": "2026-08-20 16:46 UTC",
+    "date_found": "2026-08-20T19:02:36.994473+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "databricks",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:zoox:51838a63-2dde-44dc-9c3e-757f35b9690f",
+    "title": "Contract Student Worker - Data Scientist",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/51838a63-2dde-44dc-9c3e-757f35b9690f",
+    "posted": "2026-08-20 16:55 UTC",
+    "date_found": "2026-08-20T19:02:36.994473+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
     "bad_tech": []
   }
 ]
