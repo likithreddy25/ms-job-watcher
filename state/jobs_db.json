@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4351669392",
-    "title": "Data Engineer, Analytics (Technical Leadership)",
-    "company": "Meta",
-    "location": "Menlo Park, CA",
-    "url": "https://www.linkedin.com/jobs/view/4351669392",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4439574550",
     "title": "AI & DATA ENGINEER",
     "company": "Flaunt Forest Technology",
@@ -43234,5 +43214,25 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "workday:motorolasolutions:Careers:req:R67974",
+    "title": "Portfolio Data Analyst",
+    "company": "Motorola",
+    "location": "Chicago, IL, More...",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Chicago-IL/Portfolio-Data-Analyst_R67974",
+    "posted": "Posted Today",
+    "date_found": "2026-08-20T21:02:31.249351+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
