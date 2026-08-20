@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4120825428",
-    "title": "Data Scientist, Product Analytics",
-    "company": "Meta",
-    "location": "Menlo Park, CA",
-    "url": "https://www.linkedin.com/jobs/view/4120825428",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5123,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4436670248",
     "title": "Data Scientist",
     "company": "Meta",
@@ -43198,6 +43178,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00190169",
+    "title": "Software Development Engineer",
+    "company": "Leidos",
+    "location": "Gaithersburg, MD",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Gaithersburg-MD/Software-Development-Engineer_R-00190169",
+    "posted": "Posted Today",
+    "date_found": "2026-08-20T18:03:35.736632+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
