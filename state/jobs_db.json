@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4437893946",
-    "title": "Data Analyst",
-    "company": "Net2Source (N2S)",
-    "location": "San Francisco, CA",
-    "url": "https://www.linkedin.com/jobs/view/4437893946",
-    "posted": "2026-07-10",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4436643312",
     "title": "Data Analyst",
     "company": "Haystack",
@@ -43201,6 +43181,34 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:resonate:5217355007",
+    "title": "Data Engineer",
+    "company": "resonate",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/resonate/jobs/5217355007",
+    "posted": "2026-08-20T12:24:34-04:00",
+    "date_found": "2026-08-20T17:32:22.515718+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "kafka",
+      "etl",
+      "elt",
+      "aws",
+      "docker",
+      "snowflake"
+    ],
     "bad_tech": []
   }
 ]
