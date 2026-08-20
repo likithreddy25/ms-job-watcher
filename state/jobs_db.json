@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4439567324",
-    "title": "Junior Data Analyst",
-    "company": "Helic & Co",
-    "location": "United States",
-    "url": "https://www.linkedin.com/jobs/view/4439567324",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4430073309",
     "title": "Data Analyst (Excel) | $55/hr Remote",
     "company": "Crossing Hurdles",
@@ -43200,6 +43180,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9459a873-da47-49c3-9af8-7e185d8fe308",
+    "title": "Software Development Engineer, BigMesh, Traffic Engineering",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10508160/software-development-engineer-bigmesh-traffic-engineering",
+    "posted": "August 20, 2026",
+    "date_found": "2026-08-20T16:21:06.826681+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
