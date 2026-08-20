@@ -1,62 +1,5 @@
 [
   {
-    "ts": "2026-08-13T20:20Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 198,
-        "title_ok": 10,
-        "loc_ok": 10,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 51
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 153,
-        "loc_ok": 153,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 82
-      },
-      "nvidia": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0,
-        "error": "NVIDIA fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://nvidia.eightfold.ai/api/pcsx/search?domain=nvidia.com&query=&location=united+states&start=0&sort_by=timestamp&filter_include_remote=1&filter_job_category=engineering&filter_job_type=regular+employee&filter_time_type=full+time&filter_hiring_title=Software+Engineer&filter_hiring_title=Machine+Learning+Engineer&filter_hiring_title=Artificial+Intelligence&filter_hiring_title=machine+learning&filter_hiring_title=software+development+engineer&filter_hiring_title=data"
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 7,
-        "title_ok": 5,
-        "loc_ok": 5,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      }
-    },
-    "duration_s": 12.5,
-    "cursor": null
-  },
-  {
     "ts": "2026-08-13T20:32Z",
     "mode": "boards",
     "per_source": {
@@ -48745,5 +48688,53 @@
     },
     "duration_s": 19.3,
     "cursor": null
+  },
+  {
+    "ts": "2026-08-20T06:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 8523,
+        "title_ok": 515,
+        "loc_ok": 325,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 805
+      },
+      "smartrecruiters": {
+        "fetched": 1456,
+        "title_ok": 41,
+        "loc_ok": 24,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 109
+      },
+      "lever": {
+        "fetched": 240,
+        "title_ok": 20,
+        "loc_ok": 16,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 38
+      },
+      "ashby": {
+        "fetched": 126,
+        "title_ok": 14,
+        "loc_ok": 6,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 27
+      },
+      "workday": {
+        "fetched": 6500,
+        "title_ok": 208,
+        "loc_ok": 15,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 808
+      }
+    },
+    "duration_s": 96.3,
+    "cursor": 800
   }
 ]
