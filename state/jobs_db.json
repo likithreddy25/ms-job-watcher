@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4436652684",
-    "title": "Business Intelligence Analyst",
-    "company": "Alpine Bank",
-    "location": "Denver, CO",
-    "url": "https://www.linkedin.com/jobs/view/4436652684",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4436639406",
     "title": "Business Intelligence Analyst",
     "company": "Vedder",
@@ -43250,6 +43230,26 @@
     "good_tech": [
       "sql"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8a8a51d6-e333-46e6-86d4-2c7a3b3eb65b",
+    "title": "Software Development Engineer, Advertiser 1P Data",
+    "company": "Amazon",
+    "location": "US, CA, Palo Alto",
+    "url": "https://www.amazon.jobs/en/jobs/10509566/software-development-engineer-advertiser-1p-data",
+    "posted": "August 20, 2026",
+    "date_found": "2026-08-20T21:41:02.843205+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
