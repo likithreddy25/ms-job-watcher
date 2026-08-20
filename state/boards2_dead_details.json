@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T00:02:16.230104+00:00",
+  "updated_utc": "2026-08-20T00:32:04.015671+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1570,6 +1570,15 @@
     "lever:talentwerx.io": {
       "first_seen_utc": "2026-08-19T20:32:22.425747+00:00",
       "last_seen_utc": "2026-08-19T20:32:22.425747+00:00",
+      "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:quokka": {
+      "first_seen_utc": "2026-08-20T00:31:53.182717+00:00",
+      "last_seen_utc": "2026-08-20T00:31:53.182717+00:00",
       "platform": "lever",
       "company": "",
       "board_url": "",
