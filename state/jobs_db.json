@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:keybank:External_Career_Site:req:R-40905",
-    "title": "Investor Reporting Analyst",
-    "company": "KeyBank",
-    "location": "Overland Park, KS",
-    "url": "https://keybank.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Overland-Park-KS/Investor-Reporting-Analyst_R-40905",
-    "posted": "Posted Yesterday",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00186932",
     "title": "Research Analyst",
     "company": "Leidos",
@@ -43268,6 +43248,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:a1e6e10d-f0f5-46be-b56d-c1e2d5e11646",
+    "title": "Software Development Engineer, Software Defined Network Controller, Amazon LEO",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10510858/software-development-engineer-software-defined-network-controller-amazon-leo",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T23:01:01.252163+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
