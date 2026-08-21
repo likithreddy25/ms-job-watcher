@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4438390763",
-    "title": "Software Engineer, Early Career (AI)",
-    "company": "Fixed Frames",
-    "location": "San Francisco, CA",
-    "url": "https://www.linkedin.com/jobs/view/4438390763",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4420624126",
     "title": "Software Engineer, Web Infrastructure",
     "company": "Notion",
@@ -43256,6 +43236,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:af85d4e6-fd9e-427b-8919-1dcbab298189",
+    "title": "Applied Scientist Manager, Marketplace Intelligence",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10509774/applied-scientist-manager-marketplace-intelligence",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T02:21:02.230052+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
