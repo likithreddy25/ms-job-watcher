@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4438903130",
-    "title": "Software Engineer, New Grad",
-    "company": "Fixed Frames",
-    "location": "San Francisco, CA",
-    "url": "https://www.linkedin.com/jobs/view/4438903130",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4439512196",
     "title": "Simulation Software Engineer (Entry-Junior)",
     "company": "Revel",
@@ -43259,6 +43239,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ226833",
+    "title": "Compliance/Battle Rhythm Reporting Analyst",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA VA Arlington",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Arlington/Compliance-Battle-Rhythm-Reporting-Analyst_RQ226833-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T07:02:47.125006+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
