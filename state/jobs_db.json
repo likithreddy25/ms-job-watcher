@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4098166100",
-    "title": "Software Engineer, Frontend (All Levels)",
-    "company": "Zip",
-    "location": "San Francisco, CA",
-    "url": "https://www.linkedin.com/jobs/view/4098166100",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4411637470",
     "title": "Software Engineer, Trust",
     "company": "Notion",
@@ -43258,5 +43238,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:khaerospace:4726313005",
+    "title": "Software Engineer",
+    "company": "khaerospace",
+    "location": "Reno, Nevada, United States",
+    "url": "https://job-boards.greenhouse.io/khaerospace/jobs/4726313005",
+    "posted": "2026-08-20T23:22:57-04:00",
+    "date_found": "2026-08-21T04:23:37.368763+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "rust",
+      "embedded"
+    ]
   }
 ]
