@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187084",
-    "title": "Senior Manufacturing Operations Financial Analyst",
-    "company": "Leidos",
-    "location": "Huntsville, AL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Senior-Manufacturing-Operations-Financial-Analyst_R-00187084",
-    "posted": "Posted Yesterday",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00184770",
     "title": "Manufacturing Operations Financial Analyst",
     "company": "Leidos",
@@ -43283,5 +43263,25 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "amazon:c29ac735-e5a4-46b8-86dd-368dea42acd3",
+    "title": "Software Development Engineer, Amazon Autos",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10510890/software-development-engineer-amazon-autos",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T23:41:04.981640+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
