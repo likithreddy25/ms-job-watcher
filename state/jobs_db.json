@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0243965",
-    "title": "All-Source Intelligence Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Washington, DC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/All-Source-Intelligence-Analyst--Mid_R0243965-1",
-    "posted": "Posted 3 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0243947",
     "title": "Air Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43209,6 +43189,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:0d89a281-68a9-4863-862d-52df22e7c8fd",
+    "title": "Software Development Engineer, Amazon Security",
+    "company": "Amazon",
+    "location": "US, CA, San Luis Obispo",
+    "url": "https://www.amazon.jobs/en/jobs/10510084/software-development-engineer-amazon-security",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T15:21:08.436025+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
