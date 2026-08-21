@@ -1,52 +1,5 @@
 [
   {
-    "key": "greenhouse:andurilindustries:5025986007",
-    "title": "Operations Analyst, Quality Control",
-    "company": "andurilindustries",
-    "location": "Costa Mesa, California, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5025986007?gh_jid=5025986007",
-    "posted": "2026-07-09T20:47:09-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "computer vision",
-      "aws",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
-    "key": "smartrecruiters:AveryDennison:744000135079805",
-    "title": "Sr. Financial Analyst Operations & FP&A",
-    "company": "Avery Dennison",
-    "location": "Mentor, OH, us",
-    "url": "https://jobs.smartrecruiters.com/AveryDennison",
-    "posted": "2026-06-30T17:48:38.700Z",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:brex:8597771002",
     "title": "Payment Operations Analyst",
     "company": "Brex",
@@ -43231,5 +43184,57 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:vardaspace:7930674003",
+    "title": "Spacecraft Mission Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7930674003",
+    "posted": "2026-08-21T14:39:02-04:00",
+    "date_found": "2026-08-21T19:02:27.528274+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7930676003",
+    "title": "Spacecraft Software Engineer, Ground Systems",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7930676003",
+    "posted": "2026-08-21T14:41:33-04:00",
+    "date_found": "2026-08-21T19:02:27.528274+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
