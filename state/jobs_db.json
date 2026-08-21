@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:andurilindustries:5171330007",
-    "title": "Division Operations Analyst, Counter Intrusion",
-    "company": "andurilindustries",
-    "location": "Irvine, California, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5171330007?gh_jid=5171330007",
-    "posted": "2026-07-09T10:01:22-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "computer vision",
-      "aws",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust",
-      "swift"
-    ]
-  },
-  {
     "key": "greenhouse:andurilindustries:5025986007",
     "title": "Operations Analyst, Quality Control",
     "company": "andurilindustries",
@@ -43237,6 +43210,39 @@
       "c++",
       "c#",
       ".net"
+    ]
+  },
+  {
+    "key": "greenhouse:ispottv:4708631005",
+    "title": "Software Development Engineer 1",
+    "company": "ispottv",
+    "location": "Bellevue, WA",
+    "url": "https://job-boards.greenhouse.io/ispottv/jobs/4708631005",
+    "posted": "2026-08-21T13:39:27-04:00",
+    "date_found": "2026-08-21T18:31:54.810002+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "airflow",
+      "elt",
+      "aws",
+      "docker",
+      "kubernetes",
+      "mysql",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot"
     ]
   }
 ]
