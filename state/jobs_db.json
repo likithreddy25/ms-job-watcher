@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:gdit:External_Career_Site:req:RQ223223",
-    "title": "Intelligence Analyst, Agentic AI Integration",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA VA Arlington",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Arlington/Intelligence-Analyst--Agentic-AI-Integration_RQ223223-2",
-    "posted": "Posted 4 Days Ago",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ223637",
     "title": "Intelligence Analyst",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43271,6 +43251,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00190335",
+    "title": "Master Software Engineer",
+    "company": "Leidos",
+    "location": "Clarksburg, WV",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Clarksburg-WV/Master-Software-Engineer_R-00190335",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T22:02:51.709634+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
