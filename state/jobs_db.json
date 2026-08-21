@@ -1,25 +1,5 @@
 [
   {
-    "key": "linkedin:4438392779",
-    "title": "Software Engineer, New Grad (AI)",
-    "company": "Fixed Frames",
-    "location": "San Francisco, CA",
-    "url": "https://www.linkedin.com/jobs/view/4438392779",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "linkedin:4436641099",
     "title": "AI/Machine Learning Engineer",
     "company": "Corning Incorporated",
@@ -43260,5 +43240,25 @@
       "java",
       "rust"
     ]
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0247577",
+    "title": "Data Scientist",
+    "company": "Booz Allen Hamilton",
+    "location": "Fayetteville, NC",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fayetteville-NC/Data-Scientist_R0247577",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T01:32:29.523885+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
