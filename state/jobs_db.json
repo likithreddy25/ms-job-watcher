@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:fmr:FidelityCareers:req:2127827",
-    "title": "Fixed Income Private Credit Research Analyst",
-    "company": "Fidelity Investments",
-    "location": "Merrimack, NH",
-    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Merrimack-NH/Fixed-Income-Private-Credit-Research-Analyst_2127827",
-    "posted": "Posted 11 Days Ago",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ223223",
     "title": "Intelligence Analyst, Agentic AI Integration",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43271,6 +43251,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:828b9db6-9eba-473e-aaf3-ad1bc76ed020",
+    "title": "Software Development Engineer, Security Platform, Security Platform",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10510816/software-development-engineer-security-platform-security-platform",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T21:51:04.538899+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
