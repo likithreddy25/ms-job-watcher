@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244082",
-    "title": "Enterprise Cybersecurity Cyber Logistics and Operations Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "McLean, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Cyber-Logistics-and-Operations-Analyst_R0244082",
-    "posted": "Posted 2 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "maybe",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0243992",
     "title": "Operations Research Analyst",
     "company": "Booz Allen Hamilton",
@@ -43235,5 +43215,36 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:courierhealth:5218872007",
+    "title": "Business Intelligence Engineer",
+    "company": "courierhealth",
+    "location": "New York, New York, United States",
+    "url": "https://job-boards.greenhouse.io/courierhealth/jobs/5218872007",
+    "posted": "2026-08-21T14:55:15-04:00",
+    "date_found": "2026-08-21T19:31:45.379206+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "airflow",
+      "dbt",
+      "kafka",
+      "postgresql",
+      "postgres",
+      "redshift",
+      "sql"
+    ],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
