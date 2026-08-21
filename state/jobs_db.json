@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:gdit:External_Career_Site:req:RQ223637",
-    "title": "Intelligence Analyst",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA VA McLean",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-McLean/Intelligence-Analyst_RQ223637-1",
-    "posted": "Posted 4 Days Ago",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:latitudeinc:315cffb0-f160-4f1a-9bb7-d1f85a13c7db",
     "title": "Financial Analyst",
     "company": "Latitude Inc",
@@ -43271,6 +43251,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556955770",
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "location": "Redmond, WA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556955770",
+    "posted": "2026-08-21 21:28 UTC",
+    "date_found": "2026-08-21T22:21:04.655448+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
   }
