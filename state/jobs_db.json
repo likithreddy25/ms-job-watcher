@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:analogdevices:External:req:R263206",
-    "title": "Financial Analyst",
-    "company": "Analog Devices",
-    "location": "US, MA, Wilmington",
-    "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Wilmington/Financial-Analyst_R263206-1",
-    "posted": "Posted 12 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:allstate:Allstate_Careers:req:R32030",
     "title": "Exposure Intelligence Analyst \u2013 Cloud Platforms (AWS / Azure / GCP / Cloud Posture)",
     "company": "Allstate",
@@ -43210,5 +43190,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:bluesight:371dd108-f884-48cb-8791-43643bdb5cf4",
+    "title": "Data Analyst",
+    "company": "bluesight",
+    "location": "United States - Remote",
+    "url": "https://jobs.lever.co/bluesight/371dd108-f884-48cb-8791-43643bdb5cf4",
+    "posted": "2026-08-21 12:35 UTC",
+    "date_found": "2026-08-21T13:32:11.754481+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby"
+    ]
   }
 ]
