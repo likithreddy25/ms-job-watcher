@@ -1,49 +1,5 @@
 [
   {
-    "key": "greenhouse:carta:7792994003",
-    "title": "Client Data Operations Analyst",
-    "company": "Carta",
-    "location": "Seattle, WA",
-    "url": "https://job-boards.greenhouse.io/carta/jobs/7792994003",
-    "posted": "2026-07-08T12:40:16-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026515235",
-    "title": "Manufacturing Operations Analyst",
-    "company": "Boeing",
-    "location": "USA - Renton, WA",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Renton-WA/Manufacturing-Operations-Analyst_JR2026515235-1",
-    "posted": "Posted 4 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:caci:External:req:328640",
     "title": "Junior Operations Research Analyst Group",
     "company": "CACI International",
@@ -43249,5 +43205,53 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "greenhouse:twilio:7816159",
+    "title": "Software Engineer L2-Messaging API",
+    "company": "twilio",
+    "location": "Remote - US",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7816159",
+    "posted": "2026-08-21T16:01:12-04:00",
+    "date_found": "2026-08-21T20:32:37.471829+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "docker",
+      "kubernetes",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "workday:target:targetcareers:req:R0000450572",
+    "title": "Financial Analyst Development Program (FADP) - Minneapolis, MN / Hybrid (2027)",
+    "company": "Target",
+    "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+    "url": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Financial-Analyst-Development-Program--FADP----Minneapolis--MN---Hybrid--2027-_R0000450572",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T20:32:37.471829+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
