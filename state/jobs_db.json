@@ -1,90 +1,5 @@
 [
   {
-    "key": "workday:keybank:External_Career_Site:req:R-40905",
-    "title": "Investor Reporting Analyst",
-    "company": "KeyBank",
-    "location": "Overland Park, KS",
-    "url": "https://keybank.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Overland-Park-KS/Investor-Reporting-Analyst_R-40905",
-    "posted": "Posted Yesterday",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:leidos:External:req:R-00186932",
-    "title": "Research Analyst",
-    "company": "Leidos",
-    "location": "San Antonio, TX",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/San-Antonio-TX/Research-Analyst_R-00186932",
-    "posted": "Posted 2 Days Ago",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:doordashusa:8038815",
-    "title": "Fraud Insights Operations Analyst",
-    "company": "doordashusa",
-    "location": "Tempe, AZ",
-    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8038815",
-    "posted": "2026-07-09T15:29:36-04:00",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 765,
-    "good_tech": [
-      "rag",
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:gdit:External_Career_Site:req:RQ222701",
-    "title": "Operations Analyst Technician",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA NC Fort Bragg",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-NC-Fort-Bragg/Operations-Analyst-Technician_RQ222701-1",
-    "posted": "Posted 4 Days Ago",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187084",
     "title": "Senior Manufacturing Operations Financial Analyst",
     "company": "Leidos",
@@ -43270,5 +43185,103 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "ashby:trm-labs:3f3248cb-9b8d-4b4e-ae46-8ad5a28998fc",
+    "title": "Blockchain Intelligence Analyst",
+    "company": "TRM Labs",
+    "location": "United States",
+    "url": "https://jobs.ashbyhq.com/trm-labs/3f3248cb-9b8d-4b4e-ae46-8ad5a28998fc",
+    "posted": "",
+    "date_found": "2026-08-21T23:02:27.828278+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twitch:8739185002",
+    "title": "Software Development Engineer, Security Platform",
+    "company": "twitch",
+    "location": "Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739185002",
+    "posted": "2026-08-21T17:46:08-04:00",
+    "date_found": "2026-08-21T23:02:27.828278+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:twitch:8739196002",
+    "title": "Software Development Engineer, Security Platform",
+    "company": "twitch",
+    "location": "Irvine, CA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739196002",
+    "posted": "2026-08-21T17:46:08-04:00",
+    "date_found": "2026-08-21T23:02:27.828278+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:twitch:8739060002",
+    "title": "Software Development Engineer, Security Platform",
+    "company": "twitch",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739060002",
+    "posted": "2026-08-21T17:45:58-04:00",
+    "date_found": "2026-08-21T23:02:27.828278+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
