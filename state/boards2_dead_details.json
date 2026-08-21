@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-21T14:31:37.284578+00:00",
+  "updated_utc": "2026-08-21T15:03:20.868479+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1597,6 +1597,24 @@
     "greenhouse:houndmoundsincdbapoop911": {
       "first_seen_utc": "2026-08-21T14:31:20.518905+00:00",
       "last_seen_utc": "2026-08-21T14:31:20.518905+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:lookout": {
+      "first_seen_utc": "2026-08-21T15:01:23.266468+00:00",
+      "last_seen_utc": "2026-08-21T15:01:23.266468+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:lookoutinc": {
+      "first_seen_utc": "2026-08-21T15:01:23.378924+00:00",
+      "last_seen_utc": "2026-08-21T15:01:23.378924+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
