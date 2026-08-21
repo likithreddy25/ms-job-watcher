@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:amat:External:req:R2622477",
-    "title": "Business Intelligence Analyst - Global Logistics Supplier Management (B2)",
-    "company": "Applied Materials",
-    "location": "Austin,TX",
-    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/Business-Intelligence-Analyst---Global-Logistics-Supplier-Management--B2-_R2622477",
-    "posted": "Posted 3 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:amat:External:req:R2616381",
     "title": "M4 Manager IV, Business Intelligence Analyst",
     "company": "Applied Materials",
@@ -43209,6 +43189,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:b20c85f1-90df-4c68-8b66-357bb749b592",
+    "title": "Software Development Engineer, PXTCS (People Experience and Technology Central Science)",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10510025/software-development-engineer-pxtcs-people-experience-and-technology-central-science",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T14:21:09.578851+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
