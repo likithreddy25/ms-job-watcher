@@ -1,27 +1,5 @@
 [
   {
-    "key": "linkedin:4411637470",
-    "title": "Software Engineer, Trust",
-    "company": "Notion",
-    "location": "New York, NY",
-    "url": "https://www.linkedin.com/jobs/view/4411637470",
-    "posted": "2026-07-11",
-    "date_found": "2026-07-11T23:03:01.774453+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "linkedin:4438903130",
     "title": "Software Engineer, New Grad",
     "company": "Fixed Frames",
@@ -43263,5 +43241,25 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:5edb5221-fa5c-479b-83cb-6b4443aaabf5",
+    "title": "Software Development Engineer, Generative AI, Annapurna Labs - Neuroboros Team",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10509847/software-development-engineer-generative-ai-annapurna-labs-neuroboros-team",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T05:41:03.486423+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
