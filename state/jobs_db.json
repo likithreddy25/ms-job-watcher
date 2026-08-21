@@ -1,49 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0243640",
-    "title": "Operations Research Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Langley AFB, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Langley-AFB-VA/Operations-Research-Analyst_R0243640",
-    "posted": "Posted 9 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:carta:7792998003",
-    "title": "Client Data Operations Analyst",
-    "company": "Carta",
-    "location": "Sandy, UT",
-    "url": "https://job-boards.greenhouse.io/carta/jobs/7792998003",
-    "posted": "2026-07-08T12:40:42-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:carta:7792994003",
     "title": "Client Data Operations Analyst",
     "company": "Carta",
@@ -43246,5 +43202,52 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:mercury:6150432004",
+    "title": "Software Engineer - Infrastructure",
+    "company": "Mercury",
+    "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6150432004",
+    "posted": "2026-08-21T14:32:47-04:00",
+    "date_found": "2026-08-21T20:02:34.678490+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "rust",
+      "rails"
+    ]
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247105",
+    "title": "Embedded Software Engineering Manager 1",
+    "company": "Northrop Grumman",
+    "location": "United States-Maryland-Linthicum",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Embedded-Software-Engineering-Manager-1_R10247105-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T20:02:34.678490+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
