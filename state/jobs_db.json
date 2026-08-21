@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:andurilindustries:5171330007",
-    "title": "Division Operations Analyst, Counter Intrusion",
-    "company": "andurilindustries",
-    "location": "Irvine, California, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5171330007?gh_jid=5171330007",
-    "posted": "2026-07-09T10:01:22-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "computer vision",
-      "aws",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust",
-      "swift"
-    ]
-  },
-  {
     "key": "greenhouse:andurilindustries:5025986007",
     "title": "Operations Analyst, Quality Control",
     "company": "andurilindustries",
@@ -43238,5 +43211,25 @@
       "c#",
       ".net"
     ]
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0108664",
+    "title": "Software Development Engineer - US Federal",
+    "company": "Workday",
+    "location": "USA.VA.Reston",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Software-Development-Engineer---US-Federal_JR-0108664",
+    "posted": "Posted Today",
+    "date_found": "2026-08-21T18:32:01.736525+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
