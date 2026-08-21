@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0243992",
-    "title": "Operations Research Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Fort Meade, MD",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Operations-Research-Analyst_R0243992",
-    "posted": "Posted 3 Days Ago",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0243640",
     "title": "Operations Research Analyst",
     "company": "Booz Allen Hamilton",
@@ -43246,5 +43226,25 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:4b0328e0-08b9-4dd4-9302-177e78476be1",
+    "title": "Software Development Engineer, Privacy",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10510532/software-development-engineer-privacy",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T19:41:16.853619+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
