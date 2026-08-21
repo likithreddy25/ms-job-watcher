@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:andurilindustries:5025986007",
-    "title": "Operations Analyst, Quality Control",
-    "company": "andurilindustries",
-    "location": "Costa Mesa, California, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5025986007?gh_jid=5025986007",
-    "posted": "2026-07-09T20:47:09-04:00",
-    "date_found": "2026-07-11T23:32:15.442400+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "computer vision",
-      "aws",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "smartrecruiters:AveryDennison:744000135079805",
     "title": "Sr. Financial Analyst Operations & FP&A",
     "company": "Avery Dennison",
@@ -43229,6 +43202,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7c1ea847-5b33-46d9-bf0c-28422faa6630",
+    "title": "Software Development Engineer - Kinesis Data Streams, Kinesis Data Streams",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-21T19:01:12.348454+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
