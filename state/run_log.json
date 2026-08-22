@@ -48446,6 +48446,22 @@
   },
   {
     "ts": "2026-08-22T15:31Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 56572,
+        "title_ok": 2123,
+        "loc_ok": 744,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2677
+      }
+    },
+    "duration_s": 56.6,
+    "cursor": 4000
+  },
+  {
+    "ts": "2026-08-22T15:33Z",
     "mode": "main",
     "per_source": {
       "microsoft": {
@@ -48466,8 +48482,8 @@
       },
       "nvidia": {
         "fetched": 210,
-        "title_ok": 22,
-        "loc_ok": 22,
+        "title_ok": 23,
+        "loc_ok": 23,
         "new": 0,
         "emailed": 0,
         "senior_excluded": 169
@@ -48497,7 +48513,7 @@
         "senior_excluded": 0
       }
     },
-    "duration_s": 17.6,
+    "duration_s": 20.9,
     "cursor": null
   },
   {
