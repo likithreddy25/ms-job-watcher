@@ -48443,7 +48443,47 @@
     "cursor": null
   },
   {
-    "ts": "2026-08-22T21:31Z",
+    "ts": "2026-08-22T21:32Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 4619,
+        "title_ok": 276,
+        "loc_ok": 102,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 536
+      },
+      "lever": {
+        "fetched": 622,
+        "title_ok": 17,
+        "loc_ok": 10,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 11
+      },
+      "ashby": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "workday": {
+        "fetched": 9582,
+        "title_ok": 339,
+        "loc_ok": 97,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 498
+      }
+    },
+    "duration_s": 24.8,
+    "cursor": null
+  },
+  {
+    "ts": "2026-08-22T21:33Z",
     "mode": "main",
     "per_source": {
       "microsoft": {
@@ -48468,7 +48508,7 @@
         "loc_ok": 22,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 171
+        "senior_excluded": 170
       },
       "goldman_sachs": {
         "fetched": 0,
@@ -48495,7 +48535,7 @@
         "senior_excluded": 0
       }
     },
-    "duration_s": 24.8,
+    "duration_s": 18.4,
     "cursor": null
   },
   {
