@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:yipitdatajobs:6397603",
-    "title": "Equity Research Analyst",
-    "company": "yipitdatajobs",
-    "location": "US Remote",
-    "url": "https://job-boards.greenhouse.io/yipitdatajobs/jobs/6397603",
-    "posted": "2026-07-09T13:30:35-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "yes",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:yipitdatajobs:6397670",
     "title": "Investor Research Analyst",
     "company": "yipitdatajobs",
@@ -43257,6 +43232,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0105439",
+    "title": "Software Development Engineer (US Federal)",
+    "company": "Workday",
+    "location": "USA.VA.Reston",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Software-Development-Engineer--US-Federal-_JR-0105439",
+    "posted": "Posted Today",
+    "date_found": "2026-08-22T04:31:49.086391+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
   }
