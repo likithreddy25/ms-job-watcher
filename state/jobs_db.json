@@ -1,48 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00184770",
-    "title": "Manufacturing Operations Financial Analyst",
-    "company": "Leidos",
-    "location": "Huntsville, AL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Manufacturing-Operations-Financial-Analyst_R-00184770",
-    "posted": "Posted Yesterday",
-    "date_found": "2026-07-12T00:02:38.812201+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:velora:4245825009",
-    "title": "Strategic Financial Analyst - Velora",
-    "company": "velora",
-    "location": "Remote, Canada and US",
-    "url": "https://job-boards.greenhouse.io/velora/jobs/4245825009",
-    "posted": "2026-06-26T11:14:27-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:vestwell:7801365003",
     "title": "529 Business Intelligence Specialist",
     "company": "vestwell",
@@ -43283,5 +43240,49 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:amat:External:req:R2626859",
+    "title": "Software Engineer I - New College Grad (Bachelors - Kalispell, MT)",
+    "company": "Applied Materials",
+    "location": "Kalispell,MT",
+    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/KalispellMT/Software-Engineer-I---New-College-Grad--Bachelors---Kalispell--MT-_R2626859",
+    "posted": "Posted Today",
+    "date_found": "2026-08-22T00:32:23.839852+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:affirm:7808202003",
+    "title": "Legal Operations Analyst II",
+    "company": "Affirm",
+    "location": "Remote US",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7808202003",
+    "posted": "2026-08-21T17:42:07-04:00",
+    "date_found": "2026-08-22T00:32:23.839852+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
