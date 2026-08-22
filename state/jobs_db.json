@@ -1,80 +1,5 @@
 [
   {
-    "key": "greenhouse:vestwell:7801365003",
-    "title": "529 Business Intelligence Specialist",
-    "company": "vestwell",
-    "location": "King of Prussia, PA",
-    "url": "https://job-boards.greenhouse.io/vestwell/jobs/7801365003",
-    "posted": "2026-07-10T14:20:22-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:waymo:7309064",
-    "title": "Research Scientist, Prediction & Planning ",
-    "company": "waymo",
-    "location": "Mountain View, CA USA; New York, NY USA; San Francisco, CA USA;",
-    "url": "https://careers.withwaymo.com/jobs?gh_jid=7309064",
-    "posted": "2026-06-16T23:09:54-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "nlp",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++",
-      "rust"
-    ]
-  },
-  {
-    "key": "greenhouse:waymo:7469425",
-    "title": "Research Scientist, RL for Autonomous Planning & World Modeling  ",
-    "company": "waymo",
-    "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York City, NY, USA",
-    "url": "https://careers.withwaymo.com/jobs?gh_jid=7469425",
-    "posted": "2026-06-16T23:09:54-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:xairatherapeutics:5036777007",
     "title": "AI Scientist - Biomedical Multimodal Modeling",
     "company": "xairatherapeutics",
@@ -43284,5 +43209,65 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247167",
+    "title": "Software Engineer - Level 5",
+    "company": "Northrop Grumman",
+    "location": "United States-Colorado-Colorado Springs",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-5_R10247167-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-22T01:32:02.915265+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247165",
+    "title": "Software Engineer - Level 2 or 3 - Space AHT",
+    "company": "Northrop Grumman",
+    "location": "United States-Colorado-Colorado Springs",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-2-or-3---Space-AHT_R10247165",
+    "posted": "Posted Today",
+    "date_found": "2026-08-22T01:32:02.915265+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247162",
+    "title": "Software Engineer - Level 4 - Space AHT",
+    "company": "Northrop Grumman",
+    "location": "United States-Colorado-Colorado Springs",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-4---Space-AHT_R10247162",
+    "posted": "Posted Today",
+    "date_found": "2026-08-22T01:32:02.915265+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
