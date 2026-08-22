@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:yipitdatajobs:6397670",
-    "title": "Investor Research Analyst",
-    "company": "yipitdatajobs",
-    "location": "US Remote",
-    "url": "https://job-boards.greenhouse.io/yipitdatajobs/jobs/6397670",
-    "posted": "2026-07-09T13:30:35-04:00",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "yes",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "lever:acord:94a2b32b-53b8-4410-8408-3580b85da4f0",
     "title": "Research Analyst",
     "company": "acord",
@@ -43252,6 +43227,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247178",
+    "title": "Resource Control Team Software Engineer (Level 1 or 2) - AHT",
+    "company": "Northrop Grumman",
+    "location": "United States-California-Manhattan Beach",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Manhattan-Beach/Resource-Control-Team-Software-Engineer--Level-1-or-2----AHT_R10247178",
+    "posted": "Posted Yesterday",
+    "date_found": "2026-08-22T09:02:02.508177+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
