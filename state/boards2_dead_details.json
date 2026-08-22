@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-22T11:01:32.385073+00:00",
+  "updated_utc": "2026-08-22T11:31:27.246656+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1624,6 +1624,15 @@
     "greenhouse:trinityairmedical": {
       "first_seen_utc": "2026-08-21T22:00:50.103192+00:00",
       "last_seen_utc": "2026-08-21T22:00:50.103192+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:lextech": {
+      "first_seen_utc": "2026-08-22T11:30:55.159088+00:00",
+      "last_seen_utc": "2026-08-22T11:30:55.159088+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
