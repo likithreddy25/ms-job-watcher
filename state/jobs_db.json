@@ -1,50 +1,5 @@
 [
   {
-    "key": "lever:genbio:e52b49d7-5809-431e-ad13-b5aae4eee961",
-    "title": "Research Scientist, Applied Science",
-    "company": "genbio",
-    "location": "Palo Alto, CA",
-    "url": "https://jobs.lever.co/genbio/e52b49d7-5809-431e-ad13-b5aae4eee961",
-    "posted": "2026-06-23 15:48 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "openai",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:harrisonst:539dbf02-2093-4dfc-a92e-31b81f4909fb",
-    "title": "Equity Research Analyst - Listed Infrastructure",
-    "company": "harrisonst",
-    "location": "Denver, CO",
-    "url": "https://jobs.lever.co/harrisonst/539dbf02-2093-4dfc-a92e-31b81f4909fb",
-    "posted": "2026-06-24 20:19 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:057d2c3a-c17f-40f7-ac45-b1148f56c7f7",
     "title": "Research Scientist",
     "company": "ifm-us",
@@ -43244,5 +43199,55 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:espace:8d843b29-abf4-48f1-b062-fbb3b73f8877",
+    "title": "Application Software Engineer (System Control & UI)",
+    "company": "espace",
+    "location": "Saratoga, CA",
+    "url": "https://jobs.lever.co/espace/8d843b29-abf4-48f1-b062-fbb3b73f8877",
+    "posted": "2026-08-24 05:17 UTC",
+    "date_found": "2026-08-24T05:32:20.874831+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "fpga"
+    ]
+  },
+  {
+    "key": "lever:espace:8a97f46f-26c8-41b0-9971-a688095fdf04",
+    "title": "Embedded / Board Software Engineer",
+    "company": "espace",
+    "location": "Saratoga, CA",
+    "url": "https://jobs.lever.co/espace/8a97f46f-26c8-41b0-9971-a688095fdf04",
+    "posted": "2026-08-24 05:25 UTC",
+    "date_found": "2026-08-24T05:32:20.874831+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
