@@ -1,47 +1,5 @@
 [
   {
-    "key": "lever:seaportglobal:39716c64-5f59-4d72-90f6-e117d9dd575a",
-    "title": "Research Analyst",
-    "company": "seaportglobal",
-    "location": "Philadelphia, PA",
-    "url": "https://jobs.lever.co/seaportglobal/39716c64-5f59-4d72-90f6-e117d9dd575a",
-    "posted": "2026-07-07 17:20 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:thetrevorproject:a97efc42-628c-4636-be25-160eb047b50a",
-    "title": "Research Scientist",
-    "company": "thetrevorproject",
-    "location": "Remote - United States",
-    "url": "https://jobs.lever.co/thetrevorproject/a97efc42-628c-4636-be25-160eb047b50a",
-    "posted": "2026-05-27 20:44 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "lever:trility:d2c72403-930e-4a21-b257-c52b8f4daeb6",
     "title": "Snowflake Data Consultant",
     "company": "trility",
@@ -43217,6 +43175,59 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4706654006",
+    "title": "Data Scientist ",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4706654006",
+    "posted": "2026-08-24T12:02:51-04:00",
+    "date_found": "2026-08-24T17:32:48.737712+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "elt",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "lever:steerbridge:441af865-7343-48e4-88d2-4c45c2b67276",
+    "title": "Data Analyst",
+    "company": "steerbridge",
+    "location": "Vienna, VA",
+    "url": "https://jobs.lever.co/steerbridge/441af865-7343-48e4-88d2-4c45c2b67276",
+    "posted": "2026-08-24 15:49 UTC",
+    "date_found": "2026-08-24T17:32:48.737712+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
