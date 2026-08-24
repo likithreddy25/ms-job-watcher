@@ -48562,7 +48562,31 @@
     "cursor": null
   },
   {
-    "ts": "2026-08-24T04:01Z",
+    "ts": "2026-08-24T04:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 15046,
+        "title_ok": 510,
+        "loc_ok": 129,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 595
+      },
+      "lever": {
+        "fetched": 45816,
+        "title_ok": 1183,
+        "loc_ok": 350,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1338
+      }
+    },
+    "duration_s": 17.3,
+    "cursor": null
+  },
+  {
+    "ts": "2026-08-24T04:02Z",
     "mode": "main",
     "per_source": {
       "microsoft": {
@@ -48614,7 +48638,7 @@
         "senior_excluded": 0
       }
     },
-    "duration_s": 17.3,
+    "duration_s": 24.4,
     "cursor": null
   },
   {
