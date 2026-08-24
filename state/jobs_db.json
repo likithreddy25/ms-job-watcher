@@ -1,25 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:d8b60486-03aa-4ba1-9634-b2b49f9e09d4",
-    "title": "Research Scientist - Reinforcement Learning",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/d8b60486-03aa-4ba1-9634-b2b49f9e09d4",
-    "posted": "2025-07-31 22:08 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:1f5c0611-5364-4155-91f8-6884e6757385",
     "title": "Research Scientist - Vision Language Model",
     "company": "ifm-us",
@@ -43239,5 +43219,25 @@
       "rails",
       "kotlin"
     ]
+  },
+  {
+    "key": "amazon:d36a4d88-3b98-46ea-bc16-f28348eed090",
+    "title": "Software Development Engineer, Amazon WorkSpaces",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10512148/software-development-engineer-amazon-workspaces",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T15:50:54.157207+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
