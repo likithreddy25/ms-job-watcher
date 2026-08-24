@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:robinhood:8048650",
-    "title": "Senior Tax Operations Analyst",
-    "company": "Robinhood",
-    "location": "Menlo Park, CA; New York, NY",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
-    "posted": "2026-07-10T17:38:39-04:00",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "databricks",
-      "aws",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:rubrik:8003409",
     "title": "Senior Renewal Operations Analyst ",
     "company": "Rubrik",
@@ -43182,5 +43157,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:4f69ac4b-9532-4839-bcd8-9c4c8ec2aebc",
+    "title": "Embedded Software Development Engineer - Sensor & Compute, Amazon Robotics",
+    "company": "Amazon",
+    "location": "US, MA, North Reading",
+    "url": "https://www.amazon.jobs/en/jobs/10512938/embedded-software-development-engineer-sensor-compute-amazon-robotics",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T21:31:14.923031+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
