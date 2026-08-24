@@ -1,54 +1,5 @@
 [
   {
-    "key": "workday:troweprice:TRowePrice:req:80824",
-    "title": "Senior Infrastructure Operations Analyst \u2013 Identity Access Management",
-    "company": "T. Rowe Price",
-    "location": "Owings Mills, MD",
-    "url": "https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Owings-Mills-MD/Senior-Infrastructure-Operations-Analyst---Identity-Access-Management_80824",
-    "posted": "Posted 25 Days Ago",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:waabi:a73a62bd-3ae9-417e-84c6-8a4c94846222",
-    "title": "Research Scientist, Learnable Planner",
-    "company": "waabi",
-    "location": "Remote US & Canada",
-    "url": "https://jobs.lever.co/waabi/a73a62bd-3ae9-417e-84c6-8a4c94846222",
-    "posted": "2025-03-04 04:26 UTC",
-    "date_found": "2026-07-12T01:31:43.518080+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "rag",
-      "computer vision",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++",
-      "rust"
-    ]
-  },
-  {
     "key": "lever:waabi:48a13158-5489-4fac-8643-2d4e2fdc410e",
     "title": "Research Scientist, Simulation Agents",
     "company": "waabi",
@@ -43160,5 +43111,45 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:295db1df-20aa-4e94-8116-91809315dba1",
+    "title": "Software Development Engineer, Amazon WorkSpaces",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10512990/software-development-engineer-amazon-workspaces",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T22:21:11.870798+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7f4c1732-4953-4277-89b0-89e232fcbcce",
+    "title": "Software Engineer, Flex Offer Journey ",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10512986/software-engineer-flex-offer-journey",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T22:21:11.870798+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
