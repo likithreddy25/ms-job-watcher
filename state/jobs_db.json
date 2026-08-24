@@ -1,30 +1,5 @@
 [
   {
-    "key": "lever:trility:d2c72403-930e-4a21-b257-c52b8f4daeb6",
-    "title": "Snowflake Data Consultant",
-    "company": "trility",
-    "location": "United States",
-    "url": "https://jobs.lever.co/trility/d2c72403-930e-4a21-b257-c52b8f4daeb6",
-    "posted": "2026-02-23 22:37 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "dbt",
-      "elt",
-      "snowflake",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:vestmark:7616449",
     "title": "Fixed Income Operations Analyst ",
     "company": "vestmark",
@@ -43229,5 +43204,35 @@
       "sql"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:denverbroncosteamllc:5399919008",
+    "title": "Analytics Engineer",
+    "company": "denverbroncosteamllc",
+    "location": "Englewood, CO",
+    "url": "https://job-boards.greenhouse.io/denverbroncosteamllc/jobs/5399919008",
+    "posted": "2026-08-24T14:21:02-04:00",
+    "date_found": "2026-08-24T18:31:56.626454+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "dbt",
+      "etl",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
