@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:twitch:8610621002",
-    "title": "Business Intelligence Manager",
-    "company": "twitch",
-    "location": "Irvine, CA",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8610621002",
-    "posted": "2026-07-07T15:17:48-04:00",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:twitch:8600134002",
     "title": "Business Intelligence Manager",
     "company": "twitch",
@@ -43188,5 +43163,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:thinkahead:89330daf-a0b9-4007-a10f-b3e6e3bda5d4",
+    "title": "Incentive Operations Analyst",
+    "company": "thinkahead",
+    "location": "United States",
+    "url": "https://jobs.lever.co/thinkahead/89330daf-a0b9-4007-a10f-b3e6e3bda5d4",
+    "posted": "2026-08-10 18:22 UTC",
+    "date_found": "2026-08-24T21:02:40.026230+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
