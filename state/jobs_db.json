@@ -1,30 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:e71b87a7-e2ac-414e-b414-97fdc18658dc",
-    "title": "Research Scientist - Data",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/e71b87a7-e2ac-414e-b414-97fdc18658dc",
-    "posted": "2025-03-25 17:55 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "nlp",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:0f35e9dd-2478-412c-aacd-994c426fa866",
     "title": "Research Scientist - Distributed Machine Learning",
     "company": "ifm-us",
@@ -43236,5 +43211,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145057004",
+    "title": "Audio and UX Software Engineer",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6145057004",
+    "posted": "2026-08-24T09:06:38-04:00",
+    "date_found": "2026-08-24T15:03:25.299783+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded",
+      "firmware"
+    ]
   }
 ]
