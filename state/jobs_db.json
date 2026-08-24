@@ -1,33 +1,5 @@
 [
   {
-    "key": "greenhouse:snorkelai:6009496004",
-    "title": "Research Scientist - RL Training",
-    "company": "Snorkel AI",
-    "location": "Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
-    "url": "https://job-boards.greenhouse.io/snorkelai/jobs/6009496004",
-    "posted": "2026-07-07T13:35:31-04:00",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "huggingface",
-      "machine learning",
-      "aws",
-      "gcp",
-      "kubernetes"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:SanDisk:744000124195146",
     "title": "Business Intelligence (BI) Analyst \u2013 Finance",
     "company": "SanDisk",
@@ -43202,5 +43174,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:waymo:8152556",
+    "title": "Software Engineer",
+    "company": "waymo",
+    "location": "Mountain View, CA, USA ",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8152556",
+    "posted": "2026-08-24T15:15:00-04:00",
+    "date_found": "2026-08-24T19:18:11.820417+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
