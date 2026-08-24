@@ -1,30 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:e71b87a7-e2ac-414e-b414-97fdc18658dc",
-    "title": "Research Scientist - Data",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/e71b87a7-e2ac-414e-b414-97fdc18658dc",
-    "posted": "2025-03-25 17:55 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "nlp",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:0f35e9dd-2478-412c-aacd-994c426fa866",
     "title": "Research Scientist - Distributed Machine Learning",
     "company": "ifm-us",
@@ -43235,6 +43210,30 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:aura798:6147151004",
+    "title": "Revenue Operations Analyst, Partnerships",
+    "company": "aura798",
+    "location": "Remote USA",
+    "url": "https://job-boards.greenhouse.io/aura798/jobs/6147151004",
+    "posted": "2026-08-24T10:33:01-04:00",
+    "date_found": "2026-08-24T15:02:16.857149+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "databricks",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
