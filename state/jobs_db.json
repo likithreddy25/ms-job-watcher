@@ -1,31 +1,5 @@
 [
   {
-    "key": "greenhouse:sofi:7741819003",
-    "title": "Senior Business Operations Analyst",
-    "company": "SoFi",
-    "location": "Salt Lake City, UT",
-    "url": "https://sofi.com/careers/job/7741819003?gh_jid=7741819003",
-    "posted": "2026-06-18T13:20:33-04:00",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "aws",
-      "snowflake",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:sofi:7741804003",
     "title": "Senior Business Operations Analyst",
     "company": "SoFi",
@@ -43164,6 +43138,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:209f9d09-4e5b-473b-8620-39fb736ab27b",
+    "title": "Software Development Engineer, Conversational Ads Experience",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10512945/software-development-engineer-conversational-ads-experience",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T21:51:09.958717+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
