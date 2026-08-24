@@ -1,32 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:9ae2a6dc-39bd-4dbe-aa0b-d99e656f8b04",
-    "title": "Research Scientist - Agents",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/9ae2a6dc-39bd-4dbe-aa0b-d99e656f8b04",
-    "posted": "2026-01-13 01:47 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++"
-    ]
-  },
-  {
     "key": "lever:ifm-us:e71b87a7-e2ac-414e-b414-97fdc18658dc",
     "title": "Research Scientist - Data",
     "company": "ifm-us",
@@ -43243,5 +43216,32 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tracelinkinc:5217396007",
+    "title": "Software Engineer I",
+    "company": "tracelinkinc",
+    "location": "US - MA - Wilmington",
+    "url": "https://www.tracelink.com/about/culture-and-careers/jobs?gh_jid=5217396007",
+    "posted": "2026-08-24T08:45:30-04:00",
+    "date_found": "2026-08-24T14:02:26.150227+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
