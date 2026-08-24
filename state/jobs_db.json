@@ -1,31 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:057d2c3a-c17f-40f7-ac45-b1148f56c7f7",
-    "title": "Research Scientist",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/057d2c3a-c17f-40f7-ac45-b1148f56c7f7",
-    "posted": "2025-05-01 19:36 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "nlp",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:9ae2a6dc-39bd-4dbe-aa0b-d99e656f8b04",
     "title": "Research Scientist - Agents",
     "company": "ifm-us",
@@ -43249,5 +43223,25 @@
       "embedded",
       "firmware"
     ]
+  },
+  {
+    "key": "workday:caci:External:req:330887",
+    "title": "Software Engineer",
+    "company": "CACI International",
+    "location": "Linthicum, MD, US",
+    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Linthicum-MD-US/Software-Engineer_330887",
+    "posted": "Posted Today",
+    "date_found": "2026-08-24T13:33:40.951737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
