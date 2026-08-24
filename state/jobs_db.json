@@ -1,29 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:0f35e9dd-2478-412c-aacd-994c426fa866",
-    "title": "Research Scientist - Distributed Machine Learning",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/0f35e9dd-2478-412c-aacd-994c426fa866",
-    "posted": "2025-06-09 17:28 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "pytorch",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:ifm-us:6a4c7a41-983f-4c06-b785-c2deb5cd3f5d",
     "title": "Research Scientist - NLP",
     "company": "ifm-us",
@@ -43238,5 +43214,25 @@
       "embedded",
       "firmware"
     ]
+  },
+  {
+    "key": "amazon:85f9ba64-e2af-40f2-9c4f-eabb64ff1ac9",
+    "title": "Software Development Engineer, Brand Measurement",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10512044/software-development-engineer-brand-measurement",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T15:11:11.013630+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
