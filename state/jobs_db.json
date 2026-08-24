@@ -1,32 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:9ae2a6dc-39bd-4dbe-aa0b-d99e656f8b04",
-    "title": "Research Scientist - Agents",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/9ae2a6dc-39bd-4dbe-aa0b-d99e656f8b04",
-    "posted": "2026-01-13 01:47 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++"
-    ]
-  },
-  {
     "key": "lever:ifm-us:e71b87a7-e2ac-414e-b414-97fdc18658dc",
     "title": "Research Scientist - Data",
     "company": "ifm-us",
@@ -43232,6 +43205,26 @@
     "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Linthicum-MD-US/Software-Engineer_330887",
     "posted": "Posted Today",
     "date_found": "2026-08-24T13:33:40.951737+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ226555",
+    "title": "Software Engineer (Developer, OpenSearch)",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA VA Chantilly",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-VA-Chantilly/Software-Engineer--Developer--OpenSearch-_RQ226555-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-24T14:04:18.849348+00:00",
     "bucket": "yes",
     "score": 90,
     "role_category": "swe",
