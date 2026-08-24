@@ -1,30 +1,5 @@
 [
   {
-    "key": "lever:tutorintelligence:89213901-e04c-43af-8937-392a9f63dabd",
-    "title": "Robotics Research Scientist",
-    "company": "tutorintelligence",
-    "location": "Watertown, MA",
-    "url": "https://jobs.lever.co/tutorintelligence/89213901-e04c-43af-8937-392a9f63dabd",
-    "posted": "2025-08-30 21:34 UTC",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2543,
-    "good_tech": [
-      "python",
-      "computer vision",
-      "docker",
-      "kubernetes"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:twitch:8610621002",
     "title": "Business Intelligence Manager",
     "company": "twitch",
@@ -43192,6 +43167,26 @@
       "elt",
       "sql"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7d18a7d7-9b41-407f-9069-cecc24479da2",
+    "title": "Applied Scientist, Navigation",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10512862/applied-scientist-navigation",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T20:41:10.002392+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
