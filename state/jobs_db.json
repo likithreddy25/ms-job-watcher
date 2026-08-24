@@ -1,35 +1,5 @@
 [
   {
-    "key": "lever:ifm-us:6a4c7a41-983f-4c06-b785-c2deb5cd3f5d",
-    "title": "Research Scientist - NLP",
-    "company": "ifm-us",
-    "location": "Sunnyvale, CA",
-    "url": "https://jobs.lever.co/ifm-us/6a4c7a41-983f-4c06-b785-c2deb5cd3f5d",
-    "posted": "2025-03-17 18:52 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "rag",
-      "nlp",
-      "computer vision",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++"
-    ]
-  },
-  {
     "key": "lever:ifm-us:d8b60486-03aa-4ba1-9634-b2b49f9e09d4",
     "title": "Research Scientist - Reinforcement Learning",
     "company": "ifm-us",
@@ -43234,5 +43204,40 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:nexla:4696258005",
+    "title": "Software Engineer (Bay Area)",
+    "company": "nexla",
+    "location": "San Mateo, California, United States",
+    "url": "https://job-boards.greenhouse.io/nexla/jobs/4696258005",
+    "posted": "2026-08-24T11:30:21-04:00",
+    "date_found": "2026-08-24T15:31:44.840056+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "databricks",
+      "kafka",
+      "docker",
+      "kubernetes",
+      "snowflake",
+      "duckdb"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "rust",
+      "rails",
+      "kotlin"
+    ]
   }
 ]
