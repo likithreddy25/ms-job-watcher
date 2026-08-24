@@ -1,29 +1,5 @@
 [
   {
-    "key": "lever:waabi:48a13158-5489-4fac-8643-2d4e2fdc410e",
-    "title": "Research Scientist, Simulation Agents",
-    "company": "waabi",
-    "location": "Remote US & Canada",
-    "url": "https://jobs.lever.co/waabi/48a13158-5489-4fac-8643-2d4e2fdc410e",
-    "posted": "2026-03-25 20:10 UTC",
-    "date_found": "2026-07-12T01:31:43.518080+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "pytorch",
-      "tensorflow",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:Versant3:744000135573420",
     "title": "Equity Research Analyst, AI Platform",
     "company": "Versant",
@@ -43149,6 +43125,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "nvidia:893397308233",
+    "title": "System Software Engineer, Multi-Node Analysis",
+    "company": "NVIDIA",
+    "location": "Champaign, IL, US",
+    "url": "https://nvidia.eightfold.ai/careers/job/893397308233",
+    "posted": "2026-08-24 00:00 UTC",
+    "date_found": "2026-08-24T22:51:17.416361+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
   }
