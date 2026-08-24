@@ -1,25 +1,5 @@
 [
   {
-    "key": "lever:leverdemo:b6174034-a372-4963-ad76-c05dddf6087e",
-    "title": "Max's Research Analyst",
-    "company": "leverdemo",
-    "location": "Arlington, TX",
-    "url": "https://jobs.lever.co/leverdemo/b6174034-a372-4963-ad76-c05dddf6087e",
-    "posted": "2019-01-25 00:18 UTC",
-    "date_found": "2026-07-12T00:31:52.828515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:makpar:4353c7f7-cee7-464e-914c-82d15fd2b1a9",
     "title": "Junior Business Intelligence Analyst",
     "company": "makpar",
@@ -43216,6 +43196,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:35b20003-1bb9-4dd7-9f26-51d0d4daeb4c",
+    "title": "Software Development Engineer, CloudWatch Application Signals",
+    "company": "Amazon",
+    "location": "US, CA, Santa Clara",
+    "url": "https://www.amazon.jobs/en/jobs/10512456/software-development-engineer-cloudwatch-application-signals",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T17:11:18.310286+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
