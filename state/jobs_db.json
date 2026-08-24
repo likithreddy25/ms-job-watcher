@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:writer:100b3aec-e337-4df7-998a-479c6d8ea452",
-    "title": "AI research scientist",
-    "company": "Writer",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/writer/100b3aec-e337-4df7-998a-479c6d8ea452",
-    "posted": "",
-    "date_found": "2026-07-12T01:31:43.518080+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:unisys:External:req:REQ574346",
     "title": "Digital Intelligence Analyst",
     "company": "Unisys",
@@ -43151,5 +43131,25 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:90596816-cdd7-4956-801b-6b4dd8ab2558",
+    "title": " Human-Robot Interaction,  Applied Scientist , Fauna",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10513094/human-robot-interaction-applied-scientist-fauna",
+    "posted": "August 24, 2026",
+    "date_found": "2026-08-24T23:41:19.271100+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
