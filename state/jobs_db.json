@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:twitch:8600134002",
-    "title": "Business Intelligence Manager",
-    "company": "twitch",
-    "location": "San Francisco, CA",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8600134002",
-    "posted": "2026-06-26T14:02:08-04:00",
-    "date_found": "2026-07-12T01:02:12.999125+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:robinhood:8048650",
     "title": "Senior Tax Operations Analyst",
     "company": "Robinhood",
@@ -43187,5 +43162,25 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:8350b72b-16ce-4f46-be6e-051c932e900f",
+    "title": "SDE II, Same Day Delivery",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10510041/sde-ii-same-day-delivery",
+    "posted": "August 21, 2026",
+    "date_found": "2026-08-24T21:11:30.641635+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
