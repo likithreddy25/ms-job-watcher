@@ -1,27 +1,5 @@
 [
   {
-    "key": "ashby:snowflake:1bad12df-f443-426f-9d09-e96fc780d698",
-    "title": "AI Research Scientist, New Grad \u2013 Agents & Reinforcement Learning",
-    "company": "Snowflake",
-    "location": "US-WA-Bellevue",
-    "url": "https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698",
-    "posted": "",
-    "date_found": "2026-07-12T01:31:43.518080+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 421,
-    "good_tech": [
-      "snowflake"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "ashby:writer:100b3aec-e337-4df7-998a-479c6d8ea452",
     "title": "AI research scientist",
     "company": "Writer",
@@ -43147,5 +43125,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:parallel:5220626007",
+    "title": "Embedded Software Engineer - Vehicle Software",
+    "company": "Parallel",
+    "location": "Los Angeles, CA",
+    "url": "https://boards.greenhouse.io/parallel/jobs/5220626007?gh_jid=5220626007",
+    "posted": "2026-08-24T18:09:55-04:00",
+    "date_found": "2026-08-24T23:31:08.442193+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "c++",
+      "rust",
+      "embedded"
+    ]
   }
 ]
