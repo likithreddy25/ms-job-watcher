@@ -1,25 +1,5 @@
 [
   {
-    "key": "smartrecruiters:Versant3:744000135573420",
-    "title": "Equity Research Analyst, AI Platform",
-    "company": "Versant",
-    "location": "Englewood Cliffs, NEW JERSEY, us",
-    "url": "https://jobs.smartrecruiters.com/Versant3",
-    "posted": "2026-07-02T19:12:56.754Z",
-    "date_found": "2026-07-12T01:31:43.518080+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "ashby:snowflake:1bad12df-f443-426f-9d09-e96fc780d698",
     "title": "AI Research Scientist, New Grad \u2013 Agents & Reinforcement Learning",
     "company": "Snowflake",
@@ -43145,6 +43125,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:benchling:3fbb23bd-c06c-49da-8834-4da67200275e",
+    "title": " Software Engineer, Model Evaluation and Improvement",
+    "company": "Benchling",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.ashbyhq.com/benchling/3fbb23bd-c06c-49da-8834-4da67200275e",
+    "posted": "",
+    "date_found": "2026-08-24T23:02:13.685263+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
