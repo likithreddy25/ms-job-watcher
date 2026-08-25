@@ -1,31 +1,5 @@
 [
   {
-    "key": "greenhouse:assetwatch:4712375005",
-    "title": "Backend Engineer",
-    "company": "assetwatch",
-    "location": "United States",
-    "url": "https://job-boards.greenhouse.io/assetwatch/jobs/4712375005",
-    "posted": "2026-07-13T10:53:33-04:00",
-    "date_found": "2026-07-13T15:35:36.411077+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "aws",
-      "mysql",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:formlabs:8042078",
     "title": "Software Engineer, Form Now",
     "company": "formlabs",
@@ -43157,5 +43131,27 @@
       "rust",
       "rails"
     ]
+  },
+  {
+    "key": "greenhouse:verstela:5395945008",
+    "title": "Reporting Analyst",
+    "company": "verstela",
+    "location": "Everett, Washington, United States",
+    "url": "https://job-boards.greenhouse.io/verstela/jobs/5395945008",
+    "posted": "2026-08-25T10:39:35-04:00",
+    "date_found": "2026-08-25T15:03:17.160144+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
