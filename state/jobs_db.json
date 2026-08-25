@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10236100",
-    "title": "Intelligence Analyst - Level 2 or 3",
-    "company": "Northrop Grumman",
-    "location": "United States-Colorado-Aurora",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Intelligence-Analyst---Level-2-or-3_R10236100",
-    "posted": "Posted Today",
-    "date_found": "2026-07-12T22:01:59.952104+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:keybank:External_Career_Site:req:R-39794",
     "title": "Financial Analyst - Surveillance",
     "company": "KeyBank",
@@ -43153,6 +43133,26 @@
     "good_tech": [
       "elt"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:78e6d571-a2db-47a7-a4fb-42a0d1ddbc65",
+    "title": "Software Development Engineer, Amazon Leo, Early Career - 2026",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10513110/software-development-engineer-amazon-leo-early-career-2026",
+    "posted": "August 25, 2026",
+    "date_found": "2026-08-25T00:11:12.507094+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
