@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0241620",
-    "title": "All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Washington, DC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/All-Source-Intelligence-Analyst_R0241620",
-    "posted": "Posted Today",
-    "date_found": "2026-07-13T21:02:36.132253+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244300",
     "title": "Counterintelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43158,5 +43138,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:imaginepediatrics:4674760005",
+    "title": "Business Intelligence Engineer",
+    "company": "imaginepediatrics",
+    "location": "United States (Remote)",
+    "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4674760005",
+    "posted": "2026-08-25T14:50:33-04:00",
+    "date_found": "2026-08-25T19:18:42.784840+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "dbt",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
