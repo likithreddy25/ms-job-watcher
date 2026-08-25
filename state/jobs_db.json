@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187216",
-    "title": "Software Development Engineer",
-    "company": "Leidos",
-    "location": "Gaithersburg, MD",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Gaithersburg-MD/Software-Development-Engineer_R-00187216",
-    "posted": "Posted Today",
-    "date_found": "2026-07-13T21:32:38.572078+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187207",
     "title": "Software Engineer",
     "company": "Leidos",
@@ -43174,6 +43154,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ibm:96ebbd3d0eb4f433b0d9fb2d33235a0e50261e24033e1c8372186db2b0e959dd",
+    "title": "Entry Level Software Engineering \u2013 Agentic AI & Workflow Automation 2027",
+    "company": "IBM",
+    "location": "Hybrid",
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=129901",
+    "posted": "",
+    "date_found": "2026-08-25T20:31:16.155111+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
   }
