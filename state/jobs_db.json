@@ -1,28 +1,5 @@
 [
   {
-    "key": "greenhouse:janestreet:8631973002",
-    "title": "Data Engineer",
-    "company": "janestreet",
-    "location": "New York, New York, United States",
-    "url": "https://job-boards.greenhouse.io/janestreet/jobs/8631973002",
-    "posted": "2026-07-13T20:19:37-04:00",
-    "date_found": "2026-07-14T00:31:08.711657+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:lunarenergy:6114834004",
     "title": "Operations BI Engineer (6 months contract)",
     "company": "lunarenergy",
@@ -43165,6 +43142,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556978993",
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "location": "Redmond, WA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556978993",
+    "posted": "2026-08-25 21:50 UTC",
+    "date_found": "2026-08-25T22:31:09.340447+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
   }
