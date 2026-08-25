@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:jll:jllcareers:req:REQ520718",
-    "title": "BI Analyst- Customer Engagement",
-    "company": "JLL",
-    "location": "Dallas, TX",
-    "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Dallas-TX/Voice-of-the-Customer-Intelligence-Manager--Customer-Experience-and-Engagement_REQ520718",
-    "posted": "Posted Today",
-    "date_found": "2026-07-13T21:32:38.572078+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187216",
     "title": "Software Development Engineer",
     "company": "Leidos",
@@ -43176,5 +43156,25 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:00ef7eb3-1e42-492d-baef-fe2cd54f5098",
+    "title": "Software Engineer, Browser Client",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10514569/software-engineer-browser-client",
+    "posted": "August 25, 2026",
+    "date_found": "2026-08-25T20:21:18.647746+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
