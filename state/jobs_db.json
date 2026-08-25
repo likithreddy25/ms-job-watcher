@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:ramp:16fb536d-fe10-4ea7-8956-d6d0cbddd6f5",
-    "title": "AML Operations Analyst",
-    "company": "Ramp",
-    "location": "New York, NY (HQ)",
-    "url": "https://jobs.ashbyhq.com/ramp/16fb536d-fe10-4ea7-8956-d6d0cbddd6f5",
-    "posted": "",
-    "date_found": "2026-07-13T22:31:46.039919+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:anthropic:5231612008",
     "title": "Research Engineer, Chip Design RL (Reinforcement Learning)",
     "company": "Anthropic",
@@ -43172,6 +43152,32 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sagesure:4707269006",
+    "title": "Associate Data Scientist",
+    "company": "sagesure",
+    "location": "Jersey City, New Jersey, United States",
+    "url": "https://www.sagesure.com/careers/current-job-openings/?gh_jid=4707269006",
+    "posted": "2026-08-25T17:27:34-04:00",
+    "date_found": "2026-08-25T21:31:59.234340+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "etl",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
