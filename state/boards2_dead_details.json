@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T15:31:14.663353+00:00",
+  "updated_utc": "2026-08-25T16:02:44.101487+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1660,6 +1660,15 @@
     "greenhouse:vicarioussurgical": {
       "first_seen_utc": "2026-08-25T13:31:10.306655+00:00",
       "last_seen_utc": "2026-08-25T13:31:10.306655+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:arcadiacareers": {
+      "first_seen_utc": "2026-08-25T16:01:29.807501+00:00",
+      "last_seen_utc": "2026-08-25T16:01:29.807501+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
