@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10237867",
-    "title": "Computer Operations Analyst 2/3",
-    "company": "Northrop Grumman",
-    "location": "United States-Utah-Magna",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Utah-Magna/Computer-Operations-Analyst-2-3_R10237867",
-    "posted": "Posted Today",
-    "date_found": "2026-07-13T19:32:06.378867+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:sonyinteractiveentertainmentglobal:6015203004",
     "title": "Software Development Engineer in Test Contractor (SDET Contractor)",
     "company": "sonyinteractiveentertainmentglobal",
@@ -43165,6 +43145,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1654,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ac49ecaf-5b42-422b-a81b-e1de80f6dae5",
+    "title": "Applied Scientist, Amazon Live Data Engineering, Sciences and Analytics (DESA)",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10514330/applied-scientist-amazon-live-data-engineering-sciences-and-analytics-desa",
+    "posted": "August 25, 2026",
+    "date_found": "2026-08-25T18:21:14.922146+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
