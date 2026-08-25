@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:lunarenergy:6114834004",
-    "title": "Operations BI Engineer (6 months contract)",
-    "company": "lunarenergy",
-    "location": "Mountain View, CA",
-    "url": "https://job-boards.greenhouse.io/lunarenergy/jobs/6114834004",
-    "posted": "2026-07-13T18:56:08-04:00",
-    "date_found": "2026-07-14T00:31:08.711657+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "postgres",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:383bd0b3-ba1a-4a09-b7b3-0217e7a51142",
     "title": "Software Development Engineer, Sponsored Products and Brands",
     "company": "Amazon",
@@ -43162,6 +43137,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 2 sponsor",
     "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:a87d07a7-0686-4f46-9f32-74181b48f40b",
+    "title": "Software Development Engineer, Amazon Customer Service",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10515085/software-development-engineer-amazon-customer-service",
+    "posted": "August 25, 2026",
+    "date_found": "2026-08-25T23:21:15.941148+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
