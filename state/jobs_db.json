@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:383bd0b3-ba1a-4a09-b7b3-0217e7a51142",
-    "title": "Software Development Engineer, Sponsored Products and Brands",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10473309/software-development-engineer-sponsored-products-and-brands",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T00:50:53.281578+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:jam-loop:dece841c-39f3-4fb7-ac9d-85113cb7100a",
     "title": "SDET",
     "company": "jam-loop",
@@ -43159,5 +43139,30 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:roblox:8131689",
+    "title": "Software Engineer, Creator Studio",
+    "company": "roblox",
+    "location": "San Mateo, CA, United States",
+    "url": "https://careers.roblox.com/jobs/8131689?gh_jid=8131689",
+    "posted": "2026-08-25T18:46:29-04:00",
+    "date_found": "2026-08-25T23:32:04.492232+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "c++",
+      "c#"
+    ]
   }
 ]
