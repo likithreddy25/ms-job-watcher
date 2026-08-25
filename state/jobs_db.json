@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6015203004",
-    "title": "Software Development Engineer in Test Contractor (SDET Contractor)",
-    "company": "sonyinteractiveentertainmentglobal",
-    "location": "United States, San Mateo, CA",
-    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6015203004",
-    "posted": "2026-07-13T14:18:28-04:00",
-    "date_found": "2026-07-13T19:45:19.115404+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "docker"
-    ],
-    "bad_tech": [
-      "java",
-      "c++"
-    ]
-  },
-  {
     "key": "greenhouse:upstart:8060317",
     "title": "Software Engineer, Upstart Bank",
     "company": "UpStart",
@@ -43165,6 +43138,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:disney:disneycareer:req:10157526",
+    "title": "Associate Software Engineer",
+    "company": "Disney",
+    "location": "Orlando, FL, USA",
+    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Associate-Software-Engineer_10157526",
+    "posted": "Posted Today",
+    "date_found": "2026-08-25T18:33:05.100589+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
