@@ -1,47 +1,5 @@
 [
   {
-    "key": "workday:workday:Workday:req:JR-0105400",
-    "title": "Software Development Engineer - ML Ops (US Federal)",
-    "company": "Workday",
-    "location": "USA.VA.Reston",
-    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Software-Development-Engineer---ML-Ops--US-Federal-_JR-0105400",
-    "posted": "Posted Today",
-    "date_found": "2026-07-13T17:31:53.876295+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 498,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "amazon:a0114cd2-e15b-4fb0-aca5-081b7977e719",
-    "title": "Machine Learning Engineer, Sponsored Products Off-Search Sourcing and Relevance",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10472926/machine-learning-engineer-sponsored-products-off-search-sourcing-and-relevance",
-    "posted": "July 13, 2026",
-    "date_found": "2026-07-13T17:50:48.681215+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:figureai:4696533006",
     "title": "Helix AI Engineer, Localization and Mapping",
     "company": "Figureai",
@@ -43164,5 +43122,57 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:agatesoftware:144f3e0b-140d-42fe-aaaf-fb57b91a9bca",
+    "title": "Software Developer - Hybrid in AZ or MI   [SD2-2026-08]",
+    "company": "agatesoftware",
+    "location": "Glendale, AZ",
+    "url": "https://jobs.lever.co/agatesoftware/144f3e0b-140d-42fe-aaaf-fb57b91a9bca",
+    "posted": "2026-08-25 15:07 UTC",
+    "date_found": "2026-08-25T16:33:17.458497+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "c#",
+      ".net"
+    ]
+  },
+  {
+    "key": "lever:make-rain:91bdb036-ae7d-47e4-828b-fb7761665226",
+    "title": "Software Engineer, Infrastructure",
+    "company": "make-rain",
+    "location": "El Segundo, CA",
+    "url": "https://jobs.lever.co/make-rain/91bdb036-ae7d-47e4-828b-fb7761665226",
+    "posted": "2026-08-25 15:03 UTC",
+    "date_found": "2026-08-25T16:33:17.458497+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
