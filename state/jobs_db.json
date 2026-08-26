@@ -1,49 +1,5 @@
 [
   {
-    "key": "amazon:84647344-7ba0-4ce4-8574-9752b084e02e",
-    "title": "Machine Learning Engineer",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10474916/machine-learning-engineer",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T09:01:01.314405+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:vetevolve:5350829008",
-    "title": "Financial Analyst",
-    "company": "vetevolve",
-    "location": "United States",
-    "url": "https://job-boards.greenhouse.io/vetevolve/jobs/5350829008",
-    "posted": "2026-07-15T09:34:31-04:00",
-    "date_found": "2026-07-15T14:27:12.543438+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:distro:5ba638a6-c811-4252-86f1-af7bc6f64538",
     "title": "Technical Product Analyst",
     "company": "distro",
@@ -43173,5 +43129,45 @@
       "embedded",
       "firmware"
     ]
+  },
+  {
+    "key": "workday:amat:External:req:R2626871",
+    "title": "Service Business Unit Financial Analyst",
+    "company": "Applied Materials",
+    "location": "Santa Clara,CA",
+    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Service-Business-Unit-Financial-Analyst_R2626871",
+    "posted": "Posted Today",
+    "date_found": "2026-08-26T21:02:46.786141+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0247937",
+    "title": "Security Specialist & Counterintelligence Analyst",
+    "company": "Booz Allen Hamilton",
+    "location": "Arlington, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Security-Specialist---Counterintelligence-Analyst_R0247937",
+    "posted": "Posted Today",
+    "date_found": "2026-08-26T21:02:46.786141+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
