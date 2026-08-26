@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:citi:2:req:26975264",
-    "title": "Quantitative Analyst - C13 - NEW YORK",
-    "company": "Citigroup",
-    "location": "New York New York United States",
-    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Quantitative-Analyst---C13---NEW-YORK_26975264",
-    "posted": "Posted Today",
-    "date_found": "2026-07-14T18:02:50.862242+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:disney:disneycareer:req:10153259",
     "title": "Show Controls Software Developer (Project Hire/Internal Assignment)",
     "company": "Disney",
@@ -43143,5 +43123,27 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247724",
+    "title": "Embedded Software Engineer-Level 3/4 (AHT)",
+    "company": "Northrop Grumman",
+    "location": "United States-California-Northridge",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Embedded-Software-Engineer-Level-3-4--AHT-_R10247724",
+    "posted": "Posted Today",
+    "date_found": "2026-08-26T16:02:23.466350+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "embedded"
+    ]
   }
 ]
