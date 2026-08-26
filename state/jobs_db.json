@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:torcrobotics:8534177002",
-    "title": "Software Engineer I - Device Drivers",
-    "company": "Torcrobotics",
-    "location": "Ann Arbor, MI",
-    "url": "https://job-boards.greenhouse.io/torcrobotics/jobs/8534177002",
-    "posted": "2026-07-13T19:10:51-04:00",
-    "date_found": "2026-07-14T02:00:54.608133+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag"
-    ],
-    "bad_tech": [
-      "c++",
-      "c/c++",
-      "embedded"
-    ]
-  },
-  {
     "key": "amazon:549e71bd-019d-462a-8ffb-0094cee6f5a2",
     "title": "Software Development Engineer, IDEAS",
     "company": "Amazon",
@@ -43155,5 +43128,27 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "nvidia:893397341367",
+    "title": "System Software Engineer, UEFI Firmware",
+    "company": "NVIDIA",
+    "location": "Santa Clara, CA, US",
+    "url": "https://nvidia.eightfold.ai/careers/job/893397341367",
+    "posted": "2026-08-25 00:00 UTC",
+    "date_found": "2026-08-26T00:41:13.583440+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": [
+      "firmware"
+    ]
   }
 ]
