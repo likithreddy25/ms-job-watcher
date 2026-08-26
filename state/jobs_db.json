@@ -1,45 +1,5 @@
 [
   {
-    "key": "amazon:549e71bd-019d-462a-8ffb-0094cee6f5a2",
-    "title": "Software Development Engineer, IDEAS",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10473342/software-development-engineer-ideas",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T02:30:49.423788+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "amazon:423bb6a0-d177-41b5-a824-c0a2924375bd",
-    "title": "Software Development Engineer , IDEAS - Atlas ",
-    "company": "Amazon",
-    "location": "US, TX, Dallas",
-    "url": "https://www.amazon.jobs/en/jobs/10473343/software-development-engineer-ideas-atlas",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T02:30:49.423788+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240037",
     "title": "Manager Software Engineering 2",
     "company": "Northrop Grumman",
@@ -43149,6 +43109,66 @@
     "good_tech": [],
     "bad_tech": [
       "firmware"
+    ]
+  },
+  {
+    "key": "greenhouse:ennoblecare:4708416006",
+    "title": "Junior Software Engineer",
+    "company": "ennoblecare",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/ennoblecare/jobs/4708416006",
+    "posted": "2026-08-25T19:33:33-04:00",
+    "date_found": "2026-08-26T01:02:07.278692+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": true,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "etl",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "c#",
+      ".net"
+    ]
+  },
+  {
+    "key": "greenhouse:ennoblecare:4708405006",
+    "title": "Software Engineer ",
+    "company": "ennoblecare",
+    "location": "United States",
+    "url": "https://job-boards.greenhouse.io/ennoblecare/jobs/4708405006",
+    "posted": "2026-08-25T19:32:02-04:00",
+    "date_found": "2026-08-26T01:02:07.278692+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": true,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "etl",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "rust",
+      "c#",
+      ".net"
     ]
   }
 ]
