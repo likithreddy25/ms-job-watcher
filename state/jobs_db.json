@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:7db88549-e6cd-4bbf-a799-f3bd475774f1",
-    "title": "Software Development Engineer, Relationships Identity Systems",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10460426/software-development-engineer-relationships-identity-systems",
-    "posted": "June 26, 2026",
-    "date_found": "2026-07-15T15:33:06.724598+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00186971",
     "title": "Oracle Software Engineer",
     "company": "Leidos",
@@ -43164,6 +43144,28 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:1c8f71ed-41d3-4238-8cee-5f8ce8674e25",
+    "title": "Software Development Engineer - AWS Cryptography",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10516264/software-development-engineer-aws-cryptography",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T22:11:18.262930+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
