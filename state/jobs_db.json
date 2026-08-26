@@ -1,47 +1,5 @@
 [
   {
-    "key": "amazon:47c964d3-c449-4172-b5cf-4acb2fa5efbd",
-    "title": "Software Development Engineer, Benchmarks",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10474656/software-development-engineer-benchmarks",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T23:20:52.398332+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "amazon:f96fc746-507a-4378-a103-a6a15a99885f",
-    "title": "Software Development Engineer, AWS Bill Generation Fulfillment Tracking",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10474654/software-development-engineer-aws-bill-generation-fulfillment-tracking",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T23:20:52.398332+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ224380",
     "title": "ICAM Software Engineer - SailPoint/Radiant Logic",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43162,6 +43120,52 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:reddit:8148431",
+    "title": "Software Engineer, PDP Experience",
+    "company": "Reddit",
+    "location": "Remote - United States",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8148431",
+    "posted": "2026-08-26T13:56:44-04:00",
+    "date_found": "2026-08-26T19:02:14.749221+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "rust",
+      "ruby"
+    ]
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10247871",
+    "title": "Intelligence Analyst - Level 2 or 3 (AHT)",
+    "company": "Northrop Grumman",
+    "location": "United States-Colorado-Aurora",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Intelligence-Analyst---Level-2-or-3--AHT-_R10247871",
+    "posted": "Posted Today",
+    "date_found": "2026-08-26T19:02:14.749221+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
