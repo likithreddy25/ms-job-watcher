@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:30194fc4-6e0c-4aa3-97c9-b4ca725da6d0",
-    "title": "Software Development Engineer, CloudTrail ",
-    "company": "Amazon",
-    "location": "US, VA, Arlington",
-    "url": "https://www.amazon.jobs/en/jobs/10475400/software-development-engineer-cloudtrail",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T16:50:53.982833+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:f80d4ce8-41c8-46da-ba37-b271108f4db5",
     "title": "Software Development Engineer, CloudTrail ",
     "company": "Amazon",
@@ -43175,6 +43155,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:langchain:47ad420c-9302-4a4f-a35f-7dd29e1d9d28",
+    "title": "AI Engineer, Enablement ",
+    "company": "LangChain",
+    "location": "New York, NY",
+    "url": "https://jobs.ashbyhq.com/langchain/47ad420c-9302-4a4f-a35f-7dd29e1d9d28",
+    "posted": "",
+    "date_found": "2026-08-26T23:31:09.349355+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "langchain"
+    ],
     "bad_tech": []
   }
 ]
