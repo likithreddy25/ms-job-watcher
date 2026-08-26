@@ -1,25 +1,5 @@
 [
   {
-    "key": "smartrecruiters:NielsenIQ:744000137925929",
-    "title": "Software Engineer",
-    "company": "NielsenIQ",
-    "location": "Chicago, IL, us",
-    "url": "https://jobs.smartrecruiters.com/NielsenIQ",
-    "posted": "2026-07-15T15:11:38.761Z",
-    "date_found": "2026-07-15T16:32:08.881516+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:30194fc4-6e0c-4aa3-97c9-b4ca725da6d0",
     "title": "Software Development Engineer, CloudTrail ",
     "company": "Amazon",
@@ -43174,6 +43154,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:0551af6b-a80f-4b55-8690-27f9975d0ead",
+    "title": "Software Development Engineer, Infrastructure Supply Chain DCN & DCRP ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10516317/software-development-engineer-infrastructure-supply-chain-dcn-dcrp",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T23:11:14.468744+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
