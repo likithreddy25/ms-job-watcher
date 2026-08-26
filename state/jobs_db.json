@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240175",
-    "title": "Sentinel Manager Software Engineering 2 - 15554-1",
-    "company": "Northrop Grumman",
-    "location": "United States-Utah-Roy",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/Sentinel-Manager-Software-Engineering-2---15554-1_R10240175",
-    "posted": "Posted Today",
-    "date_found": "2026-07-14T14:02:05.234166+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:lucidsoftware:5638743004",
     "title": "EMEA Senior Revenue Operations Analyst  ",
     "company": "lucidsoftware",
@@ -43171,6 +43151,26 @@
       "docker",
       "kubernetes"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:a3d9095d-3d87-4c52-8fdf-79cab08c028d",
+    "title": "Software Development Engineer, Transit Gateway",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10515153/software-development-engineer-transit-gateway",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T02:11:07.544433+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
