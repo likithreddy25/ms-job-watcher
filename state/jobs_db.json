@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:fifththird:53careers:req:R70497",
-    "title": "AI Engineer - Automated Channels Transformation",
-    "company": "Fifth Third Bank",
-    "location": "Cincinnati, OH",
-    "url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Cincinnati-OH/AI-Engineer---Automated-Channels-Transformation_R70497",
-    "posted": "Posted Today",
-    "date_found": "2026-07-14T18:32:42.992786+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00178197",
     "title": "Cyber Threat Intelligence Analyst",
     "company": "Leidos",
@@ -43144,6 +43124,31 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6151556004",
+    "title": "Cloud Infrastructure & Platform Engineer",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, Madison, WI",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6151556004",
+    "posted": "2026-08-26T11:16:16-04:00",
+    "date_found": "2026-08-26T16:32:31.470141+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "kubernetes"
+    ],
     "bad_tech": []
   }
 ]
