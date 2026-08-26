@@ -1,52 +1,5 @@
 [
   {
-    "key": "amazon:4f90669e-cffc-4f3b-bf80-337eaf9b62b3",
-    "title": "Software Development Engineer, Amazon Brand Store",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10474672/software-development-engineer-amazon-brand-store",
-    "posted": "July 14, 2026",
-    "date_found": "2026-07-14T23:50:48.405986+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:twitch:8623578002",
-    "title": "Software Engineer I, Discovery",
-    "company": "twitch",
-    "location": "San Francisco, CA",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8623578002",
-    "posted": "2026-07-14T18:43:05-04:00",
-    "date_found": "2026-07-15T00:32:10.562462+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "aws"
-    ],
-    "bad_tech": [
-      "golang",
-      "swift",
-      "kotlin"
-    ]
-  },
-  {
     "key": "amazon:514c0799-3c03-4d4a-92fe-8e8fc0b63270",
     "title": "Applied Scientist, AWS Science of Security",
     "company": "Amazon",
@@ -43168,5 +43121,59 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:twitch:8751076002",
+    "title": "Software Engineer I, Memberships",
+    "company": "twitch",
+    "location": "Seattle, WA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8751076002",
+    "posted": "2026-08-26T12:56:45-04:00",
+    "date_found": "2026-08-26T19:32:30.685071+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "golang"
+    ]
+  },
+  {
+    "key": "greenhouse:twitch:8748320002",
+    "title": "Software Engineer I, Memberships",
+    "company": "twitch",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8748320002",
+    "posted": "2026-08-26T12:56:43-04:00",
+    "date_found": "2026-08-26T19:32:30.685071+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "java",
+      "golang"
+    ]
   }
 ]
