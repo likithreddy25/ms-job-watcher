@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:mixpanel:8064216",
-    "title": "Software Engineer, AI Platform",
-    "company": "MixPanel",
-    "location": "San Francisco, US (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8064216",
-    "posted": "2026-07-14T09:23:06-04:00",
-    "date_found": "2026-07-14T14:02:05.234166+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "aws"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240175",
     "title": "Sentinel Manager Software Engineering 2 - 15554-1",
     "company": "Northrop Grumman",
@@ -43169,6 +43144,33 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:archer56:7977707003",
+    "title": "Software Engineer - (SJ2026BS)",
+    "company": "archer56",
+    "location": "San Jose, California, United States",
+    "url": "https://job-boards.greenhouse.io/archer56/jobs/7977707003",
+    "posted": "2026-08-25T19:09:37-04:00",
+    "date_found": "2026-08-26T01:56:34.867540+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "etl",
+      "aws",
+      "docker",
+      "kubernetes"
+    ],
     "bad_tech": []
   }
 ]
