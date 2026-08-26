@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:94fda032-b180-4399-97aa-a5c989d03e5e",
-    "title": "Applied Scientist, Sponsored Products and Brands",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10474800/applied-scientist-sponsored-products-and-brands",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T03:40:43.719204+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:fmr:FidelityCareers:req:2132397",
     "title": "AM Quantitative Analyst I",
     "company": "Fidelity Investments",
@@ -43171,6 +43151,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 2 sponsor",
     "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8d46a9b5-8243-48b0-8546-245306a62d5d",
+    "title": "SDE-II, Supply Chain",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10516152/sde-ii-supply-chain",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T19:51:09.975063+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
