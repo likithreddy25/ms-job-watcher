@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:lucidsoftware:5638743004",
-    "title": "EMEA Senior Revenue Operations Analyst  ",
-    "company": "lucidsoftware",
-    "location": "Hamburg, DE",
-    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5638743004",
-    "posted": "2026-07-14T10:08:03-04:00",
-    "date_found": "2026-07-14T14:31:46.522346+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "lever:grailbio:666f1bb9-96a2-4d79-b4a3-9090ca201b34",
     "title": "Forward Deployed Engineer - Software Development Engineer \u2013 Artificial Intelligence (AI) - #4883",
     "company": "grailbio",
@@ -43170,6 +43145,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2021574",
+    "title": "System Software Engineer - Performance Verification Infrastructure",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Verification-Infrastructure_JR2021574",
+    "posted": "Posted Today",
+    "date_found": "2026-08-26T02:32:09.581609+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
   }
