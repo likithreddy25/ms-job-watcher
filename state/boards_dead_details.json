@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-26T07:06:49.593783+00:00",
+  "updated_utc": "2026-08-26T07:32:45.644095+00:00",
   "dead_details": {
     "greenhouse:auth0": {
       "first_seen_utc": "2026-02-16T03:03:47.356270+00:00",
@@ -8613,6 +8613,15 @@
       "board_url": "",
       "last_status": 410,
       "last_error": "HTTP 404/410 (Workday API not found)"
+    },
+    "greenhouse:embroker": {
+      "first_seen_utc": "2026-08-26T07:30:58.622461+00:00",
+      "last_seen_utc": "2026-08-26T07:30:58.622461+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
     }
   }
 }
