@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:disney:disneycareer:req:10153259",
-    "title": "Show Controls Software Developer (Project Hire/Internal Assignment)",
-    "company": "Disney",
-    "location": "Glendale, CA, USA",
-    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Glendale-CA-USA/Show-Controls-Software-Developer--Project-Hire-Internal-Assignment-_10153259",
-    "posted": "Posted Today",
-    "date_found": "2026-07-14T18:32:42.992786+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:fifththird:53careers:req:R70497",
     "title": "AI Engineer - Automated Channels Transformation",
     "company": "Fifth Third Bank",
@@ -43145,5 +43125,25 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:82d29911-8c3e-47b8-994e-90c112b4cd04",
+    "title": "Software Development Engineer, Amazon Shopping Videos (Ads)",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10515713/software-development-engineer-amazon-shopping-videos-ads",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T16:11:07.899270+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
