@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:gdit:External_Career_Site:req:RQ224380",
-    "title": "ICAM Software Engineer - SailPoint/Radiant Logic",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA MD Fort Meade",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-MD-Fort-Meade/ICAM-Software-Engineer---SailPoint-Radiant-Logic_RQ224380-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-14T23:32:45.838127+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:4f90669e-cffc-4f3b-bf80-337eaf9b62b3",
     "title": "Software Development Engineer, Amazon Brand Store",
     "company": "Amazon",
@@ -43166,6 +43146,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ed884b1f-3eb5-40a4-8840-3238d10b2ad1",
+    "title": "Software Development Engineer, Translation Services",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10516133/software-development-engineer-translation-services",
+    "posted": "August 26, 2026",
+    "date_found": "2026-08-26T19:21:10.440169+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
