@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00186971",
-    "title": "Oracle Software Engineer",
-    "company": "Leidos",
-    "location": "Oklahoma City, OK",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Oklahoma-City-OK/Oracle-Software-Engineer_R-00186971",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T16:03:27.683494+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187368",
     "title": "Software Developer",
     "company": "Leidos",
@@ -43167,5 +43147,29 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:sharkninjaoperatingllc:4707316006",
+    "title": "Sensory & Consumer Insights Analyst",
+    "company": "sharkninjaoperatingllc",
+    "location": "Needham, MA, United States",
+    "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4707316006",
+    "posted": "2026-08-26T17:07:42-04:00",
+    "date_found": "2026-08-26T22:32:23.828339+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
