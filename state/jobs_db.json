@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:fmr:FidelityCareers:req:2132397",
-    "title": "AM Quantitative Analyst I",
-    "company": "Fidelity Investments",
-    "location": "Boston, MA",
-    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Boston-MA/AM-Quantitative-Analyst-I_2132397",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T05:02:33.706888+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:flyzipline:7802181003",
     "title": "Billing Operations Analyst",
     "company": "flyzipline",
@@ -43171,6 +43151,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ashby:vanta:0ccbb65f-f675-410a-ae54-1d34575f228a",
+    "title": "Software Engineer, Integrations Platform, Vanta For Government (V4G)",
+    "company": "Vanta",
+    "location": "Remote U.S.",
+    "url": "https://jobs.ashbyhq.com/vanta/0ccbb65f-f675-410a-ae54-1d34575f228a",
+    "posted": "",
+    "date_found": "2026-08-26T20:02:50.212337+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
