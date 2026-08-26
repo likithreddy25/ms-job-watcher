@@ -1,31 +1,5 @@
 [
   {
-    "key": "lever:distro:5ba638a6-c811-4252-86f1-af7bc6f64538",
-    "title": "Technical Product Analyst",
-    "company": "distro",
-    "location": "United States",
-    "url": "https://jobs.lever.co/distro/5ba638a6-c811-4252-86f1-af7bc6f64538",
-    "posted": "2026-07-09 20:05 UTC",
-    "date_found": "2026-07-15T14:27:12.543438+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "azure",
-      "sql"
-    ],
-    "bad_tech": [
-      "c#"
-    ]
-  },
-  {
     "key": "amazon:10ea64e8-c386-4bad-8ffc-6435beb2ee87",
     "title": "Software Development Engineer, AWS OpenSearch Service",
     "company": "Amazon",
@@ -43168,6 +43142,30 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:jetsupport:154759ba-a379-4862-b54b-aa3396873e4c",
+    "title": "Contract AI Data Engineer",
+    "company": "jetsupport",
+    "location": "Chicago, IL",
+    "url": "https://jobs.lever.co/jetsupport/154759ba-a379-4862-b54b-aa3396873e4c",
+    "posted": "2026-08-26 21:02 UTC",
+    "date_found": "2026-08-26T21:15:35.790336+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "azure",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
