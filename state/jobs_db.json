@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187368",
-    "title": "Software Developer",
-    "company": "Leidos",
-    "location": "Reston, VA",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Reston-VA/Software-Developer_R-00187368",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T16:03:27.683494+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:leidos:External:req:R-00187362",
-    "title": "Software Engineer",
-    "company": "Leidos",
-    "location": "Orlando, FL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Orlando-FL/Software-Engineer_R-00187362",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T16:03:27.683494+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:NielsenIQ:744000137925929",
     "title": "Software Engineer",
     "company": "NielsenIQ",
@@ -43171,5 +43131,50 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "lever:economicmodeling:2be503cd-870a-4224-8c3e-8bb667f87e68",
+    "title": "Associate Software Engineer - 1074",
+    "company": "economicmodeling",
+    "location": "Moscow, ID",
+    "url": "https://jobs.lever.co/economicmodeling/2be503cd-870a-4224-8c3e-8bb667f87e68",
+    "posted": "2026-08-20 15:04 UTC",
+    "date_found": "2026-08-26T23:02:30.032373+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:jamcity:b63c6bc1-2d69-4c03-9562-4f3614fd4d47",
+    "title": "Data Analyst.",
+    "company": "jamcity",
+    "location": "Culver City, CA",
+    "url": "https://jobs.lever.co/jamcity/b63c6bc1-2d69-4c03-9562-4f3614fd4d47",
+    "posted": "2026-04-21 21:36 UTC",
+    "date_found": "2026-08-26T23:02:30.032373+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
