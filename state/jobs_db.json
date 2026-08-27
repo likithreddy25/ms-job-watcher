@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244488",
-    "title": "Software Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "McLean, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Software-Engineer_R0244488",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244514",
     "title": "Software Engineer",
     "company": "Booz Allen Hamilton",
@@ -43169,6 +43149,36 @@
     ],
     "bad_tech": [
       "rust"
+    ]
+  },
+  {
+    "key": "lever:venusaero:1a9a3209-3e1f-4fd1-bf15-222abeebc76a",
+    "title": "Software Engineer",
+    "company": "venusaero",
+    "location": "Houston, TX",
+    "url": "https://jobs.lever.co/venusaero/1a9a3209-3e1f-4fd1-bf15-222abeebc76a",
+    "posted": "2026-08-27 06:07 UTC",
+    "date_found": "2026-08-27T07:01:22.008029+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "golang",
+      "rust",
+      "embedded"
     ]
   }
 ]
