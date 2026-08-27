@@ -1,36 +1,5 @@
 [
   {
-    "key": "greenhouse:airbnb:8059212",
-    "title": "Data Scientist, Trust (ML/Algorithms)",
-    "company": "Airbnb",
-    "location": "Remote - USA",
-    "url": "https://careers.airbnb.com/positions/8059212?gh_jid=8059212",
-    "posted": "2026-07-15T12:12:55-04:00",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 789,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "tensorflow",
-      "rag",
-      "nlp",
-      "machine learning",
-      "airflow",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244533",
     "title": "Software Engineer",
     "company": "Booz Allen Hamilton",
@@ -43167,6 +43136,33 @@
     "bad_tech": [
       "c++",
       "c/c++"
+    ]
+  },
+  {
+    "key": "greenhouse:aloyoga:6166035004",
+    "title": "Software Engineers",
+    "company": "aloyoga",
+    "location": "Beverly Hills, California, United States",
+    "url": "https://boards.greenhouse.io/aloyoga/jobs/6166035004?gh_jid=6166035004",
+    "posted": "2026-08-26T21:04:27-04:00",
+    "date_found": "2026-08-27T02:32:31.688921+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot"
     ]
   }
 ]
