@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244533",
-    "title": "Software Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "Rome, NY",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Rome-NY/Software-Engineer_R0244533",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244487",
     "title": "Software Engineer",
     "company": "Booz Allen Hamilton",
@@ -43164,5 +43144,25 @@
       "java",
       "spring boot"
     ]
+  },
+  {
+    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026522055",
+    "title": "Manufacturing Operations Analyst",
+    "company": "Boeing",
+    "location": "USA - Oklahoma City, OK",
+    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Manufacturing-Operations-Analyst_JR2026522055",
+    "posted": "Posted Today",
+    "date_found": "2026-08-27T05:32:33.141684+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
