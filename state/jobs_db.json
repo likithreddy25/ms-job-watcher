@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518977",
-    "title": "Experienced / Mid-Career Software Engineer - Anti-Tamper (AT)-***Signing Bonus Potential***",
-    "company": "Boeing",
-    "location": "USA - Oklahoma City, OK",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Experienced---Mid-Career-Software-Engineer---Anti-Tamper--AT-----Signing-Bonus-Potential---_JR2026518977-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:73c57ec7-cb9f-4fa7-aeed-90a8ae95252a",
     "title": "Applied Scientist, Applied AI Solutions",
     "company": "Amazon",
@@ -43178,6 +43158,28 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:642c359f-180a-40f6-b58b-3dc691b32dbe",
+    "title": "Software Development Engineer, AWS Compliance & Security Assurance",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10516800/software-development-engineer-aws-compliance-security-assurance",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T14:31:13.978333+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [
       "aws"
     ],
