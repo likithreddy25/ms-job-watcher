@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:f80d4ce8-41c8-46da-ba37-b271108f4db5",
-    "title": "Software Development Engineer, CloudTrail ",
-    "company": "Amazon",
-    "location": "US, VA, Arlington",
-    "url": "https://www.amazon.jobs/en/jobs/10475401/software-development-engineer-cloudtrail",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T16:50:53.982833+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:ensono:4711789005",
     "title": "Associate Machine Learning AI Engineer",
     "company": "ensono",
@@ -43176,6 +43156,29 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [
       "langchain"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:flyzipline:7978812003",
+    "title": "Software Engineer, Airspace Platform",
+    "company": "flyzipline",
+    "location": "South San Francisco, California, USA",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7978812003",
+    "posted": "2026-08-26T18:49:59-04:00",
+    "date_found": "2026-08-27T00:03:12.262125+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws",
+      "kubernetes"
     ],
     "bad_tech": []
   }
