@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026518977",
-    "title": "Experienced / Mid-Career Software Engineer - Anti-Tamper (AT)-***Signing Bonus Potential***",
-    "company": "Boeing",
-    "location": "USA - Oklahoma City, OK",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Experienced---Mid-Career-Software-Engineer---Anti-Tamper--AT-----Signing-Bonus-Potential---_JR2026518977-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:73c57ec7-cb9f-4fa7-aeed-90a8ae95252a",
     "title": "Applied Scientist, Applied AI Solutions",
     "company": "Amazon",
@@ -43182,5 +43162,41 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:valtech:4959409101",
+    "title": "Data Engineer Snowflake/Agentic AI",
+    "company": "valtech",
+    "location": "United States - Remote",
+    "url": "https://job-boards.eu.greenhouse.io/valtech/jobs/4959409101",
+    "posted": "2026-08-27T09:52:47-04:00",
+    "date_found": "2026-08-27T14:32:51.544021+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "scikit-learn",
+      "rag",
+      "databricks",
+      "kafka",
+      "aws",
+      "azure",
+      "postgresql",
+      "postgres",
+      "snowflake",
+      "fastapi",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust",
+      "c#"
+    ]
   }
 ]
