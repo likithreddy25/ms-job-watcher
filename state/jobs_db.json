@@ -1,39 +1,5 @@
 [
   {
-    "key": "greenhouse:ensono:4711789005",
-    "title": "Associate Machine Learning AI Engineer",
-    "company": "ensono",
-    "location": "Remote - United States",
-    "url": "https://ensono.com/company/careers/jobs-board/?gh_jid=4711789005",
-    "posted": "2026-07-15T12:41:23-04:00",
-    "date_found": "2026-07-15T16:56:03.273304+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "openai",
-      "nlp",
-      "machine learning",
-      "etl",
-      "aws",
-      "gcp",
-      "azure",
-      "docker"
-    ],
-    "bad_tech": [
-      "java",
-      "c#"
-    ]
-  },
-  {
     "key": "greenhouse:feedzai:8067569",
     "title": "Software Engineer - Customer Success",
     "company": "feedzai",
@@ -43180,6 +43146,26 @@
       "aws",
       "kubernetes"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:fifththird:53careers:req:R72198",
+    "title": "Regulatory Financial Analyst",
+    "company": "Fifth Third Bank",
+    "location": "Frisco, TX",
+    "url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers/job/Frisco-TX/Regulatory-Financial-Analyst_R72198",
+    "posted": "Posted Today",
+    "date_found": "2026-08-27T00:32:43.240253+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
