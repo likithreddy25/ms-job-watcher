@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:3bdbc8e2-2712-48fc-bb8f-5944bb41e988",
-    "title": "SDE II, Veritas Core Platform ",
-    "company": "Amazon",
-    "location": "US, CA, San Diego",
-    "url": "https://www.amazon.jobs/en/jobs/10475640/sde-ii-veritas-core-platform",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T19:20:54.152373+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:workday:Workday:req:JR-0105547",
     "title": "Software Development Engineer - ML Ops (US Federal)",
     "company": "Workday",
@@ -43214,6 +43194,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:arrivelogistics:ed5b4a1d-619e-4b35-9c56-ece700a5282d",
+    "title": "Software Engineer",
+    "company": "arrivelogistics",
+    "location": "Chicago, IL",
+    "url": "https://jobs.lever.co/arrivelogistics/ed5b4a1d-619e-4b35-9c56-ece700a5282d",
+    "posted": "2026-08-27 15:16 UTC",
+    "date_found": "2026-08-27T16:02:51.813103+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
