@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240742",
-    "title": "Software Engineers (Level 2 or 3)",
-    "company": "Northrop Grumman",
-    "location": "United States-Virginia-Chantilly",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/Software-Engineers--Level-2-or-3-_R10240742",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T14:18:49.072886+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:samsara:8049649",
     "title": "PLM Data Analyst",
     "company": "Samsara",
@@ -43292,6 +43272,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:bae4bbc7-420f-4f58-bd67-fbc588c36de2",
+    "title": "Software Development Engineer, Agentic Workspaces - Watchtower",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10517465/software-development-engineer-agentic-workspaces-watchtower",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T20:11:12.527580+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
