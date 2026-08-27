@@ -1,29 +1,5 @@
 [
   {
-    "key": "greenhouse:samsara:8049649",
-    "title": "PLM Data Analyst",
-    "company": "Samsara",
-    "location": "Remote - US",
-    "url": "https://www.samsara.com/company/careers/roles/8049649?gh_jid=8049649",
-    "posted": "2026-07-16T09:37:51-04:00",
-    "date_found": "2026-07-16T14:32:32.740897+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": [
-      "java"
-    ]
-  },
-  {
     "key": "greenhouse:pointc:5236213008",
     "title": "Software Engineer - Contractor",
     "company": "pointc",
@@ -43292,6 +43268,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "ibm:40001c9bec3a7ba67b52d0d6967fed22ed5418020f8a1a3c109e7b5505bebde8",
+    "title": "Entry level Data Scientist: Systems Assurance Data Analytics - 2027",
+    "company": "IBM",
+    "location": "Hybrid",
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=129925",
+    "posted": "",
+    "date_found": "2026-08-27T20:31:17.680336+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2654,
     "good_tech": [],
     "bad_tech": []
   }
