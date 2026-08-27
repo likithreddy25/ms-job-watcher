@@ -1,25 +1,5 @@
 [
   {
-    "key": "microsoft:1970393556928399",
-    "title": "Software Engineer Identity",
-    "company": "Microsoft",
-    "location": "Redmond, WA, US",
-    "url": "https://apply.careers.microsoft.com/careers/job/1970393556928399",
-    "posted": "2026-07-15 17:20 UTC",
-    "date_found": "2026-07-15T19:10:47.636920+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5189,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "microsoft:1970393556932425",
     "title": "Software Engineer IDNA",
     "company": "Microsoft",
@@ -43207,6 +43187,33 @@
     ],
     "bad_tech": [
       "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:theweathercompany:5223871007",
+    "title": "Product Analyst, Subscriptions",
+    "company": "theweathercompany",
+    "location": "Atlanta, GA",
+    "url": "https://job-boards.greenhouse.io/theweathercompany/jobs/5223871007",
+    "posted": "2026-08-27T11:21:16-04:00",
+    "date_found": "2026-08-27T15:32:38.291871+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "etl",
+      "sql"
+    ],
+    "bad_tech": [
+      "android",
+      "embedded"
     ]
   }
 ]
