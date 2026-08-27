@@ -1,59 +1,5 @@
 [
   {
-    "key": "amazon:f80d4ce8-41c8-46da-ba37-b271108f4db5",
-    "title": "Software Development Engineer, CloudTrail ",
-    "company": "Amazon",
-    "location": "US, VA, Arlington",
-    "url": "https://www.amazon.jobs/en/jobs/10475401/software-development-engineer-cloudtrail",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T16:50:53.982833+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:ensono:4711789005",
-    "title": "Associate Machine Learning AI Engineer",
-    "company": "ensono",
-    "location": "Remote - United States",
-    "url": "https://ensono.com/company/careers/jobs-board/?gh_jid=4711789005",
-    "posted": "2026-07-15T12:41:23-04:00",
-    "date_found": "2026-07-15T16:56:03.273304+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "openai",
-      "nlp",
-      "machine learning",
-      "etl",
-      "aws",
-      "gcp",
-      "azure",
-      "docker"
-    ],
-    "bad_tech": [
-      "java",
-      "c#"
-    ]
-  },
-  {
     "key": "greenhouse:feedzai:8067569",
     "title": "Software Engineer - Customer Success",
     "company": "feedzai",
@@ -43177,6 +43123,46 @@
     "good_tech": [
       "langchain"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0247527",
+    "title": "Operational Technology AI Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "Chantilly, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/Operational-Technology-AI-Engineer_R0247527",
+    "posted": "Posted Today",
+    "date_found": "2026-08-27T00:02:36.711762+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0248011",
+    "title": "Data Scientist",
+    "company": "Booz Allen Hamilton",
+    "location": "Alexandria, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Alexandria-VA/Data-Scientist_R0248011-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-27T00:02:36.711762+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
