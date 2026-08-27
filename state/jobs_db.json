@@ -1,27 +1,5 @@
 [
   {
-    "key": "amazon:cecd1ba8-2793-4803-b55b-54b3fb9c6b14",
-    "title": " Software Development Engineer, AWS OpenSearch",
-    "company": "Amazon",
-    "location": "US, TX, Austin",
-    "url": "https://www.amazon.jobs/en/jobs/10475911/software-development-engineer-aws-opensearch",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T23:50:48.289229+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:19366a35-6615-4192-8b48-26582595344d",
     "title": "Airspace Management Simulation Applied Scientist, Prime Air Flight Sciences High Fidelity Methods",
     "company": "Amazon",
@@ -43287,5 +43265,25 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "amazon:871feed0-8f72-4453-bdfb-9ccf846fb2f4",
+    "title": "Software Development Engineer, Last Mile Delivery Automation, Autonomous Vehicle",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10517433/software-development-engineer-last-mile-delivery-automation-autonomous-vehicle",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T19:31:09.126091+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
