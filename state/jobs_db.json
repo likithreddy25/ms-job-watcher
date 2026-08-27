@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329211",
-    "title": "Intermediate Software Engineer",
-    "company": "CACI International",
-    "location": "King George, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/King-George-VA-US/Intermediate-Software-Engineer_329211",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T16:02:41.105972+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244619",
     "title": "Biomedical Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43277,6 +43257,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 2 sponsor",
     "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:d346c2ee-95c5-4e78-a306-685ffe001825",
+    "title": "Software Development Engineer , Amazon Leo",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10517531/software-development-engineer-amazon-leo",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T21:11:10.870425+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
