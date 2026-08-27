@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244752",
-    "title": "Signals Data Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Buckley AFB, CO",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Buckley-AFB-CO/Signals-Data-Analyst--Mid_R0244752-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T16:02:41.105972+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:equifax:External:req:J00178145",
     "title": "Analytics Consultant",
     "company": "Equifax",
@@ -43278,6 +43258,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:freeformfuturecorp:7979541003",
+    "title": "Factory Infrastructure Engineer",
+    "company": "Freeformfuturecorp",
+    "location": "Los Angeles, CA (On-site)",
+    "url": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7979541003",
+    "posted": "2026-08-27T16:31:59-04:00",
+    "date_found": "2026-08-27T22:31:14.247946+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
