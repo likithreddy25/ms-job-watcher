@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244514",
-    "title": "Software Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "Dayton, OH",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Dayton-OH/Software-Engineer_R0244514",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026519126",
     "title": "Consultant Software Engineer - Lab Provisioning & Integration",
     "company": "Boeing",
@@ -43180,5 +43160,25 @@
       "rust",
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:367e6263-d839-4286-8c38-3f2a3f5b1c9c",
+    "title": "Applied Scientist, Responsible AI",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10516572/applied-scientist-responsible-ai",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T09:01:14.872980+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
