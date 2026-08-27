@@ -1,67 +1,5 @@
 [
   {
-    "key": "amazon:73c57ec7-cb9f-4fa7-aeed-90a8ae95252a",
-    "title": "Applied Scientist, Applied AI Solutions",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10475578/applied-scientist-applied-ai-solutions",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T18:20:57.169928+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:fmr:FidelityCareers:req:2132246",
-    "title": "Financial Analyst",
-    "company": "Fidelity Investments",
-    "location": "Boston, MA",
-    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Boston-MA/Financial-Analyst_2132246",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:32:57.523277+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240619",
-    "title": "Embedded Software Engineer \u2013 Level 3 or 4",
-    "company": "Northrop Grumman",
-    "location": "United States-Virginia-Dulles",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Embedded-Software-Engineer---Level-3-or-4_R10240619",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T19:02:15.851316+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "embedded"
-    ]
-  },
-  {
     "key": "microsoft:1970393556928399",
     "title": "Software Engineer Identity",
     "company": "Microsoft",
@@ -43197,6 +43135,78 @@
     "bad_tech": [
       "rust",
       "c#"
+    ]
+  },
+  {
+    "key": "greenhouse:algoquant:4876693101",
+    "title": "DeFi Quant Researcher",
+    "company": "algoquant",
+    "location": "UAE | UK | USA | EU | ASIA",
+    "url": "https://job-boards.eu.greenhouse.io/algoquant/jobs/4876693101",
+    "posted": "2026-08-27T10:06:12-04:00",
+    "date_found": "2026-08-27T15:03:36.640182+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:artefact:8755539002",
+    "title": "Junior Data Consultant - New York - VIE",
+    "company": "artefact",
+    "location": "135 W 26th Street, New York, NY 10001",
+    "url": "https://job-boards.greenhouse.io/artefact/jobs/8755539002",
+    "posted": "2026-08-27T10:18:08-04:00",
+    "date_found": "2026-08-27T15:03:36.640182+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:asm:4876722101",
+    "title": "Software Engineer - Early Career (Fall 2026)",
+    "company": "asm",
+    "location": "US > Arizona > Phoenix",
+    "url": "https://www.asm.com/open-vacancies/?gh_jid=4876722101",
+    "posted": "2026-08-27T10:55:31-04:00",
+    "date_found": "2026-08-27T15:03:36.640182+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
+    "bad_tech": [
+      "c++"
     ]
   }
 ]
