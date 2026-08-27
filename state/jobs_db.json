@@ -1,76 +1,5 @@
 [
   {
-    "key": "greenhouse:feedzai:8067569",
-    "title": "Software Engineer - Customer Success",
-    "company": "feedzai",
-    "location": "Atlanta, GA, United States",
-    "url": "https://careers.feedzai.com/job_description?gh_jid=8067569",
-    "posted": "2026-07-15T12:52:53-04:00",
-    "date_found": "2026-07-15T16:56:03.273304+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "kafka",
-      "aws",
-      "gcp",
-      "azure",
-      "docker",
-      "sql"
-    ],
-    "bad_tech": [
-      "java",
-      "rust"
-    ]
-  },
-  {
-    "key": "amazon:472c7e62-c100-4d1a-8e41-6f2c24f737f2",
-    "title": "SDE, Responsible AI",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10475419/sde-responsible-ai",
-    "posted": "July 15, 2026",
-    "date_found": "2026-07-15T17:01:01.449440+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "nvidia:893396364804",
-    "title": "Software Engineer - Drive OS",
-    "company": "NVIDIA",
-    "location": "Santa Clara, CA, US",
-    "url": "https://nvidia.eightfold.ai/careers/job/893396364804",
-    "posted": "2026-07-15 00:00 UTC",
-    "date_found": "2026-07-15T17:50:57.466024+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2341,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:airbnb:8059212",
     "title": "Data Scientist, Trust (ML/Algorithms)",
     "company": "Airbnb",
@@ -43167,5 +43096,77 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:SanDisk:744000145847261",
+    "title": "Business Intelligence (BI) Analyst \u2013 Finance",
+    "company": "SanDisk",
+    "location": "Milpitas, CA, us",
+    "url": "https://jobs.smartrecruiters.com/SanDisk",
+    "posted": "2026-08-26T23:10:14.266Z",
+    "date_found": "2026-08-27T01:02:20.166430+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:spacex:8752598002",
+    "title": "Software Engineer, Embedded Software (Starlink)",
+    "company": "SpaceX",
+    "location": "Redmond, WA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8752598002?gh_jid=8752598002",
+    "posted": "2026-08-26T18:35:05-04:00",
+    "date_found": "2026-08-27T01:02:20.166430+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "elt"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
+  },
+  {
+    "key": "greenhouse:spacex:8752581002",
+    "title": "Software Engineer, Flight Software (Starlink)",
+    "company": "SpaceX",
+    "location": "Redmond, WA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8752581002?gh_jid=8752581002",
+    "posted": "2026-08-26T18:35:07-04:00",
+    "date_found": "2026-08-27T01:02:20.166430+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++"
+    ]
   }
 ]
