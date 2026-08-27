@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244487",
-    "title": "Software Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "McLean, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/McLean-VA/Software-Engineer_R0244487",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T18:02:44.209143+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244488",
     "title": "Software Engineer",
     "company": "Booz Allen Hamilton",
@@ -43164,5 +43144,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:picarroinc:5407499008",
+    "title": "Data Scientist",
+    "company": "picarroinc",
+    "location": "Santa Clara, CA ",
+    "url": "https://www.picarro.com/company/careers/job-openings/apply?gh_jid=5407499008",
+    "posted": "2026-08-27T01:07:06-04:00",
+    "date_found": "2026-08-27T06:01:39.222489+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
