@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329208",
-    "title": "Junior Software Engineer",
-    "company": "CACI International",
-    "location": "King George, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/King-George-VA-US/Junior-Software-Engineer_329208",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T16:02:41.105972+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:caci:External:req:329211",
     "title": "Intermediate Software Engineer",
     "company": "CACI International",
@@ -43277,6 +43257,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556972217",
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "location": "Redmond, WA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556972217",
+    "posted": "2026-08-27 20:44 UTC",
+    "date_found": "2026-08-27T21:01:19.038050+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
   }
