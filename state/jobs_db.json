@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:freddiemac:External:req:JR17414",
-    "title": "Software Engineer Professional",
-    "company": "Freddie Mac",
-    "location": "McLean, VA",
-    "url": "https://freddiemac.wd5.myworkdayjobs.com/en-US/External/job/McLean-VA/Software-Engineer-Professional_JR17414",
-    "posted": "Posted Today",
-    "date_found": "2026-07-15T23:32:34.834084+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187419",
     "title": "Biometrics Software Engineer (SME)",
     "company": "Leidos",
@@ -43260,6 +43240,38 @@
     ],
     "bad_tech": [
       "php"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6151890004",
+    "title": "Software Development Engineer in Test",
+    "company": "sonyinteractiveentertainmentglobal",
+    "location": "United States, San Mateo, CA",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6151890004",
+    "posted": "2026-08-27T12:17:58-04:00",
+    "date_found": "2026-08-27T18:32:27.172800+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "azure",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "c#",
+      "embedded"
     ]
   }
 ]
