@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:parafin:b6fbdb8d-aa25-4216-a0bb-9af06607bd96",
-    "title": "Data Analytics Engineer",
-    "company": "Parafin",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/parafin/b6fbdb8d-aa25-4216-a0bb-9af06607bd96",
-    "posted": "",
-    "date_found": "2026-07-16T18:00:55.606052+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244611",
     "title": "Infrastructure Engineer",
     "company": "Booz Allen Hamilton",
@@ -43279,6 +43259,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:3d5f65d2-48ee-4cf2-a17a-291ce3d61c0f",
+    "title": "Software Development Engineer ,  Project Dawn",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10517671/software-development-engineer-project-dawn",
+    "posted": "August 27, 2026",
+    "date_found": "2026-08-27T23:41:12.487238+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
