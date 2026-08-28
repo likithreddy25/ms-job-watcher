@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0243489",
-    "title": "Data Management Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Cleveland, OH",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Cleveland-OH/Data-Management-Analyst_R0243489",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244642",
     "title": "All-Source Intelligence Analyst, Mid",
     "company": "Booz Allen Hamilton",
@@ -43333,6 +43313,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:motorolasolutions:Careers:req:R67330",
+    "title": "Software Engineer",
+    "company": "Motorola",
+    "location": "Lexington, SC (SC07)",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Lexington-SC-SC07/Software-Engineer_R67330-1",
+    "posted": "Posted Today",
+    "date_found": "2026-08-28T20:02:22.182336+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
