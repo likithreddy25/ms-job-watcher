@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244642",
-    "title": "All-Source Intelligence Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/All-Source-Intelligence-Analyst--Mid_R0244642",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244650",
     "title": "Counterproliferation All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43333,6 +43313,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:725ee780-acc2-4d01-99e4-46928e5d45ed",
+    "title": "Software Development Engineer, Cloudwatch Agent Observability",
+    "company": "Amazon",
+    "location": "US, CA, Santa Clara",
+    "url": "https://www.amazon.jobs/en/jobs/10520510/software-development-engineer-cloudwatch-agent-observability",
+    "posted": "August 28, 2026",
+    "date_found": "2026-08-28T20:31:15.143696+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
