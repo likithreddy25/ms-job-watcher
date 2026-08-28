@@ -1,32 +1,5 @@
 [
   {
-    "key": "lever:woven-by-toyota:4afeadd3-5418-41d8-b292-0c65a2ce8191",
-    "title": "Software Engineer, Calibration",
-    "company": "woven-by-toyota",
-    "location": "Ann Arbor, MI",
-    "url": "https://jobs.lever.co/woven-by-toyota/4afeadd3-5418-41d8-b292-0c65a2ce8191",
-    "posted": "2026-07-16 19:22 UTC",
-    "date_found": "2026-07-16T20:31:39.963319+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "computer vision",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++",
-      "embedded"
-    ]
-  },
-  {
     "key": "greenhouse:anthropic:5357739008",
     "title": "Research Scientist, Life Sciences (Computational)",
     "company": "Anthropic",
@@ -43344,6 +43317,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e072e2f7-5cf1-4349-85a6-a6a997f1d696",
+    "title": "Software Development Engineer , Leo Regulus ",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10519888/software-development-engineer-leo-regulus",
+    "posted": "August 28, 2026",
+    "date_found": "2026-08-28T19:21:17.764149+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
