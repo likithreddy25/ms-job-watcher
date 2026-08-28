@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:resmed:ResMed_External_Careers:req:052274",
-    "title": "Software Engineer",
-    "company": "ResMed Inc",
-    "location": "San Diego, CA, United States",
-    "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Software-Engineer_JR_052274-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T19:33:31.488316+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:memx:5361738008",
     "title": "Software Engineer, Regulatory Products",
     "company": "memx",
@@ -43335,6 +43315,28 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:c9c1bec6-51cb-48ac-963a-ddda8bfb4220",
+    "title": "SDE, AWS OpenSearch Service, Opensearch",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10519714/sde-aws-opensearch-service-opensearch",
+    "posted": "August 28, 2026",
+    "date_found": "2026-08-28T18:01:22.955870+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
