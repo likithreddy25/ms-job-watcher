@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244622",
-    "title": "Biological Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Biological-Intelligence-Analyst_R0244622",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T18:32:33.797514+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:bah:BAH_Jobs:req:R0244620",
-    "title": "Biological Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Biological-Intelligence-Analyst_R0244620",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T18:32:33.797514+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244618",
     "title": "Biomedical Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43310,5 +43270,60 @@
     "bad_tech": [
       "java"
     ]
+  },
+  {
+    "key": "greenhouse:vardaspace:7980397003",
+    "title": "Space Mission Software Engineer",
+    "company": "vardaspace",
+    "location": "El Segundo, California, United States",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7980397003",
+    "posted": "2026-08-28T10:47:42-04:00",
+    "date_found": "2026-08-28T15:02:41.543040+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
+  },
+  {
+    "key": "lever:padsplit:a037c79a-6664-4fbb-842c-800c34cb1b68",
+    "title": "Data Engineer (Fully Remote)",
+    "company": "padsplit",
+    "location": "Atlanta, GA",
+    "url": "https://jobs.lever.co/padsplit/a037c79a-6664-4fbb-842c-800c34cb1b68",
+    "posted": "2026-08-28 13:45 UTC",
+    "date_found": "2026-08-28T15:02:41.543040+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "airflow",
+      "dbt",
+      "aws",
+      "postgres",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": []
   }
 ]
