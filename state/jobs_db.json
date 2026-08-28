@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244650",
-    "title": "Counterproliferation All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Counterproliferation-All-Source-Intelligence-Analyst_R0244650",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:bah:BAH_Jobs:req:R0244698",
-    "title": "Software Developer SME",
-    "company": "Booz Allen Hamilton",
-    "location": "Winchester, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Winchester-VA/Software-Developer-SME_R0244698",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244638",
     "title": "Software Engineer, Mid",
     "company": "Booz Allen Hamilton",
@@ -43337,5 +43297,56 @@
       "rag"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "lever:neighbor:3c27afec-628f-4305-9519-9b525035e3f0",
+    "title": "Mid-Level Software Engineer",
+    "company": "neighbor",
+    "location": "Lehi, UT",
+    "url": "https://jobs.lever.co/neighbor/3c27afec-628f-4305-9519-9b525035e3f0",
+    "posted": "2026-08-28 20:59 UTC",
+    "date_found": "2026-08-28T21:02:34.300694+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "ruby",
+      "rails"
+    ]
+  },
+  {
+    "key": "greenhouse:verse:5409747008",
+    "title": "Senior Business Operations Analyst",
+    "company": "verse",
+    "location": "San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/verse/jobs/5409747008",
+    "posted": "2026-08-28T15:48:40-04:00",
+    "date_found": "2026-08-28T21:02:34.300694+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
