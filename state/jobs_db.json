@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244215",
-    "title": "Scientific Software Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "Bethesda, MD",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Bethesda-MD/Scientific-Software-Engineer_R0244215",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T18:32:33.797514+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244622",
     "title": "Biological Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43302,5 +43282,33 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:godaddy:7836111003",
+    "title": "Software Development Engineer ",
+    "company": "GoDaddy",
+    "location": "United States",
+    "url": "https://careers.godaddy/jobs?gh_jid=7836111003",
+    "posted": "2026-08-28T10:00:08-04:00",
+    "date_found": "2026-08-28T14:03:08.189680+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "aws",
+      "docker"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
