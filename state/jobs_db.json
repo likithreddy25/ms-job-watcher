@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240868",
-    "title": "2027 Associate Software Engineer/Software Engineer",
-    "company": "Northrop Grumman",
-    "location": "United States-Oklahoma-Oklahoma City",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Oklahoma-Oklahoma-City/XMLNAME-2027-Associate-Software-Engineer-Software-Engineer_R10240868",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T19:33:31.488316+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:resmed:ResMed_External_Careers:req:052316",
     "title": "Associate Software Engineer",
     "company": "ResMed Inc",
@@ -43334,6 +43314,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ca8132d3-43e3-425e-b63c-17f3d3593e69",
+    "title": "Software Development Engineer, Region Reliability",
+    "company": "Amazon",
+    "location": "US, CO, Denver",
+    "url": "https://www.amazon.jobs/en/jobs/10519158/software-development-engineer-region-reliability",
+    "posted": "August 28, 2026",
+    "date_found": "2026-08-28T17:01:26.280385+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
