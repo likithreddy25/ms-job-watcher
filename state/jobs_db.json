@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0243489",
-    "title": "Data Management Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Cleveland, OH",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Cleveland-OH/Data-Management-Analyst_R0243489",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:bah:BAH_Jobs:req:R0244642",
-    "title": "All-Source Intelligence Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/All-Source-Intelligence-Analyst--Mid_R0244642",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244650",
     "title": "Counterproliferation All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43334,6 +43294,58 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:8164730",
+    "title": "Software Engineer, CDP - Payment Acceptance ",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/8164730?gh_jid=8164730",
+    "posted": "2026-08-28T15:50:04-04:00",
+    "date_found": "2026-08-28T20:02:02.176172+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "aws",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:esri:5201212007",
+    "title": "Software Engineer II (DevOps & Observability) - Transportation Routing Services ",
+    "company": "esri",
+    "location": "Redlands, CA",
+    "url": "https://www.esri.com/careers/5201212007?gh_jid=5201212007",
+    "posted": "2026-08-28T14:21:05-04:00",
+    "date_found": "2026-08-28T20:02:02.176172+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "duckdb"
+    ],
     "bad_tech": []
   }
 ]
