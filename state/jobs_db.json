@@ -1,72 +1,5 @@
 [
   {
-    "key": "workday:resmed:ResMed_External_Careers:req:052274",
-    "title": "Software Engineer",
-    "company": "ResMed Inc",
-    "location": "San Diego, CA, United States",
-    "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Software-Engineer_JR_052274-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T19:33:31.488316+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:memx:5361738008",
-    "title": "Software Engineer, Regulatory Products",
-    "company": "memx",
-    "location": "United States",
-    "url": "https://job-boards.greenhouse.io/memx/jobs/5361738008",
-    "posted": "2026-07-16T14:31:03-04:00",
-    "date_found": "2026-07-16T19:47:51.189188+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "elt",
-      "sql"
-    ],
-    "bad_tech": [
-      "java"
-    ]
-  },
-  {
-    "key": "amazon:c90b3b6c-9955-4e4f-9452-e5702c4cefd3",
-    "title": "Software Development Engineer, Measurement, Ad Tech, and Data Science (MADS)",
-    "company": "Amazon",
-    "location": "US, CO, Boulder",
-    "url": "https://www.amazon.jobs/en/jobs/10476732/software-development-engineer-measurement-ad-tech-and-data-science-mads",
-    "posted": "July 16, 2026",
-    "date_found": "2026-07-16T19:50:45.951235+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:ServiceNow:744000138179499",
     "title": "Machine Learning Engineering Manager, GAI Search Relevance - Moveworks",
     "company": "ServiceNow",
@@ -43336,5 +43269,83 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:beyondtrust:8161719",
+    "title": "Cloud Engineer",
+    "company": "beyondtrust",
+    "location": "Remote Canada | Remote United States",
+    "url": "https://job-boards.greenhouse.io/beyondtrust/jobs/8161719",
+    "posted": "2026-08-28T12:25:28-04:00",
+    "date_found": "2026-08-28T18:03:13.840945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:imaginepediatrics:4531170005",
+    "title": "Data Scientist",
+    "company": "imaginepediatrics",
+    "location": "Remote, USA",
+    "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4531170005",
+    "posted": "2026-08-28T13:06:12-04:00",
+    "date_found": "2026-08-28T18:03:13.840945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:hereio:8164662",
+    "title": "Junior Operations Analyst - USA",
+    "company": "hereio",
+    "location": "New York City, NY",
+    "url": "https://job-boards.greenhouse.io/hereio/jobs/8164662",
+    "posted": "2026-08-28T13:15:00-04:00",
+    "date_found": "2026-08-28T18:03:13.840945+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
