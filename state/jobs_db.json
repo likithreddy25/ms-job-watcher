@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244622",
-    "title": "Biological Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/Biological-Intelligence-Analyst_R0244622",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T18:32:33.797514+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244620",
     "title": "Biological Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43309,6 +43289,33 @@
     ],
     "bad_tech": [
       "java"
+    ]
+  },
+  {
+    "key": "greenhouse:spacex:8758596002",
+    "title": "Software Engineer, Embedded Software (Starlink)",
+    "company": "SpaceX",
+    "location": "Redmond, WA",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8758596002?gh_jid=8758596002",
+    "posted": "2026-08-28T08:55:42-04:00",
+    "date_found": "2026-08-28T15:02:23.624628+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "elt"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
     ]
   }
 ]
