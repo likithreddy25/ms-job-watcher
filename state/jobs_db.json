@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:disney:disneycareer:req:10154603",
-    "title": "Software Engineer",
-    "company": "Disney",
-    "location": "Orlando, FL, USA",
-    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Orlando-FL-USA/Software-Engineer_10154603",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T19:02:57.565145+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:disney:disneycareer:req:10151429",
     "title": "Viewer Insights Analyst",
     "company": "Disney",
@@ -43327,6 +43307,31 @@
       "rag",
       "postgresql",
       "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:artefact:8760293002",
+    "title": "Junior Data Consultant - New York - VIE",
+    "company": "artefact",
+    "location": "135 W 26th Street, New York, NY 10001",
+    "url": "https://job-boards.greenhouse.io/artefact/jobs/8760293002",
+    "posted": "2026-08-28T11:22:12-04:00",
+    "date_found": "2026-08-28T16:01:50.900307+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
       "sql"
     ],
     "bad_tech": [
