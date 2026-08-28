@@ -1,31 +1,5 @@
 [
   {
-    "key": "greenhouse:anthropic:5357739008",
-    "title": "Research Scientist, Life Sciences (Computational)",
-    "company": "Anthropic",
-    "location": "San Francisco, CA",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357739008",
-    "posted": "2026-07-16T17:26:57-04:00",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "yes",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "machine learning",
-      "aws"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244651",
     "title": "Counterproliferation All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43328,6 +43302,26 @@
     "url": "https://www.amazon.jobs/en/jobs/10519888/software-development-engineer-leo-regulus",
     "posted": "August 28, 2026",
     "date_found": "2026-08-28T19:21:17.764149+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:dbae5711-45e8-438c-9f5a-7c185a6eb4d6",
+    "title": "Software Development Engineer, Creative Asset Library, CreativeX",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10519943/software-development-engineer-creative-asset-library-creativex",
+    "posted": "August 28, 2026",
+    "date_found": "2026-08-28T19:31:24.963801+00:00",
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
