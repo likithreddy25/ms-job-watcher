@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329202",
-    "title": "Platform Engineer",
-    "company": "CACI International",
-    "location": "Hampton, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Hampton-VA-US/Platform-Engineer_329202",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T18:32:33.797514+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:disney:disneycareer:req:10154603",
     "title": "Software Engineer",
     "company": "Disney",
@@ -43325,5 +43305,32 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:logicgate:4727022005",
+    "title": "Test Engineer (SDET)",
+    "company": "Logicgate",
+    "location": "Remote - United States",
+    "url": "https://job-boards.greenhouse.io/logicgate/jobs/4727022005",
+    "posted": "2026-08-28T11:06:33-04:00",
+    "date_found": "2026-08-28T15:31:12.549595+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
