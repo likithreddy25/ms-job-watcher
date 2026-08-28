@@ -1,27 +1,5 @@
 [
   {
-    "key": "smartrecruiters:ServiceNow:744000138179499",
-    "title": "Machine Learning Engineering Manager, GAI Search Relevance - Moveworks",
-    "company": "ServiceNow",
-    "location": "Mountain View, CALIFORNIA, us",
-    "url": "https://jobs.smartrecruiters.com/ServiceNow",
-    "posted": "2026-07-16T18:33:49.642Z",
-    "date_found": "2026-07-16T20:02:27.242389+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 567,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:ServiceNow:744000138178124",
     "title": "Machine Learning Engineer, GAI Search Relevance - Moveworks",
     "company": "ServiceNow",
@@ -43347,5 +43325,30 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:onenergy:4384485009",
+    "title": "AI Engineer",
+    "company": "onenergy",
+    "location": "Houston, Texas, United States",
+    "url": "https://job-boards.greenhouse.io/onenergy/jobs/4384485009",
+    "posted": "2026-08-28T12:48:08-04:00",
+    "date_found": "2026-08-28T18:32:13.137203+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "openai",
+      "aws",
+      "azure"
+    ],
+    "bad_tech": []
   }
 ]
