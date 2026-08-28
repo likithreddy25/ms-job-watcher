@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244642",
-    "title": "All-Source Intelligence Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/All-Source-Intelligence-Analyst--Mid_R0244642",
-    "posted": "Posted Today",
-    "date_found": "2026-07-16T21:32:27.508034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244650",
     "title": "Counterproliferation All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43334,6 +43314,28 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:steerbridge:8b142547-4cac-4829-be39-841919f4c94a",
+    "title": "Mid-Data Scientist",
+    "company": "steerbridge",
+    "location": "Vienna, VA",
+    "url": "https://jobs.lever.co/steerbridge/8b142547-4cac-4829-be39-841919f4c94a",
+    "posted": "2026-08-28 18:27 UTC",
+    "date_found": "2026-08-28T20:32:41.857130+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
