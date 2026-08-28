@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:e2ba3f5a-0fed-44b9-ac2f-8c92fa4ae810",
-    "title": "Software Development Engineer, Amazon Core Shopping, Buy for Me",
-    "company": "Amazon",
-    "location": "US, CA, San Francisco",
-    "url": "https://www.amazon.jobs/en/jobs/10476934/software-development-engineer-amazon-core-shopping-buy-for-me",
-    "posted": "July 16, 2026",
-    "date_found": "2026-07-16T23:40:42.829172+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:amat:External:req:R2624035",
     "title": "AI Engineer - (B5)",
     "company": "Applied Materials",
@@ -43339,6 +43319,31 @@
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:buzzsolutions:5409977008",
+    "title": "Computer Vision & Machine Learning Engineer",
+    "company": "buzzsolutions",
+    "location": "Remote, US",
+    "url": "https://job-boards.greenhouse.io/buzzsolutions/jobs/5409977008",
+    "posted": "2026-08-28T19:24:27-04:00",
+    "date_found": "2026-08-28T23:31:46.421747+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "computer vision",
+      "deep learning",
+      "machine learning"
+    ],
     "bad_tech": []
   }
 ]
