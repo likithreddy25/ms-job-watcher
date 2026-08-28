@@ -1,27 +1,5 @@
 [
   {
-    "key": "smartrecruiters:ServiceNow:744000138179499",
-    "title": "Machine Learning Engineering Manager, GAI Search Relevance - Moveworks",
-    "company": "ServiceNow",
-    "location": "Mountain View, CALIFORNIA, us",
-    "url": "https://jobs.smartrecruiters.com/ServiceNow",
-    "posted": "2026-07-16T18:33:49.642Z",
-    "date_found": "2026-07-16T20:02:27.242389+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 567,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "smartrecruiters:ServiceNow:744000138178124",
     "title": "Machine Learning Engineer, GAI Search Relevance - Moveworks",
     "company": "ServiceNow",
@@ -43346,6 +43324,29 @@
     "good_tech": [],
     "bad_tech": [
       "rust"
+    ]
+  },
+  {
+    "key": "lever:hermeus:4b1f62d7-4a70-4d79-b83d-f8a6cae6ccaa",
+    "title": "Autonomy Software Engineer",
+    "company": "Hermeus",
+    "location": "Los Angeles, CA",
+    "url": "https://jobs.lever.co/hermeus/4b1f62d7-4a70-4d79-b83d-f8a6cae6ccaa",
+    "posted": "2026-08-28 15:55 UTC",
+    "date_found": "2026-08-28T18:31:09.937984+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": [
+      "c++",
+      "embedded"
     ]
   }
 ]
