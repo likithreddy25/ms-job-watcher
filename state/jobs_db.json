@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:f9740766-023b-4258-b8d3-1a1c43672af4",
-    "title": "Software Development Engineer, Security Software Development Operations (SSDO)",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10477126/software-development-engineer-security-software-development-operations-ssdo",
-    "posted": "July 17, 2026",
-    "date_found": "2026-07-17T02:30:42.611843+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "ashby:airwallex:e11848b8-aa7e-435a-8bfb-7223a202868b",
     "title": "Data Engineering Manager ",
     "company": "Airwallex",
@@ -43342,6 +43322,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:gdit:External_Career_Site:req:RQ227131",
+    "title": "Operations Analyst Technician",
+    "company": "General Dynamics Information Technology (GDIT)",
+    "location": "USA GA Fort Moore",
+    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-GA-Fort-Moore/Operations-Analyst-Technician_RQ227131",
+    "posted": "Posted Today",
+    "date_found": "2026-08-29T04:02:50.025788+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
