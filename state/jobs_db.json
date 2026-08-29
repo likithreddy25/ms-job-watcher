@@ -1,35 +1,5 @@
 [
   {
-    "key": "greenhouse:airbnb:8070597",
-    "title": "Software Engineer, Tax Experience, BizTech",
-    "company": "Airbnb",
-    "location": "United States",
-    "url": "https://careers.airbnb.com/positions/8070597?gh_jid=8070597",
-    "posted": "2026-07-17T00:01:49-04:00",
-    "date_found": "2026-07-17T06:02:35.987802+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 789,
-    "good_tech": [
-      "python",
-      "rag"
-    ],
-    "bad_tech": [
-      "java",
-      "c++",
-      "c/c++",
-      "rust",
-      "c#",
-      "kotlin"
-    ]
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ224242",
     "title": "Operations Analyst Technician",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43347,5 +43317,33 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "lever:quantco-:bf78467d-f6d3-4ad5-8e74-2dc59b02f020",
+    "title": "Applied Scientist, AI/ML",
+    "company": "quantco-",
+    "location": "USA",
+    "url": "https://jobs.lever.co/quantco-/bf78467d-f6d3-4ad5-8e74-2dc59b02f020",
+    "posted": "2026-08-29 10:43 UTC",
+    "date_found": "2026-08-29T12:02:04.119803+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "scikit-learn",
+      "xgboost",
+      "lightgbm",
+      "deep learning",
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
