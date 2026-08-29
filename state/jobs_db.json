@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:amat:External:req:R2624035",
-    "title": "AI Engineer - (B5)",
-    "company": "Applied Materials",
-    "location": "Austin,TX",
-    "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/AustinTX/AI-Engineer----B5-_R2624035",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T00:02:24.211374+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:abbott:abbottcareers:req:31156366",
     "title": "Senior Financial Analyst, Vascular Operations",
     "company": "Abbott",
@@ -43345,5 +43325,29 @@
       "machine learning"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:roblox:8060254",
+    "title": "Software Engineer, Economy Platform",
+    "company": "roblox",
+    "location": "San Mateo, CA, United States",
+    "url": "https://careers.roblox.com/jobs/8060254?gh_jid=8060254",
+    "posted": "2026-08-28T18:57:08-04:00",
+    "date_found": "2026-08-29T00:02:28.388610+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
