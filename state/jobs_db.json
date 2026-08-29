@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:wellthy:7807666003",
-    "title": "Financial Analyst",
-    "company": "Wellthy",
-    "location": "US",
-    "url": "https://wellthy.com/careers/post/?gh_jid=7807666003",
-    "posted": "2026-07-16T20:30:16-04:00",
-    "date_found": "2026-07-17T02:01:53.874910+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:f9740766-023b-4258-b8d3-1a1c43672af4",
     "title": "Software Development Engineer, Security Software Development Operations (SSDO)",
     "company": "Amazon",
@@ -43342,6 +43320,28 @@
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e7546266-a334-46d3-a2be-34fafeed568f",
+    "title": "Senior Software Development Engineer, AWS SecDevOps",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10521208/senior-software-development-engineer-aws-secdevops",
+    "posted": "August 29, 2026",
+    "date_found": "2026-08-29T03:21:14.093119+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
