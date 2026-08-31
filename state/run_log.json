@@ -1,61 +1,5 @@
 [
   {
-    "ts": "2026-08-24T22:41Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 222,
-        "title_ok": 12,
-        "loc_ok": 12,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 64
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 146,
-        "loc_ok": 146,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 66
-      },
-      "nvidia": {
-        "fetched": 210,
-        "title_ok": 20,
-        "loc_ok": 20,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 170
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 36,
-        "title_ok": 27,
-        "loc_ok": 13,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      }
-    },
-    "duration_s": 20.1,
-    "cursor": null
-  },
-  {
     "ts": "2026-08-24T22:51Z",
     "mode": "main",
     "per_source": {
@@ -49222,5 +49166,38 @@
     },
     "duration_s": 92.9,
     "cursor": 6000
+  },
+  {
+    "ts": "2026-08-31T13:37Z",
+    "mode": "boards",
+    "per_source": {
+      "ashby": {
+        "fetched": 1975,
+        "title_ok": 110,
+        "loc_ok": 26,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 212
+      },
+      "greenhouse": {
+        "fetched": 4332,
+        "title_ok": 263,
+        "loc_ok": 145,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 237,
+        "clearance_excluded": 1
+      },
+      "lever": {
+        "fetched": 1407,
+        "title_ok": 109,
+        "loc_ok": 38,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 144
+      }
+    },
+    "duration_s": 15.2,
+    "cursor": 0
   }
 ]
