@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187548",
-    "title": "Software Developer",
-    "company": "Leidos",
-    "location": "Colorado Springs, CO",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-CO/Software-Developer_R-00187548",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T14:32:53.900539+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:add66391-e238-4061-82b0-510c62ef8b7f",
     "title": "Software Development Engineer, Creator Marketplace",
     "company": "Amazon",
@@ -43352,5 +43332,36 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:capco:8164958",
+    "title": "Junior AI / Data Engineering Analyst",
+    "company": "capco",
+    "location": "US - Orlando",
+    "url": "https://job-boards.greenhouse.io/capco/jobs/8164958",
+    "posted": "2026-08-31T10:58:42-04:00",
+    "date_found": "2026-08-31T16:02:41.708708+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "machine learning",
+      "databricks",
+      "etl",
+      "aws",
+      "azure",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
