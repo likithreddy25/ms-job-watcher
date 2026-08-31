@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:citi:2:req:26976664",
-    "title": "Quantitative Engineer \u2013 Exotic Equity Derivatives",
-    "company": "Citigroup",
-    "location": "New York New York United States",
-    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Quantitative-Engineer---Exotic-Equity-Derivatives_26976664",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T22:02:40.039181+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:citi:2:req:26972572",
     "title": "Quantitative Analyst - C13 - NEW YORK",
     "company": "Citigroup",
@@ -43403,6 +43383,33 @@
     "good_tech": [],
     "bad_tech": [
       "embedded"
+    ]
+  },
+  {
+    "key": "lever:zoox:ea3fbfaf-588b-434a-9a5a-c61edc731a40",
+    "title": "Embedded Software Engineer - Drive Systems",
+    "company": "zoox",
+    "location": "Foster City, CA",
+    "url": "https://jobs.lever.co/zoox/ea3fbfaf-588b-434a-9a5a-c61edc731a40",
+    "posted": "2026-08-31 20:41 UTC",
+    "date_found": "2026-08-31T21:32:13.805545+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded",
+      "firmware"
     ]
   }
 ]
