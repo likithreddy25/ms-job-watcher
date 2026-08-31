@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:jll:jllcareers:req:REQ520945",
-    "title": "PDS Operations Analyst (Construction)",
-    "company": "JLL",
-    "location": "Chicago, IL",
-    "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Chicago-IL/PDS-Operations-Analyst--Construction-_REQ520945",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T06:32:38.000154+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:89e6d245-e878-4ad4-a187-850dc1fb1f9d",
     "title": "Applied Scientist, Sponsored Products Off-Search Auction",
     "company": "Amazon",
@@ -43349,5 +43329,25 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000146426043",
+    "title": "Research Engineer/Scientist",
+    "company": "ServiceNow",
+    "location": "Hyderabad, in",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-08-31T09:08:04.205Z",
+    "date_found": "2026-08-31T10:02:29.342165+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
