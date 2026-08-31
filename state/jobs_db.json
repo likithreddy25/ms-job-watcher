@@ -1,27 +1,5 @@
 [
   {
-    "key": "amazon:46169f8c-0e2c-43b9-8a0b-f3c31ed94506",
-    "title": " Software Development Engineer, AWS OpenSearch",
-    "company": "Amazon",
-    "location": "US, TX, Austin",
-    "url": "https://www.amazon.jobs/en/jobs/10477702/software-development-engineer-aws-opensearch",
-    "posted": "July 17, 2026",
-    "date_found": "2026-07-17T17:40:42.274465+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "microsoft:1970393556928325",
     "title": "Software Engineer",
     "company": "Microsoft",
@@ -43345,6 +43323,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:49e2921f-e6d1-49fe-9c01-04b43d836391",
+    "title": "Software Development Engineer, Transit Gateway",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10522166/software-development-engineer-transit-gateway",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T17:21:20.900284+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
