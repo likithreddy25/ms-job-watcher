@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244659",
-    "title": "All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/All-Source-Intelligence-Analyst_R0244659",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T14:03:59.976874+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187549",
     "title": "Software Engineer",
     "company": "Leidos",
@@ -43347,6 +43327,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:93a5428a-36ca-4e26-99b9-985c44e1dfa5",
+    "title": "SDEII - Threat Intel Systems, ACTI Engineering",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10521868/sdeii-threat-intel-systems-acti-engineering",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T14:11:22.057243+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
