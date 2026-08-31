@@ -1,27 +1,5 @@
 [
   {
-    "key": "lever:thinkahead:b044c4f0-4509-425f-8581-58070ded2379",
-    "title": "Software Engineer",
-    "company": "thinkahead",
-    "location": "United States",
-    "url": "https://jobs.lever.co/thinkahead/b044c4f0-4509-425f-8581-58070ded2379",
-    "posted": "2026-07-17 18:55 UTC",
-    "date_found": "2026-07-17T20:31:54.227661+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "amazon:13177676-bc8b-4ebd-be9e-69d02053d23b",
     "title": "Software Development Engineer, Creator Marketplace",
     "company": "Amazon",
@@ -43365,5 +43343,35 @@
     "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:logicgate:4727050005",
+    "title": "Software Engineer (Back-End)",
+    "company": "Logicgate",
+    "location": "Remote USA | Chicago Preferred",
+    "url": "https://job-boards.greenhouse.io/logicgate/jobs/4727050005",
+    "posted": "2026-08-31T13:06:52-04:00",
+    "date_found": "2026-08-31T19:31:20.982910+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "postgresql",
+      "postgres",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot",
+      "rust",
+      "kotlin"
+    ]
   }
 ]
