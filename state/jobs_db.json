@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187549",
-    "title": "Software Engineer",
-    "company": "Leidos",
-    "location": "Huntsville, AL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Software-Engineer_R-00187549",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T14:32:53.900539+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187523",
     "title": "Software Engineer",
     "company": "Leidos",
@@ -43349,5 +43329,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:preciselyusjobs:4722721005",
+    "title": "Associate software Engineer (Python AI)",
+    "company": "preciselyusjobs",
+    "location": "United States",
+    "url": "https://www.precisely.com/careers-and-culture/us-jobs/job/4722721005?gh_jid=4722721005",
+    "posted": "2026-08-31T09:10:16-04:00",
+    "date_found": "2026-08-31T14:32:19.776366+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": [
+      "java",
+      "rust"
+    ]
   }
 ]
