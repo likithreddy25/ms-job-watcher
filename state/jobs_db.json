@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026519286",
-    "title": "Entry - Level Software Engineer",
-    "company": "Boeing",
-    "location": "USA - Berkeley, MO",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Entry---Level-Software-Engineer_JR2026519286-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-20T15:32:54.105034+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:fmr:FidelityCareers:req:2132796",
-    "title": "Fixed Income Research Analyst, Structured Products",
-    "company": "Fidelity Investments",
-    "location": "Merrimack, NH",
-    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Merrimack-NH/Fixed-Income-Research-Analyst--Structured-Products_2132796-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-20T16:02:39.380720+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "microsoft:1970393556939007",
     "title": "Software Engineer- Manufacturing & Sourcing",
     "company": "Microsoft",
@@ -43425,5 +43385,47 @@
       "c/c++",
       "rust"
     ]
+  },
+  {
+    "key": "amazon:d8002bd2-34f4-4d0b-8f5f-ac2529079311",
+    "title": " Human-Robot Interaction Applied Scientist , Fauna",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10523014/human-robot-interaction-applied-scientist-fauna",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T23:41:12.378700+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:5e42d0a2-9994-4f28-9b66-a2d5b825cd1b",
+    "title": "Software Development Engineer, AWS Payments & Fraud Prevention",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10523012/software-development-engineer-aws-payments-fraud-prevention",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T23:41:12.378700+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
