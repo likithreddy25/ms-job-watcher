@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:add66391-e238-4061-82b0-510c62ef8b7f",
-    "title": "Software Development Engineer, Creator Marketplace",
-    "company": "Amazon",
-    "location": "US, CA, Culver City",
-    "url": "https://www.amazon.jobs/en/jobs/10477426/software-development-engineer-creator-marketplace",
-    "posted": "July 17, 2026",
-    "date_found": "2026-07-17T14:40:44.334886+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:motorolasolutions:Careers:req:R66217",
     "title": "Software Engineering",
     "company": "Motorola",
@@ -43362,6 +43342,39 @@
     ],
     "bad_tech": [
       "java"
+    ]
+  },
+  {
+    "key": "greenhouse:cartesiansystems:4388471009",
+    "title": "Software Engineer",
+    "company": "Cartesiansystems",
+    "location": "Cambridge, MA",
+    "url": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4388471009",
+    "posted": "2026-08-31T10:27:10-04:00",
+    "date_found": "2026-08-31T16:31:08.998370+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "rag",
+      "computer vision",
+      "machine learning",
+      "azure",
+      "kubernetes",
+      "postgres",
+      "fastapi"
+    ],
+    "bad_tech": [
+      "kotlin",
+      "android"
     ]
   }
 ]
