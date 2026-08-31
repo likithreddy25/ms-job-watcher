@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:clinchoice:4932506101",
-    "title": "Health Authority Reporting Analyst ",
-    "company": "clinchoice",
-    "location": "United States",
-    "url": "https://job-boards.eu.greenhouse.io/clinchoice/jobs/4932506101",
-    "posted": "2026-07-20T10:27:28-04:00",
-    "date_found": "2026-07-20T14:58:27.848722+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:rockstargames:7800927003",
     "title": "Cloud Platform Engineer",
     "company": "rockstargames",
@@ -43418,6 +43396,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e85ff580-2339-4b8f-82ec-d123d63fc93f",
+    "title": "Software Development Engineer - Amazon OpenSearch, VectorSearch, OpenSearch",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10523004/software-development-engineer-amazon-opensearch-vectorsearch-opensearch",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T23:21:15.304038+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
