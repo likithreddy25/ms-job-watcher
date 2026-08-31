@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187523",
-    "title": "Software Engineer",
-    "company": "Leidos",
-    "location": "Huntsville, AL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Software-Engineer_R-00187523-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T14:32:53.900539+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187548",
     "title": "Software Developer",
     "company": "Leidos",
@@ -43351,6 +43331,26 @@
       "rag",
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:bd2a4190-50e6-4288-a884-55746a2b9937",
+    "title": "AI/ML Engineer, Hiring Intelligence, Science & Experimentation (HIRISE)",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10521977/ai-ml-engineer-hiring-intelligence-science-experimentation-hirise",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T15:21:14.549926+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
