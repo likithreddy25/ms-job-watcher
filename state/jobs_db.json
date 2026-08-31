@@ -1,27 +1,5 @@
 [
   {
-    "key": "ashby:snowflake:282bfe6e-14aa-4992-a5e4-dff12a2e2f47",
-    "title": "Finance Rotation Program (Financial Analyst) ",
-    "company": "Snowflake",
-    "location": "US-CA-Dublin",
-    "url": "https://jobs.ashbyhq.com/snowflake/282bfe6e-14aa-4992-a5e4-dff12a2e2f47",
-    "posted": "",
-    "date_found": "2026-07-17T16:01:44.215686+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 421,
-    "good_tech": [
-      "snowflake"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244671",
     "title": "Data Engineer",
     "company": "Booz Allen Hamilton",
@@ -43362,6 +43340,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:dadavidson:5453a4ed-46de-4f02-a4ef-d09029fa352f",
+    "title": "HR Systems & Operations Analyst",
+    "company": "dadavidson",
+    "location": "Great Falls, MT",
+    "url": "https://jobs.lever.co/dadavidson/5453a4ed-46de-4f02-a4ef-d09029fa352f",
+    "posted": "2026-08-31 16:33 UTC",
+    "date_found": "2026-08-31T17:02:37.198510+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
