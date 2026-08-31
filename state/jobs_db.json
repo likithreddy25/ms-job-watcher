@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244749",
-    "title": "AI/ML Engineer and Data Scientist",
-    "company": "Booz Allen Hamilton",
-    "location": "Fort Belvoir, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Belvoir-VA/AI-ML-Engineer-and-Data-Scientist_R0244749",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T22:02:40.039181+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:bah:BAH_Jobs:req:R0244758",
-    "title": "All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Reston, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Reston-VA/All-Source-Intelligence-Analyst_R0244758",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T22:02:40.039181+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026519150",
     "title": "Business Intelligence Analyst",
     "company": "Boeing",
@@ -43389,5 +43349,58 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "lever:avalerehealth:690e65f2-2081-42d2-9bae-f246572ab331",
+    "title": "Research Scientist I",
+    "company": "avalerehealth",
+    "location": "Remote (US)",
+    "url": "https://jobs.lever.co/avalerehealth/690e65f2-2081-42d2-9bae-f246572ab331",
+    "posted": "2026-08-31 19:54 UTC",
+    "date_found": "2026-08-31T21:02:32.848846+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:thinkahead:a9d8745f-8ba6-4a98-9d90-b7ed3466e032",
+    "title": "Data Engineer",
+    "company": "thinkahead",
+    "location": "United States",
+    "url": "https://jobs.lever.co/thinkahead/a9d8745f-8ba6-4a98-9d90-b7ed3466e032",
+    "posted": "2026-08-31 16:34 UTC",
+    "date_found": "2026-08-31T21:02:32.848846+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "dbt",
+      "etl",
+      "elt",
+      "azure",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
