@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:dxctechnology:DXCJobs:req:51585341",
-    "title": "Technical Spend Optimizer / Manager, Software Engineering",
-    "company": "DXC Technology",
-    "location": "USA - SC - CHARLESTON",
-    "url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/USA---SC---CHARLESTON/Technical-Spend-Optimizer---Manager--Software-Engineering_51585341",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T22:05:47.730243+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:concentric:4697780006",
     "title": "Intelligence Analyst (Temporary)",
     "company": "concentric",
@@ -43417,5 +43397,25 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:a3a72d50-9f15-4aaf-91d2-5ef4bbae3a00",
+    "title": "Software Development Engineer, Leo Manufacturing Software Systems",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10522974/software-development-engineer-leo-manufacturing-software-systems",
+    "posted": "August 31, 2026",
+    "date_found": "2026-08-31T22:31:19.373613+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
