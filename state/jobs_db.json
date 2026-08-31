@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:citi:2:req:26972572",
-    "title": "Quantitative Analyst - C13 - NEW YORK",
-    "company": "Citigroup",
-    "location": "New York New York United States",
-    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Quantitative-Analyst---C13---NEW-YORK_26972572",
-    "posted": "Posted Today",
-    "date_found": "2026-07-17T22:02:40.039181+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:dxctechnology:DXCJobs:req:51585341",
     "title": "Technical Spend Optimizer / Manager, Software Engineering",
     "company": "DXC Technology",
@@ -43410,6 +43390,32 @@
       "c/c++",
       "embedded",
       "firmware"
+    ]
+  },
+  {
+    "key": "lever:octoenergy:f207380d-de17-4a2e-b618-1c8c27b69018",
+    "title": "Senior Commercial Operations Analyst",
+    "company": "Octoenergy",
+    "location": "Houston (US)",
+    "url": "https://jobs.lever.co/octoenergy/f207380d-de17-4a2e-b618-1c8c27b69018",
+    "posted": "2026-08-31 19:37 UTC",
+    "date_found": "2026-08-31T22:01:16.276249+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
     ]
   }
 ]
