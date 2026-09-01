@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-01T00:02:03.706305+00:00",
+  "updated_utc": "2026-09-01T00:32:19.286128+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1876,6 +1876,15 @@
     "greenhouse:porschewalnutcreek": {
       "first_seen_utc": "2026-09-01T00:01:26.573540+00:00",
       "last_seen_utc": "2026-09-01T00:01:26.573540+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:up": {
+      "first_seen_utc": "2026-09-01T00:31:02.686262+00:00",
+      "last_seen_utc": "2026-09-01T00:31:02.686262+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
