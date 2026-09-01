@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:aloyoga:6098225004",
-    "title": "Associate Product Developer, Accessories",
-    "company": "aloyoga",
-    "location": "Commerce, California, United States",
-    "url": "https://boards.greenhouse.io/aloyoga/jobs/6098225004?gh_jid=6098225004",
-    "posted": "2026-07-20T13:50:07-04:00",
-    "date_found": "2026-07-20T18:02:37.522428+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244790",
     "title": "Data Governance Specialist",
     "company": "Booz Allen Hamilton",
@@ -43421,6 +43399,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0248568",
+    "title": "Python Developer",
+    "company": "Booz Allen Hamilton",
+    "location": "Winchester, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Winchester-VA/Python-Developer_R0248568",
+    "posted": "Posted Today",
+    "date_found": "2026-09-01T04:02:52.359394+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
     "bad_tech": []
   }
 ]
