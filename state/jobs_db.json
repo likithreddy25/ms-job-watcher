@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329329",
-    "title": "AI/ML & Networking Research Engineer",
-    "company": "CACI International",
-    "location": "Florham Park, NJ, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Florham-Park-NJ-US/AI-ML---Networking-Research-Engineer_329329",
-    "posted": "Posted Today",
-    "date_found": "2026-07-20T18:02:37.522428+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187688",
     "title": "Data Scientist",
     "company": "Leidos",
@@ -43427,6 +43407,30 @@
       "gcp",
       "azure",
       "sql"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:etelligentgroup:6175412004",
+    "title": "IAM Automation & Security Platform Engineer",
+    "company": "etelligentgroup",
+    "location": "Herndon, Virginia, United States",
+    "url": "https://job-boards.greenhouse.io/etelligentgroup/jobs/6175412004",
+    "posted": "2026-09-01T07:26:18-04:00",
+    "date_found": "2026-09-01T13:04:02.482018+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "azure"
     ],
     "bad_tech": []
   }
