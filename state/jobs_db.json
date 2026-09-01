@@ -1,25 +1,5 @@
 [
   {
-    "key": "microsoft:1970393556939007",
-    "title": "Software Engineer- Manufacturing & Sourcing",
-    "company": "Microsoft",
-    "location": "Redmond, WA, US",
-    "url": "https://apply.careers.microsoft.com/careers/job/1970393556939007",
-    "posted": "2026-07-17 17:56 UTC",
-    "date_found": "2026-07-20T16:20:37.607052+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5189,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10240792",
     "title": "Software Engineer - Level 2 or 3",
     "company": "Northrop Grumman",
@@ -43427,5 +43407,32 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:katalyst:6176710004",
+    "title": "Recent Graduate - Software Engineer I",
+    "company": "katalyst",
+    "location": "Broomfield, Colorado, United States",
+    "url": "https://job-boards.greenhouse.io/katalyst/jobs/6176710004",
+    "posted": "2026-08-31T19:11:46-04:00",
+    "date_found": "2026-09-01T00:02:03.662238+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "elt"
+    ],
+    "bad_tech": [
+      "c++",
+      "c/c++",
+      "embedded"
+    ]
   }
 ]
