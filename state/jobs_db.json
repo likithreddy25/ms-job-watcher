@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:benchling:5f98903f-739c-44d4-8ce9-80767baf569b",
-    "title": "Software Engineer, Applications (Scientific Development Solutions) (High Seniority)",
-    "company": "Benchling",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/benchling/5f98903f-739c-44d4-8ce9-80767baf569b",
-    "posted": "",
-    "date_found": "2026-07-20T22:11:44.202358+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:zoox:5e03b357-0cc1-4194-9488-14f85044f4f9",
     "title": "Part-Time Student Worker - Data Analyst",
     "company": "zoox",
@@ -43414,6 +43394,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e577e4ac-f645-4058-bb38-da69fe569973",
+    "title": "Software Development Engineer, Amazon Route 53, Route 53 DNS Firewall & Profiles",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10524021/software-development-engineer-amazon-route-53-route-53-dns-firewall-profiles",
+    "posted": "September  1, 2026",
+    "date_found": "2026-09-01T16:41:20.335624+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
