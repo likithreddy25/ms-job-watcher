@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187688",
-    "title": "Data Scientist",
-    "company": "Leidos",
-    "location": "Valparaiso, FL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Valparaiso-FL/Data-Scientist_R-00187688",
-    "posted": "Posted Today",
-    "date_found": "2026-07-20T18:32:33.030413+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:396ae614-3315-4d27-b087-fa57a1d1a45f",
     "title": "Software Dev Engineer (SDE II), EC2 Core / Outposts Console, AWS CX ",
     "company": "Amazon",
@@ -43432,6 +43412,26 @@
       "aws",
       "azure"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:699fc3ec-59f0-4b16-8c48-b7675c2c6c03",
+    "title": "Software Development Engineer, 3P Measurement Tech ",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10523697/software-development-engineer-3p-measurement-tech",
+    "posted": "September  1, 2026",
+    "date_found": "2026-09-01T13:31:25.986226+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
