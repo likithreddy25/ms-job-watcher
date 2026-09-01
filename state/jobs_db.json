@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187688",
-    "title": "Data Scientist",
-    "company": "Leidos",
-    "location": "Valparaiso, FL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Valparaiso-FL/Data-Scientist_R-00187688",
-    "posted": "Posted Today",
-    "date_found": "2026-07-20T18:32:33.030413+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:396ae614-3315-4d27-b087-fa57a1d1a45f",
     "title": "Software Dev Engineer (SDE II), EC2 Core / Outposts Console, AWS CX ",
     "company": "Amazon",
@@ -43432,6 +43412,26 @@
       "aws",
       "azure"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:leidos:External:req:R-00190997",
+    "title": "Algorithm Software Engineer",
+    "company": "Leidos",
+    "location": "San Diego, CA",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/San-Diego-CA/Algorithm-Software-Engineer_R-00190997",
+    "posted": "Posted Today",
+    "date_found": "2026-09-01T13:33:11.661721+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
