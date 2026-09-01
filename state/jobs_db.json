@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:e3485ce2-bb0a-485a-ba75-e4a4f3d497ca",
-    "title": "Software Development Engineer, Amazon Music",
-    "company": "Amazon",
-    "location": "US, CA, San Francisco",
-    "url": "https://www.amazon.jobs/en/jobs/10479793/software-development-engineer-amazon-music",
-    "posted": "July 21, 2026",
-    "date_found": "2026-07-21T18:00:47.246047+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244683",
     "title": "Machine Learning Engineer",
     "company": "Booz Allen Hamilton",
@@ -43392,6 +43372,26 @@
     "good_tech": [
       "rag"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:bah:BAH_Jobs:req:R0248463",
+    "title": "Software Developer",
+    "company": "Booz Allen Hamilton",
+    "location": "Suffolk, VA",
+    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Suffolk-VA/Software-Developer_R0248463",
+    "posted": "Posted Today",
+    "date_found": "2026-09-01T23:32:37.159467+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
