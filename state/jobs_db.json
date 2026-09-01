@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244861",
-    "title": "All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Washington, DC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/All-Source-Intelligence-Analyst_R0244861",
-    "posted": "Posted Today",
-    "date_found": "2026-07-21T02:02:31.212134+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:disney:disneycareer:req:10155719",
     "title": "Health Data Analyst (Project Hire/Internal Assignment)",
     "company": "Disney",
@@ -43403,6 +43383,32 @@
     ],
     "bad_tech": [
       "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:rebuildmanufacturing:4719210005",
+    "title": "Software Engineer",
+    "company": "rebuildmanufacturing",
+    "location": "Framingham, MA",
+    "url": "https://job-boards.greenhouse.io/rebuildmanufacturing/jobs/4719210005",
+    "posted": "2026-09-01T14:22:46-04:00",
+    "date_found": "2026-09-01T18:51:10.807352+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "aws",
+      "fastapi"
+    ],
+    "bad_tech": [
+      "embedded"
     ]
   }
 ]
