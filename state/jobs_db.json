@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2021605",
-    "title": "System Software Engineer - GeForce NOW Low Latency Streaming",
-    "company": "NVIDIA",
-    "location": "US, CA, Santa Clara",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---GeForce-NOW-Low-Latency-Streaming_JR2021605",
-    "posted": "Posted Today",
-    "date_found": "2026-07-21T03:01:56.413758+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2341,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:grailbio:475f2338-6a6a-450b-a851-f47c93a33e69",
     "title": "Data Analytics Engineer 1 # 4878",
     "company": "grailbio",
@@ -43404,5 +43384,29 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:pinterest:8096738",
+    "title": "Sr. Security Software Engineer, Security Operations   ",
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8096738",
+    "posted": "2026-09-01T13:14:16-04:00",
+    "date_found": "2026-09-01T19:02:39.840935+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": [
+      "rails"
+    ]
   }
 ]
