@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-01T05:04:09.388176+00:00",
+  "updated_utc": "2026-09-01T06:01:53.321293+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1885,6 +1885,42 @@
     "greenhouse:up": {
       "first_seen_utc": "2026-09-01T00:31:02.686262+00:00",
       "last_seen_utc": "2026-09-01T00:31:02.686262+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:mammothgrowth": {
+      "first_seen_utc": "2026-09-01T06:01:14.434143+00:00",
+      "last_seen_utc": "2026-09-01T06:01:14.434143+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:mqreferrals": {
+      "first_seen_utc": "2026-09-01T06:01:18.963166+00:00",
+      "last_seen_utc": "2026-09-01T06:01:18.963166+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:sisense": {
+      "first_seen_utc": "2026-09-01T06:01:35.545358+00:00",
+      "last_seen_utc": "2026-09-01T06:01:35.545358+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:sixthstreet": {
+      "first_seen_utc": "2026-09-01T06:01:35.596920+00:00",
+      "last_seen_utc": "2026-09-01T06:01:35.596920+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
