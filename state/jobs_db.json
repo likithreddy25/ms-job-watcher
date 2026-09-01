@@ -1,27 +1,5 @@
 [
   {
-    "key": "amazon:396ae614-3315-4d27-b087-fa57a1d1a45f",
-    "title": "Software Dev Engineer (SDE II), EC2 Core / Outposts Console, AWS CX ",
-    "company": "Amazon",
-    "location": "US, VA, Arlington",
-    "url": "https://www.amazon.jobs/en/jobs/10479160/software-dev-engineer-sde-ii-ec2-core-outposts-console-aws-cx",
-    "posted": "July 20, 2026",
-    "date_found": "2026-07-20T18:40:41.072081+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:sqaservices:9d1fcea1-a664-4d50-9ebf-f18423b24d6d",
     "title": "Data Analyst \u2014 Reporting & Dashboards",
     "company": "sqaservices",
@@ -43431,6 +43409,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ffb644a3-4bcb-4d19-8d29-8ee12f34b9d2",
+    "title": "Software Development Engineer, CIA Orchestration Team",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10523735/software-development-engineer-cia-orchestration-team",
+    "posted": "September  1, 2026",
+    "date_found": "2026-09-01T14:11:25.181110+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
