@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:86e9ae14-4fd3-4e21-9145-2fc2c373bcb7",
-    "title": "Software Development Engineer, Amazon Devices Experience Technology (DeXT)",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10479076/software-development-engineer-amazon-devices-experience-technology-dext",
-    "posted": "July 20, 2026",
-    "date_found": "2026-07-20T17:40:46.109070+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:aloyoga:6098225004",
     "title": "Associate Product Developer, Accessories",
     "company": "aloyoga",
@@ -43420,6 +43400,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8714bd14-6497-4f55-8f6e-54dab95517cf",
+    "title": "Quantum Research Engineer, Quantum Computing",
+    "company": "Amazon",
+    "location": "US, CA, Pasadena",
+    "url": "https://www.amazon.jobs/en/jobs/10523242/quantum-research-engineer-quantum-computing",
+    "posted": "September  1, 2026",
+    "date_found": "2026-09-01T03:31:11.789946+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
