@@ -1,31 +1,5 @@
 [
   {
-    "key": "greenhouse:lyft:8639200002",
-    "title": "ML Software Engineer, ETA",
-    "company": "Lyft",
-    "location": "San Francisco, CA",
-    "url": "https://app.careerpuck.com/job-board/lyft/job/8639200002?gh_jid=8639200002",
-    "posted": "2026-07-20T16:55:30-04:00",
-    "date_found": "2026-07-20T21:31:57.744915+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 1123,
-    "good_tech": [
-      "python",
-      "machine learning",
-      "airflow",
-      "aws",
-      "kubernetes"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10241192",
     "title": "Associate Cloud Engineer/ Cloud Engineer",
     "company": "Northrop Grumman",
@@ -43424,5 +43398,27 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:cc2819dc-e794-4f6f-80da-f450a2cd19da",
+    "title": "Software Development Engineer, AWS Directory Service",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10523955/software-development-engineer-aws-directory-service",
+    "posted": "September  1, 2026",
+    "date_found": "2026-09-01T16:21:13.670555+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
