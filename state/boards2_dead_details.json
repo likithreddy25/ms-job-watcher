@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-01T14:18:36.981932+00:00",
+  "updated_utc": "2026-09-01T14:32:50.690661+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -1939,6 +1939,33 @@
     "greenhouse:letsgetchecked": {
       "first_seen_utc": "2026-09-01T13:31:20.559870+00:00",
       "last_seen_utc": "2026-09-01T13:31:20.559870+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:clickhouse": {
+      "first_seen_utc": "2026-09-01T14:31:34.359771+00:00",
+      "last_seen_utc": "2026-09-01T14:31:34.359771+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:fuzehealth": {
+      "first_seen_utc": "2026-09-01T14:32:16.159189+00:00",
+      "last_seen_utc": "2026-09-01T14:32:16.159189+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:govtechbarbados": {
+      "first_seen_utc": "2026-09-01T14:32:18.792237+00:00",
+      "last_seen_utc": "2026-09-01T14:32:18.792237+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
