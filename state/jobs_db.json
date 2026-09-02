@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:citi:2:req:26936251",
-    "title": "Securities Operations Analyst",
-    "company": "Citigroup",
-    "location": "Tampa Florida United States",
-    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Tampa-Florida-United-States/Securities-Operations-Analyst_26936251",
-    "posted": "Posted Today",
-    "date_found": "2026-07-22T15:32:34.698010+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:hp:ExternalCareerSite:req:3165759",
     "title": "Print Supplies Big Data Analyst",
     "company": "HP Inc",
@@ -43345,6 +43325,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:4006dbc4-1803-4189-89d1-04a1053c7fc0",
+    "title": "Applied Scientist, Customer360",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10526700/applied-scientist-customer360",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T20:21:21.377334+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
