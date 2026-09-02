@@ -1,34 +1,5 @@
 [
   {
-    "key": "greenhouse:xai:5193037007",
-    "title": "ML Infrastructure Engineer",
-    "company": "xai",
-    "location": "Palo Alto, California, United States",
-    "url": "https://job-boards.greenhouse.io/xai/jobs/5193037007",
-    "posted": "2026-07-22T00:04:23-04:00",
-    "date_found": "2026-07-22T04:31:32.550228+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "rag",
-      "deep learning",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "c++",
-      "rust"
-    ]
-  },
-  {
     "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026517915",
     "title": "Experienced or Senior Manufacturing Operations Analyst",
     "company": "Boeing",
@@ -43371,5 +43342,27 @@
       "java",
       "ruby"
     ]
+  },
+  {
+    "key": "amazon:68558eb5-5662-43de-a845-b8f8db54dd27",
+    "title": "Software Development Engineer, AWS Elemental MediaTailor",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10526542/software-development-engineer-aws-elemental-mediatailor",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T18:11:17.128087+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
