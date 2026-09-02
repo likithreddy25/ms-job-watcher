@@ -1,121 +1,5 @@
 [
   {
-    "key": "greenhouse:flyzipline:7812245003",
-    "title": "Business Data Analyst",
-    "company": "flyzipline",
-    "location": "South San Francisco, California, USA",
-    "url": "https://www.zipline.com/open-roles?gh_jid=7812245003",
-    "posted": "2026-07-22T11:42:46-04:00",
-    "date_found": "2026-07-22T16:32:05.889547+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "aws",
-      "snowflake",
-      "redshift",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust",
-      "embedded"
-    ]
-  },
-  {
-    "key": "lever:spotify:a8d3838e-01d8-457e-b21c-a5468c10a116",
-    "title": "Research Scientist - Personalization",
-    "company": "spotify",
-    "location": "New York, NY",
-    "url": "https://jobs.lever.co/spotify/a8d3838e-01d8-457e-b21c-a5468c10a116",
-    "posted": "2026-04-17 16:27 UTC",
-    "date_found": "2026-07-22T16:42:30.586773+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:auw:43b6fed6-33a6-4d40-8382-5baf87060347",
-    "title": "Power Business Intelligence Developer",
-    "company": "auw",
-    "location": "Foster City, CA",
-    "url": "https://jobs.lever.co/auw/43b6fed6-33a6-4d40-8382-5baf87060347",
-    "posted": "2026-07-21 16:12 UTC",
-    "date_found": "2026-07-22T17:31:45.285004+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:pmaconsultants:6ba48761-3979-43f8-abd3-834b244da6e3",
-    "title": "Software Engineer",
-    "company": "pmaconsultants",
-    "location": "Chicago, IL",
-    "url": "https://jobs.lever.co/pmaconsultants/6ba48761-3979-43f8-abd3-834b244da6e3",
-    "posted": "2026-07-22 17:24 UTC",
-    "date_found": "2026-07-22T17:31:45.285004+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "c++",
-      "c#"
-    ]
-  },
-  {
-    "key": "amazon:d11ccce7-9d6f-4c47-907c-d15d75d399bf",
-    "title": "Software Development Engineer, CloudFront",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10481664/software-development-engineer-cloudfront",
-    "posted": "July 22, 2026",
-    "date_found": "2026-07-22T17:40:36.430686+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245099",
     "title": "Data Scientist, Mid",
     "company": "Booz Allen Hamilton",
@@ -43364,5 +43248,133 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "greenhouse:chicagotrading:4730408005",
+    "title": "AI Engineer",
+    "company": "chicagotrading",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/chicagotrading/jobs/4730408005",
+    "posted": "2026-09-02T16:07:53-04:00",
+    "date_found": "2026-09-02T21:32:52.513431+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag"
+    ],
+    "bad_tech": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "key": "greenhouse:fender:8175070",
+    "title": "Financial Analyst",
+    "company": "fender",
+    "location": "Corona, CA",
+    "url": "https://boards.greenhouse.io/fender/jobs/8175070?gh_jid=8175070",
+    "posted": "2026-09-02T17:21:08-04:00",
+    "date_found": "2026-09-02T21:32:52.513431+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:fubotv:8174865",
+    "title": "Software Engineer - Ad Engineering ",
+    "company": "fubotv",
+    "location": "New York, NY ",
+    "url": "https://careers.fubo.tv/fubotv-job-openings/?gh_jid=8174865",
+    "posted": "2026-09-02T16:18:56-04:00",
+    "date_found": "2026-09-02T21:32:52.513431+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws",
+      "gcp",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "java",
+      "c++",
+      "golang"
+    ]
+  },
+  {
+    "key": "greenhouse:conga:5182922007",
+    "title": "Staff Software Engineer, Dev Ops",
+    "company": "conga",
+    "location": "Remote United States",
+    "url": "https://job-boards.greenhouse.io/conga/jobs/5182922007",
+    "posted": "2026-09-02T17:29:40-04:00",
+    "date_found": "2026-09-02T21:32:52.513431+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "elt",
+      "aws",
+      "azure",
+      "docker",
+      "kubernetes"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:hut8:5414062008",
+    "title": "IT Operations & Infrastructure Engineer",
+    "company": "hut8",
+    "location": "Miami, FL",
+    "url": "https://job-boards.greenhouse.io/hut8/jobs/5414062008",
+    "posted": "2026-09-02T16:44:15-04:00",
+    "date_found": "2026-09-02T21:32:52.513431+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "gcp",
+      "azure"
+    ],
+    "bad_tech": []
   }
 ]
