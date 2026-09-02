@@ -1,32 +1,5 @@
 [
   {
-    "key": "greenhouse:octus:5181289007",
-    "title": "Software Engineer ",
-    "company": "octus",
-    "location": "New York, New York, United States",
-    "url": "https://job-boards.greenhouse.io/octus/jobs/5181289007",
-    "posted": "2026-07-21T13:46:43-04:00",
-    "date_found": "2026-07-21T19:02:51.940457+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "aws",
-      "postgresql",
-      "postgres",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:quince:5323679008",
     "title": "Data Scientist, Planning and Forecasting",
     "company": "quince",
@@ -43399,6 +43372,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:a0c2298f-d60e-4a14-82fb-20998d7498a3",
+    "title": "Software Development Engineer, Amazon ECS",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10525114/software-development-engineer-amazon-ecs",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T00:41:16.740864+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
