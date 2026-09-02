@@ -1,59 +1,5 @@
 [
   {
-    "key": "greenhouse:vertexservicepartners:4323336009",
-    "title": "Analytics Engineer, Business Solutions",
-    "company": "vertexservicepartners",
-    "location": "Charlotte, NC 28211",
-    "url": "https://job-boards.greenhouse.io/vertexservicepartners/jobs/4323336009",
-    "posted": "2026-07-21T14:59:08-04:00",
-    "date_found": "2026-07-21T19:32:01.866345+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "dbt",
-      "snowflake",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
-    "key": "greenhouse:verkada:5191604007",
-    "title": "Backend Engineer, Alarms",
-    "company": "verkada",
-    "location": "San Mateo, CA United States",
-    "url": "https://job-boards.greenhouse.io/verkada/jobs/5191604007",
-    "posted": "2026-07-21T13:53:38-04:00",
-    "date_found": "2026-07-21T20:01:48.656939+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "kafka",
-      "postgres"
-    ],
-    "bad_tech": [
-      "rust",
-      "firmware"
-    ]
-  },
-  {
     "key": "amazon:2d0a4cff-0e89-48a2-9954-961f11fe3d41",
     "title": "Software Development Engineer, EC2 UltraServer Delivery Team",
     "company": "Amazon",
@@ -43389,6 +43335,53 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:addepar1:8765252002",
+    "title": "Software Engineer - Platform Integration",
+    "company": "addepar1",
+    "location": "New York, NY",
+    "url": "https://job-boards.greenhouse.io/addepar1/jobs/8765252002",
+    "posted": "2026-09-01T21:11:05-04:00",
+    "date_found": "2026-09-02T01:32:20.866876+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "pyspark",
+      "databricks",
+      "aws"
+    ],
+    "bad_tech": [
+      "java"
+    ]
+  },
+  {
+    "key": "greenhouse:fashionnova:8172474",
+    "title": "Product Developer",
+    "company": "fashionnova",
+    "location": "Beverly Hills, CA",
+    "url": "https://job-boards.greenhouse.io/fashionnova/jobs/8172474",
+    "posted": "2026-09-01T21:17:16-04:00",
+    "date_found": "2026-09-02T01:32:20.866876+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
