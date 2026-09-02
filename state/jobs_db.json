@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245099",
-    "title": "Data Scientist, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "Springfield, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Springfield-VA/Data-Scientist--Mid_R0245099",
-    "posted": "Posted Today",
-    "date_found": "2026-07-22T18:02:42.856558+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245075",
     "title": "All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43375,6 +43355,26 @@
       "gcp",
       "azure"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:1c0feb0e-f730-4dc9-855d-f687daaea970",
+    "title": "Software Development Engineer, Software Defined Network Controller, Amazon LEO",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10526793/software-development-engineer-software-defined-network-controller-amazon-leo",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T21:41:22.368892+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
