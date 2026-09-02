@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329300",
-    "title": "Software Engineer",
-    "company": "CACI International",
-    "location": "Lisle, IL, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Lisle-IL-US/Software-Engineer_329300",
-    "posted": "Posted Today",
-    "date_found": "2026-07-21T21:02:44.863531+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026517920",
     "title": "Manufacturing Operations Analyst/Manufacturing Research & Development - Paint & Process",
     "company": "Boeing",
@@ -43393,6 +43373,28 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:oldmissioncapital:7982061003",
+    "title": "Fundamental Research Analyst - 2027 Graduate Program - (August Start)",
+    "company": "oldmissioncapital",
+    "location": "Chicago, IL, United States",
+    "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7982061003",
+    "posted": "2026-09-02T09:30:37-04:00",
+    "date_found": "2026-09-02T15:03:02.947411+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
