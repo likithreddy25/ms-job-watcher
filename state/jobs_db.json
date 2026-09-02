@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:e852c708-08eb-4e27-92a9-ca74fc24543f",
-    "title": "Software Development Engineer, EC2 UltraServer Delivery Team",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10480763/software-development-engineer-ec2-ultraserver-delivery-team",
-    "posted": "July 21, 2026",
-    "date_found": "2026-07-21T20:20:44.008691+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "microsoft:1970393556941288",
     "title": "Software Engineer",
     "company": "Microsoft",
@@ -43385,6 +43365,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10248879",
+    "title": "Systems or Software Engineer - Change Management 4 - Space AHT",
+    "company": "Northrop Grumman",
+    "location": "United States-Alabama-Huntsville",
+    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Systems-or-Software-Engineer---Change-Management-4---Space-AHT_R10248879",
+    "posted": "Posted Today",
+    "date_found": "2026-09-02T03:32:18.208311+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
