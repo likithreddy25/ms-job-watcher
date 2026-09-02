@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:proshares:6121499004",
-    "title": "Portfolio Operations Analyst",
-    "company": "proshares",
-    "location": "Bethesda, MD",
-    "url": "https://boards.greenhouse.io/proshares/jobs/6121499004?gh_jid=6121499004",
-    "posted": "2026-07-21T13:45:18-04:00",
-    "date_found": "2026-07-21T19:02:51.940457+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:vertexservicepartners:4323336009",
     "title": "Analytics Engineer, Business Solutions",
     "company": "vertexservicepartners",
@@ -43392,6 +43370,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000146838699",
+    "title": "Principal Software Engineer - Platform Engineering Workflow Automation",
+    "company": "ServiceNow",
+    "location": "Santa Clara, California, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-09-01T23:30:00.104Z",
+    "date_found": "2026-09-02T01:02:31.864119+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
