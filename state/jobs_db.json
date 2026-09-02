@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:boeing:EXTERNAL_CAREERS:req:JR2026517920",
-    "title": "Manufacturing Operations Analyst/Manufacturing Research & Development - Paint & Process",
-    "company": "Boeing",
-    "location": "USA - Ridley Park, PA",
-    "url": "https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/USA---Ridley-Park-PA/Manufacturing-Operations-Analyst-Manufacturing-Research---Development---Paint---Process_JR2026517920-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-21T21:02:44.863531+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "microsoft:1970393556939508",
     "title": "Data Engineer",
     "company": "Microsoft",
@@ -43395,6 +43375,26 @@
     "good_tech": [
       "rag"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9f09fbbd-7714-4737-ba07-35d098958774",
+    "title": "Research Software Engineer, Calibration, MQS Center for Quantum Computing",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10525863/research-software-engineer-calibration-mqs-center-for-quantum-computing",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T15:11:34.110550+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
