@@ -1,27 +1,5 @@
 [
   {
-    "key": "lever:perrknight:d3f06fd0-88b7-47fc-bce0-9d411ed5f048",
-    "title": "Statistical Analyst",
-    "company": "perrknight",
-    "location": "U.S. Remote or Hybrid (CA, FL, NJ, NC)",
-    "url": "https://jobs.lever.co/perrknight/d3f06fd0-88b7-47fc-bce0-9d411ed5f048",
-    "posted": "2026-07-22 01:02 UTC",
-    "date_found": "2026-07-22T02:31:45.358883+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:arcboatcompany:5366549008",
     "title": "Applications Engineer",
     "company": "arcboatcompany",
@@ -43366,6 +43344,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:af9268bc-e02d-47c0-b5af-df1f264b8545",
+    "title": "Software Development Engineer, Amazon Fulfillment Technologies (AFT)  - Platform Engineering & Services",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10526509/software-development-engineer-amazon-fulfillment-technologies-aft-platform-engineering-services",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T17:51:21.985470+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
