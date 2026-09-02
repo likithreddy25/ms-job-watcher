@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:16b82c7a-a4f7-4f11-83e5-8f641ad773c1",
-    "title": "Software Development Engineer, Devices - Emerging Product",
-    "company": "Amazon",
-    "location": "US, CA, Sunnyvale",
-    "url": "https://www.amazon.jobs/en/jobs/10480782/software-development-engineer-devices-emerging-product",
-    "posted": "July 21, 2026",
-    "date_found": "2026-07-21T20:40:49.471232+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:be6e2385-a542-4b3d-bd61-dfd90ade8aca",
     "title": "Software Development Engineer I \u2013 AI/ML Network Infrastructure, Annapurna Labs",
     "company": "Amazon",
@@ -43393,6 +43373,29 @@
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:doordashusa:8172736",
+    "title": "Fraud Insights Operations Analyst - Detection Anomaly Response Command",
+    "company": "doordashusa",
+    "location": "Tempe, AZ",
+    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8172736",
+    "posted": "2026-09-02T04:30:34-04:00",
+    "date_found": "2026-09-02T08:33:02.642273+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 765,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
