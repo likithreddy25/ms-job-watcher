@@ -1,27 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10241527",
-    "title": "Embedded Flight Software Engineer \u2013 Level 5",
-    "company": "Northrop Grumman",
-    "location": "United States-Maryland-Linthicum",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Embedded-Flight-Software-Engineer---Level-5_R10241527",
-    "posted": "Posted Today",
-    "date_found": "2026-07-22T00:31:43.827081+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "embedded"
-    ]
-  },
-  {
     "key": "lever:perrknight:d3f06fd0-88b7-47fc-bce0-9d411ed5f048",
     "title": "Statistical Analyst",
     "company": "perrknight",
@@ -43368,6 +43346,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:312ff630-3fa7-4483-bc8a-a7397306edc5",
+    "title": "Software Development Engineer, DevX LIFT",
+    "company": "Amazon",
+    "location": "US, NC, Raleigh",
+    "url": "https://www.amazon.jobs/en/jobs/10526482/software-development-engineer-devx-lift",
+    "posted": "September  2, 2026",
+    "date_found": "2026-09-02T17:31:34.208351+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
