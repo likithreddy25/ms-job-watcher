@@ -1,28 +1,5 @@
 [
   {
-    "key": "greenhouse:arcboatcompany:5366549008",
-    "title": "Applications Engineer",
-    "company": "arcboatcompany",
-    "location": "Torrance, CA",
-    "url": "https://job-boards.greenhouse.io/arcboatcompany/jobs/5366549008",
-    "posted": "2026-07-21T22:10:34-04:00",
-    "date_found": "2026-07-22T03:31:10.833060+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:xai:5193037007",
     "title": "ML Infrastructure Engineer",
     "company": "xai",
@@ -43366,5 +43343,33 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:stripe:8174105",
+    "title": "Software Engineer",
+    "company": "Stripe",
+    "location": "Seattle, WA",
+    "url": "https://stripe.com/jobs/search?gh_jid=8174105",
+    "posted": "2026-09-02T12:57:08-04:00",
+    "date_found": "2026-09-02T18:03:09.655143+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 987,
+    "good_tech": [
+      "python",
+      "kafka",
+      "mysql",
+      "sql"
+    ],
+    "bad_tech": [
+      "java",
+      "ruby"
+    ]
   }
 ]
