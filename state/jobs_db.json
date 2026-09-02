@@ -1,78 +1,5 @@
 [
   {
-    "key": "greenhouse:flyzipline:7812245003",
-    "title": "Business Data Analyst",
-    "company": "flyzipline",
-    "location": "South San Francisco, California, USA",
-    "url": "https://www.zipline.com/open-roles?gh_jid=7812245003",
-    "posted": "2026-07-22T11:42:46-04:00",
-    "date_found": "2026-07-22T16:32:05.889547+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "aws",
-      "snowflake",
-      "redshift",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust",
-      "embedded"
-    ]
-  },
-  {
-    "key": "lever:spotify:a8d3838e-01d8-457e-b21c-a5468c10a116",
-    "title": "Research Scientist - Personalization",
-    "company": "spotify",
-    "location": "New York, NY",
-    "url": "https://jobs.lever.co/spotify/a8d3838e-01d8-457e-b21c-a5468c10a116",
-    "posted": "2026-04-17 16:27 UTC",
-    "date_found": "2026-07-22T16:42:30.586773+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:auw:43b6fed6-33a6-4d40-8382-5baf87060347",
-    "title": "Power Business Intelligence Developer",
-    "company": "auw",
-    "location": "Foster City, CA",
-    "url": "https://jobs.lever.co/auw/43b6fed6-33a6-4d40-8382-5baf87060347",
-    "posted": "2026-07-21 16:12 UTC",
-    "date_found": "2026-07-22T17:31:45.285004+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "lever:pmaconsultants:6ba48761-3979-43f8-abd3-834b244da6e3",
     "title": "Software Engineer",
     "company": "pmaconsultants",
@@ -43364,5 +43291,65 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "ashby:benchling:49454722-ea62-41da-80f8-864ff06e9265",
+    "title": "Strategic Financial Analyst, GTM",
+    "company": "Benchling",
+    "location": "San Francisco, CA",
+    "url": "https://jobs.ashbyhq.com/benchling/49454722-ea62-41da-80f8-864ff06e9265",
+    "posted": "",
+    "date_found": "2026-09-02T21:32:09.023162+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0109641",
+    "title": "Software Development Engineer(Distributed Systems)",
+    "company": "Workday",
+    "location": "USA, CA, Pleasanton",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109641",
+    "posted": "Posted Today",
+    "date_found": "2026-09-02T21:32:09.023162+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0109612",
+    "title": "Software Development Engineer (US Federal)",
+    "company": "Workday",
+    "location": "USA, CO, Boulder",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CO-Boulder/Software-Development-Engineer--US-Federal-_JR-0109612",
+    "posted": "Posted Today",
+    "date_found": "2026-09-02T21:32:09.023162+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
