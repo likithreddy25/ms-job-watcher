@@ -1,25 +1,5 @@
 [
   {
-    "key": "microsoft:1970393556939508",
-    "title": "Data Engineer",
-    "company": "Microsoft",
-    "location": "Redmond, WA, US",
-    "url": "https://apply.careers.microsoft.com/careers/job/1970393556939508",
-    "posted": "2026-07-21 20:42 UTC",
-    "date_found": "2026-07-21T21:10:44.468938+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 2 sponsor",
-    "h1b_sponsor_lcas_per_year": 5189,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:85f529be-53f8-4143-b6c7-2b127e3ccabd",
     "title": "Software Development Engineer, Privacy",
     "company": "Amazon",
@@ -43396,5 +43376,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:transmarketgroup:5151492007",
+    "title": "Junior Data Engineer",
+    "company": "transmarketgroup",
+    "location": "Chicago, Illinois, United States",
+    "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151492007?gh_jid=5151492007",
+    "posted": "2026-09-02T09:46:30-04:00",
+    "date_found": "2026-09-02T15:32:59.308025+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "airflow",
+      "docker",
+      "sql"
+    ],
+    "bad_tech": [
+      "c++"
+    ]
   }
 ]
