@@ -1,27 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244683",
-    "title": "Machine Learning Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "El Segundo, CA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/El-Segundo-CA/Artificial-Intelligence-Solutions-Engineer_R0244683-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-21T18:32:29.406493+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244896",
     "title": "Agentic AI Engineer",
     "company": "Booz Allen Hamilton",
@@ -43393,5 +43371,35 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:tebra:4726985005",
+    "title": "Software Engineer I",
+    "company": "tebra",
+    "location": "United States - Remote",
+    "url": "https://job-boards.greenhouse.io/tebra/jobs/4726985005",
+    "posted": "2026-09-01T19:55:48-04:00",
+    "date_found": "2026-09-02T00:03:27.570928+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "fastapi",
+      "flask"
+    ],
+    "bad_tech": [
+      "java",
+      "spring boot",
+      "rust"
+    ]
   }
 ]
