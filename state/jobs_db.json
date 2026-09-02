@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:66842a2e-d196-4f72-99a3-e2c5d602c6c9",
-    "title": "SDE II, Perception and SLAM, Autonomous Mobility",
-    "company": "Amazon",
-    "location": "US, MA, North Reading",
-    "url": "https://www.amazon.jobs/en/jobs/10481481/sde-ii-perception-and-slam-autonomous-mobility",
-    "posted": "July 22, 2026",
-    "date_found": "2026-07-22T16:20:42.346286+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:flyzipline:7812245003",
     "title": "Business Data Analyst",
     "company": "flyzipline",
@@ -43358,5 +43338,31 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:stitchfix:8168199",
+    "title": "Data Scientist ",
+    "company": "Stitch Fix",
+    "location": "Remote, USA",
+    "url": "https://www.stitchfix.com/careers/jobs?gh_jid=8168199&gh_jid=8168199",
+    "posted": "2026-09-02T15:26:08-04:00",
+    "date_found": "2026-09-02T21:00:58.269759+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
