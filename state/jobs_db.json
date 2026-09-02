@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:gilead:gileadcareers:req:R0053857",
-    "title": "Director, Advanced Analytics Architecture & Operations",
-    "company": "Gilead Sciences",
-    "location": "United States - California - Foster City",
-    "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/United-States---California---Foster-City/Director--Advanced-Analytics-Architecture---Operations_R0053857-2",
-    "posted": "Posted Today",
-    "date_found": "2026-07-22T18:32:28.208890+00:00",
-    "bucket": "maybe",
-    "score": 34,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:nice:4935617101",
     "title": "People Analytics Analyst",
     "company": "nice",
@@ -43378,5 +43358,30 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:samsara:8024110",
+    "title": "AI Engineer, Customer Success",
+    "company": "Samsara",
+    "location": "Remote - US",
+    "url": "https://www.samsara.com/company/careers/roles/8024110?gh_jid=8024110",
+    "posted": "2026-09-02T17:09:58-04:00",
+    "date_found": "2026-09-02T23:32:26.640980+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python"
+    ],
+    "bad_tech": [
+      "rails",
+      "embedded"
+    ]
   }
 ]
