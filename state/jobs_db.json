@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:otterai:7813270003",
-    "title": "Software Engineer, AI Agent & LLM",
-    "company": "otterai",
-    "location": "Mountain View, CA",
-    "url": "https://otter.ai/careers?gh_jid=7813270003",
-    "posted": "2026-07-22T17:29:06-04:00",
-    "date_found": "2026-07-22T22:31:24.119935+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0244899",
     "title": "AI Engineer",
     "company": "Booz Allen Hamilton",
@@ -43362,6 +43340,29 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:8177619",
+    "title": "Threat Intelligence Platform Engineer",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619",
+    "posted": "2026-09-03T14:02:16-04:00",
+    "date_found": "2026-09-03T19:31:55.769111+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "python",
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
