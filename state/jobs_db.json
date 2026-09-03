@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:berkadia:7773393003",
-    "title": "Operations Analyst - Innovation ",
-    "company": "berkadia",
-    "location": "Salt Lake City, Utah, United States",
-    "url": "https://boards.greenhouse.io/berkadia/jobs/7773393003?gh_jid=7773393003",
-    "posted": "2026-07-22T14:51:17-04:00",
-    "date_found": "2026-07-22T20:01:32.307905+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:berkadia:7773396003",
     "title": "Operations Analyst - Innovation ",
     "company": "berkadia",
@@ -43367,5 +43345,25 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "ashby:elevenlabs:120da2b3-d88b-4e3c-9b89-d19ff73db9d9",
+    "title": "HPC Infrastructure Engineer - GPU Clusters",
+    "company": "ElevenLabs",
+    "location": "United States",
+    "url": "https://jobs.ashbyhq.com/elevenlabs/120da2b3-d88b-4e3c-9b89-d19ff73db9d9",
+    "posted": "",
+    "date_found": "2026-09-03T14:02:36.879901+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
