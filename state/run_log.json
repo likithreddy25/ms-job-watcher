@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-08-27T10:02Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 8623,
-        "title_ok": 515,
-        "loc_ok": 322,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 816
-      },
-      "smartrecruiters": {
-        "fetched": 1468,
-        "title_ok": 35,
-        "loc_ok": 19,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 109
-      },
-      "lever": {
-        "fetched": 240,
-        "title_ok": 24,
-        "loc_ok": 18,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 40
-      },
-      "ashby": {
-        "fetched": 116,
-        "title_ok": 12,
-        "loc_ok": 6,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 24
-      },
-      "workday": {
-        "fetched": 6500,
-        "title_ok": 196,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 722
-      }
-    },
-    "duration_s": 85.4,
-    "cursor": 800
-  },
-  {
     "ts": "2026-08-27T10:11Z",
     "mode": "main",
     "per_source": {
@@ -49147,6 +49099,63 @@
       }
     },
     "duration_s": 20.9,
+    "cursor": null
+  },
+  {
+    "ts": "2026-09-03T01:51Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 247,
+        "title_ok": 14,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 68
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 139,
+        "loc_ok": 139,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 67
+      },
+      "nvidia": {
+        "fetched": 60,
+        "title_ok": 6,
+        "loc_ok": 6,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 47
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "Goldman Sachs fetch: HTTPError: 403 Client Error: Forbidden for url: https://api-higher.gs.com/gateway/api/v1/graphql"
+      },
+      "ibm": {
+        "fetched": 39,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      }
+    },
+    "duration_s": 15.7,
     "cursor": null
   }
 ]
