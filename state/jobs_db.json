@@ -1,25 +1,5 @@
 [
   {
-    "key": "greenhouse:nice:4935623101",
-    "title": "People Analytics Analyst",
-    "company": "nice",
-    "location": "USA - Hoboken, NJ",
-    "url": "https://boards.eu.greenhouse.io/nice/jobs/4935623101?gh_jid=4935623101",
-    "posted": "2026-07-22T14:17:01-04:00",
-    "date_found": "2026-07-22T19:01:29.027791+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:stage:6024063004",
     "title": "Professional, ABF IMS Business Intelligence Associate",
     "company": "stage",
@@ -43381,6 +43361,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:freddiemac:External:req:JR17581",
+    "title": "Software Engineer Professional",
+    "company": "Freddie Mac",
+    "location": "McLean, VA",
+    "url": "https://freddiemac.wd5.myworkdayjobs.com/en-US/External/job/McLean-VA/Software-Engineer-Professional_JR17581",
+    "posted": "Posted Today",
+    "date_found": "2026-09-03T01:33:01.666175+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
   }
