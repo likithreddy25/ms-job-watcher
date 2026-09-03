@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:4820c7ab-2783-4f9e-ab16-fcb626d09624",
-    "title": "Software Development Engineer, Amazon Brand Store",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10481886/software-development-engineer-amazon-brand-store",
-    "posted": "July 22, 2026",
-    "date_found": "2026-07-22T20:55:45.734203+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:disney:disneycareer:req:10153456",
     "title": "Financial Analyst \u2013 AFRP (Project Hire)",
     "company": "Disney",
@@ -43369,6 +43349,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8f52a9f9-2b24-406b-a3bb-ccae75f2d523",
+    "title": "Software Development Engineer, Identity Services",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10528576/software-development-engineer-identity-services",
+    "posted": "September  3, 2026",
+    "date_found": "2026-09-03T15:31:28.854071+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
