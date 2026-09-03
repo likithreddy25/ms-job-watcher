@@ -1,33 +1,5 @@
 [
   {
-    "key": "greenhouse:rubrik:8076167",
-    "title": "Software Engineer - SaaS Data Protection",
-    "company": "Rubrik",
-    "location": "Palo Alto, CA",
-    "url": "https://www.rubrik.com/company/careers/departments/job.8076167?gh_jid=8076167",
-    "posted": "2026-07-22T16:32:52-04:00",
-    "date_found": "2026-07-22T22:02:21.244515+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "aws",
-      "gcp",
-      "azure"
-    ],
-    "bad_tech": [
-      "golang",
-      "rust",
-      "rails"
-    ]
-  },
-  {
     "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Manager--AI-Engineering_R26-5836",
     "title": "Manager, AI Engineering",
     "company": "Rockwell Automation",
@@ -43360,6 +43332,26 @@
     "url": "https://www.amazon.jobs/en/jobs/10528714/software-development-engineer-quick-governance-platform",
     "posted": "September  3, 2026",
     "date_found": "2026-09-03T16:31:33.662693+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:882ce4ce-d751-4adb-8c91-87f8514c2e3b",
+    "title": "Software Development Engineer , Inventory Accounting",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10528850/software-development-engineer-inventory-accounting",
+    "posted": "September  3, 2026",
+    "date_found": "2026-09-03T17:01:23.874209+00:00",
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
