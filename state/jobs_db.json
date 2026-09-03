@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:stage:6024063004",
-    "title": "Professional, ABF IMS Business Intelligence Associate",
-    "company": "stage",
-    "location": "Dallas, Texas, United States",
-    "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6024063004",
-    "posted": "2026-07-22T14:37:55-04:00",
-    "date_found": "2026-07-22T19:01:29.027791+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "aws",
-      "snowflake",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:stubhubinc:4903903101",
     "title": "Senior Software Engineer - Security Operations",
     "company": "stubhubinc",
@@ -43381,6 +43356,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "",
     "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e41a1759-d8d4-4c54-90cc-07edc9856058",
+    "title": "Applied Scientist, Global Risk Intelligence and Prevention, Seller Abuse Prevention",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10528088/applied-scientist-global-risk-intelligence-and-prevention-seller-abuse-prevention",
+    "posted": "September  3, 2026",
+    "date_found": "2026-09-03T04:01:36.194129+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
