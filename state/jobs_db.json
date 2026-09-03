@@ -1,47 +1,5 @@
 [
   {
-    "key": "amazon:55dc9ae7-4bdc-4472-a1d6-97ccd61bf29d",
-    "title": "Software Development Engineer, Amazon Autos",
-    "company": "Amazon",
-    "location": "US, NY, New York",
-    "url": "https://www.amazon.jobs/en/jobs/10481748/software-development-engineer-amazon-autos",
-    "posted": "July 22, 2026",
-    "date_found": "2026-07-22T19:20:39.406314+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:xai:5188230007",
-    "title": "Software Engineer - Evals",
-    "company": "xai",
-    "location": "Palo Alto, California, United States",
-    "url": "https://job-boards.greenhouse.io/xai/jobs/5188230007",
-    "posted": "2026-07-22T13:45:07-04:00",
-    "date_found": "2026-07-22T19:31:59.327986+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "ashby:benchling:6beeaebc-fd49-47d7-a179-dd674bab58b7",
     "title": "Software Engineer, Applications (App Foundations) (High Seniority)",
     "company": "Benchling",
@@ -43373,5 +43331,45 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "amazon:3a5eb4f2-c54c-4058-8b09-a5b4bbfaf407",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10528280/software-development-engineer",
+    "posted": "September  3, 2026",
+    "date_found": "2026-09-03T11:11:24.259227+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:5628d494-c4c1-43ba-8f03-3096a09dbcc6",
+    "title": "Software Development Engineer, Amazon Leo for Government",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10528281/software-development-engineer-amazon-leo-for-government",
+    "posted": "September  3, 2026",
+    "date_found": "2026-09-03T11:11:24.259227+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
