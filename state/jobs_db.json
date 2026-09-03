@@ -1,56 +1,5 @@
 [
   {
-    "key": "greenhouse:berkadia:7773396003",
-    "title": "Operations Analyst - Innovation ",
-    "company": "berkadia",
-    "location": "Philadelphia, Pennsylvania, United States",
-    "url": "https://boards.greenhouse.io/berkadia/jobs/7773396003?gh_jid=7773396003",
-    "posted": "2026-07-22T14:51:40-04:00",
-    "date_found": "2026-07-22T20:01:32.307905+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
-    "key": "greenhouse:anthropic:5362838008",
-    "title": "People Research Scientist, Recruiting",
-    "company": "Anthropic",
-    "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5362838008",
-    "posted": "2026-07-22T14:09:36-04:00",
-    "date_found": "2026-07-22T20:32:42.373076+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "yes",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "machine learning",
-      "aws",
-      "bigquery",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:allstate:Allstate_Careers:req:R33039",
     "title": "Exposure Intelligence Analyst \u2013 Network & Perimeter (Firewalls / VPN / Segmentation)",
     "company": "Allstate",
@@ -43365,5 +43314,62 @@
     "h1b_sponsor_lcas_per_year": 0,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:thesiscareers:5229799007",
+    "title": "Analytics Engineer",
+    "company": "thesiscareers",
+    "location": "New York, NY",
+    "url": "https://job-boards.greenhouse.io/thesiscareers/jobs/5229799007",
+    "posted": "2026-09-03T10:18:42-04:00",
+    "date_found": "2026-09-03T14:32:26.813254+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "openai",
+      "etl",
+      "aws",
+      "gcp",
+      "azure",
+      "snowflake",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
+  },
+  {
+    "key": "greenhouse:inmarket:8176756",
+    "title": "Measurement Operations Analyst",
+    "company": "inmarket",
+    "location": "Remote - United States",
+    "url": "https://job-boards.greenhouse.io/inmarket/jobs/8176756",
+    "posted": "2026-09-03T09:42:54-04:00",
+    "date_found": "2026-09-03T14:32:26.813254+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "sql"
+    ],
+    "bad_tech": [
+      "java"
+    ]
   }
 ]
