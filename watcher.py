@@ -12,7 +12,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 from email.mime.text import MIMEText
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List, Set, Tuple, Optional
 
 import requests
@@ -520,6 +520,11 @@ MAX_NETFLIX_JOBS_PER_RUN = int(os.getenv("MAX_NETFLIX_JOBS_PER_RUN", "150"))
 MAX_STRIPE_JOBS_PER_RUN = int(os.getenv("MAX_STRIPE_JOBS_PER_RUN", "150"))
 MAX_LINKEDIN_JOBS_PER_RUN = int(os.getenv("MAX_LINKEDIN_JOBS_PER_RUN", "60"))
 
+# SimplifyJobs New-Grad Positions feed, added 2026-09-03. Unlike the six sources just
+# above, this one is safe for the cloud cron (static JSON, no scraping risk) — see
+# MAIN_SUPPORTED_SOURCES below. MAX_SIMPLIFYJOBS_JOBS_PER_RUN itself is defined next to
+# fetch_simplifyjobs_positions/normalize_simplifyjobs_job further down this file.
+
 
 # -----------------------------
 # Requests session pooling + retry (SPEED/ROBUSTNESS)
@@ -845,18 +850,22 @@ LINKEDIN_QUERIES = [
 ]
 LINKEDIN_PAGE_DELAY = 3.0
 
-# The original 6 direct-company sources — these are what the scheduled main() pipeline
-# (GitHub Actions, 10-min cadence via cron-job.org) actually fetches. Kept separate from
-# SUPPORTED_SOURCES (all 12, below) so main()'s bootstrap/per-source-stats/log messages
-# don't reference the 6 new local-only sources it never touches — see the 2026-07-11
-# docs/STATE.md entry for why those 6 are dashboard/run_quick_company_scan()-only.
-MAIN_SUPPORTED_SOURCES = ["microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle"]
+# The original 6 direct-company sources plus SimplifyJobs (added 2026-09-03) — these are
+# what the scheduled main() pipeline (GitHub Actions, 10-min cadence via cron-job.org)
+# actually fetches. Kept separate from SUPPORTED_SOURCES (all 13, below) so main()'s
+# bootstrap/per-source-stats/log messages don't reference the 6 sources it never touches
+# (Google/Apple/Meta/Netflix/Stripe/LinkedIn) — see the 2026-07-11 docs/STATE.md entry for
+# why those 6 are dashboard/run_quick_company_scan()-only, and the 2026-09-03 entry for why
+# SimplifyJobs is the one exception added to this list instead of following that precedent.
+MAIN_SUPPORTED_SOURCES = ["microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle", "simplifyjobs"]
 
-# All 12 direct-company sources, used by run_quick_company_scan() (the dashboard's
-# "Run New Scan" button) and dashboard/app.py's role-based stats. main() intentionally
-# uses MAIN_SUPPORTED_SOURCES above instead of this list.
+# All 13 direct-company/aggregator sources, used by run_quick_company_scan() (the
+# dashboard's "Run New Scan" button) and dashboard/app.py's role-based stats. main()
+# intentionally uses MAIN_SUPPORTED_SOURCES above instead of this list — except
+# "simplifyjobs", which is safe for the cloud cron (static JSON, no scraping risk) and so
+# appears in both lists, unlike google/apple/meta/netflix/stripe/linkedin below.
 SUPPORTED_SOURCES = [
-    "microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle",
+    "microsoft", "amazon", "nvidia", "goldman_sachs", "ibm", "oracle", "simplifyjobs",
     "google", "apple", "meta", "netflix", "stripe", "linkedin",
 ]
 
@@ -908,6 +917,17 @@ def _fmt_run_summary(mode: str, ts: str, per_source: Dict[str, Any], cursor: Opt
             seg = f"{src} f={s.get('fetched', 0)} t={s.get('title_ok', 0)} loc={s.get('loc_ok', 0)} new={s.get('new', 0)}"
             if s.get("senior_excluded"):
                 seg += f" sr_excl={s['senior_excluded']}"
+            # yoe_excluded/clearance_excluded/feed_excluded were already tracked in
+            # per_source but never surfaced in this compact line — added 2026-09-03
+            # after a live SimplifyJobs test run made it impossible to tell from the
+            # printed summary alone whether the new future-dated/sponsorship/PhD
+            # filters (or the existing YOE/clearance ones) caught anything that run.
+            if s.get("yoe_excluded"):
+                seg += f" yoe_excl={s['yoe_excluded']}"
+            if s.get("clearance_excluded"):
+                seg += f" clr_excl={s['clearance_excluded']}"
+            if s.get("feed_excluded"):
+                seg += f" feed_excl={s['feed_excluded']}"
             if s.get("emailed"):
                 seg += f" em={s['emailed']}"
             if s.get("errors"):
@@ -1879,6 +1899,284 @@ def normalize_stripe_job(job: Dict[str, Any]) -> Dict[str, str]:
     description = re.sub(r"<[^>]+>", " ", str(job.get("content") or job.get("description") or ""))
     description = re.sub(r"\s+", " ", description).strip()
     return {"key": str(key), "company": "Stripe", "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": description}
+
+
+# -----------------------------
+# SimplifyJobs New-Grad Positions feed (aggregator source, added 2026-09-03 — Likhith's
+# call: port the Cowork job-check scheduled task's "STEP 4B aggregator" logic into a real
+# pipeline instead of re-fetching/re-filtering this feed with an LLM every run. This is a
+# static GitHub-hosted JSON file, not a scraper — no blocking/rate-limit risk, unlike
+# Google/Apple/Meta/Netflix/Stripe/LinkedIn above. Because of that it IS wired into main()
+# (see MAIN_SUPPORTED_SOURCES) rather than following those six sources' dashboard-only
+# precedent — confirmed with Likhith explicitly before adding it there.
+#
+# Unlike every other source here, one fetch returns postings from MANY companies, not one —
+# `company` is read per-entry from the feed instead of hardcoded.
+# -----------------------------
+SIMPLIFYJOBS_URL = "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json"
+# Raised 500 -> 3000 -> 20000 (2026-09-03): a live test run hit the 500 cap exactly
+# (f=500), got raised to 3000, and hit THAT cap too (f=3000, with 1189 title-matched /
+# 889 US-located out of it) — the feed has well over 3000 active postings total across
+# all categories, not just our target roles. Unlike the scraper-based sources above,
+# there's no real cost to a high cap here — it's one GET request either way, just
+# parsing a bigger JSON array — so 20000 is meant as "no practical cap," not a
+# deliberately-chosen throttle value.
+MAX_SIMPLIFYJOBS_JOBS_PER_RUN = int(os.getenv("MAX_SIMPLIFYJOBS_JOBS_PER_RUN", "20000"))
+
+# Feed's own `sponsorship` field is maintainer-curated, not scraped — a more reliable
+# signal than the JD-text regex _clearance_or_no_sponsorship_reason relies on for other
+# sources. "Offers Sponsorship" and unset/"Other" pass through unfiltered; silence on
+# sponsorship is not itself exclusionary (same rule as everywhere else in this file).
+_SIMPLIFYJOBS_NO_SPONSOR_VALUES = {"Does Not Offer Sponsorship", "U.S. Citizenship is Required"}
+
+# Future graduation-cohort / future-start-date gating (e.g. "Summer 2027", "Class of
+# 2028", "2027 Graduate", "University Hire 2027") — flagged repeatedly by Likhith as a
+# recurring false-positive on new-grad feeds like this one. Checked against BOTH title
+# and URL, since some aggregator titles are genericized while the real posting title
+# embedded in the URL states the actual cohort.
+#
+# 2026-09-03 rewrite: originally required the program word directly adjacent to the year
+# (e.g. "Summer 2027"). A live test against the real feed caught three real misses that
+# adjacency-matching let through — "Software Developer 2027 Graduate" (Johns Hopkins),
+# "Software Engineer - University Hire 2027" (Voleon Group), "Software Development
+# Engineer 1 - Early Career - 2027 Starts" (Blue Origin) — none of which pair the year
+# with summer/fall/winter/spring/class-of/cohort right next to it. Rewritten as a
+# co-occurrence check instead: flag if a future year (2027+) appears ANYWHERE in
+# title+url AND at least one hiring-program word also appears anywhere in the same text,
+# rather than requiring them adjacent. Matches the original spec's own wording ("a bare
+# future year combined with a hiring-program word") and the recall-first philosophy
+# already used everywhere else in this file — a missed future-dated posting is worse
+# than an occasional over-cautious exclusion.
+_FUTURE_YEAR_RE = re.compile(r"\b(20(?:2[7-9]|[3-9]\d))\b")
+_FUTURE_PROGRAM_WORD_RE = re.compile(
+    r"\b(?:summer|fall|winter|spring|class[\s\-_]*of|cohort|program|rotational|associate|graduate|grad|hires?|starts?)\b",
+    re.IGNORECASE,
+)
+
+
+def _future_dated_reason(title: str, url: str = "") -> str:
+    """Short reason string if title/url shows a future grad-cohort/start-date gate —
+    a 2027+ year co-occurring anywhere with a hiring-program word; empty string
+    otherwise. A bare current/past year (2026 or earlier) alone is never flagged, and
+    a program word alone (e.g. "Engineering Development Program") with no future year
+    isn't either — only the combination of both."""
+    text = f"{title} {url}"
+    year_match = _FUTURE_YEAR_RE.search(text)
+    if not year_match:
+        return ""
+    if not _FUTURE_PROGRAM_WORD_RE.search(text):
+        return ""
+    return f"future-dated cohort/start (year {year_match.group(1)} + program-word context)"
+
+
+# ---------------------------------------------------------------------------
+# Added 2026-09-03 (2nd pass) — Likhith's explicit request to cut the "h1b-100co-job-check"
+# volume way down (100s/day -> ~20/day max) by tightening what actually gets emailed, in
+# real code, instead of an LLM re-filtering the same firehose every scheduled run. New hard
+# excludes, layered onto the existing future-dated-cohort check:
+#   1. PhD-only titles — general title-text check (distinct from the SimplifyJobs
+#      curated `degrees` field check below, which only fires for that one source).
+#   2. Stack mismatch — Java/Go/Rust-heavy roles, checked against title AND description
+#      text where a source carries it. Deliberately broader than title-only (Likhith's
+#      explicit choice) — a JD that just lists Java as one of several nice-to-haves can
+#      still get excluded; accepted tradeoff for lower volume.
+#   3. Sponsorship — now REQUIRES a positive signal: SimplifyJobs' own "Offers Sponsorship"
+#      field, OR explicit positive JD text ("will sponsor", etc. — _DASH_H1B_POS), OR the
+#      company matches H1B_SPONSOR_HISTORY (real past DOL LCA filing volume — directional,
+#      not a guarantee, see the caveat above that table). Silence is no longer enough — this
+#      is a deliberate reversal from the old "exclude only explicit no" behavior and is the
+#      single biggest volume lever of this whole change.
+#   4. Freshness — posted date must parse to <= MAX_POSTING_AGE_DAYS old. An unparseable or
+#      missing date is EXCLUDED, not given the benefit of the doubt — Likhith was explicit
+#      about "not more than 2 days old" as a hard requirement. Known side effect: sources
+#      that never carry a posted date at all (e.g. Goldman Sachs, some Ashby boards — see
+#      normalize_goldman_item/normalize_ashby_* returning `"posted": ""`) will have their
+#      output fully excluded by this gate until/unless those sources are given a real date
+#      field. Flagged in docs/STATE.md rather than silently accepted.
+#
+# This function absorbs/replaces the older, narrower _feed_exclusion_reason (which only
+# handled future-dated + SimplifyJobs' own sponsorship/degrees fields) and is now wired into
+# ALL THREE pipelines — main(), run_quick_company_scan(), AND the boards-mode sweep, which
+# never called the old function at all.
+# ---------------------------------------------------------------------------
+_PHD_TITLE_RE = re.compile(r"\bph\.?d\.?\b", re.IGNORECASE)
+
+
+def _phd_title_reason(title: str) -> str:
+    return "PhD-only title" if _PHD_TITLE_RE.search(title or "") else ""
+
+
+_STACK_JAVA_RE = re.compile(r"\bjava\b(?!\s*script)", re.IGNORECASE)
+_STACK_GO_RUST_RE = re.compile(
+    r"\b(golang|rust)\b"
+    r"|\bgo\b\s*(developer|engineer|programmer)\b"
+    r"|(developer|engineer|programmer)s?\s*\(?\bgo\b\)?"
+    r"|written\s+in\s+go\b|go\s*/\s*rust|rust\s*/\s*go",
+    re.IGNORECASE,
+)
+
+
+def _stack_mismatch_reason(title: str, description: str = "") -> str:
+    """Hard-exclude Java/Go/Rust-heavy roles. Bare 'go' is deliberately NOT matched on its
+    own (too common as an ordinary English word) — only in Go-specific phrasing (golang,
+    "go developer/engineer", "written in go", "go/rust"). 'java' is matched as a bare word
+    (with a lookahead excluding 'javascript') since a bare "java" hit is a much stronger,
+    lower-false-positive signal than bare "go" would be."""
+    t = title or ""
+    if _STACK_JAVA_RE.search(t) or _STACK_GO_RUST_RE.search(t):
+        return "stack mismatch (Java/Go/Rust-focused title)"
+    d = description or ""
+    if d and (_STACK_JAVA_RE.search(d) or _STACK_GO_RUST_RE.search(d)):
+        return "stack mismatch (Java/Go/Rust mentioned in description)"
+    return ""
+
+
+def _sponsorship_positive_reason(job: Dict[str, Any]) -> str:
+    """Require a POSITIVE H1B sponsorship signal; silence excludes. See block comment above."""
+    if job.get("sponsorship") == "Offers Sponsorship":
+        return ""
+    text = f"{job.get('title', '')} {job.get('description', '')}".lower()
+    if any(p in text for p in _DASH_H1B_POS):
+        return ""
+    if h1b_sponsor_history_match(job.get("company", "")):
+        return ""
+    return "no positive H1B sponsorship signal (silence, and company not a known past sponsor)"
+
+
+_RELATIVE_AGO_RE = re.compile(r"(\d+)\s*(hour|day|week|month)s?\s*ago", re.IGNORECASE)
+_EXPLICIT_DATE_FORMATS = [
+    "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M UTC", "%Y-%m-%d %H:%M:%S",
+    "%Y-%m-%d", "%m/%d/%Y", "%B %d, %Y", "%b %d, %Y",
+]
+
+
+def _parse_posted_date(posted: str) -> Optional[datetime]:
+    """Best-effort multi-format parser covering the raw date shapes actually produced across
+    this file's ~15 sources: ISO8601 (with/without offset or 'Z'), 'YYYY-MM-DD HH:MM UTC',
+    bare dates, 'Month D, YYYY', epoch seconds/millis, and relative strings ("3 days ago",
+    "today", "yesterday"). Returns None if nothing matches — see _freshness_reason for how
+    None is treated (excluded, not kept)."""
+    if not posted:
+        return None
+    s = posted.strip()
+    m = _RELATIVE_AGO_RE.search(s)
+    if m:
+        n, unit = int(m.group(1)), m.group(2).lower()
+        delta = {
+            "hour": timedelta(hours=n), "day": timedelta(days=n),
+            "week": timedelta(weeks=n), "month": timedelta(days=30 * n),
+        }[unit]
+        return datetime.now(timezone.utc) - delta
+    if re.search(r"\bjust posted\b|\btoday\b", s, re.IGNORECASE):
+        return datetime.now(timezone.utc)
+    if re.search(r"\byesterday\b", s, re.IGNORECASE):
+        return datetime.now(timezone.utc) - timedelta(days=1)
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except ValueError:
+        pass
+    if re.fullmatch(r"\d{10}", s):
+        return datetime.fromtimestamp(int(s), tz=timezone.utc)
+    if re.fullmatch(r"\d{13}", s):
+        return datetime.fromtimestamp(int(s) / 1000, tz=timezone.utc)
+    for fmt in _EXPLICIT_DATE_FORMATS:
+        try:
+            dt = datetime.strptime(s, fmt)
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
+
+
+MAX_POSTING_AGE_DAYS = int(os.getenv("MAX_POSTING_AGE_DAYS", "2"))
+
+
+def _freshness_reason(posted: str) -> str:
+    dt = _parse_posted_date(posted)
+    if dt is None:
+        return "posting date unknown/unparseable (excluded under strict freshness gate)"
+    age = datetime.now(timezone.utc) - dt
+    if age > timedelta(days=MAX_POSTING_AGE_DAYS):
+        return f"posting is {age.days}d old (> {MAX_POSTING_AGE_DAYS}d freshness gate)"
+    return ""
+
+
+def _strict_filter_reason(job: Dict[str, Any]) -> str:
+    """Combined hard-exclude gate — see block comment above. Short-circuits on the first
+    reason found, cheapest checks first."""
+    reason = _future_dated_reason(job.get("title", ""), job.get("url", ""))
+    if reason:
+        return reason
+    reason = _phd_title_reason(job.get("title", ""))
+    if reason:
+        return reason
+    degrees = job.get("degrees")
+    if isinstance(degrees, list) and degrees and all(str(d).strip().lower() in ("phd", "ph.d.", "ph.d") for d in degrees):
+        return "PhD-only (feed degrees field)"
+    reason = _stack_mismatch_reason(job.get("title", ""), job.get("description", ""))
+    if reason:
+        return reason
+    reason = _sponsorship_positive_reason(job)
+    if reason:
+        return reason
+    reason = _freshness_reason(job.get("posted", ""))
+    if reason:
+        return reason
+    return ""
+
+
+# Backward-compat alias — old name, same expanded behavior, so any external reference
+# (dashboard code, notebooks) keeps working without a second lookup.
+_feed_exclusion_reason = _strict_filter_reason
+
+
+def simplifyjobs_key_from_entry(entry: Dict[str, Any]) -> str:
+    entry_id = str(entry.get("id") or "")
+    if entry_id:
+        return f"simplifyjobs:{entry_id}"
+    return f"simplifyjobs:url:{(entry.get('url') or '').split('?')[0]}"
+
+
+def fetch_simplifyjobs_positions(
+    seen_keys: Optional[Set[str]] = None,
+    max_positions: int = MAX_SIMPLIFYJOBS_JOBS_PER_RUN,
+) -> List[Dict[str, Any]]:
+    sess = _get_session("main")
+    r = sess.get(SIMPLIFYJOBS_URL, headers={"accept": "application/json", "user-agent": "Mozilla/5.0"}, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    data = r.json()
+    if not isinstance(data, list):
+        return []
+    active = [e for e in data if e.get("active", True)]
+    if max_positions and len(active) > max_positions:
+        active = active[:max_positions]
+    return active
+
+
+def normalize_simplifyjobs_job(entry: Dict[str, Any]) -> Dict[str, str]:
+    key = simplifyjobs_key_from_entry(entry)
+    title = entry.get("title") or "Unknown Title"
+    company = entry.get("company_name") or "Unknown Company"
+    locations = entry.get("locations") or []
+    loc = "; ".join(str(l) for l in locations) if isinstance(locations, list) else str(locations or "")
+    if not loc:
+        loc = "United States"
+    posted_epoch = entry.get("date_posted")
+    try:
+        posted_str = datetime.fromtimestamp(int(posted_epoch), tz=timezone.utc).isoformat() if posted_epoch else ""
+    except (TypeError, ValueError):
+        posted_str = ""
+    url = (entry.get("url") or "").split("?")[0] or "https://simplify.jobs/"
+    out = {"key": str(key), "company": str(company), "title": str(title), "location": str(loc), "posted": str(posted_str), "url": str(url), "description": ""}
+    # Carried through (not part of the standard 7-key shape other sources use) so
+    # _feed_exclusion_reason can read them; save_to_jobs_db() builds its own explicit
+    # field list, so these never leak into persisted state.
+    if entry.get("sponsorship"):
+        out["sponsorship"] = entry.get("sponsorship")
+    if entry.get("degrees"):
+        out["degrees"] = entry.get("degrees")
+    return out
 
 
 # -----------------------------
@@ -3219,8 +3517,8 @@ def safe_call(label: str, fn):
 
 
 def run_quick_company_scan(no_email: bool = True, dry_run: bool = False) -> Dict[str, Any]:
-    """Fetch all 12 direct-company sources (Microsoft/NVIDIA/Amazon/Goldman Sachs/IBM/
-    Oracle/Google/Apple/Meta/Netflix/Stripe/LinkedIn) right now, classify/filter them
+    """Fetch all 13 direct-company/aggregator sources (Microsoft/NVIDIA/Amazon/Goldman
+    Sachs/IBM/Oracle/SimplifyJobs/Google/Apple/Meta/Netflix/Stripe/LinkedIn) right now, classify/filter them
     exactly like the scheduled main() run (title allow-list, US-location, YOE cap,
     clearance/no-sponsorship hard block), persist newly-found jobs to state/seen.json +
     state/jobs_db.json, and return a summary dict instead of only printing to stdout.
@@ -3257,6 +3555,8 @@ def run_quick_company_scan(no_email: bool = True, dry_run: bool = False) -> Dict
          lambda ps: [normalize_ibm_hit(h) for h in (ps or [])]),
         ("oracle", "Oracle fetch", lambda: fetch_oracle(seen_keys=seen),
          lambda ps: [normalize_oracle_req(rq) for rq in (ps or [])]),
+        ("simplifyjobs", "SimplifyJobs fetch", lambda: fetch_simplifyjobs_positions(seen_keys=seen),
+         lambda ps: [normalize_simplifyjobs_job(e) for e in (ps or [])]),
         ("google", "Google fetch", lambda: fetch_google_positions(seen_keys=seen),
          lambda ps: [normalize_google_job(j) for j in (ps or [])]),
         ("apple", "Apple fetch", lambda: fetch_apple_positions(seen_keys=seen),
@@ -3360,6 +3660,20 @@ def run_quick_company_scan(no_email: bool = True, dry_run: bool = False) -> Dict
                 _kept.append(_j)
         _bucket[:] = _kept
 
+    _feed_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _reason = _feed_exclusion_reason(_j)
+            if _reason:
+                _feed_excluded_this_run += 1
+                _bsrc = (_j.get("key") or "").split(":")[0]
+                if _bsrc in _per_source:
+                    _per_source[_bsrc]["feed_excluded"] = _per_source[_bsrc].get("feed_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+
     emailed = False
     if new_yes or new_maybe:
         if not no_email:
@@ -3391,6 +3705,7 @@ def run_quick_company_scan(no_email: bool = True, dry_run: bool = False) -> Dict
         "ok": True, "bootstrap": False, "ts": _ts, "duration_s": _dur,
         "new_yes": len(new_yes), "new_maybe": len(new_maybe),
         "yoe_excluded": _yoe_excluded_this_run, "clearance_excluded": _clearance_excluded_this_run,
+        "feed_excluded": _feed_excluded_this_run,
         "per_source": _per_source, "errors": errors, "emailed": emailed, "jobs": _jobs_out,
     }
 
@@ -3463,6 +3778,16 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
         _oracle_norm = [normalize_oracle_req(rq) for rq in (oracle_reqs or [])]
         normalized.extend(_oracle_norm)
         src_norm["oracle"] = _oracle_norm
+
+    sj_entries, err = safe_call("SimplifyJobs fetch", lambda: fetch_simplifyjobs_positions(seen_keys=seen))
+    if err:
+        errors.append(err)
+        src_errors["simplifyjobs"] = err
+    else:
+        print(f"[DEBUG] Fetched {len(sj_entries)} active postings from SimplifyJobs feed.")
+        _sj_norm = [normalize_simplifyjobs_job(e) for e in (sj_entries or [])]
+        normalized.extend(_sj_norm)
+        src_norm["simplifyjobs"] = _sj_norm
 
     # NOTE: Google/Apple/Meta/Netflix/Stripe/LinkedIn are deliberately NOT fetched here.
     # main() is the live, scheduled GitHub Actions pipeline (10-min cadence via
@@ -3578,6 +3903,25 @@ def main(test_email: bool = False, no_email: bool = False, dry_run: bool = False
         _bucket[:] = _kept
     if _clearance_excluded_this_run:
         print(f"[CLEARANCE] Excluded {_clearance_excluded_this_run} job(s) requiring clearance/citizenship or explicitly not sponsoring.")
+
+    # Future-dated cohort/start + SimplifyJobs feed-curated sponsorship/degrees filter —
+    # see _feed_exclusion_reason above. Future-dated check applies to every source;
+    # sponsorship/degrees are no-ops on jobs from sources other than simplifyjobs.
+    _feed_excluded_this_run = 0
+    for _bucket in (new_yes, new_maybe):
+        _kept = []
+        for _j in _bucket:
+            _reason = _feed_exclusion_reason(_j)
+            if _reason:
+                _feed_excluded_this_run += 1
+                _src = (_j.get("key") or "").split(":")[0]
+                if _src in _per_source:
+                    _per_source[_src]["feed_excluded"] = _per_source[_src].get("feed_excluded", 0) + 1
+            else:
+                _kept.append(_j)
+        _bucket[:] = _kept
+    if _feed_excluded_this_run:
+        print(f"[FEED] Excluded {_feed_excluded_this_run} job(s) for future-dated cohort/start or feed-flagged sponsorship/degrees.")
 
     if new_yes or new_maybe:
         if no_email:
@@ -3771,6 +4115,26 @@ if __name__ == "__main__":
                 _bucket[:] = _kept
             if _clearance_excluded_this_run:
                 print(f"[CLEARANCE] Excluded {_clearance_excluded_this_run} job(s) requiring clearance/citizenship or explicitly not sponsoring.")
+
+            # Strict filter (future-dated/PhD/stack/sponsorship-positive/freshness) — see
+            # _strict_filter_reason above. Added 2026-09-03 (2nd pass): boards-mode never
+            # called this (nor its predecessor _feed_exclusion_reason) before, so GH/Lever/
+            # Ashby/SmartRecruiters/Workday jobs were skipping all of it. Now applied here too.
+            _strict_excluded_this_run = 0
+            for _bucket in (new_yes, new_maybe):
+                _kept = []
+                for _j in _bucket:
+                    _reason = _strict_filter_reason(_j)
+                    if _reason:
+                        _strict_excluded_this_run += 1
+                        _plat = (_j.get("key") or "").split(":")[0]
+                        if _plat in per_platform:
+                            per_platform[_plat]["feed_excluded"] = per_platform[_plat].get("feed_excluded", 0) + 1
+                    else:
+                        _kept.append(_j)
+                _bucket[:] = _kept
+            if _strict_excluded_this_run:
+                print(f"[STRICT] Excluded {_strict_excluded_this_run} job(s) (future-dated/PhD/stack-mismatch/no-sponsorship-signal/stale).")
 
             if new_yes or new_maybe:
                 if args.no_email:
