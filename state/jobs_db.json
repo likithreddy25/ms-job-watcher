@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:disney:disneycareer:req:10153725",
-    "title": "Sr Business Operations Analyst, DCL and A&E",
-    "company": "Disney",
-    "location": "Celebration, FL, USA",
-    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Celebration-FL-USA/Sr-Business-Operations-Analyst--DCL-and-A-E_10153725-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-22T23:32:19.261525+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:newsbreak:4699217006",
     "title": "Machine Learning Engineer, Local Search & Marketplace",
     "company": "newsbreak",
@@ -43362,6 +43342,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:intel:External:req:JR0286424",
+    "title": "Graphics Software Engineer",
+    "company": "Intel",
+    "location": "Virtual US",
+    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/Virtual-US/Graphics-Software-Engineer_JR0286424",
+    "posted": "Posted Today",
+    "date_found": "2026-09-03T23:16:56.505487+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2543,
     "good_tech": [],
     "bad_tech": []
   }
