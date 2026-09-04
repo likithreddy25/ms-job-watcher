@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-08-28T11:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 14897,
-        "title_ok": 501,
-        "loc_ok": 123,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 611
-      },
-      "lever": {
-        "fetched": 45424,
-        "title_ok": 1169,
-        "loc_ok": 347,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1334
-      }
-    },
-    "duration_s": 88.6,
-    "cursor": 6000
-  },
-  {
     "ts": "2026-08-28T11:41Z",
     "mode": "main",
     "per_source": {
@@ -49325,6 +49301,70 @@
       }
     },
     "duration_s": 22.5,
+    "cursor": null
+  },
+  {
+    "ts": "2026-09-04T03:01Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 250,
+        "title_ok": 11,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 73
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 137,
+        "loc_ok": 137,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 64
+      },
+      "nvidia": {
+        "fetched": 230,
+        "title_ok": 25,
+        "loc_ok": 25,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 181
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 39,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2884,
+        "title_ok": 1180,
+        "loc_ok": 881,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 60
+      }
+    },
+    "duration_s": 16.8,
     "cursor": null
   }
 ]
