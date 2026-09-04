@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:c587df21-26aa-46ec-8fbf-acbb24278639",
-    "title": "SDE, Responsible AI",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10482591/sde-responsible-ai",
-    "posted": "July 23, 2026",
-    "date_found": "2026-07-23T16:20:43.200854+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:pipe17:4717950005",
     "title": "Junior Software Engineer, AI-Native",
     "company": "pipe17",
@@ -43335,6 +43315,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 765,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:97a5b17a-00fa-4442-8791-ca947cfaa16b",
+    "title": "Software Development Engineer , AFT-PES",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10529944/software-development-engineer-aft-pes",
+    "posted": "September  4, 2026",
+    "date_found": "2026-09-04T15:41:26.515596+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
