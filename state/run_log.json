@@ -1,61 +1,5 @@
 [
   {
-    "ts": "2026-08-28T15:51Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 221,
-        "title_ok": 11,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 62
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 144,
-        "loc_ok": 144,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 62
-      },
-      "nvidia": {
-        "fetched": 220,
-        "title_ok": 27,
-        "loc_ok": 27,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 174
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 38,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      }
-    },
-    "duration_s": 20.5,
-    "cursor": null
-  },
-  {
     "ts": "2026-08-28T16:03Z",
     "mode": "boards",
     "per_source": {
@@ -49473,6 +49417,71 @@
       }
     },
     "duration_s": 24.0,
+    "cursor": null
+  },
+  {
+    "ts": "2026-09-04T07:21Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 246,
+        "title_ok": 10,
+        "loc_ok": 10,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 71
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 137,
+        "loc_ok": 137,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 64
+      },
+      "nvidia": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "NVIDIA fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://nvidia.eightfold.ai/api/pcsx/search?domain=nvidia.com&query=&location=united+states&start=0&sort_by=timestamp&filter_include_remote=1&filter_job_category=engineering&filter_job_type=regular+employee&filter_time_type=full+time&filter_hiring_title=Software+Engineer&filter_hiring_title=Machine+Learning+Engineer&filter_hiring_title=Artificial+Intelligence&filter_hiring_title=machine+learning&filter_hiring_title=software+development+engineer&filter_hiring_title=data"
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 39,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2931,
+        "title_ok": 1191,
+        "loc_ok": 893,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 59
+      }
+    },
+    "duration_s": 16.0,
     "cursor": null
   }
 ]
