@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329376",
-    "title": "SOUTHCOM Cyber Intelligence Analyst",
-    "company": "CACI International",
-    "location": "Doral, FL, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Doral-FL-US/SOUTHCOM-Cyber-Intelligence-Analyst_329376",
-    "posted": "Posted Today",
-    "date_found": "2026-07-23T15:02:51.937250+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187890",
     "title": "Data Scientist",
     "company": "Leidos",
@@ -43343,5 +43323,25 @@
     "bad_tech": [
       "embedded"
     ]
+  },
+  {
+    "key": "amazon:80d6fe4c-4132-475c-818f-e75a297a2c58",
+    "title": "Software Development Engineer, Early Careers ",
+    "company": "Amazon",
+    "location": "US, NJ, Newark",
+    "url": "https://www.amazon.jobs/en/jobs/10529830/software-development-engineer-early-careers",
+    "posted": "September  4, 2026",
+    "date_found": "2026-09-04T14:11:20.297602+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
