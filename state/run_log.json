@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-08-29T05:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 1822,
-        "title_ok": 78,
-        "loc_ok": 41,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 236
-      },
-      "lever": {
-        "fetched": 578,
-        "title_ok": 64,
-        "loc_ok": 44,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 75
-      },
-      "smartrecruiters": {
-        "fetched": 169,
-        "title_ok": 4,
-        "loc_ok": 4,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 25
-      },
-      "ashby": {
-        "fetched": 5025,
-        "title_ok": 513,
-        "loc_ok": 91,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 435
-      },
-      "workday": {
-        "fetched": 2500,
-        "title_ok": 195,
-        "loc_ok": 91,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 322
-      }
-    },
-    "duration_s": 81.6,
-    "cursor": 1000
-  },
-  {
     "ts": "2026-08-29T05:41Z",
     "mode": "main",
     "per_source": {
@@ -49801,5 +49753,70 @@
     },
     "duration_s": 88.9,
     "cursor": 6000
+  },
+  {
+    "ts": "2026-09-04T20:41Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 255,
+        "title_ok": 12,
+        "loc_ok": 12,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 73
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 133,
+        "loc_ok": 133,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 65
+      },
+      "nvidia": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0,
+        "error": "NVIDIA fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://nvidia.eightfold.ai/api/pcsx/search?domain=nvidia.com&query=&location=united+states&start=0&sort_by=timestamp&filter_include_remote=1&filter_job_category=engineering&filter_job_type=regular+employee&filter_time_type=full+time&filter_hiring_title=Software+Engineer&filter_hiring_title=Machine+Learning+Engineer&filter_hiring_title=Artificial+Intelligence&filter_hiring_title=machine+learning&filter_hiring_title=software+development+engineer&filter_hiring_title=data"
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 39,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2834,
+        "title_ok": 1200,
+        "loc_ok": 905,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 59
+      }
+    },
+    "duration_s": 16.1,
+    "cursor": null
   }
 ]
