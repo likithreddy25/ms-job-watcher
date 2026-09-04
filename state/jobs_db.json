@@ -1,36 +1,5 @@
 [
   {
-    "key": "greenhouse:newsbreak:4699218006",
-    "title": "Machine Learning Engineer, Local Search & Marketplace",
-    "company": "newsbreak",
-    "location": "Mountain View, California, United States",
-    "url": "https://job-boards.greenhouse.io/newsbreak/jobs/4699218006",
-    "posted": "2026-07-22T18:42:20-04:00",
-    "date_found": "2026-07-23T00:01:51.352934+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "tensorflow",
-      "nlp",
-      "deep learning",
-      "machine learning",
-      "kubernetes"
-    ],
-    "bad_tech": [
-      "java",
-      "c++"
-    ]
-  },
-  {
     "key": "amazon:4e21b160-961d-42df-949a-53e82457bbec",
     "title": "Software Development Engineer, Agentic Workspaces",
     "company": "Amazon",
@@ -43352,6 +43321,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:8105437",
+    "title": "Software Engineer, Blockchain Platform Nodes",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/8105437?gh_jid=8105437",
+    "posted": "2026-09-03T19:25:10-04:00",
+    "date_found": "2026-09-04T01:01:54.975861+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
