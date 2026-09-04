@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0244424",
-    "title": "Software Developer",
-    "company": "Booz Allen Hamilton",
-    "location": "Arlington, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Arlington-VA/Software-Developer--Senior_R0244424",
-    "posted": "Posted Today",
-    "date_found": "2026-07-23T17:32:34.285364+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:03d3ce42-5e42-48ae-aa13-4d4ea5958364",
     "title": "Software Engineer, Discovery ",
     "company": "Amazon",
@@ -43327,6 +43307,32 @@
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "lever:allegiantair:323999fc-8fb2-4a40-af52-fecc384a4e64",
+    "title": "Data Engineer",
+    "company": "allegiantair",
+    "location": "Las Vegas, NV",
+    "url": "https://jobs.lever.co/allegiantair/323999fc-8fb2-4a40-af52-fecc384a4e64",
+    "posted": "2026-09-02 22:32 UTC",
+    "date_found": "2026-09-04T20:32:23.247463+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "etl",
+      "aws",
+      "redshift",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
