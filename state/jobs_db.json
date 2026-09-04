@@ -1,29 +1,5 @@
 [
   {
-    "key": "workday:allstate:Allstate_Careers:req:R32498",
-    "title": "Software Engineer (C#/SQL)",
-    "company": "Allstate",
-    "location": "US - Remote",
-    "url": "https://allstate.wd5.myworkdayjobs.com/en-US/Allstate_Careers/job/US---Remote/Software-Engineer--C--SQL-_R32498-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-23T20:02:29.459841+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "sql"
-    ],
-    "bad_tech": [
-      "c#"
-    ]
-  },
-  {
     "key": "amazon:9b5a44d4-3082-472b-8d98-99677163d8a0",
     "title": "Software Development Engineer, Transit Gateway",
     "company": "Amazon",
@@ -43330,6 +43306,26 @@
     "good_tech": [
       "machine learning"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:3b5ad79a-36db-4301-8a3a-5c5921ab609d",
+    "title": "SDE II, Homepage & NavX ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10530575/sde-ii-homepage-navx",
+    "posted": "September  4, 2026",
+    "date_found": "2026-09-04T23:11:21.236150+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
