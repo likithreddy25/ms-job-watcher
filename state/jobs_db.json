@@ -1,34 +1,5 @@
 [
   {
-    "key": "greenhouse:pipe17:4717950005",
-    "title": "Junior Software Engineer, AI-Native",
-    "company": "pipe17",
-    "location": "Seattle, WA",
-    "url": "https://job-boards.greenhouse.io/pipe17/jobs/4717950005",
-    "posted": "2026-07-23T12:14:47-04:00",
-    "date_found": "2026-07-23T16:31:48.843106+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "aws",
-      "docker",
-      "sql"
-    ],
-    "bad_tech": [
-      "java",
-      "rust"
-    ]
-  },
-  {
     "key": "workday:workday:Workday:req:JR-0108945",
     "title": "Software Development Engineer - Workday Everywhere",
     "company": "Workday",
@@ -43326,6 +43297,26 @@
     "url": "https://www.amazon.jobs/en/jobs/10529944/software-development-engineer-aft-pes",
     "posted": "September  4, 2026",
     "date_found": "2026-09-04T15:41:26.515596+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:f8479fcf-a828-403f-bd07-31c0f0c41585",
+    "title": "Software Development Engineer, Amazon Ads",
+    "company": "Amazon",
+    "location": "US, IL, Chicago",
+    "url": "https://www.amazon.jobs/en/jobs/10529972/software-development-engineer-amazon-ads",
+    "posted": "September  4, 2026",
+    "date_found": "2026-09-04T15:51:24.916451+00:00",
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
