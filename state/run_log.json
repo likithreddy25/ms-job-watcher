@@ -1,46 +1,5 @@
 [
   {
-    "ts": "2026-08-29T04:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 5019,
-        "title_ok": 277,
-        "loc_ok": 83,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 556
-      },
-      "lever": {
-        "fetched": 1023,
-        "title_ok": 115,
-        "loc_ok": 55,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 48
-      },
-      "smartrecruiters": {
-        "fetched": 695,
-        "title_ok": 51,
-        "loc_ok": 2,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 45
-      },
-      "workday": {
-        "fetched": 6500,
-        "title_ok": 204,
-        "loc_ok": 65,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 379,
-        "errors": 1
-      }
-    },
-    "duration_s": 84.1,
-    "cursor": 600
-  },
-  {
     "ts": "2026-08-29T04:41Z",
     "mode": "main",
     "per_source": {
@@ -49814,5 +49773,69 @@
     },
     "duration_s": 95.8,
     "cursor": 800
+  },
+  {
+    "ts": "2026-09-04T19:41Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 253,
+        "title_ok": 11,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 73
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 134,
+        "loc_ok": 134,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 64
+      },
+      "nvidia": {
+        "fetched": 230,
+        "title_ok": 26,
+        "loc_ok": 26,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 180
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 39,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 2
+      },
+      "oracle": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2835,
+        "title_ok": 1200,
+        "loc_ok": 905,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 59
+      }
+    },
+    "duration_s": 21.4,
+    "cursor": null
   }
 ]
