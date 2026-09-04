@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:03d3ce42-5e42-48ae-aa13-4d4ea5958364",
-    "title": "Software Engineer, Discovery ",
-    "company": "Amazon",
-    "location": "US, CA, San Francisco",
-    "url": "https://www.amazon.jobs/en/jobs/10482685/software-engineer-discovery",
-    "posted": "July 23, 2026",
-    "date_found": "2026-07-23T17:50:41.374482+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00187928",
     "title": "Data Analyst",
     "company": "Leidos",
@@ -43333,6 +43313,26 @@
       "redshift",
       "sql"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:8ce3ee64-4e7c-4046-be11-74fff8fbb800",
+    "title": "Applied Scientist, Worldwide Grocery Stores - Data and Science",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10530497/applied-scientist-worldwide-grocery-stores-data-and-science",
+    "posted": "September  4, 2026",
+    "date_found": "2026-09-04T21:21:20.960502+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
