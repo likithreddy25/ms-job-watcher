@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-08-29T14:31Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 1822,
-        "title_ok": 78,
-        "loc_ok": 41,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 236
-      },
-      "smartrecruiters": {
-        "fetched": 169,
-        "title_ok": 4,
-        "loc_ok": 4,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 25
-      },
-      "lever": {
-        "fetched": 578,
-        "title_ok": 64,
-        "loc_ok": 44,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 75
-      },
-      "ashby": {
-        "fetched": 5023,
-        "title_ok": 513,
-        "loc_ok": 91,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 435
-      },
-      "workday": {
-        "fetched": 2500,
-        "title_ok": 195,
-        "loc_ok": 91,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 321
-      }
-    },
-    "duration_s": 64.0,
-    "cursor": 1000
-  },
-  {
     "ts": "2026-08-29T14:41Z",
     "mode": "main",
     "per_source": {
@@ -50187,5 +50139,46 @@
     },
     "duration_s": 20.9,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-05T05:32Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 4776,
+        "title_ok": 289,
+        "loc_ok": 109,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 595
+      },
+      "lever": {
+        "fetched": 617,
+        "title_ok": 16,
+        "loc_ok": 10,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 12
+      },
+      "ashby": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "workday": {
+        "fetched": 9597,
+        "title_ok": 328,
+        "loc_ok": 98,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 459,
+        "feed_excluded": 1
+      }
+    },
+    "duration_s": 109.0,
+    "cursor": 400
   }
 ]
