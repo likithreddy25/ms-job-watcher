@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:mckesson:External_Careers:req:JR0149545",
-    "title": "Sr. Strategic Operations Analyst",
-    "company": "McKesson",
-    "location": "USA, TX, Irving",
-    "url": "https://mckesson.wd3.myworkdayjobs.com/en-US/External_Careers/job/USA-TX-Irving/Sr-Strategic-Operations-Analyst_JR0149545-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-23T21:02:06.615809+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10233288",
     "title": "Business Development Operations Analyst",
     "company": "Northrop Grumman",
@@ -43332,6 +43312,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:12a68657-b0a5-4d8b-b991-c2e5761626c8",
+    "title": "SDE-II, Supply Chain",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10530713/sde-ii-supply-chain",
+    "posted": "September  5, 2026",
+    "date_found": "2026-09-05T15:11:22.962311+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
