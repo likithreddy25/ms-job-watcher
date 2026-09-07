@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:1e3e6e66-cafe-486f-9f7d-084680c5748a",
-    "title": "Software Development Engineer, EC2 Core Provisioning",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10482975/software-development-engineer-ec2-core-provisioning",
-    "posted": "July 23, 2026",
-    "date_found": "2026-07-23T22:00:51.037370+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "lever:imo-online:54aa80f0-435b-4a2f-914e-3e768d012736",
     "title": "Financial Analyst (FP&A)",
     "company": "Imo Online",
@@ -43329,6 +43309,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:4c2c8e7d-cddf-48d9-b0cc-075ea6d1d6ff",
+    "title": "Data Engineer Graduate",
+    "company": "TikTok",
+    "location": "San Jose, CA",
+    "url": "https://lifeattiktok.com/search/7681779180341709109",
+    "posted": "2026-09-07T08:28:13+00:00",
+    "date_found": "2026-09-07T09:11:18.897141+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1456,
     "good_tech": [],
     "bad_tech": []
   }
