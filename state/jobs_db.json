@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00188038",
-    "title": "Systems and Platform Engineer",
-    "company": "Leidos",
-    "location": "Bethesda, MD",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Bethesda-MD/Systems-and-Platform-Engineer_R-00188038-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-23T23:02:30.902555+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188022",
     "title": "Real-Time Software Engineer",
     "company": "Leidos",
@@ -43329,6 +43309,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ddfe6155-bd5f-4b4e-8107-f4bb0d9376e6",
+    "title": "SDE-II, Supply Chain",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10531028/sde-ii-supply-chain",
+    "posted": "September  7, 2026",
+    "date_found": "2026-09-07T14:31:19.226453+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
