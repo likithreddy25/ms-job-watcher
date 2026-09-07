@@ -1,25 +1,5 @@
 [
   {
-    "key": "lever:imo-online:54aa80f0-435b-4a2f-914e-3e768d012736",
-    "title": "Financial Analyst (FP&A)",
-    "company": "Imo Online",
-    "location": "Rosemont, IL",
-    "url": "https://jobs.lever.co/imo-online/54aa80f0-435b-4a2f-914e-3e768d012736",
-    "posted": "2026-07-23 20:23 UTC",
-    "date_found": "2026-07-23T22:11:57.555414+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:caci:External:req:329515",
     "title": "Operations Analyst",
     "company": "CACI International",
@@ -43329,6 +43309,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1456,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:f9b21357-8314-4239-8cc2-84517330bca2",
+    "title": "Applied Scientist, Prime Video - Generative AI (Video)",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10530924/applied-scientist-prime-video-generative-ai-video",
+    "posted": "September  7, 2026",
+    "date_found": "2026-09-07T10:31:19.225312+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
