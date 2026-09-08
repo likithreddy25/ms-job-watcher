@@ -1,34 +1,5 @@
 [
   {
-    "key": "greenhouse:verkada:5194716007",
-    "title": "Embedded Software Engineer, Access Control",
-    "company": "verkada",
-    "location": "San Mateo, CA United States",
-    "url": "https://job-boards.greenhouse.io/verkada/jobs/5194716007",
-    "posted": "2026-07-23T19:42:32-04:00",
-    "date_found": "2026-07-24T00:31:49.082407+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag"
-    ],
-    "bad_tech": [
-      "c++",
-      "c/c++",
-      "rust",
-      "embedded",
-      "firmware"
-    ]
-  },
-  {
     "key": "ashby:benchling:70e672e0-b80b-4232-84cb-27406abfa689",
     "title": "Software Engineer, Backend (Release Engineering)",
     "company": "Benchling",
@@ -43326,6 +43297,31 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:aegworldwide:8782286002",
+    "title": "Data Analyst",
+    "company": "aegworldwide",
+    "location": "Los Angeles, CA",
+    "url": "https://job-boards.greenhouse.io/aegworldwide/jobs/8782286002",
+    "posted": "2026-09-08T13:16:08-04:00",
+    "date_found": "2026-09-08T18:02:31.877925+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_analyst",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "python",
+      "rag",
+      "aws",
+      "sql"
+    ],
     "bad_tech": []
   }
 ]
