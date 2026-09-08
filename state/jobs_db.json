@@ -1,47 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00188052",
-    "title": "Software Developer \u2013 Windows Platform Integration",
-    "company": "Leidos",
-    "location": "6314 Remote/Teleworker US",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/6314-RemoteTeleworker-US/Software-Developer---Windows-Platform-Integration_R-00188052",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T12:32:46.126423+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:great-gray-group:5f1164c5-06f7-43e5-b6b7-5e1a04fd9ba4",
-    "title": "Data Scientist",
-    "company": "great-gray-group",
-    "location": "Remote, USA",
-    "url": "https://jobs.lever.co/great-gray-group/5f1164c5-06f7-43e5-b6b7-5e1a04fd9ba4",
-    "posted": "2026-07-24 14:13 UTC",
-    "date_found": "2026-07-24T14:26:03.674306+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:leidos:External:req:R-00188066",
     "title": "Software Engineer - Environmental Test Lab",
     "company": "Leidos",
@@ -43325,6 +43283,46 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:59ec5a27-a9e7-4d52-a94f-7e451a9c59e9",
+    "title": "Applied Scientist, Navigation",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10532967/applied-scientist-navigation",
+    "posted": "September  8, 2026",
+    "date_found": "2026-09-08T22:51:24.965886+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:c51e1287-3352-4882-a271-a6c849b98ef2",
+    "title": "Software Engineer, XR , Fauna",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10532969/software-engineer-xr-fauna",
+    "posted": "September  8, 2026",
+    "date_found": "2026-09-08T22:51:24.965886+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
