@@ -1,29 +1,5 @@
 [
   {
-    "key": "greenhouse:queracomputinginc:5369462008",
-    "title": "Scientific Software Engineer - Developer Experience",
-    "company": "queracomputinginc",
-    "location": "Boston, MA, USA",
-    "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5369462008",
-    "posted": "2026-07-23T22:10:01-04:00",
-    "date_found": "2026-07-24T03:31:21.019824+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ224582",
     "title": "Software Developer",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43326,6 +43302,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0109805",
+    "title": "Software Development Engineer, DevOps (US Federal)",
+    "company": "Workday",
+    "location": "USA.VA.Reston",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USAVAReston/Software-Development-Engineer--DevOps--US-Federal-_JR-0109805",
+    "posted": "Posted Today",
+    "date_found": "2026-09-08T21:02:24.209356+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
   }
