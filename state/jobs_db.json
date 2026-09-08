@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:gdit:External_Career_Site:req:RQ224582",
-    "title": "Software Developer",
-    "company": "General Dynamics Information Technology (GDIT)",
-    "location": "USA FL MacDill AFB",
-    "url": "https://gdit.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/USA-FL-MacDill-AFB/Software-Developer_RQ224582-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T04:32:27.076655+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:2fb10430-13c1-4380-bf5e-35b58b2fa5c3",
     "title": "Applied Scientist, Prime Video Personalization and Discovery Science, Prime Video - Personalization and Discovery Science",
     "company": "Amazon",
@@ -43322,6 +43302,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:f4392db4-dd85-458d-be97-2f0f8bda3f55",
+    "title": "Software Development Engineer, Data Platform & Analytics - ART19",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10532746/software-development-engineer-data-platform-analytics-art19",
+    "posted": "September  8, 2026",
+    "date_found": "2026-09-08T21:51:27.197911+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
