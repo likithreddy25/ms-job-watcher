@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-08T18:02:31.918810+00:00",
+  "updated_utc": "2026-09-08T18:32:08.037274+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2101,6 +2101,15 @@
     "greenhouse:haizelabs": {
       "first_seen_utc": "2026-09-08T14:32:10.001847+00:00",
       "last_seen_utc": "2026-09-08T14:32:10.001847+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:meditelecare": {
+      "first_seen_utc": "2026-09-08T18:31:27.272575+00:00",
+      "last_seen_utc": "2026-09-08T18:31:27.272575+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
