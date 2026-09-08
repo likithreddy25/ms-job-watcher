@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:35fc1cba-415c-4751-985a-da200d4eb88a",
-    "title": "Software Development Engineer, Special Projects",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10483102/software-development-engineer-special-projects",
-    "posted": "July 24, 2026",
-    "date_found": "2026-07-24T02:50:38.157626+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:queracomputinginc:5369462008",
     "title": "Scientific Software Engineer - Developer Experience",
     "company": "queracomputinginc",
@@ -43326,6 +43306,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2543,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2024116",
+    "title": "Operations Research Scientist",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Operations-Research-Scientist_JR2024116-1",
+    "posted": "Posted Today",
+    "date_found": "2026-09-08T20:02:55.711422+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
   }
