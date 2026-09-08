@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:abbott:abbottcareers:req:31156591",
-    "title": "Business Intelligence Specialist, Global Finance Operations",
-    "company": "Abbott",
-    "location": "United States - Ohio - Columbus",
-    "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Ohio---Columbus/Business-Intelligence-Specialist--Global-Finance-Operations_31156591-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T01:32:25.265396+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2014711",
     "title": "Software Engineer, Performance Lab and Tools",
     "company": "NVIDIA",
@@ -43323,5 +43303,30 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:anthropic:5416882008",
+    "title": "Research Engineer, Takeoff Intel",
+    "company": "Anthropic",
+    "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416882008",
+    "posted": "2026-09-08T13:02:07-04:00",
+    "date_found": "2026-09-08T19:03:20.546455+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "yes",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "",
+    "h1b_sponsor_lcas_per_year": 0,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
