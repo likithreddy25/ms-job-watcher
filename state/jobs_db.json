@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:2fb10430-13c1-4380-bf5e-35b58b2fa5c3",
-    "title": "Applied Scientist, Prime Video Personalization and Discovery Science, Prime Video - Personalization and Discovery Science",
-    "company": "Amazon",
-    "location": "US, CA, Sunnyvale",
-    "url": "https://www.amazon.jobs/en/jobs/10483316/applied-scientist-prime-video-personalization-and-discovery-science-prime-video-personalization-and-discovery-science",
-    "posted": "July 24, 2026",
-    "date_found": "2026-07-24T08:20:42.862868+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188052",
     "title": "Software Developer \u2013 Windows Platform Integration",
     "company": "Leidos",
@@ -43323,6 +43303,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:a55357f4-c767-4a88-baa7-1432166026a0",
+    "title": "Software Development Engineer, AWS Contract Onboarding",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10532819/software-development-engineer-aws-contract-onboarding",
+    "posted": "September  8, 2026",
+    "date_found": "2026-09-08T22:11:25.988340+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
