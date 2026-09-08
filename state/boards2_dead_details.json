@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-08T14:01:48.891307+00:00",
+  "updated_utc": "2026-09-08T14:32:32.504443+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2074,6 +2074,33 @@
     "greenhouse:southworks": {
       "first_seen_utc": "2026-09-08T07:31:11.836983+00:00",
       "last_seen_utc": "2026-09-08T07:31:11.836983+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:evolver": {
+      "first_seen_utc": "2026-09-08T14:31:56.696812+00:00",
+      "last_seen_utc": "2026-09-08T14:31:56.696812+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:flyr": {
+      "first_seen_utc": "2026-09-08T14:32:02.953256+00:00",
+      "last_seen_utc": "2026-09-08T14:32:02.953256+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:haizelabs": {
+      "first_seen_utc": "2026-09-08T14:32:10.001847+00:00",
+      "last_seen_utc": "2026-09-08T14:32:10.001847+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
