@@ -1,27 +1,5 @@
 [
   {
-    "key": "nvidia:893396598743",
-    "title": "Machine Learning Engineer, AI Safety",
-    "company": "NVIDIA",
-    "location": "Santa Clara, CA, US",
-    "url": "https://nvidia.eightfold.ai/careers/job/893396598743",
-    "posted": "2026-07-24 00:00 UTC",
-    "date_found": "2026-07-24T22:00:47.470405+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2341,
-    "good_tech": [
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245293",
     "title": "All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43268,6 +43246,28 @@
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:6e37c281-cfa1-4248-9ec1-96602ae33802",
+    "title": "Software Development Engineer - AWS OpenSearch, OpenSearch Dashboards",
+    "company": "Amazon",
+    "location": "US, WA, Bellevue",
+    "url": "https://www.amazon.jobs/en/jobs/10535559/software-development-engineer-aws-opensearch-opensearch-dashboards",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T23:31:36.507892+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
