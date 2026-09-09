@@ -1,34 +1,5 @@
 [
   {
-    "key": "greenhouse:stripe:8084195",
-    "title": "Backend Engineer, Credit Decisions ",
-    "company": "Stripe",
-    "location": "Chicago, IL ",
-    "url": "https://stripe.com/jobs/search?gh_jid=8084195",
-    "posted": "2026-07-24T16:10:18-04:00",
-    "date_found": "2026-07-24T21:02:36.231638+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 4 sponsor",
-    "h1b_sponsor_lcas_per_year": 987,
-    "good_tech": [
-      "python",
-      "aws",
-      "docker",
-      "kubernetes",
-      "sql"
-    ],
-    "bad_tech": [
-      "java",
-      "ruby"
-    ]
-  },
-  {
     "key": "workday:troweprice:TRowePrice:req:82522",
     "title": "Integrated Media Operations Analyst",
     "company": "T. Rowe Price",
@@ -43278,6 +43249,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:cf5d308b-bf7e-423b-a9fa-760a6c3c9844",
+    "title": "Software Development Engineer, AWS Security Communications",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10535504/software-development-engineer-aws-security-communications",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T22:11:23.239802+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
