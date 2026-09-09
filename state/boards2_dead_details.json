@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-08T23:41:21.782839+00:00",
+  "updated_utc": "2026-09-09T00:02:43.673669+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2129,6 +2129,15 @@
       "first_seen_utc": "2026-09-08T22:02:23.128248+00:00",
       "last_seen_utc": "2026-09-08T22:02:23.128248+00:00",
       "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:hungerfreeamerica": {
+      "first_seen_utc": "2026-09-09T00:02:12.870544+00:00",
+      "last_seen_utc": "2026-09-09T00:02:12.870544+00:00",
+      "platform": "lever",
       "company": "",
       "board_url": "",
       "last_status": 404,
