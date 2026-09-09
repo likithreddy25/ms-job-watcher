@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-09-03T07:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 14955,
-        "title_ok": 505,
-        "loc_ok": 122,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 611
-      },
-      "lever": {
-        "fetched": 44686,
-        "title_ok": 1150,
-        "loc_ok": 336,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1324
-      }
-    },
-    "duration_s": 75.7,
-    "cursor": 6000
-  },
-  {
     "ts": "2026-09-03T07:41Z",
     "mode": "main",
     "per_source": {
@@ -53998,5 +53974,70 @@
     },
     "duration_s": 131.7,
     "cursor": 4000
+  },
+  {
+    "ts": "2026-09-09T23:12Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 229,
+        "title_ok": 16,
+        "loc_ok": 16,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 66
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 119,
+        "loc_ok": 119,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 67
+      },
+      "nvidia": {
+        "fetched": 220,
+        "title_ok": 21,
+        "loc_ok": 21,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 176
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 38,
+        "title_ok": 27,
+        "loc_ok": 11,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2880,
+        "title_ok": 1210,
+        "loc_ok": 906,
+        "new": 4,
+        "emailed": 0,
+        "senior_excluded": 56,
+        "feed_excluded": 4
+      }
+    },
+    "duration_s": 20.2,
+    "cursor": null
   }
 ]
