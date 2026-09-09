@@ -1,30 +1,5 @@
 [
   {
-    "key": "greenhouse:kraftonamericas:8645900002",
-    "title": "Game Security Software Engineer",
-    "company": "kraftonamericas",
-    "location": "El Segundo, CA",
-    "url": "https://job-boards.greenhouse.io/kraftonamericas/jobs/8645900002",
-    "posted": "2026-07-24T12:57:58-04:00",
-    "date_found": "2026-07-24T17:12:07.616864+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": [
-      "c++",
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:preciselyusjobs:4718405005",
     "title": "Software Engineer",
     "company": "preciselyusjobs",
@@ -43314,6 +43289,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2025003",
+    "title": "Senior Infrastructure Engineer - AI, Automation, Observability and Monitoring",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Infrastructure-Engineer---AI--Automation--Observability-and-Monitoring_JR2025003",
+    "posted": "Posted Today",
+    "date_found": "2026-09-09T17:02:47.904603+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
   }
