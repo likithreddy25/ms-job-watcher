@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:07bd1792-fe99-4159-acf7-abf8a7987cef",
-    "title": "Applied Scientist , PAE",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10483557/applied-scientist-pae",
-    "posted": "July 24, 2026",
-    "date_found": "2026-07-24T16:34:54.757659+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245282",
     "title": "Data Scientist, Mid",
     "company": "Booz Allen Hamilton",
@@ -43321,6 +43301,28 @@
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "nvidia:893397617990",
+    "title": "Machine Learning Engineer",
+    "company": "NVIDIA",
+    "location": "Santa Clara, CA, US",
+    "url": "https://nvidia.eightfold.ai/careers/job/893397617990",
+    "posted": "2026-09-08 00:00 UTC",
+    "date_found": "2026-09-09T02:01:25.520284+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [
+      "machine learning"
+    ],
     "bad_tech": []
   }
 ]
