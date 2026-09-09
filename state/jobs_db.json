@@ -1,33 +1,5 @@
 [
   {
-    "key": "greenhouse:kraftonamericas:8645788002",
-    "title": "Game Security Data Scientist",
-    "company": "kraftonamericas",
-    "location": "El Segundo, CA",
-    "url": "https://job-boards.greenhouse.io/kraftonamericas/jobs/8645788002",
-    "posted": "2026-07-24T12:56:34-04:00",
-    "date_found": "2026-07-24T17:12:07.616864+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "deep learning",
-      "machine learning",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:kraftonamericas:8645900002",
     "title": "Game Security Software Engineer",
     "company": "kraftonamericas",
@@ -43322,6 +43294,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e83cf88d-b84e-4bbf-b7c8-842924f8785a",
+    "title": "Software Development Engineer, Amazon Security Platform Engineering",
+    "company": "Amazon",
+    "location": "US, CA, San Luis Obispo",
+    "url": "https://www.amazon.jobs/en/jobs/10534042/software-development-engineer-amazon-security-platform-engineering",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T12:51:18.033545+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "cloud_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
