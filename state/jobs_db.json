@@ -1,36 +1,5 @@
 [
   {
-    "key": "greenhouse:verkada:5194598007",
-    "title": "Backend Engineer - Connectivity",
-    "company": "verkada",
-    "location": "San Mateo, CA United States",
-    "url": "https://job-boards.greenhouse.io/verkada/jobs/5194598007",
-    "posted": "2026-07-24T13:18:48-04:00",
-    "date_found": "2026-07-24T19:02:01.948054+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "computer vision",
-      "kafka",
-      "kubernetes",
-      "postgres"
-    ],
-    "bad_tech": [
-      "rust",
-      "embedded",
-      "firmware"
-    ]
-  },
-  {
     "key": "greenhouse:veterinaryemergencygroupst:6121632004",
     "title": "ServiceNow Platform Engineer",
     "company": "veterinaryemergencygroupst",
@@ -43301,6 +43270,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:d999c8cc-3fbf-4575-8798-80f3acfa2089",
+    "title": "SDE, Neuron Inference, Neuron Inference",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10535087/sde-neuron-inference-neuron-inference",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T19:41:28.763117+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
