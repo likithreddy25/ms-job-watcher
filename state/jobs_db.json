@@ -1,27 +1,5 @@
 [
   {
-    "key": "greenhouse:twilio:7946610",
-    "title": "Software Engineer (L2)",
-    "company": "twilio",
-    "location": "Remote - US",
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/7946610",
-    "posted": "2026-07-24T10:24:30-04:00",
-    "date_found": "2026-07-24T16:02:23.167923+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:07bd1792-fe99-4159-acf7-abf8a7987cef",
     "title": "Applied Scientist , PAE",
     "company": "Amazon",
@@ -43323,6 +43301,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000148361129",
+    "title": "Staff Software Engineer - Cloud Automation - Federal",
+    "company": "ServiceNow",
+    "location": "Kirkland, Washington, us",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-09-08T23:40:47.556Z",
+    "date_found": "2026-09-09T01:32:32.348247+00:00",
+    "bucket": "maybe",
+    "score": 65,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
