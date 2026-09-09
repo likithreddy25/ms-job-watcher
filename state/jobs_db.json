@@ -1,27 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10241869",
-    "title": "Associate Embedded Software Engineer / Embedded Software Engineer",
-    "company": "Northrop Grumman",
-    "location": "United States-Florida-Melbourne",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Associate-Embedded-Software-Engineer---Embedded-Software-Engineer_R10241869",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T15:31:50.168309+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "embedded"
-    ]
-  },
-  {
     "key": "greenhouse:twilio:7946610",
     "title": "Software Engineer (L2)",
     "company": "twilio",
@@ -43323,6 +43301,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:676dec72-4019-4bc4-91bd-5cee288ca0f1",
+    "title": "Software Development Engineer, AWS Vulnerability Management (AVM)",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10533656/software-development-engineer-aws-vulnerability-management-avm",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T01:01:47.185823+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
