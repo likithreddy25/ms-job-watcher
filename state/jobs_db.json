@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:troweprice:TRowePrice:req:82522",
-    "title": "Integrated Media Operations Analyst",
-    "company": "T. Rowe Price",
-    "location": "Baltimore, MD",
-    "url": "https://troweprice.wd5.myworkdayjobs.com/en-US/TRowePrice/job/Baltimore-MD/Integrated-Media-Operations-Analyst_82522-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T21:02:36.231638+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "ashby:snowflake:494fcbd0-1cf3-4248-b5cf-b35d982ced00",
     "title": "Software Engineer- Postgres",
     "company": "Snowflake",
@@ -43271,6 +43251,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556988778",
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "location": "Redmond, WA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556988778",
+    "posted": "2026-09-09 21:04 UTC",
+    "date_found": "2026-09-09T22:31:36.595283+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
