@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329580",
-    "title": "Software Developer \u2013 Full-Stack / Systems Integration",
-    "company": "CACI International",
-    "location": "Fairfax, VA, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Fairfax-VA-US/Software-Developer---Full-Stack---Systems-Integration_329580",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T19:45:30.583880+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:1224f8e1-621b-428b-84be-596c36f0182b",
     "title": "SDE-Mobile App Foundations, Builderworks",
     "company": "Amazon",
@@ -43284,6 +43264,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:deff0508-f42e-4d75-9d6e-f788c2ec7227",
+    "title": "Applied Scientist, Pricing Science",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10535238/applied-scientist-pricing-science",
+    "posted": "September  9, 2026",
+    "date_found": "2026-09-09T20:41:28.703503+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
