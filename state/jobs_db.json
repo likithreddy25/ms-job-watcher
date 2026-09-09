@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00188074",
-    "title": "Intelligence Analyst",
-    "company": "Leidos",
-    "location": "Hampton, VA",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Hampton-VA/Intelligence-Analyst_R-00188074-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T17:32:48.059776+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188075",
     "title": "Intelligence Analyst",
     "company": "Leidos",
@@ -43298,6 +43278,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0109889",
+    "title": "Software Development Engineer",
+    "company": "Workday",
+    "location": "USA, CA, Pleasanton",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer_JR-0109889",
+    "posted": "Posted Today",
+    "date_found": "2026-09-09T18:02:34.177224+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
     "good_tech": [],
     "bad_tech": []
   }
