@@ -1,38 +1,5 @@
 [
   {
-    "ts": "2026-09-03T17:01Z",
-    "mode": "boards",
-    "per_source": {
-      "ashby": {
-        "fetched": 1928,
-        "title_ok": 111,
-        "loc_ok": 24,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 204
-      },
-      "greenhouse": {
-        "fetched": 4367,
-        "title_ok": 262,
-        "loc_ok": 147,
-        "new": 1,
-        "emailed": 0,
-        "senior_excluded": 247,
-        "yoe_excluded": 1
-      },
-      "lever": {
-        "fetched": 1447,
-        "title_ok": 107,
-        "loc_ok": 37,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 157
-      }
-    },
-    "duration_s": 24.9,
-    "cursor": 0
-  },
-  {
     "ts": "2026-09-03T17:11Z",
     "mode": "main",
     "per_source": {
@@ -54373,5 +54340,69 @@
     },
     "duration_s": 99.9,
     "cursor": 200
+  },
+  {
+    "ts": "2026-09-10T08:41Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 219,
+        "title_ok": 17,
+        "loc_ok": 17,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 61
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 119,
+        "loc_ok": 119,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 68
+      },
+      "nvidia": {
+        "fetched": 220,
+        "title_ok": 20,
+        "loc_ok": 20,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 177
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 43,
+        "title_ok": 30,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2926,
+        "title_ok": 1230,
+        "loc_ok": 922,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 56
+      }
+    },
+    "duration_s": 19.7,
+    "cursor": null
   }
 ]
