@@ -1,69 +1,5 @@
 [
   {
-    "ts": "2026-09-03T19:21Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 242,
-        "title_ok": 11,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 69
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 135,
-        "loc_ok": 135,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 64
-      },
-      "nvidia": {
-        "fetched": 230,
-        "title_ok": 24,
-        "loc_ok": 24,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 182
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 39,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 1,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 3188,
-        "title_ok": 1206,
-        "loc_ok": 899,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 65
-      }
-    },
-    "duration_s": 22.5,
-    "cursor": null
-  },
-  {
     "ts": "2026-09-03T19:32Z",
     "mode": "boards",
     "per_source": {
@@ -54395,5 +54331,29 @@
     },
     "duration_s": 20.9,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-10T11:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 14995,
+        "title_ok": 501,
+        "loc_ok": 144,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 634
+      },
+      "lever": {
+        "fetched": 45389,
+        "title_ok": 1156,
+        "loc_ok": 342,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1299
+      }
+    },
+    "duration_s": 77.7,
+    "cursor": 6000
   }
 ]
