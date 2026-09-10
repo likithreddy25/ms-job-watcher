@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:0282521a-bb72-4a96-8989-ab6ff0ccecc5",
-    "title": "Software Development Engineer, Measurement, Ad Tech, and Data Science",
-    "company": "Amazon",
-    "location": "US, TX, Austin",
-    "url": "https://www.amazon.jobs/en/jobs/10484131/software-development-engineer-measurement-ad-tech-and-data-science",
-    "posted": "July 26, 2026",
-    "date_found": "2026-07-26T06:40:45.329139+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:b7c5349a-b7d6-41a2-becb-7320788ad7d8",
     "title": "Software Development Engineer, Amazon WorkSpaces Applications",
     "company": "Amazon",
@@ -43226,6 +43206,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2543,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:a5205150-c68d-4b65-b961-cd54d104ac76",
+    "title": "Software Development Engineer",
+    "company": "Zoom",
+    "location": "San Jose, CA",
+    "url": "https://zoom.wd5.myworkdayjobs.com/zoom/job/San-Jose-CA/Software-Development-Engineer_R19357-1",
+    "posted": "2026-09-10T00:00:00+00:00",
+    "date_found": "2026-09-10T22:41:21.764946+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 521,
     "good_tech": [],
     "bad_tech": []
   }
