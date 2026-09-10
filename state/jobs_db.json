@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245296",
-    "title": "Data Scientist",
-    "company": "Booz Allen Hamilton",
-    "location": "Fort Meade, MD",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fort-Meade-MD/Data-Scientist_R0245296-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T22:17:35.417322+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:dxctechnology:DXCJobs:req:51585770",
     "title": "Databricks Platform Engineer (AWS) (Evergreen) (Open)",
     "company": "DXC Technology",
@@ -43274,5 +43254,25 @@
     "bad_tech": [
       "rust"
     ]
+  },
+  {
+    "key": "simplifyjobs:8cbcc60f-c2ba-403d-b165-2100b0b1b85a",
+    "title": "Semiconductor Packaging Research Engineer",
+    "company": "Intel",
+    "location": "Hillsboro, OR; Phoenix, AZ",
+    "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Semiconductor-Packaging-Research-Engineer_JR0286871",
+    "posted": "2026-09-09T00:00:00+00:00",
+    "date_found": "2026-09-10T01:41:36.271792+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2543,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
