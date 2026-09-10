@@ -1,29 +1,5 @@
 [
   {
-    "key": "greenhouse:chanzuckerberginitiative:8084561",
-    "title": "Applied AI Engineer, Investments",
-    "company": "chanzuckerberginitiative",
-    "location": "Redwood City, CA (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/chanzuckerberginitiative/jobs/8084561",
-    "posted": "2026-07-24T20:31:53-04:00",
-    "date_found": "2026-07-25T01:31:30.456979+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "machine learning"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:redwoodmaterials:6115205004",
     "title": "Business Applications Engineer, Oracle Transport Management",
     "company": "redwoodmaterials",
@@ -43261,6 +43237,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:263a7dd9-708e-4191-bf8d-c05f42fbcb44",
+    "title": "Software Development Engineer , Leo Commerce, Leo Commerce",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10536497/software-development-engineer-leo-commerce-leo-commerce",
+    "posted": "September 10, 2026",
+    "date_found": "2026-09-10T18:31:32.614973+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
