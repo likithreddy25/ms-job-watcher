@@ -1,70 +1,5 @@
 [
   {
-    "ts": "2026-09-04T02:41Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 250,
-        "title_ok": 11,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 73
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 137,
-        "loc_ok": 137,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 64
-      },
-      "nvidia": {
-        "fetched": 80,
-        "title_ok": 7,
-        "loc_ok": 7,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 63
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 39,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 1,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 2884,
-        "title_ok": 1180,
-        "loc_ok": 881,
-        "new": 1,
-        "emailed": 0,
-        "senior_excluded": 60,
-        "feed_excluded": 1
-      }
-    },
-    "duration_s": 16.1,
-    "cursor": null
-  },
-  {
     "ts": "2026-09-04T02:51Z",
     "mode": "main",
     "per_source": {
@@ -54309,5 +54244,69 @@
     },
     "duration_s": 64.4,
     "cursor": 1000
+  },
+  {
+    "ts": "2026-09-10T18:41Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 218,
+        "title_ok": 16,
+        "loc_ok": 16,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 61
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 124,
+        "loc_ok": 124,
+        "new": 1,
+        "emailed": 1,
+        "senior_excluded": 61
+      },
+      "nvidia": {
+        "fetched": 220,
+        "title_ok": 19,
+        "loc_ok": 19,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 178
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 43,
+        "title_ok": 30,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 2929,
+        "title_ok": 1238,
+        "loc_ok": 928,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 56
+      }
+    },
+    "duration_s": 19.9,
+    "cursor": null
   }
 ]
