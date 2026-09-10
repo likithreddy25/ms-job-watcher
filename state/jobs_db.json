@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00187550",
-    "title": "Software Engineer",
-    "company": "Leidos",
-    "location": "Huntsville, AL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Software-Engineer_R-00187550",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T22:32:34.224795+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10242249",
     "title": "Software Engineer - Level 4",
     "company": "Northrop Grumman",
@@ -43274,6 +43254,26 @@
     "good_tech": [
       "machine learning"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:ccea935e-1055-419a-834c-8b52c01b71bc",
+    "title": "Software Engineer - Apple Ads",
+    "company": "Apple",
+    "location": "Austin, TX",
+    "url": "https://jobs.apple.com/en-us/details/200682706",
+    "posted": "2026-09-09T22:09:49+00:00",
+    "date_found": "2026-09-10T10:41:27.198941+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 4202,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
