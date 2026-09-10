@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245293",
-    "title": "All-Source Intelligence Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Offutt AFB, NE",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Offutt-AFB-NE/All-Source-Intelligence-Analyst_R0245293",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T22:17:35.417322+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245296",
     "title": "Data Scientist",
     "company": "Booz Allen Hamilton",
@@ -43269,5 +43249,30 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:coinbase:7991839",
+    "title": "Software Engineer, Developer Infrastructure",
+    "company": "coinbase",
+    "location": "Remote - USA",
+    "url": "https://www.coinbase.com/careers/positions/7991839?gh_jid=7991839",
+    "posted": "2026-09-09T18:51:43-04:00",
+    "date_found": "2026-09-10T00:32:18.731472+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
