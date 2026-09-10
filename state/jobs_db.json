@@ -1,28 +1,5 @@
 [
   {
-    "key": "workday:dxctechnology:DXCJobs:req:51585770",
-    "title": "Databricks Platform Engineer (AWS) (Evergreen) (Open)",
-    "company": "DXC Technology",
-    "location": "USA - VA - ANY CITY",
-    "url": "https://dxctechnology.wd1.myworkdayjobs.com/en-US/DXCJobs/job/USA---VA---ANY-CITY/Databricks-Platform-Engineer--AWS---Evergreen---Open-_51585770",
-    "posted": "Posted Today",
-    "date_found": "2026-07-24T22:32:34.224795+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "databricks",
-      "aws"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:gdit:External_Career_Site:req:RQ224957",
     "title": "Software Engineer",
     "company": "General Dynamics Information Technology (GDIT)",
@@ -43273,6 +43250,28 @@
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2543,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0108977",
+    "title": "Machine Learning Engineer - Payroll",
+    "company": "Workday",
+    "location": "USA, CA, Pleasanton",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Machine-Learning-Engineer---Payroll_JR-0108977",
+    "posted": "Posted Today",
+    "date_found": "2026-09-10T02:02:09.882225+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [
+      "machine learning"
+    ],
     "bad_tech": []
   }
 ]
