@@ -1,50 +1,5 @@
 [
   {
-    "key": "lever:zoox:18b6dfa0-d581-4d29-ac79-5d6e666aa9c3",
-    "title": "Software Engineer, Fleet Simulation (Core Data Science)",
-    "company": "zoox",
-    "location": "Foster City, CA",
-    "url": "https://jobs.lever.co/zoox/18b6dfa0-d581-4d29-ac79-5d6e666aa9c3",
-    "posted": "2026-07-24 22:20 UTC",
-    "date_found": "2026-07-25T00:01:43.471814+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python"
-    ],
-    "bad_tech": [
-      "c++",
-      "kotlin"
-    ]
-  },
-  {
-    "key": "amazon:a220685d-8333-426a-b0aa-4285d68509fb",
-    "title": "Software Development Engineer, Amazon WorkSpaces Applications",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10483966/software-development-engineer-amazon-workspaces-applications",
-    "posted": "July 25, 2026",
-    "date_found": "2026-07-25T00:10:42.239601+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:c38d230e-545b-4cbb-9128-9a13eafe9738",
     "title": "Software Development Engineer, Agentic WorkSpaces",
     "company": "Amazon",
@@ -43267,6 +43222,48 @@
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1654,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:40331d19-a9ee-46e4-87f6-5b05a97d5c0c",
+    "title": "Software Development Engineer - II, Emerging Planning Solutions Tools",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10536204/software-development-engineer-ii-emerging-planning-solutions-tools",
+    "posted": "September 10, 2026",
+    "date_found": "2026-09-10T16:51:19.736194+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:26f088df-7a5b-4471-8cc8-98ac4e210852",
+    "title": "SDE III, AWS Field Experience ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10536212/sde-iii-aws-field-experience",
+    "posted": "September 10, 2026",
+    "date_found": "2026-09-10T16:51:19.736194+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
