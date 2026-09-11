@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:62f14bd7-e004-4e61-b354-c9ecea220085",
-    "title": "Software Development Engineer",
-    "company": "Amazon",
-    "location": "US, NJ, Newark",
-    "url": "https://www.amazon.jobs/en/jobs/10484906/software-development-engineer",
-    "posted": "July 27, 2026",
-    "date_found": "2026-07-27T16:20:47.326517+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:3f61d9bd-df86-41ba-821a-ce4ef3b1fa87",
     "title": "Software Development Engineer, Creator Marketplace",
     "company": "Amazon",
@@ -43218,6 +43198,29 @@
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1654,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:doordashusa:8197854",
+    "title": "Software Engineer - Developer Experience, Web",
+    "company": "doordashusa",
+    "location": "San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA; New York, NY",
+    "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8197854",
+    "posted": "2026-09-11T17:00:22-04:00",
+    "date_found": "2026-09-11T23:33:09.266418+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 765,
+    "good_tech": [
+      "rag",
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
