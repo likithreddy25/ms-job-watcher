@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:7d4573ee-6442-4342-be94-774c7c038299",
-    "title": "SDE II - Network Observability, Leo Networking Software",
-    "company": "Amazon",
-    "location": "US, WA, Redmond",
-    "url": "https://www.amazon.jobs/en/jobs/10484836/sde-ii-network-observability-leo-networking-software",
-    "posted": "July 27, 2026",
-    "date_found": "2026-07-27T15:20:49.949522+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:point72:8651402002",
     "title": "Machine Learning Engineer, GenAI Technology ",
     "company": "Point72",
@@ -43226,6 +43206,28 @@
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2543,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:workday:Workday:req:JR-0109848",
+    "title": "Machine Learning Engineer",
+    "company": "Workday",
+    "location": "USA, CA, Pleasanton",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Machine-Learning-Engineer-III_JR-0109848",
+    "posted": "Posted Today",
+    "date_found": "2026-09-11T22:02:14.114826+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 498,
+    "good_tech": [
+      "machine learning"
+    ],
     "bad_tech": []
   }
 ]
