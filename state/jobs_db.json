@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:intel:External:req:JR0285035",
-    "title": "System Software Engineer",
-    "company": "Intel",
-    "location": "US, Arizona, Phoenix",
-    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Arizona-Phoenix/System-Software-Engineer_JR0285035-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T15:11:08.778229+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 3 sponsor",
-    "h1b_sponsor_lcas_per_year": 2543,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:intel:External:req:JR0285033",
     "title": "System Software Engineer",
     "company": "Intel",
@@ -43224,6 +43204,28 @@
     "h1b_sponsor_tier": "Tier 4 sponsor",
     "h1b_sponsor_lcas_per_year": 1654,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:63f28f86-0718-490b-b5e1-885432e5b38e",
+    "title": "Software Development Engineer, AWS Intent Driven Networking (AIDN)",
+    "company": "Amazon",
+    "location": "US, CA, Santa Clara",
+    "url": "https://www.amazon.jobs/en/jobs/10538018/software-development-engineer-aws-intent-driven-networking-aidn",
+    "posted": "September 11, 2026",
+    "date_found": "2026-09-11T20:41:25.713046+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
