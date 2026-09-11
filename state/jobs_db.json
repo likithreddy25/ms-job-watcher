@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:886e65dd-0053-4343-8b6b-371d38e2a64e",
-    "title": "Software Development Engineer, Amazon WorkSpaces Applications",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10484188/software-development-engineer-amazon-workspaces-applications",
-    "posted": "July 27, 2026",
-    "date_found": "2026-07-27T00:50:49.304127+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:43010f06-3276-4d66-afe5-162ab9dd874e",
     "title": "Software Development Engineer, Amazon WorkSpaces Applications",
     "company": "Amazon",
@@ -43229,6 +43209,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ab865f26-9bdf-432b-95ff-17255d0c8d58",
+    "title": "Software Development Engineer, Sponsored Products and Brands",
+    "company": "Amazon",
+    "location": "US, CA, Palo Alto",
+    "url": "https://www.amazon.jobs/en/jobs/10537085/software-development-engineer-sponsored-products-and-brands",
+    "posted": "September 11, 2026",
+    "date_found": "2026-09-11T05:41:31.010964+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
