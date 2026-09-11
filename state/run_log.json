@@ -1,70 +1,5 @@
 [
   {
-    "ts": "2026-09-04T13:11Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 247,
-        "title_ok": 11,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 71
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 137,
-        "loc_ok": 137,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 64
-      },
-      "nvidia": {
-        "fetched": 80,
-        "title_ok": 7,
-        "loc_ok": 7,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 63
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 39,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 1,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 2865,
-        "title_ok": 1203,
-        "loc_ok": 910,
-        "new": 4,
-        "emailed": 0,
-        "senior_excluded": 59,
-        "feed_excluded": 4
-      }
-    },
-    "duration_s": 21.3,
-    "cursor": null
-  },
-  {
     "ts": "2026-09-04T13:21Z",
     "mode": "main",
     "per_source": {
@@ -54281,5 +54216,29 @@
     },
     "duration_s": 23.1,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-11T05:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 14970,
+        "title_ok": 503,
+        "loc_ok": 141,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 625
+      },
+      "lever": {
+        "fetched": 45224,
+        "title_ok": 1160,
+        "loc_ok": 346,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 1296
+      }
+    },
+    "duration_s": 99.8,
+    "cursor": 6000
   }
 ]
