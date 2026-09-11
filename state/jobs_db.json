@@ -1,35 +1,5 @@
 [
   {
-    "key": "greenhouse:point72:8651402002",
-    "title": "Machine Learning Engineer, GenAI Technology ",
-    "company": "Point72",
-    "location": "New York, NY",
-    "url": "https://boards.greenhouse.io/point72/jobs/8651402002?gh_jid=8651402002",
-    "posted": "2026-07-27T10:28:01-04:00",
-    "date_found": "2026-07-27T15:32:02.114398+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "tensorflow",
-      "scikit-learn",
-      "rag",
-      "machine learning"
-    ],
-    "bad_tech": [
-      "java",
-      "c++"
-    ]
-  },
-  {
     "key": "amazon:62f14bd7-e004-4e61-b354-c9ecea220085",
     "title": "Software Development Engineer",
     "company": "Amazon",
@@ -43228,6 +43198,26 @@
     "good_tech": [
       "machine learning"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "workday:capitalone:Capital_One:req:R1000592",
+    "title": "Part-Time Applied Data Scientist",
+    "company": "Capital One",
+    "location": "Cambridge, MA",
+    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Cambridge-MA/Part-Time-Applied-Data-Scientist_R1000592",
+    "posted": "Posted Today",
+    "date_found": "2026-09-11T23:15:05.941770+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "data_scientist",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1654,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
