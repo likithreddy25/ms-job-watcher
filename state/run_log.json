@@ -1,70 +1,5 @@
 [
   {
-    "ts": "2026-09-06T02:51Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 249,
-        "title_ok": 13,
-        "loc_ok": 13,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 71
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 125,
-        "loc_ok": 125,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 67
-      },
-      "nvidia": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0,
-        "error": "NVIDIA fetch: HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://nvidia.eightfold.ai/api/pcsx/search?domain=nvidia.com&query=&location=united+states&start=0&sort_by=timestamp&filter_include_remote=1&filter_job_category=engineering&filter_job_type=regular+employee&filter_time_type=full+time&filter_hiring_title=Software+Engineer&filter_hiring_title=Machine+Learning+Engineer&filter_hiring_title=Artificial+Intelligence&filter_hiring_title=machine+learning&filter_hiring_title=software+development+engineer&filter_hiring_title=data"
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 39,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 2
-      },
-      "oracle": {
-        "fetched": 1,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 2873,
-        "title_ok": 1210,
-        "loc_ok": 908,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 61
-      }
-    },
-    "duration_s": 16.9,
-    "cursor": null
-  },
-  {
     "ts": "2026-09-06T03:02Z",
     "mode": "boards",
     "per_source": {
@@ -54064,5 +53999,56 @@
     },
     "duration_s": 17.0,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-12T19:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 11391,
+        "title_ok": 559,
+        "loc_ok": 366,
+        "new": 10,
+        "emailed": 0,
+        "senior_excluded": 1067,
+        "yoe_excluded": 4,
+        "clearance_excluded": 6
+      },
+      "lever": {
+        "fetched": 611,
+        "title_ok": 8,
+        "loc_ok": 7,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 22
+      },
+      "ashby": {
+        "fetched": 160,
+        "title_ok": 3,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 10
+      },
+      "smartrecruiters": {
+        "fetched": 1340,
+        "title_ok": 62,
+        "loc_ok": 18,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 44
+      },
+      "workday": {
+        "fetched": 9640,
+        "title_ok": 385,
+        "loc_ok": 154,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 500,
+        "errors": 1
+      }
+    },
+    "duration_s": 94.7,
+    "cursor": 200
   }
 ]
