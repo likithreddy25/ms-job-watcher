@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-13T06:31:23.456433+00:00",
+  "updated_utc": "2026-09-13T07:01:56.755980+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2209,6 +2209,15 @@
     "greenhouse:worldlabs": {
       "first_seen_utc": "2026-09-11T19:31:33.527346+00:00",
       "last_seen_utc": "2026-09-11T19:31:33.527346+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:acrisureinnovation": {
+      "first_seen_utc": "2026-09-13T07:01:15.202089+00:00",
+      "last_seen_utc": "2026-09-13T07:01:15.202089+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
