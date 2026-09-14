@@ -1,37 +1,5 @@
 [
   {
-    "key": "greenhouse:andurilindustries:5195644007",
-    "title": "Software Engineer, Fleet Infrastructure",
-    "company": "andurilindustries",
-    "location": "Boston, Massachusetts, United States; Washington, District of Columbia, United States",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5195644007?gh_jid=5195644007",
-    "posted": "2026-07-27T13:01:14-04:00",
-    "date_found": "2026-07-27T17:07:27.406741+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "computer vision",
-      "aws",
-      "gcp",
-      "azure",
-      "docker",
-      "kubernetes"
-    ],
-    "bad_tech": [
-      "java",
-      "c++",
-      "rust"
-    ]
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245381",
     "title": "Kubernetes Platform Engineer",
     "company": "Booz Allen Hamilton",
@@ -43196,6 +43164,28 @@
     "h1b_sponsor_lcas_per_year": 2123,
     "good_tech": [
       "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ddcd460f-fa99-450e-adf3-97f405f3ffab",
+    "title": "Software Development Engineer, AWS Transform",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10538318/software-development-engineer-aws-transform",
+    "posted": "September 14, 2026",
+    "date_found": "2026-09-14T02:11:34.677196+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
     ],
     "bad_tech": []
   }
