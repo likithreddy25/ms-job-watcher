@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10242401",
-    "title": "Software Engineer - System Infrastructure Engineering",
-    "company": "Northrop Grumman",
-    "location": "United States-California-San Diego",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Software-Engineer---System-Infrastructure-Engineering_R10242401",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T18:02:08.621777+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:68b49554-6707-42a7-9ee4-bf4c4f02ff86",
     "title": "SDE II, Amazon Connect - Proactive Engagement",
     "company": "Amazon",
@@ -43183,6 +43163,26 @@
     "good_tech": [
       "rag"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7b6a2045-a7dd-4eef-ac9a-ee357dbcd890",
+    "title": "Software Development Engineer, CloudFront Console and Agentic Experience",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10539081/software-development-engineer-cloudfront-console-and-agentic-experience",
+    "posted": "September 14, 2026",
+    "date_found": "2026-09-14T17:51:33.183722+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
