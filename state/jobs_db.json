@@ -1,27 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10242428",
-    "title": "Software Engineer: Embedded/Test Equipment (Secret) - Level 3 - Chandler",
-    "company": "Northrop Grumman",
-    "location": "United States-Arizona-Chandler",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/Software-Engineer--Embedded-Test-Equipment--Secret----Level-3---Chandler_R10242428-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T18:02:08.621777+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "embedded"
-    ]
-  },
-  {
     "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10242401",
     "title": "Software Engineer - System Infrastructure Engineering",
     "company": "Northrop Grumman",
@@ -43183,6 +43161,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:b6c7276c-787d-48f5-8486-b15cb2b52938",
+    "title": "Software Development Engineer, S3 Request Processing, S3 - Simple Storage Service",
+    "company": "Amazon",
+    "location": "US, VA, Arlington",
+    "url": "https://www.amazon.jobs/en/jobs/10539035/software-development-engineer-s3-request-processing-s3-simple-storage-service",
+    "posted": "September 14, 2026",
+    "date_found": "2026-09-14T17:31:35.654452+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "rag"
+    ],
     "bad_tech": []
   }
 ]
