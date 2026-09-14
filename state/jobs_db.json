@@ -1,31 +1,5 @@
 [
   {
-    "key": "greenhouse:vardaspace:7817924003",
-    "title": "Spacecraft Ground Systems Software Engineer",
-    "company": "vardaspace",
-    "location": "El Segundo, California, United States",
-    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7817924003",
-    "posted": "2026-07-27T14:02:37-04:00",
-    "date_found": "2026-07-27T19:02:18.831198+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "docker",
-      "kubernetes"
-    ],
-    "bad_tech": [
-      "c++"
-    ]
-  },
-  {
     "key": "lever:meds:366be0ea-89b9-4193-a486-a92f3ee4d1d6",
     "title": "Entry Level Data Analyst",
     "company": "meds",
@@ -43171,6 +43145,26 @@
     "url": "https://www.amazon.jobs/en/jobs/10539269/software-development-engineer-agentic-workspaces-watchtower",
     "posted": "September 14, 2026",
     "date_found": "2026-09-14T20:01:40.693877+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:b45eac42-03a6-4e1c-9bec-c43f32cc8fbf",
+    "title": "Software Development Engineer, Catalog System Services - SPCL ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10539357/software-development-engineer-catalog-system-services-spcl",
+    "posted": "September 14, 2026",
+    "date_found": "2026-09-14T21:11:27.247848+00:00",
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
