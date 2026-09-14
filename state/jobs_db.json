@@ -1,27 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245381",
-    "title": "Kubernetes Platform Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "Fayetteville, NC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Fayetteville-NC/Kubernetes-Platform-Engineer_R0245381",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T17:07:27.406741+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "kubernetes"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245326",
     "title": "Model and Simulation Software Engineer",
     "company": "Booz Allen Hamilton",
@@ -43187,6 +43165,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:60ee0498-7c49-4ee4-9ed1-270db54fc9be",
+    "title": "Software Development Engineer , Ads Nova",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10538328/software-development-engineer-ads-nova",
+    "posted": "September 14, 2026",
+    "date_found": "2026-09-14T04:11:26.809187+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
