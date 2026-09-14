@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245368",
-    "title": "AI and ML Engineer",
-    "company": "Booz Allen Hamilton",
-    "location": "Chantilly, VA",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Chantilly-VA/AI-and-ML-Engineer_R0245368",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T19:51:32.112776+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188197",
     "title": "Software Engineer- Enterprise Data Processing & Modernization",
     "company": "Leidos",
@@ -43166,6 +43146,26 @@
     "good_tech": [
       "machine learning"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556991368",
+    "title": "Software Engineering Manager - Build and Tools",
+    "company": "Microsoft",
+    "location": "Santa Clara, CA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556991368",
+    "posted": "2026-09-14 22:41 UTC",
+    "date_found": "2026-09-14T23:01:36.519460+00:00",
+    "bucket": "yes",
+    "score": 0,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
