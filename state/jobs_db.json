@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:leidos:External:req:R-00188213",
-    "title": "Software Engineer (Tactical Decision Aids \u2013 Mid-Level)",
-    "company": "Leidos",
-    "location": "Bethesda, MD",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Bethesda-MD/Software-Engineer--Tactical-Decision-Aids---Mid-Level-_R-00188213",
-    "posted": "Posted Today",
-    "date_found": "2026-07-27T22:32:42.618098+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188211",
     "title": "Software Engineer (Tactical Decision Aids \u2013 Entry-Level)",
     "company": "Leidos",
@@ -43127,6 +43107,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9ce6c3f7-f618-4549-91dd-c90198a33fb2",
+    "title": "Software Development Engineer, Amazon Customer Service",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10543836/software-development-engineer-amazon-customer-service",
+    "posted": "September 15, 2026",
+    "date_found": "2026-09-15T20:11:35.253093+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
