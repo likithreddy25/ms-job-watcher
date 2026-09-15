@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-15T05:31:23.502965+00:00",
+  "updated_utc": "2026-09-15T06:02:12.649869+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2245,6 +2245,24 @@
     "greenhouse:alpineinvestors": {
       "first_seen_utc": "2026-09-15T02:01:19.215523+00:00",
       "last_seen_utc": "2026-09-15T02:01:19.215523+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:mishimoto": {
+      "first_seen_utc": "2026-09-15T06:01:35.793766+00:00",
+      "last_seen_utc": "2026-09-15T06:01:35.793766+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:toogoodtogo": {
+      "first_seen_utc": "2026-09-15T06:02:09.357574+00:00",
+      "last_seen_utc": "2026-09-15T06:02:09.357574+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
