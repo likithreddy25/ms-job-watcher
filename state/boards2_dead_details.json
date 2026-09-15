@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-15T01:31:10.998172+00:00",
+  "updated_utc": "2026-09-15T02:02:19.723471+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2228,6 +2228,24 @@
       "first_seen_utc": "2026-09-14T00:32:02.234889+00:00",
       "last_seen_utc": "2026-09-14T00:32:02.234889+00:00",
       "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:alpineinternships": {
+      "first_seen_utc": "2026-09-15T02:01:19.175439+00:00",
+      "last_seen_utc": "2026-09-15T02:01:19.175439+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:alpineinvestors": {
+      "first_seen_utc": "2026-09-15T02:01:19.215523+00:00",
+      "last_seen_utc": "2026-09-15T02:01:19.215523+00:00",
+      "platform": "greenhouse",
       "company": "",
       "board_url": "",
       "last_status": 404,
