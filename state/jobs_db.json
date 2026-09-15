@@ -1,40 +1,5 @@
 [
   {
-    "key": "greenhouse:taxreliefadvocates:4759563008",
-    "title": "Junior Machine Learning Engineer ",
-    "company": "taxreliefadvocates",
-    "location": "Irvine, CA",
-    "url": "https://job-boards.greenhouse.io/taxreliefadvocates/jobs/4759563008",
-    "posted": "2026-07-27T16:40:49-04:00",
-    "date_found": "2026-07-27T22:02:04.767469+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "entry",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "pytorch",
-      "tensorflow",
-      "scikit-learn",
-      "mlflow",
-      "rag",
-      "openai",
-      "nlp",
-      "machine learning",
-      "aws",
-      "azure",
-      "docker",
-      "snowflake",
-      "fastapi"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:tebra:4710332005",
     "title": "Data Engineer",
     "company": "tebra",
@@ -43158,6 +43123,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:2b480b7e-44ee-4d9e-96fe-473594d01f83",
+    "title": "Software Development Engineer , Amazon Leo Commerce",
+    "company": "Amazon",
+    "location": "US, WA, Redmond",
+    "url": "https://www.amazon.jobs/en/jobs/10542215/software-development-engineer-amazon-leo-commerce",
+    "posted": "September 15, 2026",
+    "date_found": "2026-09-15T16:41:28.213994+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
