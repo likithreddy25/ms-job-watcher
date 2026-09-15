@@ -1,49 +1,5 @@
 [
   {
-    "key": "amazon:809292ed-7732-44bb-ae1a-2639643f85c5",
-    "title": "Software Development Engineer, Production and Post Production Technology, Amazon MGM Studios",
-    "company": "Amazon",
-    "location": "US, CA, Culver City",
-    "url": "https://www.amazon.jobs/en/jobs/10485238/software-development-engineer-production-and-post-production-technology-amazon-mgm-studios",
-    "posted": "July 27, 2026",
-    "date_found": "2026-07-27T20:10:49.217338+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "lever:jetsetpilates:aec6c354-6ea6-4d9b-918f-8b22ca8a0b1e",
-    "title": "Financial Analyst",
-    "company": "jetsetpilates",
-    "location": "Miami, FL",
-    "url": "https://jobs.lever.co/jetsetpilates/aec6c354-6ea6-4d9b-918f-8b22ca8a0b1e",
-    "posted": "2026-07-27 19:12 UTC",
-    "date_found": "2026-07-27T20:31:55.284193+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "sql"
-    ],
-    "bad_tech": []
-  },
-  {
     "key": "workday:troweprice:TRowePrice:req:82749",
     "title": "Product Analyst",
     "company": "T. Rowe Price",
@@ -43158,6 +43114,48 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:52153166-81e6-443d-98aa-012b209d84be",
+    "title": "Software Development Engineer, Agentic Workspaces",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10541943/software-development-engineer-agentic-workspaces",
+    "posted": "September 15, 2026",
+    "date_found": "2026-09-15T15:21:41.991550+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:e36b7cff-4f31-4f10-ac70-6a1c590f680f",
+    "title": "Applied Scientist, Agentic WorkSpaces (AAWS)",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10541930/applied-scientist-agentic-workspaces-aaws",
+    "posted": "September 15, 2026",
+    "date_found": "2026-09-15T15:21:41.991550+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
