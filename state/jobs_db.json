@@ -1,33 +1,5 @@
 [
   {
-    "key": "greenhouse:mitratech:8060928",
-    "title": "Software Engineer I - AssureHire (Go)",
-    "company": "mitratech",
-    "location": "Remote US",
-    "url": "https://job-boards.greenhouse.io/mitratech/jobs/8060928",
-    "posted": "2026-07-27T15:44:07-04:00",
-    "date_found": "2026-07-27T20:09:54.711485+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "postgresql",
-      "postgres",
-      "sql"
-    ],
-    "bad_tech": [
-      "ruby",
-      "rails"
-    ]
-  },
-  {
     "key": "amazon:0fb211d9-90cd-4679-9512-1754dd850c94",
     "title": "Software Development Engineer, Production and Post Production Technology, Amazon MGM Studios",
     "company": "Amazon",
@@ -43159,6 +43131,26 @@
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:bc0c04ae-65c8-4fa5-a7f9-a2387ef0814c",
+    "title": "Applied Scientist, AGI",
+    "company": "Amazon",
+    "location": "US, CA, Sunnyvale",
+    "url": "https://www.amazon.jobs/en/jobs/10541627/applied-scientist-agi",
+    "posted": "September 15, 2026",
+    "date_found": "2026-09-15T13:11:34.476222+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
