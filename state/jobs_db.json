@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:ramp:b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
-    "title": "Software Engineer, AI Solutions",
-    "company": "Ramp",
-    "location": "New York, NY (HQ)",
-    "url": "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
-    "posted": "",
-    "date_found": "2026-07-28T19:01:53.641852+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:zoom:Zoom:req:R19450",
     "title": "Data Analyst, GTM Analytics",
     "company": "Zoom Video",
@@ -43072,6 +43052,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 3 sponsor",
     "h1b_sponsor_lcas_per_year": 2123,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:3479c612-224a-4fcf-9723-b1fe451524af",
+    "title": "Software Development Engineer, Amazon Publisher Monetization - Video Ads, Ads - Video Demand - Fixed",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10551376/software-development-engineer-amazon-publisher-monetization-video-ads-ads-video-demand-fixed",
+    "posted": "September 16, 2026",
+    "date_found": "2026-09-16T23:31:33.765640+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
