@@ -1,70 +1,5 @@
 [
   {
-    "ts": "2026-09-10T05:11Z",
-    "mode": "main",
-    "per_source": {
-      "microsoft": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0,
-        "error": "Microsoft fetch: HTTPError: 429 Client Error: Too Many Requests for url: https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United+States%2C+Multiple+Locations%2C+Multiple+Locations&start=0&sort_by=timestamp&filter_include_remote=1&filter_seniority=Entry&filter_seniority=Mid-Level"
-      },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 118,
-        "loc_ok": 118,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 68
-      },
-      "nvidia": {
-        "fetched": 220,
-        "title_ok": 20,
-        "loc_ok": 20,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 177
-      },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "ibm": {
-        "fetched": 38,
-        "title_ok": 27,
-        "loc_ok": 11,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 1
-      },
-      "oracle": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 2923,
-        "title_ok": 1227,
-        "loc_ok": 919,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 56
-      }
-    },
-    "duration_s": 19.2,
-    "cursor": null
-  },
-  {
     "ts": "2026-09-10T05:19Z",
     "mode": "boards",
     "per_source": {
@@ -53353,6 +53288,70 @@
       }
     },
     "duration_s": 26.7,
+    "cursor": null
+  },
+  {
+    "ts": "2026-09-16T21:15Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 216,
+        "title_ok": 14,
+        "loc_ok": 14,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 61
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 127,
+        "loc_ok": 127,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 75
+      },
+      "nvidia": {
+        "fetched": 230,
+        "title_ok": 19,
+        "loc_ok": 19,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 188
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 31,
+        "title_ok": 22,
+        "loc_ok": 6,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 3050,
+        "title_ok": 1327,
+        "loc_ok": 999,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 56
+      }
+    },
+    "duration_s": 20.7,
     "cursor": null
   }
 ]
