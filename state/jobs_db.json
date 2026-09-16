@@ -1,48 +1,5 @@
 [
   {
-    "key": "amazon:7e0b7bd7-9202-43ba-aa9c-133ca1543fb3",
-    "title": "Software Development Engineer, Transactional Services (Database & Distributed Systems)",
-    "company": "Amazon",
-    "location": "US, WA, Seattle",
-    "url": "https://www.amazon.jobs/en/jobs/10486488/software-development-engineer-transactional-services-database-distributed-systems",
-    "posted": "July 28, 2026",
-    "date_found": "2026-07-28T18:20:45.463766+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:rockwellautomation:External_Rockwell_Automation:url:https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Phoenix-Arizona-United-States/Windows-Software-Engineer-C----C--_R26-4715-1",
-    "title": "Windows Software Engineer C# - C++",
-    "company": "Rockwell Automation",
-    "location": "Phoenix, Arizona, United States",
-    "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Phoenix-Arizona-United-States/Windows-Software-Engineer-C----C--_R26-4715-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-28T18:32:34.841214+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": [
-      "c++",
-      "c#"
-    ]
-  },
-  {
     "key": "ashby:ramp:b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
     "title": "Software Engineer, AI Solutions",
     "company": "Ramp",
@@ -43076,6 +43033,46 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:7d9824a3-7bf7-41c0-becc-51593f7c2a86",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10551366/software-development-engineer",
+    "posted": "September 16, 2026",
+    "date_found": "2026-09-16T23:11:34.858995+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:bace8621-6fb0-4a37-a66b-cd34c8e49216",
+    "title": "System AI Engineer New Grad - Display - ASICS Engineering",
+    "company": "Qualcomm",
+    "location": "Markham, ON, Canada",
+    "url": "https://qualcomm.eightfold.ai/careers/job/446721129106",
+    "posted": "2026-09-16T22:27:03+00:00",
+    "date_found": "2026-09-16T23:11:34.858995+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "entry",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2123,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
