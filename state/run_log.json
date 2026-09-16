@@ -1,54 +1,5 @@
 [
   {
-    "ts": "2026-09-10T07:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 1761,
-        "title_ok": 74,
-        "loc_ok": 38,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 191
-      },
-      "lever": {
-        "fetched": 608,
-        "title_ok": 64,
-        "loc_ok": 44,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 73
-      },
-      "smartrecruiters": {
-        "fetched": 164,
-        "title_ok": 4,
-        "loc_ok": 4,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 25
-      },
-      "ashby": {
-        "fetched": 5046,
-        "title_ok": 516,
-        "loc_ok": 96,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 438,
-        "errors": 1
-      },
-      "workday": {
-        "fetched": 2500,
-        "title_ok": 148,
-        "loc_ok": 56,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 281
-      }
-    },
-    "duration_s": 59.7,
-    "cursor": 1000
-  },
-  {
     "ts": "2026-09-10T07:41Z",
     "mode": "main",
     "per_source": {
@@ -53261,5 +53212,47 @@
     },
     "duration_s": 25.0,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-16T23:32Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 4807,
+        "title_ok": 300,
+        "loc_ok": 112,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 612,
+        "clearance_excluded": 1
+      },
+      "lever": {
+        "fetched": 658,
+        "title_ok": 21,
+        "loc_ok": 10,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 14
+      },
+      "ashby": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "workday": {
+        "fetched": 9603,
+        "title_ok": 283,
+        "loc_ok": 89,
+        "new": 2,
+        "emailed": 0,
+        "senior_excluded": 478,
+        "feed_excluded": 2
+      }
+    },
+    "duration_s": 112.7,
+    "cursor": 400
   }
 ]
