@@ -1,25 +1,5 @@
 [
   {
-    "key": "amazon:bfb0d551-1d3a-4e89-a219-1d45d7e5b585",
-    "title": "Applied Scientist, Safe RL, Robotics, SAF Lab",
-    "company": "Amazon",
-    "location": "US, CA, Pasadena",
-    "url": "https://www.amazon.jobs/en/jobs/10486011/applied-scientist-safe-rl-robotics-saf-lab",
-    "posted": "July 28, 2026",
-    "date_found": "2026-07-28T14:40:49.794578+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "ml_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 1 sponsor",
-    "h1b_sponsor_lcas_per_year": 15524,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "amazon:7a8ad68f-4a1d-4c1a-b4ff-5bc450dfb253",
     "title": "Software Engineer, ECS",
     "company": "Amazon",
@@ -43101,6 +43081,28 @@
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9ac548e6-b298-4924-88e8-695cd25079e6",
+    "title": "Software Development Engineer, AWS Marketplace",
+    "company": "Amazon",
+    "location": "US, NY, New York",
+    "url": "https://www.amazon.jobs/en/jobs/10544575/software-development-engineer-aws-marketplace",
+    "posted": "September 16, 2026",
+    "date_found": "2026-09-16T14:31:35.600948+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
