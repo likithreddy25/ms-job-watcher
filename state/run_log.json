@@ -1,53 +1,5 @@
 [
   {
-    "ts": "2026-09-10T04:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 8787,
-        "title_ok": 518,
-        "loc_ok": 324,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 819
-      },
-      "smartrecruiters": {
-        "fetched": 1486,
-        "title_ok": 30,
-        "loc_ok": 18,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 119
-      },
-      "lever": {
-        "fetched": 222,
-        "title_ok": 24,
-        "loc_ok": 18,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 35
-      },
-      "ashby": {
-        "fetched": 115,
-        "title_ok": 11,
-        "loc_ok": 5,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 25
-      },
-      "workday": {
-        "fetched": 6500,
-        "title_ok": 202,
-        "loc_ok": 13,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 432
-      }
-    },
-    "duration_s": 95.7,
-    "cursor": 800
-  },
-  {
     "ts": "2026-09-10T04:34Z",
     "mode": "boards",
     "per_source": {
@@ -53345,5 +53297,46 @@
     },
     "duration_s": 21.7,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-16T20:33Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 4822,
+        "title_ok": 300,
+        "loc_ok": 112,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 612
+      },
+      "lever": {
+        "fetched": 656,
+        "title_ok": 21,
+        "loc_ok": 10,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 14
+      },
+      "ashby": {
+        "fetched": 1,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "workday": {
+        "fetched": 9604,
+        "title_ok": 279,
+        "loc_ok": 86,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 492,
+        "feed_excluded": 1
+      }
+    },
+    "duration_s": 121.2,
+    "cursor": 400
   }
 ]
