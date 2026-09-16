@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-16T02:31:46.593878+00:00",
+  "updated_utc": "2026-09-16T03:02:40.386209+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2299,6 +2299,24 @@
     "lever:calstart": {
       "first_seen_utc": "2026-09-15T23:01:54.564624+00:00",
       "last_seen_utc": "2026-09-15T23:01:54.564624+00:00",
+      "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:ledger": {
+      "first_seen_utc": "2026-09-16T03:01:52.358945+00:00",
+      "last_seen_utc": "2026-09-16T03:01:52.358945+00:00",
+      "platform": "lever",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "lever:quizlet-2": {
+      "first_seen_utc": "2026-09-16T03:02:10.422765+00:00",
+      "last_seen_utc": "2026-09-16T03:02:10.422765+00:00",
       "platform": "lever",
       "company": "",
       "board_url": "",
