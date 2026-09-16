@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:ngc:Northrop_Grumman_External_Site:req:R10242581",
-    "title": "Graphics Simulation Software Engineer",
-    "company": "Northrop Grumman",
-    "location": "United States-Virginia-Dulles",
-    "url": "https://ngc.wd1.myworkdayjobs.com/en-US/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Graphics-Simulation-Software-Engineer_R10242581",
-    "posted": "Posted Today",
-    "date_found": "2026-07-28T12:31:51.853830+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:equipmentsharecom:8091776",
     "title": "Data Analyst - People",
     "company": "equipmentsharecom",
@@ -43105,6 +43085,26 @@
       "aws",
       "kubernetes"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:86cb0b1e-3691-4e3c-a4ec-c65f90643d87",
+    "title": "Software Engineer - Coding Agent Harness Engineering",
+    "company": "NVIDIA",
+    "location": "Remote in USA; Santa Clara, CA",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Coding-Agent-Harness-Engineering----New-College-Grad-2026_JR2023749",
+    "posted": "2026-09-15T00:00:00+00:00",
+    "date_found": "2026-09-16T06:41:33.147012+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
