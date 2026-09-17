@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245563",
-    "title": "Data Analyst, Mid",
-    "company": "Booz Allen Hamilton",
-    "location": "MacDill AFB, FL",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/MacDill-AFB-FL/Data-Analyst--Mid_R0245563-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-28T22:16:36.668765+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245542",
     "title": "All-Source Intelligence Analyst",
     "company": "Booz Allen Hamilton",
@@ -43080,6 +43060,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:36b7fae6-3fdc-4cf5-b320-f342d63f4c19",
+    "title": "Software Development Engineer, Agentic AI DevOps",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10552775/software-development-engineer-agentic-ai-devops",
+    "posted": "September 17, 2026",
+    "date_found": "2026-09-17T22:21:33.738257+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
