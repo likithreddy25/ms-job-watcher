@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:abbott:abbottcareers:req:31157280",
-    "title": "Financial Analyst",
-    "company": "Abbott",
-    "location": "United States - Illinois - Abbott Park",
-    "url": "https://abbott.wd5.myworkdayjobs.com/en-US/abbottcareers/job/United-States---Illinois---Abbott-Park/Financial-Analyst_31157280-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-28T19:50:20.917411+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:amat:External:req:R2624867",
     "title": "Data Scientist",
     "company": "Applied Materials",
@@ -43078,6 +43058,26 @@
       "machine learning",
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:82be15bf-09db-4662-b531-7134cdc64f32",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10551443/software-development-engineer",
+    "posted": "September 17, 2026",
+    "date_found": "2026-09-17T02:01:39.343936+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
