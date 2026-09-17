@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-10T21:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 14992,
-        "title_ok": 500,
-        "loc_ok": 140,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 624
-      },
-      "lever": {
-        "fetched": 45378,
-        "title_ok": 1160,
-        "loc_ok": 346,
-        "new": 2,
-        "emailed": 0,
-        "senior_excluded": 1301,
-        "yoe_excluded": 1,
-        "clearance_excluded": 1
-      }
-    },
-    "duration_s": 88.5,
-    "cursor": 6000
-  },
-  {
     "ts": "2026-09-10T21:41Z",
     "mode": "main",
     "per_source": {
@@ -53246,6 +53220,70 @@
       }
     },
     "duration_s": 14.1,
+    "cursor": null
+  },
+  {
+    "ts": "2026-09-17T13:01Z",
+    "mode": "main",
+    "per_source": {
+      "microsoft": {
+        "fetched": 208,
+        "title_ok": 13,
+        "loc_ok": 13,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 59
+      },
+      "amazon": {
+        "fetched": 300,
+        "title_ok": 132,
+        "loc_ok": 132,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 68
+      },
+      "nvidia": {
+        "fetched": 230,
+        "title_ok": 19,
+        "loc_ok": 19,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 188
+      },
+      "goldman_sachs": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "ibm": {
+        "fetched": 31,
+        "title_ok": 22,
+        "loc_ok": 6,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "oracle": {
+        "fetched": 0,
+        "title_ok": 0,
+        "loc_ok": 0,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 0
+      },
+      "simplifyjobs": {
+        "fetched": 3085,
+        "title_ok": 1327,
+        "loc_ok": 997,
+        "new": 0,
+        "emailed": 0,
+        "senior_excluded": 55
+      }
+    },
+    "duration_s": 24.0,
     "cursor": null
   }
 ]
