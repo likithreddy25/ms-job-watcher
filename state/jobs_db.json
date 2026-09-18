@@ -1,33 +1,5 @@
 [
   {
-    "key": "greenhouse:toast:8039434",
-    "title": "Software Engineer, Orders API",
-    "company": "Toast",
-    "location": "Boston, MA",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8039434",
-    "posted": "2026-07-28T18:28:49-04:00",
-    "date_found": "2026-07-28T23:32:27.652657+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "rag",
-      "apache spark",
-      "aws",
-      "postgres"
-    ],
-    "bad_tech": [
-      "java",
-      "kotlin"
-    ]
-  },
-  {
     "key": "amazon:736d847b-19bf-4d52-8fa4-dc265ee5516c",
     "title": "Software Development Engineer, Demand Tech Experience",
     "company": "Amazon",
@@ -43073,6 +43045,26 @@
     "bucket": "yes",
     "score": 90,
     "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:1f65f463-a8ee-4393-b19d-13ff0d0da2a1",
+    "title": "Applied Scientist (Speech AI), Content Reasoning, Enrichment and Localization",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10553200/applied-scientist-speech-ai-content-reasoning-enrichment-and-localization",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T07:31:35.628389+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
     "exp_level": "mid",
     "clearance_required": false,
     "h1b_status": "unknown",
