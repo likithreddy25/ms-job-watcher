@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:benchling:c66a06b7-5d9e-4b6c-b35b-12c86bb72a71",
-    "title": "Software Engineer, Agents",
-    "company": "Benchling",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/benchling/c66a06b7-5d9e-4b6c-b35b-12c86bb72a71",
-    "posted": "",
-    "date_found": "2026-07-29T00:01:48.705600+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:workday:Workday:req:JR-0107879",
     "title": "Manager, Software Development Engineer",
     "company": "Workday",
@@ -43071,6 +43051,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "smartrecruiters:ServiceNow:744000150324259",
+    "title": "Software Engineer",
+    "company": "ServiceNow",
+    "location": "Hyderabad, in",
+    "url": "https://jobs.smartrecruiters.com/ServiceNow",
+    "posted": "2026-09-18T09:35:08.790Z",
+    "date_found": "2026-09-18T12:02:56.554518+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
     "bad_tech": []
   }
