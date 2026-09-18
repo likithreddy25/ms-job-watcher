@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:caci:External:req:329754",
-    "title": "Data Analyst",
-    "company": "CACI International",
-    "location": "Washington, DC, US",
-    "url": "https://caci.wd1.myworkdayjobs.com/en-US/External/job/Washington-DC-US/Data-Analyst_329754",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T01:02:35.250468+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:fmr:FidelityCareers:req:2133145",
     "title": "AM Quantitative Analyst I",
     "company": "Fidelity Investments",
@@ -43072,6 +43052,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:cfa0d99e-9b45-4b86-83b2-e3512e23ece6",
+    "title": "Applied Scientist, AWS Applied AI Solutions - Life Sciences",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10553641/applied-scientist-aws-applied-ai-solutions-life-sciences",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T16:31:34.667943+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
