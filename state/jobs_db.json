@@ -1,40 +1,5 @@
 [
   {
-    "key": "greenhouse:abnormalsecurity:7814567003",
-    "title": "Software Engineer I, Data Platform",
-    "company": "abnormalsecurity",
-    "location": "Remote - USA",
-    "url": "https://abnormal.ai/careers/jobs/7814567003?gh_jid=7814567003",
-    "posted": "2026-07-29T01:16:04-04:00",
-    "date_found": "2026-07-29T07:01:29.655795+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [
-      "python",
-      "rag",
-      "databricks",
-      "airflow",
-      "dbt",
-      "kafka",
-      "aws",
-      "gcp",
-      "azure",
-      "postgresql",
-      "postgres",
-      "sql"
-    ],
-    "bad_tech": [
-      "rust"
-    ]
-  },
-  {
     "key": "greenhouse:66degrees:6127420004",
     "title": "Cloud Engineer, Contract",
     "company": "66degrees",
@@ -43071,6 +43036,28 @@
     "h1b_sponsor_tier": "Tier 1 sponsor",
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:ae1faa2c-e8f8-4965-a27c-2d7ad9f01746",
+    "title": "Software Development Engineer, AWS Analytics Engineering",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10553986/software-development-engineer-aws-analytics-engineering",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T21:21:40.307802+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
