@@ -1,55 +1,5 @@
 [
   {
-    "ts": "2026-09-11T21:32Z",
-    "mode": "boards",
-    "per_source": {
-      "greenhouse": {
-        "fetched": 8844,
-        "title_ok": 533,
-        "loc_ok": 332,
-        "new": 2,
-        "emailed": 0,
-        "senior_excluded": 824,
-        "yoe_excluded": 1,
-        "clearance_excluded": 1
-      },
-      "smartrecruiters": {
-        "fetched": 1499,
-        "title_ok": 32,
-        "loc_ok": 17,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 118
-      },
-      "lever": {
-        "fetched": 228,
-        "title_ok": 24,
-        "loc_ok": 19,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 37
-      },
-      "ashby": {
-        "fetched": 108,
-        "title_ok": 9,
-        "loc_ok": 5,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 23
-      },
-      "workday": {
-        "fetched": 6500,
-        "title_ok": 218,
-        "loc_ok": 9,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 471
-      }
-    },
-    "duration_s": 87.4,
-    "cursor": 800
-  },
-  {
     "ts": "2026-09-11T21:41Z",
     "mode": "main",
     "per_source": {
@@ -53193,5 +53143,22 @@
     },
     "duration_s": 18.1,
     "cursor": null
+  },
+  {
+    "ts": "2026-09-18T13:02Z",
+    "mode": "boards",
+    "per_source": {
+      "greenhouse": {
+        "fetched": 49633,
+        "title_ok": 1663,
+        "loc_ok": 528,
+        "new": 1,
+        "emailed": 0,
+        "senior_excluded": 2058,
+        "yoe_excluded": 1
+      }
+    },
+    "duration_s": 85.1,
+    "cursor": 4000
   }
 ]
