@@ -1,25 +1,5 @@
 [
   {
-    "key": "ashby:ramp:dbc6e470-3ec3-4605-b511-8ae166fea7b9",
-    "title": "Software Engineer, GTM Platform",
-    "company": "Ramp",
-    "location": "San Francisco, CA",
-    "url": "https://jobs.ashbyhq.com/ramp/dbc6e470-3ec3-4605-b511-8ae166fea7b9",
-    "posted": "",
-    "date_found": "2026-07-29T13:31:58.414274+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "swe",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "greenhouse:gassouth:8093008",
     "title": "Operations Analyst",
     "company": "gassouth",
@@ -43049,6 +43029,28 @@
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
     "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:740d1b29-882a-4a22-82bf-afd2966187f9",
+    "title": "Applied Scientist, AWS Infrastructure Services Science",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10554058/applied-scientist-aws-infrastructure-services-science",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T22:01:43.269717+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
     "bad_tech": []
   }
 ]
