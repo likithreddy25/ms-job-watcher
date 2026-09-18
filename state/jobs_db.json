@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:fmr:FidelityCareers:req:2133145",
-    "title": "AM Quantitative Analyst I",
-    "company": "Fidelity Investments",
-    "location": "Boston, MA",
-    "url": "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Boston-MA/AM-Quantitative-Analyst-I_2133145",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T04:02:47.001063+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_scientist",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:fmr:FidelityCareers:req:2133097",
     "title": "Software Engineering/Development",
     "company": "Fidelity Investments",
@@ -43074,6 +43054,26 @@
     "good_tech": [
       "aws"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:affa327e-7d27-4172-8624-6bd6c1552b37",
+    "title": "Software Engineer, Data Platform",
+    "company": "Amazon",
+    "location": "US, CA, San Francisco",
+    "url": "https://www.amazon.jobs/en/jobs/10553687/software-engineer-data-platform",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T17:11:41.557801+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "data_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
