@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:workday:Workday:req:JR-0107879",
-    "title": "Manager, Software Development Engineer",
-    "company": "Workday",
-    "location": "USA, CA, Pleasanton",
-    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/USA-CA-Pleasanton/Manager--Software-Development-Engineer_JR-0107879",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T00:01:48.705600+00:00",
-    "bucket": "maybe",
-    "score": 65,
-    "role_category": "other",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "Tier 5 sponsor",
-    "h1b_sponsor_lcas_per_year": 498,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:caci:External:req:329754",
     "title": "Data Analyst",
     "company": "CACI International",
@@ -43071,6 +43051,26 @@
     "opt_friendly": false,
     "h1b_sponsor_tier": "Tier 5 sponsor",
     "h1b_sponsor_lcas_per_year": 567,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:4d4f776c-16ac-4ba4-8956-96cc46550177",
+    "title": "Applied Scientist - Amazon Robotics, Amazon Robotics - Vulcan Stow",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10553505/applied-scientist-amazon-robotics-amazon-robotics-vulcan-stow",
+    "posted": "September 18, 2026",
+    "date_found": "2026-09-18T15:11:32.524413+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
   }
