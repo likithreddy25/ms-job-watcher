@@ -1,45 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245567",
-    "title": "Program Financial Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Washington, DC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Program-Financial-Analyst_R0245567",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T14:33:34.409699+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
-    "key": "workday:leidos:External:req:R-00188360",
-    "title": "Data Center Infrastructure Engineer",
-    "company": "Leidos",
-    "location": "Orlando, FL",
-    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Orlando-FL/Data-Center-Infrastructure-Engineer_R-00188360-1",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T15:10:23.889420+00:00",
-    "bucket": "yes",
-    "score": 0,
-    "role_category": "cloud_engineer",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:leidos:External:req:R-00188341",
     "title": "Software Developer",
     "company": "Leidos",
@@ -43051,6 +43011,48 @@
     "good_tech": [
       "python"
     ],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:a339dae3-c079-4987-a6be-c0b863c83fb6",
+    "title": "Machine Learning Engineer Graduate - E-Commerce Recommendation Video",
+    "company": "TikTok",
+    "location": "San Jose, CA",
+    "url": "https://lifeattiktok.com/search/7686999927260105013",
+    "posted": "2026-09-18T22:29:12+00:00",
+    "date_found": "2026-09-19T01:11:31.779050+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1456,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "simplifyjobs:eeec9162-29e2-47f4-b631-89ae5a836183",
+    "title": "Software Developer 1 - Canada Tax Content",
+    "company": "Intuit",
+    "location": "Toronto, ON, Canada",
+    "url": "https://jobs.intuit.com/job/toronto/software-developer-1-canada-tax-content/27595/100815475200",
+    "posted": "2026-09-18T22:20:06+00:00",
+    "date_found": "2026-09-19T01:11:31.779050+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 654,
+    "good_tech": [],
     "bad_tech": []
   }
 ]
