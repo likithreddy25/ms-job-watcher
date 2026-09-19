@@ -3223,6 +3223,17 @@ _DASH_ROLE_MAP = {
 
 JOBS_DB_PATH = os.path.join("state", "jobs_db.json")
 
+# Raised 2000 -> 20000 + per-company fair-share cap added (2026-09-19): the
+# flat FIFO cap let high-volume sources (Amazon's own API, Workday-heavy
+# employers) evict lower-volume Greenhouse/Lever board postings from the
+# window within hours, even though the underlying board sweeps (which cover
+# all ~7,371 curated + boards2 companies on a rotation) had genuinely found
+# them. MAX_JOBS_DB_PER_COMPANY keeps any single company from hogging more
+# than its share of the window so smaller boards stay visible to consumers
+# of jobs_db.json (e.g. the h1b-100co-job-check task's 6-day lookback).
+MAX_JOBS_DB_ENTRIES = int(os.getenv("MAX_JOBS_DB_ENTRIES", "20000"))
+MAX_JOBS_DB_PER_COMPANY = int(os.getenv("MAX_JOBS_DB_PER_COMPANY", "300"))
+
 
 def _dash_classify_title(title: str) -> dict:
     """Port of jboard_zm classify() — score 0-100, bucket yes/maybe/no."""
@@ -3416,6 +3427,37 @@ def _classify_for_dashboard(job: dict, bucket_hint: str) -> dict:
     }
 
 
+def _trim_jobs_db(existing: list) -> list:
+    """Trim jobs_db.json to MAX_JOBS_DB_ENTRIES, fairly.
+
+    Plain FIFO truncation lets a single high-volume source (Amazon's API,
+    a big Workday employer) evict every low-volume Greenhouse/Lever company
+    from the window before a downstream consumer's lookback window ever
+    sees them. This first caps each company at MAX_JOBS_DB_PER_COMPANY
+    (dropping that company's own oldest entries beyond the cap, preserving
+    chronological order), then applies the overall MAX_JOBS_DB_ENTRIES cap
+    as a last resort.
+    """
+    if len(existing) <= MAX_JOBS_DB_ENTRIES:
+        return existing
+
+    by_company: dict = {}
+    for idx, j in enumerate(existing):
+        by_company.setdefault(j.get("company", ""), []).append(idx)
+
+    drop_indices = set()
+    for _company, idxs in by_company.items():
+        if len(idxs) > MAX_JOBS_DB_PER_COMPANY:
+            # idxs is already chronological (built by iterating `existing`
+            # in order), so the prefix is that company's oldest entries.
+            drop_indices.update(idxs[: len(idxs) - MAX_JOBS_DB_PER_COMPANY])
+
+    trimmed = [j for i, j in enumerate(existing) if i not in drop_indices]
+    if len(trimmed) > MAX_JOBS_DB_ENTRIES:
+        trimmed = trimmed[-MAX_JOBS_DB_ENTRIES:]
+    return trimmed
+
+
 def save_to_jobs_db(yes_jobs: list, maybe_jobs: list) -> None:
     """Append newly found jobs (with classification) to state/jobs_db.json."""
     existing: list = []
@@ -3450,7 +3492,7 @@ def save_to_jobs_db(yes_jobs: list, maybe_jobs: list) -> None:
         added += 1
 
     if added:
-        existing = existing[-2000:]
+        existing = _trim_jobs_db(existing)
         try:
             os.makedirs(os.path.dirname(JOBS_DB_PATH) or ".", exist_ok=True)
             with open(JOBS_DB_PATH, "w") as _f:
