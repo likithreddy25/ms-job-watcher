@@ -1,25 +1,5 @@
 [
   {
-    "key": "workday:bah:BAH_Jobs:req:R0245569",
-    "title": "Program Financial Analyst",
-    "company": "Booz Allen Hamilton",
-    "location": "Washington, DC",
-    "url": "https://bah.wd1.myworkdayjobs.com/en-US/BAH_Jobs/job/Washington-DC/Program-Financial-Analyst_R0245569",
-    "posted": "Posted Today",
-    "date_found": "2026-07-29T14:33:34.409699+00:00",
-    "bucket": "yes",
-    "score": 90,
-    "role_category": "data_analyst",
-    "exp_level": "mid",
-    "clearance_required": false,
-    "h1b_status": "unknown",
-    "opt_friendly": false,
-    "h1b_sponsor_tier": "",
-    "h1b_sponsor_lcas_per_year": 0,
-    "good_tech": [],
-    "bad_tech": []
-  },
-  {
     "key": "workday:bah:BAH_Jobs:req:R0245567",
     "title": "Program Financial Analyst",
     "company": "Booz Allen Hamilton",
@@ -43048,6 +43028,28 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [
       "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "greenhouse:lyft:8806570002",
+    "title": "Backend Software Engineer, Airports",
+    "company": "Lyft",
+    "location": "San Francisco, CA",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8806570002?gh_jid=8806570002",
+    "posted": "2026-09-18T18:40:33-04:00",
+    "date_found": "2026-09-19T00:02:40.628883+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 4 sponsor",
+    "h1b_sponsor_lcas_per_year": 1123,
+    "good_tech": [
+      "python"
     ],
     "bad_tech": []
   }
