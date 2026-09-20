@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-20T06:32:34.335659+00:00",
+  "updated_utc": "2026-09-20T07:02:03.935823+00:00",
   "dead_details": {
     "lever:livechatinc": {
       "first_seen_utc": "2026-07-01T19:31:29.430568+00:00",
@@ -2407,6 +2407,33 @@
     "greenhouse:ibanfirst": {
       "first_seen_utc": "2026-09-19T06:32:03.867784+00:00",
       "last_seen_utc": "2026-09-19T06:32:03.867784+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:janeasystems": {
+      "first_seen_utc": "2026-09-20T07:01:16.707293+00:00",
+      "last_seen_utc": "2026-09-20T07:01:16.707293+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:pumpcareers": {
+      "first_seen_utc": "2026-09-20T07:01:34.690741+00:00",
+      "last_seen_utc": "2026-09-20T07:01:34.690741+00:00",
+      "platform": "greenhouse",
+      "company": "",
+      "board_url": "",
+      "last_status": 404,
+      "last_error": "HTTP 404/410 (board not found)"
+    },
+    "greenhouse:robertrauschenbergfoundation": {
+      "first_seen_utc": "2026-09-20T07:01:38.425749+00:00",
+      "last_seen_utc": "2026-09-20T07:01:38.425749+00:00",
       "platform": "greenhouse",
       "company": "",
       "board_url": "",
