@@ -43194,5 +43194,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:6121940e-6699-4449-93ea-f096937ada01",
+    "title": "Software Development Engineer, AWS Artifact, AWS Compliance & Security Assurance",
+    "company": "Amazon",
+    "location": "US, VA, Herndon",
+    "url": "https://www.amazon.jobs/en/jobs/10554681/software-development-engineer-aws-artifact-aws-compliance-security-assurance",
+    "posted": "September 21, 2026",
+    "date_found": "2026-09-21T15:41:35.978229+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
