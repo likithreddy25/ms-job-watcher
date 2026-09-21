@@ -43296,5 +43296,32 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "greenhouse:zoominfo:8769474002",
+    "title": "Machine Learning Engineer",
+    "company": "zoominfo",
+    "location": "Bethesda, Maryland, United States; Remote-US-MA; Remote-US-MD; Remote-US-WA; Vancouver, Washington, United States; Waltham, Massachusetts, United States",
+    "url": "https://www.zoominfo.com/careers?gh_jid=8769474002",
+    "posted": "2026-09-21T14:38:41-04:00",
+    "date_found": "2026-09-21T20:03:04.832353+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 5 sponsor",
+    "h1b_sponsor_lcas_per_year": 521,
+    "good_tech": [
+      "python",
+      "pytorch",
+      "machine learning",
+      "sql"
+    ],
+    "bad_tech": [
+      "rust"
+    ]
   }
 ]
