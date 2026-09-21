@@ -52907,64 +52907,49 @@
     "cursor": null
   },
   {
-    "ts": "2026-09-21T04:49Z",
-    "mode": "main",
+    "ts": "2026-09-21T04:50Z",
+    "mode": "boards",
     "per_source": {
-      "microsoft": {
-        "fetched": 227,
-        "title_ok": 14,
-        "loc_ok": 14,
+      "greenhouse": {
+        "fetched": 1818,
+        "title_ok": 77,
+        "loc_ok": 42,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 57
+        "senior_excluded": 204
       },
-      "amazon": {
-        "fetched": 300,
-        "title_ok": 134,
-        "loc_ok": 134,
+      "lever": {
+        "fetched": 621,
+        "title_ok": 66,
+        "loc_ok": 42,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 71
+        "senior_excluded": 72
       },
-      "nvidia": {
-        "fetched": 240,
-        "title_ok": 22,
-        "loc_ok": 22,
+      "smartrecruiters": {
+        "fetched": 175,
+        "title_ok": 3,
+        "loc_ok": 3,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 195
+        "senior_excluded": 22
       },
-      "goldman_sachs": {
-        "fetched": 0,
-        "title_ok": 0,
-        "loc_ok": 0,
+      "ashby": {
+        "fetched": 4752,
+        "title_ok": 501,
+        "loc_ok": 95,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 0
+        "senior_excluded": 416,
+        "errors": 1
       },
-      "ibm": {
-        "fetched": 31,
-        "title_ok": 23,
-        "loc_ok": 7,
+      "workday": {
+        "fetched": 2500,
+        "title_ok": 155,
+        "loc_ok": 76,
         "new": 0,
         "emailed": 0,
-        "senior_excluded": 0
-      },
-      "oracle": {
-        "fetched": 5,
-        "title_ok": 0,
-        "loc_ok": 0,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 0
-      },
-      "simplifyjobs": {
-        "fetched": 3098,
-        "title_ok": 1334,
-        "loc_ok": 1007,
-        "new": 0,
-        "emailed": 0,
-        "senior_excluded": 51
+        "senior_excluded": 219
       }
     },
     "duration_s": 19.7,
