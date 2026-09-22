@@ -43543,5 +43543,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:b61a0564-46ca-4dd1-b9d0-e6bacdac958c",
+    "title": "Applied Scientist, AWS Applied AI Solutions - Life Sciences",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10555716/applied-scientist-aws-applied-ai-solutions-life-sciences",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T01:21:42.680736+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
