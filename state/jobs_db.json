@@ -43775,5 +43775,45 @@
       "aws"
     ],
     "bad_tech": []
+  },
+  {
+    "key": "microsoft:1970393556962504",
+    "title": "Software Engineering IC2",
+    "company": "Microsoft",
+    "location": "Redmond, WA, US",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393556962504",
+    "posted": "2026-09-22 16:11 UTC",
+    "date_found": "2026-09-22T16:21:42.929330+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "swe",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 2 sponsor",
+    "h1b_sponsor_lcas_per_year": 5189,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:cd19b361-a26c-41b3-afe2-1735417c4aa5",
+    "title": "Applied Scientist, AI Security",
+    "company": "Amazon",
+    "location": "US, TX, Austin",
+    "url": "https://www.amazon.jobs/en/jobs/10556410/applied-scientist-ai-security",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T16:21:42.929330+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
   }
 ]
