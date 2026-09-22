@@ -44015,5 +44015,27 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "workday:nvidia:NVIDIAExternalCareerSite:req:JR2025689",
+    "title": "Applied Machine Learning Engineer - AI for VLSI Design",
+    "company": "NVIDIA",
+    "location": "US, CA, Santa Clara",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Machine-Learning-Engineer---AI-for-VLSI-Design_JR2025689",
+    "posted": "Posted Today",
+    "date_found": "2026-09-22T23:02:44.393485+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "ml_engineer",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 3 sponsor",
+    "h1b_sponsor_lcas_per_year": 2341,
+    "good_tech": [
+      "machine learning"
+    ],
+    "bad_tech": []
   }
 ]
