@@ -43733,5 +43733,47 @@
     "h1b_sponsor_lcas_per_year": 15524,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:141cdc50-b783-4b3b-93cb-45eee7165204",
+    "title": "Software Development Engineer, AFX - Core Experiences",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10556215/software-development-engineer-afx-core-experiences",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T14:11:15.546657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:02748af1-3e55-4924-8882-0f44f25eb7c6",
+    "title": "Software Development Engineer, Amazon Web Services (AWS) ",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10556208/software-development-engineer-amazon-web-services-aws",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T14:11:15.546657+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
