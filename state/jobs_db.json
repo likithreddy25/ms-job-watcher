@@ -43585,5 +43585,71 @@
     "h1b_sponsor_lcas_per_year": 2341,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:1acb6490-a63f-4fff-bdf8-5e4ad39b0002",
+    "title": "Software Development Engineer, AI/ML, AWS Neuron, Model Inference",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10555759/software-development-engineer-ai-ml-aws-neuron-model-inference",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T05:31:53.433337+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9d92d8e2-2f0b-4340-ae2f-9539f45f4b75",
+    "title": "Software Development Engineer, AI/ML, AWS Neuron, Model Inference",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10555761/software-development-engineer-ai-ml-aws-neuron-model-inference",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T05:31:53.433337+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
+  },
+  {
+    "key": "amazon:9beaa516-0db7-4cc8-93a7-6647a8997dc0",
+    "title": "Software Development Engineer, AI/ML, AWS Neuron, Model Inference",
+    "company": "Amazon",
+    "location": "US, CA, Cupertino",
+    "url": "https://www.amazon.jobs/en/jobs/10555757/software-development-engineer-ai-ml-aws-neuron-model-inference",
+    "posted": "September 22, 2026",
+    "date_found": "2026-09-22T05:31:53.433337+00:00",
+    "bucket": "yes",
+    "score": 90,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
