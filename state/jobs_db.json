@@ -44077,5 +44077,27 @@
     "h1b_sponsor_lcas_per_year": 5189,
     "good_tech": [],
     "bad_tech": []
+  },
+  {
+    "key": "amazon:090fe853-28de-435e-8d7d-ce2e837a74db",
+    "title": "Software Development Engineer, AWS Infrastructure Supply Chain Automation",
+    "company": "Amazon",
+    "location": "US, WA, Seattle",
+    "url": "https://www.amazon.jobs/en/jobs/10557186/software-development-engineer-aws-infrastructure-supply-chain-automation",
+    "posted": "September 23, 2026",
+    "date_found": "2026-09-23T01:01:09.920144+00:00",
+    "bucket": "maybe",
+    "score": 0,
+    "role_category": "other",
+    "exp_level": "mid",
+    "clearance_required": false,
+    "h1b_status": "unknown",
+    "opt_friendly": false,
+    "h1b_sponsor_tier": "Tier 1 sponsor",
+    "h1b_sponsor_lcas_per_year": 15524,
+    "good_tech": [
+      "aws"
+    ],
+    "bad_tech": []
   }
 ]
